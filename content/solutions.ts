@@ -217,7 +217,7 @@ export const solutions: Solution[] = [
 		icon: "repeat",
 		shortDescription: "Conveyor systems and material handling equipment for optimized workflow automation",
 		fullDescription:
-			"Our material handling solutions streamline your operations with custom-designed conveyor systems, automated sorting, and integrated material flow management. From simple roller conveyors to complex automated systems, we engineer solutions that maximize efficiency and minimize manual handling.",
+			"Our bulk material handling solutions streamline your operations with custom-designed conveyor systems, automated sorting, and integrated material flow management. From simple roller conveyors to complex automated systems, we engineer solutions that maximize efficiency and minimize manual handling.",
 		keyBenefits: [
 			"Increased throughput with automated material flow",
 			"Reduced labor costs and physical strain",
@@ -268,7 +268,7 @@ export const solutions: Solution[] = [
 		},
 		metaTitle: "Bulk Material Handling Equipment & Conveyors | Automation | Bevcon Solutions",
 		metaDescription:
-			"Custom conveyor systems and automated bulk material handling solutions for warehouses, manufacturing, and distribution. Expert integration with WMS/ERP systems.",
+			"Custom conveyor systems and automated bulk bulk material handling solutions for warehouses, manufacturing, and distribution. Expert integration with WMS/ERP systems.",
 	},
 	{
 		id: "dock-equipment",

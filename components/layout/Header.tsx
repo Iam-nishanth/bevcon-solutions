@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Search, Phone, MapPin } from 'lucide-react';
 import { mainNavigation, topBarLinks } from '@/content/navigation';
@@ -49,12 +50,17 @@ export default function Header() {
         animate={{ y: 0 }}
       >
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-20 py-3">
             {/* Logo */}
             <Link href="/" className="flex-shrink-0">
-              <div className="text-2xl font-heading font-bold text-primary-900 transition-colors">
-                BEVCON <span className="text-secondary-500">SOLUTIONS</span>
-              </div>
+              <Image
+                src="/images/bevcon-solutions-logo.svg"
+                alt="Bevcon Solutions"
+                width={200}
+                height={50}
+                priority
+                quality={100}
+              />
             </Link>
 
             {/* Desktop Navigation */}
@@ -111,8 +117,8 @@ export default function Header() {
                             )}
                             {section.items && (
                               <ul className="space-y-2">
-                                {section.items.map((menuItem) => (
-                                  <li key={menuItem.href}>
+                                {section.items.map((menuItem, itemIdx) => (
+                                  <li key={`${menuItem.href}-${itemIdx}`}>
                                     <Link
                                       href={menuItem.href}
                                       className="text-gray-700 hover:text-primary-600 hover:bg-primary-50 text-sm transition-colors block py-1.5 px-2 rounded"

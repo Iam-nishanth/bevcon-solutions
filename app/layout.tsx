@@ -18,10 +18,10 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "Bevcon Solutions | Industrial Entrance & Material Handling Solutions",
+    default: "Bevcon Solutions | Industrial Entrance & Bulk Material Handling Solutions",
     template: "%s | Bevcon Solutions",
   },
-  description: "Australian provider of entrance automation, industrial doors, loading bay equipment, and material handling solutions. Extending the expertise of Spareng and Bevcon Zentry from India to serve Australian industrial sectors.",
+  description: "Australian provider of entrance automation, industrial doors, loading bay equipment, and bulk material handling solutions. Extending the expertise of Spareng and Bevcon Zentry from India to serve Australian industrial sectors.",
   keywords: ["industrial doors", "entrance automation", "loading bay equipment", "material handling", "conveyor systems", "dock levelers", "high-speed doors"],
   authors: [{ name: "Bevcon Solutions" }],
   creator: "Bevcon Solutions",
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     locale: "en_AU",
     url: "https://www.bevconsolutions.com",
     siteName: "Bevcon Solutions",
-    title: "Bevcon Solutions | Industrial Entrance & Material Handling Solutions",
-    description: "Leading provider of entrance automation, industrial doors, loading bay equipment, and material handling solutions.",
+    title: "Bevcon Solutions | Industrial Entrance & Bulk Material Handling Solutions",
+    description: "Leading provider of entrance automation, industrial doors, loading bay equipment, and bulk material handling solutions.",
     images: [
       {
         url: "/images/og-image.jpg",
@@ -43,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bevcon Solutions | Industrial Entrance & Material Handling Solutions",
-    description: "Leading provider of entrance automation, industrial doors, loading bay equipment, and material handling solutions.",
+    title: "Bevcon Solutions | Industrial Entrance & Bulk Material Handling Solutions",
+    description: "Leading provider of entrance automation, industrial doors, loading bay equipment, and bulk material handling solutions.",
     images: ["/images/og-image.jpg"],
   },
   robots: {

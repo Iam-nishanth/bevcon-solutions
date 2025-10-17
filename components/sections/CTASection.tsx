@@ -8,10 +8,13 @@ import { contactInfo } from '@/content/company';
 
 export default function CTASection() {
   return (
-    <section className="py-20 bg-secondary-500 text-white relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')]" />
+    <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white  overflow-hidden md:h-[450px] h-[250px] flex items-center">
+      {/* Background pattern */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+          backgroundSize: '32px 32px'
+        }} />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">

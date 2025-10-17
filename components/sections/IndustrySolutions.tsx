@@ -34,7 +34,7 @@ export default function IndustrySolutions() {
             transition={{ delay: 0.1 }}
             className="text-xl text-gray-600 max-w-3xl mx-auto"
           >
-            Tailored entrance and material handling solutions designed for your sector's unique challenges
+            Tailored entrance and bulk material handling solutions designed for your sector's unique challenges
           </motion.p>
         </div>
 

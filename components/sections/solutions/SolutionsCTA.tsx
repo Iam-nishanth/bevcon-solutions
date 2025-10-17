@@ -83,7 +83,7 @@ export default function SolutionsCTA() {
               </div>
               <div className="text-left">
                 <div className="text-gray-400 text-xs">Email Us</div>
-                <div className="font-semibold">info@bevconsolutions.com.au</div>
+                <div className="font-semibold">info@bevconsolutions.au</div>
               </div>
             </div>
           </motion.div>
