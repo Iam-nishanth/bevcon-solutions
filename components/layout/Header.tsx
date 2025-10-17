@@ -4,9 +4,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Search, Phone, MapPin } from 'lucide-react';
-import { mainNavigation, topBarLinks } from '@/content/navigation';
-import { contactInfo } from '@/content/company';
+import { Menu, X, Search } from 'lucide-react';
+import { mainNavigation } from '@/content/navigation';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

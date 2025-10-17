@@ -34,7 +34,7 @@ export default function SolutionsCTA() {
             transition={{ delay: 0.1 }}
             className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto"
           >
-            Let's discuss how our integrated solutions can optimize your facility's 
+            Let&apos;s discuss how our integrated solutions can optimize your facility&apos;s 
             efficiency, safety, and productivity.
           </motion.p>
 

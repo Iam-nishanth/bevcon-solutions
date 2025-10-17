@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 import { solutions, solutionCategories } from '@/content/solutions';
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ComponentType<{ className?: string; size?: number }>> = {
   'door-open': DoorOpen,
   'zap': Zap,
   'package': Package,

@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowRight, Factory, Warehouse, Pill, Utensils, Snowflake, Car, LucideIcon } from 'lucide-react';
+import { ArrowRight, Factory, Warehouse, Pill, Utensils, Snowflake, Car } from 'lucide-react';
 
 const industries = [
   { name: 'Pharmaceutical & Life Sciences', icon: Pill, href: '/industries/pharmaceutical' },
@@ -34,7 +34,7 @@ export default function IndustrySolutions() {
             transition={{ delay: 0.1 }}
             className="text-xl text-gray-600 max-w-3xl mx-auto"
           >
-            Tailored entrance and bulk material handling solutions designed for your sector's unique challenges
+            Tailored entrance and bulk material handling solutions designed for your sector&apos;s unique challenges
           </motion.p>
         </div>
 
