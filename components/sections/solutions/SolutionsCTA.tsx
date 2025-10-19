@@ -47,7 +47,7 @@ export default function SolutionsCTA() {
           >
             <Link
               href="/contact"
-              className="px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-all hover:scale-105 hover:shadow-xl flex items-center space-x-2 group shadow-md"
+              className="px-8 py-4 bg-primary-900 hover:bg-primary-800 text-white font-semibold rounded-lg transition-colors hover:shadow-xl flex items-center space-x-2 group shadow-md"
             >
               <span>Request Consultation</span>
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />

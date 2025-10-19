@@ -47,7 +47,7 @@ export default function CTASection() {
           >
             <Link
               href="/quote"
-              className="px-8 py-4 bg-white text-secondary-600 hover:bg-primary-50 hover:text-secondary-700 font-semibold rounded-lg transition-all hover:scale-105 shadow-xl flex items-center space-x-2 group"
+              className="px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-colors shadow-xl flex items-center space-x-2 group"
             >
               <span>Request a Quote</span>
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
@@ -55,7 +55,7 @@ export default function CTASection() {
             
             <a
               href={`tel:${contactInfo.phone}`}
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white hover:bg-white hover:text-secondary-600 font-semibold rounded-lg transition-all flex items-center space-x-2 hover:shadow-xl"
+              className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white hover:bg-white hover:text-primary-900 font-semibold rounded-lg transition-all flex items-center space-x-2 hover:shadow-xl"
             >
               <Phone size={20} />
               <span>Call: {contactInfo.phone}</span>

@@ -33,14 +33,14 @@ export default function ProductCard({
       className="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col"
     >
       {/* Image */}
-      <div className="relative h-64 bg-gray-50 overflow-hidden">
+      <div className="relative h-56 bg-gradient-to-br from-gray-50 to-white overflow-hidden">
         <Image
           src={imageUrl}
           alt={title}
           fill
-          className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+          className="object-contain p-6 group-hover:scale-105 transition-transform duration-500"
         />
-        {brand && (
+        {brand && brand !== 'Loading Systems' && (
           <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-primary-900">
             {brand}
           </div>
@@ -54,7 +54,7 @@ export default function ProductCard({
 
       {/* Content */}
       <div className="p-6 flex-1 flex flex-col">
-        <h3 className="text-xl font-bold text-primary-900 mb-4 line-clamp-2 group-hover:text-secondary-500 transition-colors">
+        <h3 className="text-xl font-bold text-primary-900 mb-4 line-clamp-2 group-hover:text-primary-600 transition-colors">
           {title}
         </h3>
 
@@ -65,7 +65,7 @@ export default function ProductCard({
             <ul className="space-y-1.5">
               {features.slice(0, 3).map((feature, idx) => (
                 <li key={idx} className="flex items-start text-sm text-gray-600">
-                  <CheckCircle2 className="w-4 h-4 text-secondary-500 mr-2 mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-primary-600 mr-2 mt-0.5 flex-shrink-0" />
                   <span className="line-clamp-1">{feature}</span>
                 </li>
               ))}

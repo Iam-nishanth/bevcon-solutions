@@ -2,9 +2,16 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { CheckCircle, Award, Lightbulb, Map, Phone, Trophy } from 'lucide-react';
 import { whyChooseUs } from '@/content/company';
+
+// Selected image: Partnership/Handshake (conveys trust and collaboration)
+const selectedImage = {
+  src: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80',
+  alt: 'Business partnership and collaboration',
+};
 
 const iconMap: Record<string, React.ComponentType<{ size?: number }>> = {
   'check-circle': CheckCircle,
@@ -24,10 +31,19 @@ export default function WhyChooseUs() {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl shadow-xl relative overflow-hidden flex items-center justify-center"
+            className="aspect-[4/3] rounded-2xl shadow-xl relative overflow-hidden"
           >
-            <div className="text-2xl font-heading font-bold text-primary-900 text-center px-8">
-              Why Choose Bevcon Solutions
+            <Image
+              src={selectedImage.src}
+              alt={selectedImage.alt}
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-br from-primary-900/80 to-primary-600/70" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h3 className="text-3xl font-heading font-bold text-white text-center px-8">
+                Why Choose Bevcon Solutions
+              </h3>
             </div>
           </motion.div>
 
@@ -80,7 +96,7 @@ export default function WhyChooseUs() {
             >
               <Link
                 href="/contact"
-                className="inline-block px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-all hover:scale-105 shadow-md hover:shadow-lg"
+                className="inline-block px-8 py-4 bg-primary-900 hover:bg-primary-800 text-white font-semibold rounded-lg transition-all hover:scale-105 shadow-md hover:shadow-lg"
               >
                 Request a Consultation
               </Link>

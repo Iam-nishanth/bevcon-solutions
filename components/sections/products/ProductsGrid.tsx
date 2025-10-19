@@ -1,10 +1,10 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { SlidersHorizontal } from 'lucide-react';
+import { Search, SlidersHorizontal } from 'lucide-react';
 import ProductCard from './ProductCard';
 import ProductSidebar from './ProductSidebar';
-import CategoryDrawer from './CategoryDrawer';
+import CategoryBottomSheet from './CategoryBottomSheet';
 
 // Import all product data
 import { allProducts as bevconProducts } from '@/data/bevcon-products';
@@ -16,6 +16,7 @@ const allProducts = [...bevconProducts, ...sparengProducts];
 export default function ProductsGrid() {
   const [selectedBrand, setSelectedBrand] = useState('all');
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   // Get unique categories
   const categories = useMemo(() => {
@@ -44,44 +45,45 @@ export default function ProductsGrid() {
   // Filter products
   const filteredProducts = useMemo(() => {
     // First filter by brand
-    const brandFiltered = allProducts.filter(product => {
+    let filtered = allProducts.filter(product => {
       const brandMatch = selectedBrand === 'all' || product.brand === selectedBrand;
       return brandMatch;
     });
 
+    // Then filter by search query
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      filtered = filtered.filter(product => 
+        product.title.toLowerCase().includes(query) ||
+        product.brand?.toLowerCase().includes(query) ||
+        (Array.isArray(product.category) 
+          ? product.category.some(cat => cat.toLowerCase().includes(query))
+          : product.category.toLowerCase().includes(query))
+      );
+    }
+
     // Remove duplicates - keep only first product with each title
     const seenTitles = new Set<string>();
-    return brandFiltered.filter(product => {
+    return filtered.filter(product => {
       if (seenTitles.has(product.title)) {
         return false;
       }
       seenTitles.add(product.title);
       return true;
     });
-  }, [selectedBrand]);
+  }, [selectedBrand, searchQuery]);
 
   return (
     <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
-        {/* Mobile Filter Button */}
-        <div className="lg:hidden mb-6">
-          <button
-            onClick={() => setIsDrawerOpen(true)}
-            className="flex items-center gap-2 px-4 py-3 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-all w-full justify-center text-primary-900 font-medium"
-          >
-            <SlidersHorizontal className="w-5 h-5" />
-            <span>Filter by Category</span>
-          </button>
-        </div>
-
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Desktop Sidebar */}
           <div className="hidden lg:block">
             <ProductSidebar categories={categories} />
           </div>
 
-          {/* Mobile Drawer */}
-          <CategoryDrawer
+          {/* Mobile Bottom Sheet */}
+          <CategoryBottomSheet
             categories={categories}
             isOpen={isDrawerOpen}
             onClose={() => setIsDrawerOpen(false)}
@@ -89,36 +91,52 @@ export default function ProductsGrid() {
 
           {/* Main Content */}
           <div className="flex-1">
-            {/* Filters */}
-            <div className="mb-12 space-y-6">
-
-              {/* Brand Filter */}
-              <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-3">
-                  Filter by Brand
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {brands.map((brand) => (
-                    <button
-                      key={brand}
-                      onClick={() => setSelectedBrand(brand)}
-                      className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
-                        selectedBrand === brand
-                          ? 'bg-secondary-500 text-white shadow-md'
-                          : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
-                      }`}
-                    >
-                      {brand === 'all' ? 'All Brands' : brand}
-                    </button>
-                  ))}
+            {/* Search Bar */}
+            <div className="mb-6">
+              <div className="flex gap-3">
+                <div className="flex-1 relative">
+                  <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+                  <input
+                    type="text"
+                    placeholder="Search products by name, brand, or category..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-gray-900 placeholder-gray-400"
+                  />
                 </div>
+                <button
+                  onClick={() => setIsDrawerOpen(true)}
+                  className="lg:hidden flex items-center gap-2 px-4 py-3 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
+                  aria-label="Filter products"
+                >
+                  <SlidersHorizontal className="w-5 h-5 text-gray-700" />
+                </button>
+              </div>
+            </div>
+
+            {/* Filters Row */}
+            <div className="mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pb-4 border-b border-gray-200">
+              {/* Filter By Brands */}
+              <div className="flex items-center flex-wrap gap-2">
+                <span className="text-sm font-semibold text-gray-700">Filter By:</span>
+                {brands.map((brand) => (
+                  <button
+                    key={brand}
+                    onClick={() => setSelectedBrand(brand)}
+                    className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
+                      selectedBrand === brand
+                        ? 'bg-primary-900 text-white shadow-sm'
+                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    }`}
+                  >
+                    {brand === 'all' ? 'All' : brand}
+                  </button>
+                ))}
               </div>
 
               {/* Results count */}
-              <div>
-                <p className="text-gray-600">
-                  Showing <span className="font-semibold text-primary-900">{filteredProducts.length}</span> products
-                </p>
+              <div className="text-sm text-gray-600 whitespace-nowrap">
+                Showing <span className="font-semibold text-primary-900">{filteredProducts.length}</span> {filteredProducts.length === 1 ? 'product' : 'products'}
               </div>
             </div>
 

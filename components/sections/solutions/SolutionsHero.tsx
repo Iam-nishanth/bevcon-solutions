@@ -21,7 +21,7 @@ export default function SolutionsHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="inline-block px-4 py-2 bg-secondary-500 text-white rounded-full text-sm font-semibold mb-6">
+            <span className="inline-block px-4 py-2 bg-primary-900 text-white rounded-full text-sm font-semibold mb-6">
               Complete Industrial Solutions
             </span>
           </motion.div>
@@ -32,8 +32,7 @@ export default function SolutionsHero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl md:text-6xl font-heading font-bold mb-6 leading-tight"
           >
-            Integrated Solutions for{' '}
-            <span className="text-secondary-500">Modern Industry</span>
+            Integrated Solutions for Modern Industry
           </motion.h1>
 
           <motion.p
@@ -60,7 +59,7 @@ export default function SolutionsHero() {
               'Technical Support'
             ].map((item, idx) => (
               <div key={idx} className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-                <div className="w-2 h-2 rounded-full bg-secondary-500" />
+                <div className="w-2 h-2 rounded-full bg-gray-400" />
                 <span>{item}</span>
               </div>
             ))}

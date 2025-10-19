@@ -2,9 +2,18 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { products } from '@/content/products';
+import { PRODUCT_IMAGES } from '@/content/images';
+
+const productImageMap: Record<string, string> = {
+  'High-Speed Roll Doors': "/images/bevcon-products/nergeco/Doors for Clean Processes/Flexible,_high-speed_curtain_easily_installed_in_clean_rooms.jpg",
+  'Hydraulic Dock Levelers': "/images/bevcon-products/loading-systems/CD/imagecontent-253.png",
+  'Automatic Sliding Doors': '/images/bevcon-products/nergeco/SL/High-speed flexible door lined with a fire door (SL) .jpg',
+  'Roller Conveyor Systems': "https://images.unsplash.com/photo-1701328778019-e95dedbf5346?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1933",
+};
 
 export default function FeaturedProducts() {
   const featuredProducts = products.slice(0, 4);
@@ -53,9 +62,13 @@ export default function FeaturedProducts() {
               className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all group"
             >
               <div className="aspect-[4/3] bg-gradient-to-br from-gray-200 to-gray-300 relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                  <span className="text-sm">{product.name}</span>
-                </div>
+                <Image
+                  src={productImageMap[product.name]}
+                  alt={product.name}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               </div>
               <div className="p-6">
                 <div className="inline-block px-3 py-1 bg-primary-50 text-primary-900 text-xs font-semibold rounded-full mb-3 border border-primary-100">
@@ -69,7 +82,7 @@ export default function FeaturedProducts() {
                 </p>
                 <Link
                   href={`/products/${product.slug}`}
-                  className="text-primary-900 hover:text-secondary-500 font-medium text-sm flex items-center space-x-2 group/link"
+                  className="text-primary-900 hover:text-primary-600 font-medium text-sm flex items-center space-x-2 group/link"
                 >
                   <span>View Details</span>
                   <ArrowRight size={16} className="group-hover/link:translate-x-1 transition-transform" />

@@ -88,7 +88,7 @@ export default function SolutionsGrid() {
                 {/* Header */}
                 <div className="flex items-start justify-between mb-6">
                   <div className="flex items-center space-x-4">
-                    <div className="w-14 h-14 rounded-lg bg-primary-50 border border-primary-100 flex items-center justify-center text-primary-900 group-hover:bg-secondary-500 group-hover:text-white transition-colors">
+                    <div className="w-14 h-14 rounded-lg bg-primary-50 border border-primary-100 flex items-center justify-center text-primary-900 group-hover:bg-primary-900 group-hover:text-white transition-colors">
                       {Icon && <Icon size={28} />}
                     </div>
                     <div>
@@ -110,7 +110,7 @@ export default function SolutionsGrid() {
                 {/* Key Benefits */}
                 <div className="mb-6">
                   <h4 className="font-semibold text-gray-900 mb-3 flex items-center space-x-2">
-                    <CheckCircle size={18} className="text-secondary-500" />
+                    <CheckCircle size={18} className="text-primary-600" />
                     <span>Key Benefits</span>
                   </h4>
                   <ul className="space-y-2">
@@ -127,7 +127,7 @@ export default function SolutionsGrid() {
                 {solution.industryTrends.length > 0 && (
                   <div className="mb-6 p-4 bg-gradient-to-br from-primary-50 to-gray-50 rounded-lg border border-primary-100">
                     <h4 className="font-semibold text-gray-900 mb-2 flex items-center space-x-2 text-sm">
-                      <TrendingUp size={16} className="text-secondary-500" />
+                      <TrendingUp size={16} className="text-accent-500" />
                       <span>Industry Trend</span>
                     </h4>
                     <p className="text-sm text-gray-700 font-medium mb-1">
@@ -141,7 +141,7 @@ export default function SolutionsGrid() {
 
                 {/* Case Study Badge (if available) */}
                 {solution.caseStudyHighlight && (
-                  <div className="mb-6 flex items-center space-x-2 text-xs text-secondary-600 bg-secondary-50 px-3 py-2 rounded-full w-fit">
+                  <div className="mb-6 flex items-center space-x-2 text-xs text-primary-700 bg-primary-50 px-3 py-2 rounded-full w-fit">
                     <CheckCircle size={14} />
                     <span className="font-semibold">Case Study Available</span>
                   </div>
@@ -150,7 +150,7 @@ export default function SolutionsGrid() {
                 {/* Learn More Link */}
                 <Link
                   href={`/solutions/${solution.slug}`}
-                  className="inline-flex items-center space-x-2 text-primary-900 hover:text-secondary-500 font-semibold group/link transition-colors"
+                  className="inline-flex items-center space-x-2 text-primary-900 hover:text-primary-600 font-semibold group/link transition-colors"
                 >
                   <span>Learn More</span>
                   <ArrowRight size={18} className="group-hover/link:translate-x-1 transition-transform" />

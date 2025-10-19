@@ -4,45 +4,51 @@ export const mainNavigation: NavItem[] = [
   {
     label: 'Solutions',
     href: '/solutions',
+    twoLevelMenu: true,
     megaMenu: [
       {
-        title: 'Our Solutions',
-        description: 'Comprehensive entrance automation, door systems, and bulk material handling solutions for modern industrial facilities.',
+        title: 'Solutions',
+        description: 'Explore our range of industrial doors, high-speed doors, loading bay equipment and material handling solutions.',
         type: 'overview',
-        items: [
-          { label: 'View All Solutions', href: '/solutions' },
-          { label: 'Solutions by Industry', href: '/industries' },
-          { label: 'View All Products', href: '/products' },
+        href: '/solutions',
+      },
+      {
+        title: 'Products',
+        type: 'category',
+        expandable: true,
+        subItems: [
+          { label: 'High-Speed Doors', href: '/products/high-speed-doors' },
+          { label: 'Fire Rated Shutters', href: '/products/fire-rated-shutters' },
+          { label: 'Loading Bay Equipment', href: '/products/dock-levelers' },
+          { label: 'Dock Shelters', href: '/products/dock-shelters' },
+          { label: 'Conveyor Components', href: '/products/conveyor-components' },
+          { label: 'Crushing Equipment', href: '/products/crushing-equipment' },
         ],
       },
       {
-        title: 'Solution Categories',
-        type: 'list',
-        items: [
-          { label: 'High-Speed Door Solutions', href: '/products/high-speed-doors', icon: 'zap' },
-          { label: 'Fire Rated Shutters', href: '/products/fire-rated-shutters', icon: 'door-open' },
-          { label: 'Loading Bay Equipment', href: '/products/dock-levelers', icon: 'package' },
-          { label: 'Material Handling & Conveyors', href: '/products/material-handling', icon: 'repeat' },
-          { label: 'Crushing Equipment', href: '/products/crushing-equipment', icon: 'shield' },
-          { label: 'Conveyor Components', href: '/products/conveyor-components', icon: 'lightbulb' },
+        title: 'Solutions for every industry',
+        type: 'category',
+        expandable: true,
+        subItems: [
+          { label: 'Pharmaceutical & Life Sciences', href: '/industries/pharmaceutical' },
+          { label: 'Food Processing & Beverages', href: '/industries/food-beverage' },
+          { label: 'Warehouse & Logistics', href: '/industries/warehouse-logistics' },
+          { label: 'Manufacturing Plants', href: '/industries/manufacturing' },
+          { label: 'Cold Storage', href: '/industries/cold-storage' },
+          { label: 'Automotive Industry', href: '/industries/automotive' },
         ],
       },
       {
-        title: 'Featured Solutions',
-        type: 'featured',
-        featured: [
-          {
-            title: 'Complete Warehouse Automation',
-            description: 'Integrated entrance and material flow solutions',
-            image: '/images/solutions/warehouse-automation.jpg',
-            href: '/solutions',
-          },
-          {
-            title: 'Industrial Solutions',
-            description: 'Comprehensive door and material handling systems',
-            image: '/images/solutions/pharmaceutical.jpg',
-            href: '/solutions',
-          },
+        title: 'Solutions by topic',
+        type: 'category',
+        expandable: true,
+        subItems: [
+          { label: 'Entrance Automation', href: '/solutions#entrance-automation' },
+          { label: 'Loading Bay Solutions', href: '/solutions#loading-bay' },
+          { label: 'Material Handling', href: '/solutions#material-handling' },
+          { label: 'Safety & Compliance', href: '/solutions#safety' },
+          { label: 'Energy Efficiency', href: '/solutions#energy-efficiency' },
+          { label: 'Temperature Control', href: '/solutions#temperature-control' },
         ],
       },
     ],
@@ -124,50 +130,50 @@ export const mainNavigation: NavItem[] = [
       },
     ],
   },
-  {
-    label: 'Services',
-    href: '/services',
-    megaMenu: [
-      {
-        title: 'Core Services',
-        type: 'list',
-        items: [
-          {
-            label: 'Expert Installation',
-            href: '/services/installation',
-            description: 'Professional installation with site assessment and commissioning',
-          },
-          {
-            label: 'Comprehensive Maintenance',
-            href: '/services/maintenance',
-            description: 'Preventive maintenance programs and annual contracts',
-          },
-          {
-            label: 'Emergency Support',
-            href: '/services/emergency-support',
-            description: 'Rapid response teams with remote diagnostics',
-          },
-          {
-            label: 'Training & Consultation',
-            href: '/services/training',
-            description: 'Operator training and safety compliance programs',
-          },
-        ],
-      },
-      {
-        title: 'Service Features',
-        type: 'overview',
-        description: 'Our commitment to excellence',
-        items: [
-          { label: 'Technical Support', href: '/services/support#response-time' },
-          { label: 'PAN India service network', href: '/services/support#service-network' },
-          { label: 'Certified technicians', href: '/services/support#technicians' },
-          { label: 'Genuine spare parts', href: '/services/support#spare-parts' },
-          { label: 'IoT monitoring enabled', href: '/services/support#iot-monitoring' },
-        ],
-      },
-    ],
-  },
+  // {
+  //   label: 'Services',
+  //   href: '/services',
+  //   megaMenu: [
+  //     {
+  //       title: 'Core Services',
+  //       type: 'list',
+  //       items: [
+  //         {
+  //           label: 'Expert Installation',
+  //           href: '/services/installation',
+  //           description: 'Professional installation with site assessment and commissioning',
+  //         },
+  //         {
+  //           label: 'Comprehensive Maintenance',
+  //           href: '/services/maintenance',
+  //           description: 'Preventive maintenance programs and annual contracts',
+  //         },
+  //         {
+  //           label: 'Emergency Support',
+  //           href: '/services/emergency-support',
+  //           description: 'Rapid response teams with remote diagnostics',
+  //         },
+  //         {
+  //           label: 'Training & Consultation',
+  //           href: '/services/training',
+  //           description: 'Operator training and safety compliance programs',
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       title: 'Service Features',
+  //       type: 'overview',
+  //       description: 'Our commitment to excellence',
+  //       items: [
+  //         { label: 'Technical Support', href: '/services/support#response-time' },
+  //         { label: 'PAN India service network', href: '/services/support#service-network' },
+  //         { label: 'Certified technicians', href: '/services/support#technicians' },
+  //         { label: 'Genuine spare parts', href: '/services/support#spare-parts' },
+  //         { label: 'IoT monitoring enabled', href: '/services/support#iot-monitoring' },
+  //       ],
+  //     },
+  //   ],
+  // },
   // {
   //   label: 'About Us',
   //   href: '/about',

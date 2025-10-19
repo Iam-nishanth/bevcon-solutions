@@ -4,13 +4,14 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Search } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { mainNavigation } from '@/content/navigation';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -69,7 +70,10 @@ export default function Header() {
                   key={item.href}
                   className="relative"
                   onMouseEnter={() => item.megaMenu && setActiveMenu(item.label)}
-                  onMouseLeave={() => setActiveMenu(null)}
+                  onMouseLeave={() => {
+                    setActiveMenu(null);
+                    setActiveCategory(null);
+                  }}
                 >
                   <Link
                     href={item.href}
@@ -95,42 +99,143 @@ export default function Header() {
                     )}
                   </Link>
 
-                  {/* Mega Menu Dropdown */}
+                  {/* Two-Level Mega Menu Dropdown */}
                   {item.megaMenu && activeMenu === item.label && (
                     <div className="absolute top-full left-0 -translate-x-1/3 pt-4 z-50">
-                      <motion.div
-                        initial={{ opacity: 0, y: -10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        className="bg-white rounded-lg shadow-2xl border border-gray-200 p-8 grid grid-cols-3 gap-8 w-[900px]"
-                      >
-                        {item.megaMenu.map((section, idx) => (
-                          <div key={idx}>
-                            <h3 className="font-heading font-semibold text-gray-900 mb-4">
-                              {section.title}
-                            </h3>
-                            {section.description && (
-                              <p className="text-sm text-gray-600 mb-4">
-                                {section.description}
-                              </p>
-                            )}
-                            {section.items && (
-                              <ul className="space-y-2">
-                                {section.items.map((menuItem, itemIdx) => (
-                                  <li key={`${menuItem.href}-${itemIdx}`}>
-                                    <Link
-                                      href={menuItem.href}
-                                      className="text-gray-700 hover:text-primary-600 hover:bg-primary-50 text-sm transition-colors block py-1.5 px-2 rounded"
+                      {item.twoLevelMenu ? (
+                        <div className="relative">
+                          {/* Level 1: Main Categories */}
+                          <motion.div
+                            initial={{ opacity: 0, y: -10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -10 }}
+                            className={`bg-white shadow-2xl border border-gray-200 w-[380px] transition-all duration-200 ${
+                              activeCategory 
+                                ? 'rounded-l-lg border-r-0' 
+                                : 'rounded-lg'
+                            }`}
+                          >
+                            <div className="p-8 min-h-[420px] flex flex-col">
+                              {item.megaMenu.map((section, idx) => (
+                                <div key={idx}>
+                                  {section.type === 'overview' ? (
+                                    <div className="mb-6">
+                                      <Link href={section.href || item.href} className="group block">
+                                        <h3 className="font-heading font-bold text-gray-900 mb-2 text-lg flex items-center space-x-2 group-hover:text-primary-600 transition-colors">
+                                          <span>{section.title}</span>
+                                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                          </svg>
+                                        </h3>
+                                        <p className="text-sm text-gray-600 leading-relaxed">
+                                          {section.description}
+                                        </p>
+                                      </Link>
+                                    </div>
+                                  ) : section.expandable ? (
+                                    <button
+                                      key={idx}
+                                      onMouseEnter={() => setActiveCategory(section.title)}
+                                      className={`w-full text-left py-3 px-4 rounded-lg transition-all group ${
+                                        activeCategory === section.title
+                                          ? 'bg-primary-900 text-white'
+                                          : 'hover:bg-gray-100 text-gray-700'
+                                      }`}
                                     >
-                                      {menuItem.label}
-                                    </Link>
-                                  </li>
-                                ))}
-                              </ul>
+                                      <div className="flex items-center justify-between">
+                                        <span className="font-medium">{section.title}</span>
+                                        <svg
+                                          className={`w-4 h-4 transition-transform ${
+                                            activeCategory === section.title ? 'text-white' : 'text-gray-400'
+                                          }`}
+                                          fill="none"
+                                          stroke="currentColor"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                        </svg>
+                                      </div>
+                                    </button>
+                                  ) : null}
+                                </div>
+                              ))}
+                            </div>
+                          </motion.div>
+
+                          {/* Level 2: Category Details */}
+                          <AnimatePresence mode="wait">
+                            {activeCategory && (
+                              <motion.div
+                                key={activeCategory}
+                                initial={{ opacity: 0, x: -10 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                exit={{ opacity: 0, x: -10 }}
+                                transition={{ duration: 0.2 }}
+                                className="absolute top-0 left-full bg-white rounded-r-lg shadow-2xl border border-gray-200 border-l-0 w-[420px] p-8 min-h-[420px] flex flex-col"
+                              >
+                                {item.megaMenu
+                                  .filter((section) => section.title === activeCategory)
+                                  .map((section, idx) => (
+                                    <div key={idx}>
+                                      <h3 className="font-heading font-bold text-primary-900 mb-6 text-lg">
+                                        {section.title}
+                                      </h3>
+                                      {section.subItems && (
+                                        <ul className="space-y-1">
+                                          {section.subItems.map((subItem, subIdx) => (
+                                            <li key={subIdx}>
+                                              <Link
+                                                href={subItem.href}
+                                                className="text-gray-700 hover:text-primary-600 hover:bg-primary-50 text-sm transition-colors block py-2 px-3 rounded"
+                                              >
+                                                {subItem.label}
+                                              </Link>
+                                            </li>
+                                          ))}
+                                        </ul>
+                                      )}
+                                    </div>
+                                  ))}
+                              </motion.div>
                             )}
-                          </div>
-                        ))}
-                      </motion.div>
+                          </AnimatePresence>
+                        </div>
+                      ) : (
+                        // Original single-level mega menu for Products, Industries, etc.
+                        <motion.div
+                          initial={{ opacity: 0, y: -10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -10 }}
+                          className="bg-white rounded-lg shadow-2xl border border-gray-200 p-8 grid grid-cols-3 gap-8 w-[900px]"
+                        >
+                          {item.megaMenu.map((section, idx) => (
+                            <div key={idx}>
+                              <h3 className="font-heading font-semibold text-gray-900 mb-4">
+                                {section.title}
+                              </h3>
+                              {section.description && (
+                                <p className="text-sm text-gray-600 mb-4">
+                                  {section.description}
+                                </p>
+                              )}
+                              {section.items && (
+                                <ul className="space-y-2">
+                                  {section.items.map((menuItem, itemIdx) => (
+                                    <li key={`${menuItem.href}-${itemIdx}`}>
+                                      <Link
+                                        href={menuItem.href}
+                                        className="text-gray-700 hover:text-primary-600 hover:bg-primary-50 text-sm transition-colors block py-1.5 px-2 rounded"
+                                      >
+                                        {menuItem.label}
+                                      </Link>
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
+                            </div>
+                          ))}
+                        </motion.div>
+                      )}
                     </div>
                   )}
                 </div>
@@ -139,12 +244,12 @@ export default function Header() {
 
             {/* Right Section */}
             <div className="flex items-center space-x-4">
-              <button
-                className="p-2 text-gray-600 hover:text-primary-600 transition-colors"
-                aria-label="Search"
+              <Link
+                href="/quote"
+                className="hidden md:inline-flex px-6 py-2.5 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-colors shadow-sm"
               >
-                <Search size={20} />
-              </button>
+                Request Quote
+              </Link>
 
               {/* Mobile Menu Button */}
               <button

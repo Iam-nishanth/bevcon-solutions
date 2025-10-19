@@ -32,8 +32,8 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl md:text-6xl font-heading font-bold mb-8 leading-tight text-primary-900"
           >
-            Industrial Access & Material Flow{' '}
-            <span className="text-secondary-500">Solutions</span>
+            Industrial Access & Material Handling{' '}
+            Solutions
           </motion.h1>
 
           {/* Subheadline */}
@@ -55,7 +55,7 @@ export default function Hero() {
           >
             <Link
               href="/products"
-              className="px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-all hover:scale-105 hover:shadow-xl flex items-center space-x-2 group shadow-md"
+              className="px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-colors hover:shadow-xl flex items-center space-x-2 group shadow-md"
             >
               <span>Explore Solutions</span>
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
@@ -76,15 +76,15 @@ export default function Hero() {
             className="flex flex-wrap justify-center gap-6 text-sm text-gray-700"
           >
             <div className="flex items-center space-x-2 bg-primary-50 px-4 py-2 rounded-full border border-primary-100">
-              <div className="w-2 h-2 rounded-full bg-secondary-500" />
+              <div className="w-2 h-2 rounded-full bg-gray-400" />
               <span>1000+ Global Installations</span>
             </div>
             <div className="flex items-center space-x-2 bg-primary-50 px-4 py-2 rounded-full border border-primary-100">
-              <div className="w-2 h-2 rounded-full bg-secondary-500" />
+              <div className="w-2 h-2 rounded-full bg-gray-400" />
               <span>20+ Years Experience</span>
             </div>
             <div className="flex items-center space-x-2 bg-primary-50 px-4 py-2 rounded-full border border-primary-100">
-              <div className="w-2 h-2 rounded-full bg-secondary-500" />
+              <div className="w-2 h-2 rounded-full bg-gray-400" />
               <span>Technical Support</span>
             </div>
           </motion.div>

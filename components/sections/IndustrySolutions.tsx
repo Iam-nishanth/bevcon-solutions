@@ -2,16 +2,18 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { ArrowRight, Factory, Warehouse, Pill, Utensils, Snowflake, Car } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { INDUSTRY_IMAGES } from '@/content/images';
 
 const industries = [
-  { name: 'Pharmaceutical & Life Sciences', icon: Pill, href: '/industries/pharmaceutical' },
-  { name: 'Food & Beverage Processing', icon: Utensils, href: '/industries/food-beverage' },
-  { name: 'Warehouse & Logistics', icon: Warehouse, href: '/industries/warehouse-logistics' },
-  { name: 'Manufacturing & Heavy Industry', icon: Factory, href: '/industries/manufacturing' },
-  { name: 'Automotive Production', icon: Car, href: '/industries/automotive' },
-  { name: 'Cold Storage & Refrigeration', icon: Snowflake, href: '/industries/cold-storage' },
+  { name: 'Pharmaceutical & Life Sciences', image: INDUSTRY_IMAGES.pharmaceutical, href: '/industries/pharmaceutical' },
+  { name: 'Food & Beverage Processing', image: INDUSTRY_IMAGES.foodBeverage, href: '/industries/food-beverage' },
+  { name: 'Warehouse & Logistics', image: INDUSTRY_IMAGES.warehouseLogistics, href: '/industries/warehouse-logistics' },
+  { name: 'Manufacturing & Heavy Industry', image: INDUSTRY_IMAGES.manufacturing, href: '/industries/manufacturing' },
+  { name: 'Automotive Production', image: INDUSTRY_IMAGES.automotive, href: '/industries/automotive' },
+  { name: 'Cold Storage & Refrigeration', image: INDUSTRY_IMAGES.coldStorage, href: '/industries/cold-storage' },
 ];
 
 export default function IndustrySolutions() {
@@ -49,18 +51,24 @@ export default function IndustrySolutions() {
             >
               <Link
                 href={industry.href}
-                className="block group relative overflow-hidden rounded-xl h-64 bg-gradient-to-br from-primary-50 to-gray-50 p-8 hover:shadow-lg hover:border-primary-200 transition-all border border-gray-200"
+                className="block group relative overflow-hidden rounded-xl h-64 hover:shadow-2xl transition-all"
               >
-                <div className="flex flex-col justify-between h-full">
-                  <div className="w-16 h-16 rounded-lg bg-white border border-primary-100 flex items-center justify-center text-primary-900 group-hover:text-secondary-500 transition-colors">
-                    <industry.icon size={32} />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-heading font-bold mb-2 text-gray-900 group-hover:text-primary-900 transition-colors">{industry.name}</h3>
-                    <div className="flex items-center space-x-2 text-sm font-medium text-gray-600 group-hover:text-secondary-500 transition-colors">
-                      <span>Explore Solutions</span>
-                      <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                    </div>
+                {/* Background Image */}
+                <Image
+                  src={industry.image}
+                  alt={industry.name}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+                {/* Dark Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/70 group-hover:from-black/70 group-hover:to-black/80 transition-all" />
+                
+                {/* Content */}
+                <div className="relative z-10 flex flex-col justify-end h-full p-8">
+                  <h3 className="text-2xl font-heading font-bold mb-3 text-white">{industry.name}</h3>
+                  <div className="flex items-center space-x-2 text-sm font-medium text-white/90 group-hover:text-white transition-colors">
+                    <span>Explore Solutions</span>
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
               </Link>

@@ -25,7 +25,7 @@ export default function ValueProposition() {
               viewport={{ once: true }}
               className="p-8 rounded-xl bg-white border border-gray-200 hover:border-primary-200 hover:shadow-md transition-all group"
             >
-              <div className="w-16 h-16 rounded-lg bg-primary-50 border border-primary-100 group-hover:border-secondary-500 flex items-center justify-center text-primary-900 group-hover:text-secondary-500 transition-all mb-6">
+              <div className="w-16 h-16 rounded-lg bg-primary-50 border border-primary-100 group-hover:border-primary-600 flex items-center justify-center text-primary-900 group-hover:text-primary-600 transition-all mb-6">
                 {React.createElement(iconMap[item.icon], { size: 32 })}
               </div>
               <h3 className="text-2xl font-heading font-bold mb-4 text-gray-900">

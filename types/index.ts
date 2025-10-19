@@ -4,6 +4,7 @@ export interface NavItem {
   label: string;
   href: string;
   megaMenu?: MegaMenuSection[];
+  twoLevelMenu?: boolean;
 }
 
 export interface MegaMenuSection {
@@ -11,7 +12,10 @@ export interface MegaMenuSection {
   description?: string;
   items?: MegaMenuItem[];
   featured?: FeaturedCard[];
-  type?: 'overview' | 'list' | 'featured' | 'grid';
+  type?: 'overview' | 'list' | 'featured' | 'grid' | 'category';
+  href?: string;
+  expandable?: boolean;
+  subItems?: MegaMenuItem[];
 }
 
 export interface MegaMenuItem {

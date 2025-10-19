@@ -18,7 +18,7 @@ export default function ProductSidebar({ categories, currentCategory }: ProductS
   };
 
   return (
-    <aside className="w-full lg:w-64 flex-shrink-0">
+    <aside className="w-full lg:w-80 flex-shrink-0">
       <div className="bg-white rounded-lg shadow-sm border border-gray-100 sticky top-24 max-h-[calc(100vh-8rem)] flex flex-col">
         <div className="p-6 pb-4 border-b border-gray-100 flex-shrink-0">
           <h3 className="text-lg font-bold text-primary-900">Product Categories</h3>
@@ -40,7 +40,7 @@ export default function ProductSidebar({ categories, currentCategory }: ProductS
             </Link>
           </li>
           
-          {categories.map((category) => {
+          {categories.filter(cat => cat !== 'all').map((category) => {
             const slug = createSlug(category);
             const isActive = pathname === `/products/${slug}` || currentCategory === category;
             
