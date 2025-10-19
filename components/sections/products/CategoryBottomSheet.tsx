@@ -1,10 +1,9 @@
 'use client';
 
-import { motion, AnimatePresence, PanInfo, useMotionValue, useTransform } from 'framer-motion';
+import { motion, AnimatePresence, PanInfo, useMotionValue } from 'framer-motion';
 import { X, GripHorizontal } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
 
 interface CategoryBottomSheetProps {
   categories: string[];
@@ -20,7 +19,6 @@ export default function CategoryBottomSheet({
   onClose 
 }: CategoryBottomSheetProps) {
   const pathname = usePathname();
-  const [isDragging, setIsDragging] = useState(false);
   const y = useMotionValue(0);
   
   // Create URL-friendly slug
@@ -29,7 +27,6 @@ export default function CategoryBottomSheet({
   };
 
   const handleDragEnd = (_event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
-    setIsDragging(false);
     // Close if dragged down more than 150px
     if (info.offset.y > 150) {
       onClose();
@@ -59,7 +56,6 @@ export default function CategoryBottomSheet({
             drag="y"
             dragConstraints={{ top: 0, bottom: 0 }}
             dragElastic={{ top: 0, bottom: 0.5 }}
-            onDragStart={() => setIsDragging(true)}
             onDragEnd={handleDragEnd}
             style={{ y }}
             className="fixed bottom-0 left-0 right-0 bg-white rounded-t-3xl shadow-2xl z-50 lg:hidden flex flex-col max-h-[80vh]"

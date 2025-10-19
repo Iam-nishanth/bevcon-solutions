@@ -31,7 +31,7 @@ export default function IndustryCTA({ industryName }: IndustryCTAProps) {
               Ready to Optimize Your {industryName} Operations?
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-10 leading-relaxed">
-              Our experts understand the unique challenges of your industry. Let's discuss how our solutions can enhance your operations, improve efficiency, and reduce costs.
+              Our experts understand the unique challenges of your industry. Let&apos;s discuss how our solutions can enhance your operations, improve efficiency, and reduce costs.
             </p>
           </motion.div>
 

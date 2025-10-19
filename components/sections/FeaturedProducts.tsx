@@ -6,7 +6,6 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { products } from '@/content/products';
-import { PRODUCT_IMAGES } from '@/content/images';
 
 const productImageMap: Record<string, string> = {
   'High-Speed Roll Doors': "/images/bevcon-products/nergeco/Doors for Clean Processes/Flexible,_high-speed_curtain_easily_installed_in_clean_rooms.jpg",
