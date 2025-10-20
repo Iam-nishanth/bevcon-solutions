@@ -65,7 +65,7 @@ export default function JRFResourceSection({ context }: JRFResourceSectionProps)
             <ResourceDownload
               title="JR Fibreglass Industries - Complete Overview"
               description="Detailed company profile featuring world records, technical capabilities, manufacturing facilities, and comprehensive product range with specifications and case studies."
-              fileUrl="/JRE FIBREGLASS Overview.pdf"
+              fileUrl="https://drive.proton.me/urls/D1Y014KNTR#Kf6LAklM7jj3"
               fileName="JRE_FIBREGLASS_Overview.pdf"
               variant="default"
               className="bg-white shadow-lg"

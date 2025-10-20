@@ -24,12 +24,19 @@ export default function ResourceDownload({
   className
 }: ResourceDownloadProps) {
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = fileUrl;
-    link.download = fileName;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Check if it's an external URL (like Proton Drive)
+    if (fileUrl.startsWith('http://') || fileUrl.startsWith('https://')) {
+      // Open external links in new tab
+      window.open(fileUrl, '_blank', 'noopener,noreferrer');
+    } else {
+      // Handle local files with download attribute
+      const link = document.createElement('a');
+      link.href = fileUrl;
+      link.download = fileName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
   };
 
   if (variant === 'inline') {

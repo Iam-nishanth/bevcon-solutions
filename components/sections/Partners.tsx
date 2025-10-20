@@ -89,7 +89,7 @@ export default function Partners() {
                   <ResourceDownload
                     title="JR Fibreglass Company Overview"
                     description="Comprehensive overview of JR Fibreglass Industries' capabilities, world records, and product range"
-                    fileUrl="/JRE FIBREGLASS Overview.pdf"
+                    fileUrl="https://drive.proton.me/urls/D1Y014KNTR#Kf6LAklM7jj3"
                     fileName="JRE_FIBREGLASS_Overview.pdf"
                     variant="inline"
                   />
