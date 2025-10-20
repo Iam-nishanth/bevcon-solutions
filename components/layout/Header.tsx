@@ -60,6 +60,7 @@ export default function Header() {
                 height={50}
                 priority
                 quality={100}
+                className="w-36 sm:w-32 md:w-36 lg:w-48 h-auto"
               />
             </Link>
 

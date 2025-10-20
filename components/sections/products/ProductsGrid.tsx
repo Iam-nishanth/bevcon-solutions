@@ -9,6 +9,8 @@ import CategoryBottomSheet from './CategoryBottomSheet';
 // Import all product data
 import { allProducts as bevconProducts } from '@/data/bevcon-products';
 import { allProducts as sparengProducts } from '@/data/spareng-products';
+// TODO: Uncomment for next rollout - JR Fibreglass products need accuracy review
+// import { allJRFProducts } from '@/data/jr-fibreglass';
 
 // Combine all products
 const allProducts = [...bevconProducts, ...sparengProducts];

@@ -617,6 +617,219 @@ export const solutionTopics: SolutionTopic[] = [
     relatedSolutions: ["temperature-control", "energy-efficiency"],
     metaTitle: "Temperature Control Solutions | Climate Management | Bevcon Solutions",
     metaDescription: "Precision temperature control solutions for cold storage, cleanrooms, and specialty facilities with advanced insulation and automated climate management."
+  },
+  {
+    id: "fume-extraction",
+    slug: "fume-extraction",
+    name: "Fume Extraction Systems",
+    description: "Advanced gas scrubbing and fume extraction solutions for industrial air pollution control",
+    overview: "Our comprehensive fume extraction systems provide world-class air pollution control through state-of-the-art gas scrubbing technology. With over 3844 scrubbing systems manufactured by JR Fibreglass Industries, we deliver proven solutions achieving 99.9% removal efficiency for the most demanding industrial applications.",
+    keyBenefits: [
+      "99.9% fume removal efficiency with advanced scrubbing technology",
+      "Complete compliance with environmental regulations",
+      "Protection of worker health and community safety",
+      "Custom-designed systems for specific pollutants",
+      "Proven performance in world-record installations"
+    ],
+    caseStudies: [
+      {
+        id: "gnfc-emergency-chlorine-scrubber",
+        topicSlug: "fume-extraction",
+        title: "World's Largest Emergency Chlorine Scrubber",
+        company: "GNFC Bharuch",
+        industry: "Chemical & Petrochemical",
+        location: "Bharuch, India",
+        challenge: "A major chlor-alkali facility required the world's most advanced emergency chlorine scrubbing system capable of handling catastrophic releases up to 9500 kg/hr while ensuring complete community protection and regulatory compliance.",
+        solution: "Designed and installed the world's largest emergency chlorine scrubber with 9500 kg/hr capacity, featuring redundant scrubber trains, 100 m³ caustic circulation tank, and automatic emergency activation systems with continuous monitoring.",
+        results: [
+          "World record 9500 kg/hr emergency capacity achieved",
+          "100% emergency response capability established",
+          "Zero community impact incidents since installation",
+          "Complete regulatory compliance and safety assurance"
+        ],
+        keyMetrics: [
+          {
+            label: "Emergency Capacity",
+            value: "9500 kg/hr",
+            description: "World's largest chlorine emergency treatment"
+          },
+          {
+            label: "Response Time",
+            value: "<30 sec",
+            description: "Automatic emergency activation"
+          },
+          {
+            label: "Safety Record",
+            value: "Zero",
+            description: "Community impact incidents"
+          }
+        ],
+        technologies: ["Emergency Chlorine Scrubber", "Redundant Safety Systems", "Automatic Activation", "Community Protection"],
+        quote: {
+          text: "The emergency scrubber system gives us complete confidence in our safety protocols. It's the most advanced system of its kind in the world.",
+          author: "Safety Director",
+          position: "GNFC Bharuch"
+        }
+      },
+      {
+        id: "sterlite-fire-retardant-scrubber",
+        topicSlug: "fume-extraction",
+        title: "Fire-Retardant Scrubber for Semiconductor Gases",
+        company: "Sterlite Technologies",
+        industry: "Semiconductor Manufacturing",
+        location: "India",
+        challenge: "A semiconductor facility needed specialized fume extraction for reactive SiCl₄ (silicon tetrachloride) gases with enhanced fire safety requirements and 36,000 m³/hr capacity while maintaining ultra-clean manufacturing standards.",
+        solution: "Implemented fire-retardant FRP scrubber system specifically designed for SiCl₄ service with specialized resin formulation, fire-retardant construction, and integrated safety monitoring for reactive chemical fume control.",
+        results: [
+          "99%+ removal efficiency for SiCl₄ fumes achieved",
+          "Enhanced fire safety with retardant construction",
+          "Maintained semiconductor-grade cleanliness standards",
+          "Zero safety incidents with reactive gas handling"
+        ],
+        keyMetrics: [
+          {
+            label: "Removal Efficiency",
+            value: "99%+",
+            description: "SiCl₄ fume removal performance"
+          },
+          {
+            label: "Capacity",
+            value: "36,000 m³/hr",
+            description: "Gas handling volume"
+          },
+          {
+            label: "Safety Enhancement",
+            value: "100%",
+            description: "Fire-retardant construction"
+          }
+        ],
+        technologies: ["Fire-Retardant FRP Construction", "SiCl₄ Specialized Design", "Reactive Gas Handling", "Safety Monitoring"],
+        quote: {
+          text: "The fire-retardant scrubber system has provided exceptional safety and performance for our reactive gas processes. It's exactly what we needed for our semiconductor operations.",
+          author: "Process Engineer",
+          position: "Sterlite Technologies"
+        }
+      }
+    ],
+    relatedSolutions: ["environmental-control", "emergency-gas-treatment"],
+    metaTitle: "Fume Extraction Systems | Advanced Gas Scrubbing | Bevcon Solutions",
+    metaDescription: "World-class fume extraction and gas scrubbing systems with 99.9% efficiency. Proven solutions for industrial air pollution control and environmental compliance."
+  },
+  {
+    id: "environmental-control",
+    slug: "environmental-control",
+    name: "Environmental Control Systems",
+    description: "Comprehensive pollution control and environmental compliance solutions",
+    overview: "Our integrated environmental control systems provide complete pollution management through advanced fume extraction, emission control, and monitoring technologies. Backed by JR Fibreglass Industries' 50 years of expertise and world-record installations, we ensure environmental compliance while protecting communities and workers.",
+    keyBenefits: [
+      "Complete environmental compliance assurance",
+      "Integrated multi-pollutant treatment capabilities",
+      "Real-time monitoring and automated reporting",
+      "Reduced regulatory risk and liability",
+      "Enhanced corporate sustainability metrics"
+    ],
+    caseStudies: [
+      {
+        id: "indian-rayon-mega-installation",
+        topicSlug: "environmental-control",
+        title: "Mega-Scale Environmental Control Installation",
+        company: "Indian Rayon Corporation",
+        industry: "Chemical Processing",
+        location: "India",
+        challenge: "A major chemical facility required comprehensive environmental control with ultra-high volume gas handling (90,000-120,000 m³/hr) and complete integrated fan and ducting systems for multiple process streams.",
+        solution: "Installed integrated FRP fan and ducting systems with 90,000 m³/hr capacity, complete environmental monitoring, and automated control systems ensuring comprehensive pollution management across all facility operations.",
+        results: [
+          "Ultra-high volume capacity (90,000+ m³/hr) achieved",
+          "Complete environmental compliance maintained",
+          "Integrated system optimization and efficiency",
+          "Significant reduction in environmental impact"
+        ],
+        keyMetrics: [
+          {
+            label: "Gas Volume",
+            value: "90,000+ m³/hr",
+            description: "Ultra-high volume handling capacity"
+          },
+          {
+            label: "System Integration",
+            value: "100%",
+            description: "Complete fan and duct integration"
+          },
+          {
+            label: "Compliance Rate",
+            value: "100%",
+            description: "Environmental regulatory compliance"
+          }
+        ],
+        technologies: ["Ultra High Volume FRP Fans", "Integrated Ducting Systems", "Environmental Monitoring", "Automated Controls"],
+        quote: {
+          text: "The integrated environmental control system has provided us with unmatched capacity and reliability. It's the most comprehensive system we've ever implemented.",
+          author: "Environmental Manager",
+          position: "Indian Rayon Corporation"
+        }
+      }
+    ],
+    relatedSolutions: ["fume-extraction", "emergency-gas-treatment"],
+    metaTitle: "Environmental Control Systems | Comprehensive Pollution Management | Bevcon Solutions",
+    metaDescription: "Integrated environmental control systems for complete pollution management, regulatory compliance, and community protection with advanced monitoring and automation."
+  },
+  {
+    id: "emergency-gas-treatment",
+    slug: "emergency-gas-treatment",
+    name: "Emergency Gas Treatment Systems",
+    description: "Critical safety systems for catastrophic gas release scenarios and emergency response",
+    overview: "Our emergency gas treatment systems provide critical protection against catastrophic gas releases and emergency scenarios. Featuring world-record emergency response capabilities including the largest emergency chlorine scrubber (9500 kg/hr), these systems ensure rapid response and community protection during critical incidents.",
+    keyBenefits: [
+      "Rapid emergency response and activation",
+      "World-record emergency treatment capacities",
+      "Complete community and worker protection",
+      "Automated emergency protocols and monitoring",
+      "Compliance with emergency preparedness regulations"
+    ],
+    caseStudies: [
+      {
+        id: "iran-export-mega-scrubber",
+        topicSlug: "emergency-gas-treatment",
+        title: "World's Largest FRP Scrubber Export Installation",
+        company: "Major Petrochemical Facility",
+        industry: "Petrochemical",
+        location: "Iran",
+        challenge: "An international petrochemical facility required the world's largest FRP scrubber system capable of handling 325,000 m³/hr gas flow with 6m diameter construction for SO₂ emission control and emergency response.",
+        solution: "Designed and exported the biggest FRP scrubber ever made in India - 6000 mm diameter by 22 meters length - with 325,000 m³/hr capacity, demonstrating mega-project capabilities and international export quality.",
+        results: [
+          "World record FRP scrubber dimensions achieved (6m x 22m)",
+          "Unprecedented 325,000 m³/hr gas handling capacity",
+          "Successful international export and installation",
+          "Proven mega-project fabrication capabilities"
+        ],
+        keyMetrics: [
+          {
+            label: "Scrubber Size",
+            value: "6m x 22m",
+            description: "World's largest FRP scrubber dimensions"
+          },
+          {
+            label: "Gas Capacity",
+            value: "325,000 m³/hr",
+            description: "Unprecedented gas handling volume"
+          },
+          {
+            label: "Export Quality",
+            value: "International",
+            description: "Export-grade manufacturing standards"
+          }
+        ],
+        technologies: ["Mega FRP Scrubber", "SO₂ Treatment", "Export Quality Manufacturing", "On-Site Fabrication"],
+        quote: {
+          text: "The mega scrubber installation has exceeded all expectations. It represents the pinnacle of FRP scrubber technology and demonstrates world-class manufacturing capabilities.",
+          author: "Project Director",
+          position: "International Installation"
+        }
+      }
+    ],
+    relatedSolutions: ["fume-extraction", "environmental-control"],
+    metaTitle: "Emergency Gas Treatment Systems | Critical Safety Solutions | Bevcon Solutions",
+    metaDescription: "World-record emergency gas treatment systems for catastrophic release protection. Advanced emergency response capabilities with automated protocols and monitoring."
   }
 ];
 

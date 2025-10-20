@@ -8,6 +8,7 @@ import IndustrySolutions from '@/components/sections/industries/IndustrySolution
 import IndustryBenefits from '@/components/sections/industries/IndustryBenefits';
 import IndustryProducts from '@/components/sections/industries/IndustryProducts';
 import IndustryCTA from '@/components/sections/industries/IndustryCTA';
+import JRFResourceSection from '@/components/sections/solutions/JRFResourceSection';
 
 export async function generateStaticParams() {
   return industryExamples.map((industry) => ({
@@ -15,8 +16,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const industry = industryExamples.find((ind) => ind.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const resolvedParams = await params;
+  const industry = industryExamples.find((ind) => ind.slug === resolvedParams.slug);
   
   if (!industry) {
     return {
@@ -30,12 +32,17 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function IndustryPage({ params }: { params: { slug: string } }) {
-  const industry = industryExamples.find((ind) => ind.slug === params.slug);
+export default async function IndustryPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
+  const industry = industryExamples.find((ind) => ind.slug === resolvedParams.slug);
 
   if (!industry) {
     notFound();
   }
+
+  // Check if this is a JR Fibreglass related industry
+  const jrfIndustries = ['chemical-petrochemical', 'power-generation-utilities', 'semiconductor-manufacturing'];
+  const isJRFIndustry = jrfIndustries.includes(resolvedParams.slug);
 
   return (
     <main className="min-h-screen">
@@ -56,6 +63,11 @@ export default function IndustryPage({ params }: { params: { slug: string } }) {
       
       {/* Success vision */}
       <IndustryBenefits success={industry.success} metrics={industry.metrics} />
+      
+      {/* JR Fibreglass Resource Section for relevant industries */}
+      {isJRFIndustry && (
+        <JRFResourceSection context="environmental-control" />
+      )}
       
       {/* CTA */}
       <IndustryCTA industryName={industry.name} />

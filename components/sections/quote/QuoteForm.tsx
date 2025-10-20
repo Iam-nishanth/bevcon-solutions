@@ -164,7 +164,7 @@ export default function QuoteForm() {
               animate={{ opacity: 1, y: 0 }}
               className="mb-8 p-6 bg-green-50 border-2 border-green-200 rounded-xl text-green-800"
             >
-              <h3 className="text-xl font-bold mb-2">✓ Quote Request Submitted Successfully!</h3>
+              <h3 className="text-lg md:text-xl font-bold mb-2">✓ Quote Request Submitted Successfully!</h3>
               <p>Thank you for your interest. Our team will review your requirements and get back to you within 24 hours with a detailed quote.</p>
             </motion.div>
           )}
@@ -176,7 +176,7 @@ export default function QuoteForm() {
               animate={{ opacity: 1, y: 0 }}
               className="mb-8 p-6 bg-red-50 border-2 border-red-200 rounded-xl text-red-800"
             >
-              <h3 className="text-xl font-bold mb-2">⚠️ Submission Error</h3>
+              <h3 className="text-lg md:text-xl font-bold mb-2">⚠️ Submission Error</h3>
               <p>Sorry, there was an error submitting your quote request. Please try again or contact us directly.</p>
             </motion.div>
           )}
@@ -185,7 +185,7 @@ export default function QuoteForm() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="bg-white rounded-xl shadow-lg p-8 md:p-10"
+            className="bg-white rounded-xl shadow-lg p-4 md:p-8 "
           >
             <form onSubmit={handleSubmit} className="space-y-10">
               {/* Section 1: Company Information */}
@@ -195,8 +195,8 @@ export default function QuoteForm() {
                     1
                   </div>
                   <div>
-                    <h2 className="text-2xl font-bold text-primary-900 flex items-center space-x-2">
-                      <Building2 className="w-6 h-6" />
+                    <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-primary-900 flex items-center space-x-2">
+                      <Building2 className="w-5 h-5 md:w-6 md:h-6" />
                       <span>Company Information</span>
                     </h2>
                   </div>
@@ -320,8 +320,8 @@ export default function QuoteForm() {
                     2
                   </div>
                   <div>
-                    <h2 className="text-2xl font-bold text-primary-900 flex items-center space-x-2">
-                      <ClipboardList className="w-6 h-6" />
+                    <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-primary-900 flex items-center space-x-2">
+                      <ClipboardList className="w-5 h-5 md:w-6 md:h-6" />
                       <span>Project Details</span>
                     </h2>
                   </div>
@@ -416,8 +416,8 @@ export default function QuoteForm() {
                     3
                   </div>
                   <div>
-                    <h2 className="text-2xl font-bold text-primary-900 flex items-center space-x-2">
-                      <Package className="w-6 h-6" />
+                    <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-primary-900 flex items-center space-x-2">
+                      <Package className="w-5 h-5 md:w-6 md:h-6" />
                       <span>Product/Solution Interest</span>
                     </h2>
                   </div>
@@ -471,8 +471,8 @@ export default function QuoteForm() {
                     4
                   </div>
                   <div>
-                    <h2 className="text-2xl font-bold text-primary-900 flex items-center space-x-2">
-                      <FileText className="w-6 h-6" />
+                    <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-primary-900 flex items-center space-x-2">
+                      <FileText className="w-5 h-5 md:w-6 md:h-6" />
                       <span>Additional Information</span>
                     </h2>
                   </div>
@@ -525,7 +525,7 @@ export default function QuoteForm() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full px-8 py-4 bg-secondary-500 hover:bg-secondary-600 disabled:bg-gray-400 text-white font-semibold rounded-lg transition-all disabled:hover:scale-100 shadow-md flex items-center justify-center space-x-2 text-lg"
+                  className="w-full px-8 py-4 bg-secondary-500 hover:bg-secondary-600 disabled:bg-gray-400 text-white font-semibold rounded-lg transition-all disabled:hover:scale-100 shadow-md flex items-center justify-center space-x-2 text-base md:text-lg"
                 >
                   {isSubmitting ? (
                     <span>Submitting...</span>

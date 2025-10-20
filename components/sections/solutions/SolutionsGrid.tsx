@@ -40,14 +40,14 @@ export default function SolutionsGrid() {
       });
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 md:py-20 bg-white">
       <div className="container mx-auto px-4">
         {/* Category Filter */}
         <div className="mb-12">
           <div className="flex flex-wrap justify-center gap-3">
             <button
               onClick={() => setSelectedCategory('all')}
-              className={`px-6 py-3 rounded-lg font-semibold transition-all ${
+              className={`md:px-6 md:py-3 px-3 py-2 text-center rounded-lg font-semibold transition-all w-fit md:w-auto ${
                 selectedCategory === 'all'
                   ? 'bg-primary-900 text-white shadow-lg'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -59,7 +59,7 @@ export default function SolutionsGrid() {
               <button
                 key={category.name}
                 onClick={() => setSelectedCategory(category.name)}
-                className={`px-6 py-3 rounded-lg font-semibold transition-all ${
+                className={`md:px-6 md:py-3 px-3 py-2 text-center rounded-lg font-semibold transition-all w-fit md:w-auto text-sm md:text-base ${
                   selectedCategory === category.name
                     ? 'bg-primary-900 text-white shadow-lg'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -88,11 +88,11 @@ export default function SolutionsGrid() {
                 {/* Header */}
                 <div className="flex items-start justify-between mb-6">
                   <div className="flex items-center space-x-4">
-                    <div className="w-14 h-14 rounded-lg bg-primary-50 border border-primary-100 flex items-center justify-center text-primary-900 group-hover:bg-primary-900 group-hover:text-white transition-colors">
+                    <div className="w-14 min-w-14 min-h-14 h-14 rounded-lg bg-primary-50 border border-primary-100 flex items-center justify-center text-primary-900 group-hover:bg-primary-900 group-hover:text-white transition-colors">
                       {Icon && <Icon size={28} />}
                     </div>
                     <div>
-                      <h3 className="text-2xl font-heading font-bold text-gray-900 group-hover:text-primary-900 transition-colors">
+                      <h3 className="text-xl md:text-2xl font-heading font-bold text-gray-900 group-hover:text-primary-900 transition-colors">
                         {solution.name}
                       </h3>
                       <p className="text-sm text-primary-600 font-medium mt-1">

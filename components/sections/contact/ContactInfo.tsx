@@ -17,7 +17,7 @@ export default function ContactInfo() {
 
         <div className="space-y-6">
           {/* Address */}
-          <div className="flex items-start space-x-4">
+          {/* <div className="flex items-start space-x-4">
             <div className="flex-shrink-0 w-12 h-12 bg-primary-50 rounded-lg flex items-center justify-center">
               <MapPin className="w-6 h-6 text-primary-600" />
             </div>
@@ -29,7 +29,7 @@ export default function ContactInfo() {
                 Australia
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* Phone */}
           <div className="flex items-start space-x-4">

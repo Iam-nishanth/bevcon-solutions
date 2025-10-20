@@ -8,7 +8,7 @@ import { contactInfo } from '@/content/company';
 
 export default function CTASection() {
   return (
-    <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white  overflow-hidden md:h-[450px] h-[250px] flex items-center">
+    <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white  overflow-hidden h-[450px] flex items-center">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{

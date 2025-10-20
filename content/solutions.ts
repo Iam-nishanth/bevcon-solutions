@@ -502,6 +502,193 @@ export const solutions: Solution[] = [
 		metaDescription:
 			"Fire-rated doors and fire safety systems meeting international standards. Certified fire protection solutions with 30-120 minute ratings.",
 	},
+	{
+		id: "fume-extraction",
+		slug: "fume-extraction",
+		name: "Fume Extraction Systems",
+		tagline: "Advanced Gas Scrubbing & Fume Control",
+		icon: "wind",
+		shortDescription: "Comprehensive fume extraction and gas scrubbing systems for industrial air pollution control",
+		fullDescription:
+			"Our advanced fume extraction systems provide comprehensive solutions for industrial air pollution control through state-of-the-art gas scrubbing technology. With over 3844 scrubbing systems manufactured by JR Fibreglass Industries, we deliver world-class fume extraction solutions including venturi scrubbers, packed column systems, and emergency gas treatment systems.",
+		keyBenefits: [
+			"99.9% fume removal efficiency with advanced scrubbing technology",
+			"Complete compliance with environmental regulations",
+			"Protection of worker health and safety",
+			"Reduced environmental impact and emissions",
+			"Custom-designed systems for specific pollutants",
+		],
+		features: [
+			"Venturi scrubbers (up to 99.9% efficiency)",
+			"Vertical and horizontal packed column scrubbers",
+			"Emergency gas treatment systems",
+			"FRP construction for corrosion resistance",
+			"Custom pollutant-specific designs",
+			"Integrated mist eliminators and demisters",
+			"Real-time monitoring and control systems",
+			"Handles 13+ types of industrial pollutants",
+		],
+		applications: [
+			"Chemical and petrochemical plants",
+			"Pharmaceutical manufacturing",
+			"Metallurgical and steel production",
+			"Semiconductor fabrication",
+			"Power generation facilities",
+			"Pulp and paper mills",
+			"Industrial process emissions",
+			"Emergency gas release scenarios",
+		],
+		industryTrends: [
+			{
+				title: "Stricter Environmental Regulations",
+				description:
+					"Increasingly stringent air quality standards and emission limits are driving demand for high-efficiency fume extraction systems across all industrial sectors.",
+			},
+			{
+				title: "Advanced Scrubbing Technology",
+				description:
+					"Next-generation scrubbing systems with smart controls and real-time optimization are achieving >99% removal efficiency while reducing operating costs.",
+			},
+			{
+				title: "Emergency Preparedness Requirements",
+				description:
+					"Industrial facilities are investing in emergency gas treatment systems to comply with safety regulations and protect surrounding communities.",
+			},
+		],
+		// TODO: Uncomment for next rollout - JR Fibreglass products need accuracy review
+		relatedProducts: [], // ["gas-scrubbing-systems", "frp-centrifugal-fans-blowers", "emergency-gas-treatment-systems"],
+		caseStudyHighlight: {
+			title: "Chemical Plant Emergency Chlorine Scrubber",
+			description: "Installed world's largest emergency chlorine scrubber (9500 kg/hr capacity) at major chemical facility",
+			results: ["100% emergency response capability", "Zero environmental incidents", "Full regulatory compliance achieved"],
+		},
+		metaTitle: "Fume Extraction Systems | Gas Scrubbing Solutions | Bevcon Solutions",
+		metaDescription:
+			"Advanced fume extraction and gas scrubbing systems with 99.9% efficiency. Comprehensive industrial air pollution control solutions.",
+	},
+	{
+		id: "environmental-control",
+		slug: "environmental-control", 
+		name: "Environmental Control Systems",
+		tagline: "Complete Pollution Control & Compliance",
+		icon: "leaf",
+		shortDescription: "Integrated environmental control systems for comprehensive pollution management and regulatory compliance",
+		fullDescription:
+			"Our environmental control systems provide comprehensive pollution management through integrated fume extraction, air filtration, and emission control technologies. Backed by JR Fibreglass Industries' 50 years of expertise, we deliver complete solutions that ensure environmental compliance while protecting worker health and community safety.",
+		keyBenefits: [
+			"Complete environmental compliance assurance",
+			"Integrated pollution control across all media",
+			"Reduced regulatory risk and liability",
+			"Improved corporate sustainability metrics",
+			"Enhanced community relations and reputation",
+		],
+		features: [
+			"Multi-pollutant treatment capabilities",
+			"Integrated monitoring and reporting systems",
+			"Backup and emergency treatment systems",
+			"Energy-efficient operation designs",
+			"Modular and expandable configurations",
+			"Remote monitoring and diagnostics",
+			"Preventive maintenance programs",
+			"Regulatory compliance documentation",
+		],
+		applications: [
+			"Industrial manufacturing complexes",
+			"Chemical processing facilities",
+			"Power generation plants",
+			"Waste treatment facilities",
+			"Research and development laboratories",
+			"Educational and institutional facilities",
+			"Government and military installations",
+			"Multi-tenant industrial parks",
+		],
+		industryTrends: [
+			{
+				title: "ESG and Sustainability Focus",
+				description:
+					"Corporate ESG commitments and sustainability goals are driving investment in comprehensive environmental control systems as companies seek to reduce their environmental footprint.",
+			},
+			{
+				title: "Integrated Monitoring Requirements",
+				description:
+					"Regulatory agencies increasingly require real-time emissions monitoring and automated reporting, making integrated control systems essential for compliance.",
+			},
+			{
+				title: "Community Impact Awareness",
+				description:
+					"Growing community awareness and activism around industrial emissions is pushing companies to implement proactive environmental control measures beyond minimum compliance.",
+			},
+		],
+		// TODO: Uncomment for next rollout - JR Fibreglass products need accuracy review
+		relatedProducts: [], // ["gas-scrubbing-systems", "frp-grp-fabrication", "scrubber-components-internals"],
+		metaTitle: "Environmental Control Systems | Pollution Management | Bevcon Solutions",
+		metaDescription:
+			"Comprehensive environmental control systems for pollution management and regulatory compliance. Integrated solutions for industrial facilities.",
+	},
+	{
+		id: "emergency-gas-treatment",
+		slug: "emergency-gas-treatment",
+		name: "Emergency Gas Treatment Systems", 
+		tagline: "Critical Safety & Emergency Response",
+		icon: "alert-triangle",
+		shortDescription: "Specialized emergency gas treatment systems for catastrophic release scenarios and critical safety applications",
+		fullDescription:
+			"Our emergency gas treatment systems provide critical protection against catastrophic gas releases and emergency scenarios. Featuring the world's largest emergency chlorine scrubber (9500 kg/hr capacity) and proven emergency response technologies, these systems ensure rapid response and community protection during critical incidents.",
+		keyBenefits: [
+			"Rapid emergency response capability",
+			"Protection of surrounding communities", 
+			"Compliance with emergency preparedness regulations",
+			"Minimized environmental impact during incidents",
+			"Enhanced facility safety and risk management",
+		],
+		features: [
+			"World's largest emergency chlorine scrubber (9500 kg/hr)",
+			"Automatic emergency activation systems",
+			"Redundant backup systems and failsafes",
+			"Rapid response deployment capability",
+			"Multi-stage treatment for maximum efficiency",
+			"Emergency monitoring and alert systems",
+			"Continuous readiness verification",
+			"Integration with facility safety systems",
+		],
+		applications: [
+			"Chlor-alkali manufacturing plants",
+			"Chemical production facilities",
+			"Hazardous material storage sites",
+			"Industrial gas users and distributors",
+			"Water treatment plants with chlorine",
+			"Transportation and loading facilities",
+			"Emergency response installations",
+			"Critical infrastructure protection",
+		],
+		industryTrends: [
+			{
+				title: "Enhanced Safety Regulations",
+				description:
+					"Stricter emergency preparedness regulations and community right-to-know laws are requiring more robust emergency gas treatment capabilities at industrial facilities.",
+			},
+			{
+				title: "Risk Management Evolution",
+				description:
+					"Companies are adopting proactive emergency response systems as part of comprehensive risk management strategies to protect assets and reputation.",
+			},
+			{
+				title: "Community Safety Focus",
+				description:
+					"Increased focus on community safety and emergency preparedness is driving investment in advanced emergency gas treatment systems near populated areas.",
+			},
+		],
+		// TODO: Uncomment for next rollout - JR Fibreglass products need accuracy review
+		relatedProducts: [], // ["emergency-gas-treatment-systems", "gas-scrubbing-systems"],
+		caseStudyHighlight: {
+			title: "World Record Emergency Chlorine System",
+			description: "Designed and installed world's largest emergency chlorine scrubber at GNFC Bharuch facility",
+			results: ["9500 kg/hr emergency capacity", "Zero community impact incidents", "Industry-leading safety record"],
+		},
+		metaTitle: "Emergency Gas Treatment Systems | Emergency Scrubbers | Bevcon Solutions", 
+		metaDescription:
+			"Specialized emergency gas treatment systems for catastrophic release protection. World's largest emergency chlorine scrubber technology.",
+	},
 ];
 
 // Solution categories for easy filtering
@@ -521,5 +708,9 @@ export const solutionCategories = [
 	{
 		name: "Environmental Control",
 		solutions: ["temperature-control"],
+	},
+	{
+		name: "Fume Extraction & Environmental",
+		solutions: ["fume-extraction", "environmental-control", "emergency-gas-treatment"],
 	},
 ];

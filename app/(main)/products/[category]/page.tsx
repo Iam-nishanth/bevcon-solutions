@@ -5,9 +5,11 @@ import { notFound, useParams } from 'next/navigation';
 import { SlidersHorizontal } from 'lucide-react';
 import ProductSidebar from '@/components/sections/products/ProductSidebar';
 import ProductCard from '@/components/sections/products/ProductCard';
-import CategoryDrawer from '@/components/sections/products/CategoryDrawer';
+import CategoryBottomSheet from '@/components/sections/products/CategoryBottomSheet';
 import { allProducts as bevconProducts } from '@/data/bevcon-products';
 import { allProducts as sparengProducts } from '@/data/spareng-products';
+// TODO: Uncomment for next rollout - JR Fibreglass products need accuracy review
+// import { allJRFProducts } from '@/data/jr-fibreglass';
 
 const allProducts = [...bevconProducts, ...sparengProducts];
 
@@ -124,8 +126,8 @@ export default function CategoryPage() {
               <ProductSidebar categories={categories} currentCategory={category} />
             </div>
 
-            {/* Mobile Drawer */}
-            <CategoryDrawer
+            {/* Mobile Bottom Sheet */}
+            <CategoryBottomSheet
               categories={categories}
               currentCategory={category}
               isOpen={isDrawerOpen}

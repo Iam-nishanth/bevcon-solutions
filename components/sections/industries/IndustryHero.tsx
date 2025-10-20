@@ -9,7 +9,7 @@ interface IndustryHeroProps {
 
 export default function IndustryHero({ industry }: IndustryHeroProps) {
   return (
-    <section className="relative pt-32 pb-20 md:pt-40 md:pb-32 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <section className="relative pt-40 pb-20 md:pt-40 md:pb-32 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
       <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div

@@ -74,7 +74,7 @@ export default function SolutionsCTA() {
               </div>
               <div className="text-left">
                 <div className="text-gray-400 text-xs">Call Us</div>
-                <div className="font-semibold">+61-XXX-XXX-XXX</div>
+                <div className="font-semibold">+61-420562184</div>
               </div>
             </div>
             <div className="flex items-center space-x-3">

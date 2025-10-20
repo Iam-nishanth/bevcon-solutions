@@ -8,7 +8,7 @@ export const mainNavigation: NavItem[] = [
     megaMenu: [
       {
         title: 'Solutions',
-        description: 'Explore our range of industrial doors, high-speed doors, docking equipment and material handling solutions.',
+        description: 'Explore our range of industrial doors, high-speed doors, docking equipment, material handling, and fume extraction solutions.',
         type: 'overview',
         href: '/solutions',
       },
@@ -18,10 +18,11 @@ export const mainNavigation: NavItem[] = [
         expandable: true,
         subItems: [
           { label: 'High-Speed Doors', href: '/products/high-speed-doors' },
-          { label: 'Fire Rated Shutters', href: '/products/fire-rated-shutters' },
           { label: 'Docking Equipment / Dock Levellers', href: '/products/dock-levelers' },
           { label: 'Conveyor Components', href: '/products/conveyor-components' },
-          { label: 'Crushing Equipment', href: '/products/crushing-equipment' },
+          // TODO: Uncomment for next rollout - JR Fibreglass products need accuracy review
+          // { label: 'Gas Scrubbing Systems', href: '/products/gas-scrubbing-systems' },
+          // { label: 'FRP Centrifugal Fans & Blowers', href: '/products/frp-centrifugal-fans-blowers' },
         ],
       },
       {
@@ -45,9 +46,8 @@ export const mainNavigation: NavItem[] = [
           { label: 'Entrance Automation', href: '/solutions/entrance-automation' },
           { label: 'Loading Bay Solutions', href: '/solutions/loading-bay' },
           { label: 'Material Handling', href: '/solutions/material-handling' },
-          { label: 'Safety & Compliance', href: '/solutions/safety-compliance' },
-          { label: 'Energy Efficiency', href: '/solutions/energy-efficiency' },
-          { label: 'Temperature Control', href: '/solutions/temperature-control' },
+          { label: 'Fume Extraction Systems', href: '/solutions/fume-extraction' },
+          { label: 'Environmental Control', href: '/solutions/environmental-control' },
         ],
       },
     ],
@@ -77,6 +77,17 @@ export const mainNavigation: NavItem[] = [
           { label: 'Material Handling', href: '/products/material-handling' },
         ],
       },
+      // {
+      //   title: 'Fume Extraction & Environmental',
+      //   type: 'list',
+      //   items: [
+      //     { label: 'Gas Scrubbing Systems', href: '/products/gas-scrubbing-systems' },
+      //     { label: 'FRP Centrifugal Fans & Blowers', href: '/products/frp-centrifugal-fans-blowers' },
+      //     { label: 'Emergency Gas Treatment', href: '/products/emergency-gas-treatment-systems' },
+      //     { label: 'FRP/GRP Fabrication', href: '/products/frp-grp-fabrication' },
+      //     { label: 'Scrubber Components', href: '/products/scrubber-components-internals' },
+      //   ],
+      // },
       {
         title: 'Our Brands',
         type: 'overview',

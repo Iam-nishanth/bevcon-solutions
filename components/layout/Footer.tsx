@@ -67,11 +67,20 @@ export default function Footer() {
       </div>
 
       {/* Bottom Footer */}
-      <div className="border-t border-primary-800">
+      <div className="border-t border-gray-200">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
             <div>
-              © {currentYear} {companyInfo.name}. All rights reserved.
+              <div>© {currentYear} {companyInfo.name}. All rights reserved.</div>
+              <div className="mt-1">
+                Made by{' '}
+                <a
+                  href="mailto:nishanth_alapati@outlook.com"
+                  className="hover:text-primary-400 transition-colors"
+                >
+                  Nishanth
+                </a>
+              </div>
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="/contact" className="hover:text-black transition-colors">

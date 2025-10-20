@@ -406,6 +406,183 @@ export const industries: Industry[] = [
     },
     keyProducts: ['High-Speed Doors', 'Fire Rated Shutters'],
   },
+  {
+    id: '9',
+    name: 'Chemical & Petrochemical',
+    slug: 'chemical-petrochemical',
+    icon: 'FlaskConical',
+    shortDescription: 'Advanced fume extraction and corrosion-resistant solutions for chemical processing',
+    heroTitle: 'Chemical & Petrochemical Solutions',
+    heroDescription: 'Comprehensive fume extraction systems, emergency gas treatment, and corrosion-resistant entrance solutions designed for the demanding chemical and petrochemical processing environments.',
+    image: '/images/industries/chemical-petrochemical.jpg',
+    challenges: {
+      title: 'Industry Challenges',
+      items: [
+        'Managing toxic and corrosive gas emissions',
+        'Emergency preparedness for hazardous releases',
+        'Compliance with strict environmental regulations',
+        'Protecting workers from chemical exposure',
+        'Handling multiple pollutant types simultaneously',
+      ],
+    },
+    solutions: {
+      title: 'Our Solutions',
+      description: 'World-class fume extraction and emergency response systems for chemical processing.',
+      items: [
+        {
+          title: 'Gas Scrubbing Systems',
+          description: 'Advanced scrubbers achieving 99.9% removal efficiency for chemical fumes and gases.',
+          products: ['Gas Scrubbing Systems', 'FRP Centrifugal Fans & Blowers'],
+        },
+        {
+          title: 'Emergency Chlorine Scrubbers',
+          description: 'World\'s largest emergency chlorine scrubber (9500 kg/hr) for catastrophic release protection.',
+          products: ['Emergency Gas Treatment', 'Gas Scrubbing Systems'],
+        },
+        {
+          title: 'Corrosion-Resistant Doors',
+          description: 'Chemical-resistant entrance systems for harsh processing environments.',
+          products: ['High-Speed Doors', 'Fire Rated Shutters'],
+        },
+      ],
+    },
+    benefits: {
+      title: 'Benefits',
+      items: [
+        {
+          title: 'Environmental Compliance',
+          description: 'Meet stringent emission limits and environmental regulations with 99.9% efficiency.',
+        },
+        {
+          title: 'Emergency Preparedness',
+          description: 'World-record emergency response capabilities protect communities and assets.',
+        },
+        {
+          title: 'Corrosion Resistance',
+          description: 'FRP construction withstands the most aggressive chemical environments.',
+        },
+      ],
+    },
+    keyProducts: ['Gas Scrubbing Systems', 'Emergency Gas Treatment', 'FRP Centrifugal Fans & Blowers'],
+  },
+  {
+    id: '10',
+    name: 'Power Generation & Utilities',
+    slug: 'power-generation-utilities',
+    icon: 'Zap',
+    shortDescription: 'Emission control and high-performance systems for power generation facilities',
+    heroTitle: 'Power Generation & Utilities Solutions',
+    heroDescription: 'Advanced emission control systems, high-capacity fume extraction, and industrial-grade entrance solutions for power plants, utilities, and energy generation facilities.',
+    image: '/images/industries/power-generation.jpg',
+    challenges: {
+      title: 'Industry Challenges',
+      items: [
+        'Managing large-scale SO₂ and NOx emissions',
+        'Handling massive gas volumes (300,000+ m³/hr)',
+        'Meeting strict emission limits and regulations',
+        'Operating in high-temperature environments',
+        'Ensuring continuous operation reliability',
+      ],
+    },
+    solutions: {
+      title: 'Our Solutions',
+      description: 'Mega-scale emission control systems for power generation facilities.',
+      items: [
+        {
+          title: 'Mega FRP Scrubbers',
+          description: 'World\'s largest FRP scrubber (6m diameter) handling 325,000 m³/hr gas flow.',
+          products: ['Gas Scrubbing Systems'],
+        },
+        {
+          title: 'Ultra High Volume Fans',
+          description: 'Largest FRP fans in India (90,000-120,000 m³/hr) with CE certification.',
+          products: ['FRP Centrifugal Fans & Blowers'],
+        },
+        {
+          title: 'Industrial Access Systems',
+          description: 'Heavy-duty doors and loading systems for power plant operations.',
+          products: ['High-Speed Doors', 'Docking Equipment / Dock Levellers'],
+        },
+      ],
+    },
+    benefits: {
+      title: 'Benefits',
+      items: [
+        {
+          title: 'Massive Scale Capability',
+          description: 'Handle the largest gas volumes with proven world-record installations.',
+        },
+        {
+          title: 'Emission Compliance',
+          description: 'Meet or exceed power industry emission standards and regulations.',
+        },
+        {
+          title: 'Proven Reliability',
+          description: 'Continuous operation capability with minimal maintenance requirements.',
+        },
+      ],
+    },
+    keyProducts: ['Gas Scrubbing Systems', 'FRP Centrifugal Fans & Blowers'],
+  },
+  {
+    id: '11',
+    name: 'Semiconductor Manufacturing',
+    slug: 'semiconductor-manufacturing',
+    icon: 'Cpu',
+    shortDescription: 'Specialized fume extraction for semiconductor fabrication and cleanroom environments',
+    heroTitle: 'Semiconductor Manufacturing Solutions',
+    heroDescription: 'Ultra-clean fume extraction systems, fire-retardant scrubbers for reactive gases, and precision entrance solutions for semiconductor fabs and cleanroom facilities.',
+    image: '/images/industries/semiconductor.jpg',
+    challenges: {
+      title: 'Industry Challenges',
+      items: [
+        'Handling reactive gases like SiCl₄ safely',
+        'Maintaining ultra-clean manufacturing environments',
+        'Managing fire risks with reactive chemicals',
+        'Ensuring precise environmental control',
+        'Meeting semiconductor industry safety standards',
+      ],
+    },
+    solutions: {
+      title: 'Our Solutions',
+      description: 'Specialized systems for semiconductor fabrication safety and cleanliness.',
+      items: [
+        {
+          title: 'Fire-Retardant Scrubbers',
+          description: 'Specialized scrubbers for reactive SiCl₄ and semiconductor process gases.',
+          products: ['Gas Scrubbing Systems'],
+        },
+        {
+          title: 'Cleanroom Entrance Systems',
+          description: 'Ultra-clean, hermetically sealed doors for fab environments.',
+          products: ['High-Speed Doors'],
+        },
+        {
+          title: 'Process Gas Extraction',
+          description: 'Precision fume extraction for semiconductor process equipment.',
+          products: ['FRP Centrifugal Fans & Blowers', 'Gas Scrubbing Systems'],
+        },
+      ],
+    },
+    benefits: {
+      title: 'Benefits',
+      items: [
+        {
+          title: 'Fire Safety Excellence',
+          description: 'Fire-retardant construction for enhanced safety with reactive gases.',
+        },
+        {
+          title: 'Ultra-Clean Operation',
+          description: 'Maintain semiconductor-grade cleanliness and contamination control.',
+        },
+        {
+          title: 'Process Reliability',
+          description: 'Ensure consistent fab operations with reliable gas handling systems.',
+        },
+      ],
+    },
+    keyProducts: ['Gas Scrubbing Systems', 'High-Speed Doors', 'FRP Centrifugal Fans & Blowers'],
+  },
 ];
 
 export function getIndustryBySlug(slug: string): Industry | undefined {

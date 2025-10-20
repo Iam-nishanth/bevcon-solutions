@@ -11,7 +11,7 @@ const productImageMap: Record<string, string> = {
   'High-Speed Roll Doors': "/images/bevcon-products/nergeco/Doors for Clean Processes/Flexible,_high-speed_curtain_easily_installed_in_clean_rooms.jpg",
   'Hydraulic Dock Levelers': "/images/bevcon-products/loading-systems/CD/imagecontent-253.png",
   'Automatic Sliding Doors': '/images/bevcon-products/nergeco/SL/High-speed flexible door lined with a fire door (SL) .jpg',
-  'Conveying Systems': "https://images.unsplash.com/photo-1701328778019-e95dedbf5346?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1933",
+  'Conveying Systems': "/images/spareng-products/Conveyor-belt.jpg",
 };
 
 export default function FeaturedProducts() {

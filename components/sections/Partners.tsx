@@ -5,6 +5,8 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
 import { partners } from '@/content/company';
+import { cn } from '@/lib/utils';
+import ResourceDownload from '@/components/ui/ResourceDownload';
 
 export default function Partners() {
   return (
@@ -17,7 +19,7 @@ export default function Partners() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-heading font-bold mb-4"
           >
-            Our Parent Companies
+            Our Associate Companies
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -30,7 +32,7 @@ export default function Partners() {
           </motion.p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1  xl:grid-cols-2 gap-8 max-w-7xl mx-auto">
           {partners.map((partner, index) => (
             <motion.div
               key={index}
@@ -38,7 +40,9 @@ export default function Partners() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
-              className="bg-white text-gray-900 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all border border-gray-100"
+              className={cn("bg-white text-gray-900 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all border border-gray-100",
+                partner.name === 'JR Fibreglass Industries' ? 'sm:col-span-2 xl:col-span-1' : ''
+              )}
             >
               <div className="h-20 mb-6 flex items-center">
                 <Image
@@ -70,15 +74,27 @@ export default function Partners() {
                 </ul>
               </div>
 
-              <a
-                href={partner.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 text-primary-600 hover:text-primary-700 font-semibold group"
-              >
-                <span>Visit Website</span>
-                <ExternalLink size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-              </a>
+              <div className="flex flex-col sm:flex-row gap-5 items-center">
+                <a
+                  href={partner.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 text-primary-600 hover:text-primary-700 font-semibold group"
+                >
+                  <span>Visit Website</span>
+                  <ExternalLink size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                </a>
+                
+                {partner.name === 'JR Fibreglass Industries' && (
+                  <ResourceDownload
+                    title="JR Fibreglass Company Overview"
+                    description="Comprehensive overview of JR Fibreglass Industries' capabilities, world records, and product range"
+                    fileUrl="/JRE FIBREGLASS Overview.pdf"
+                    fileName="JRE_FIBREGLASS_Overview.pdf"
+                    variant="inline"
+                  />
+                )}
+              </div>
             </motion.div>
           ))}
         </div>

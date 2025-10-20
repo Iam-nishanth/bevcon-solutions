@@ -2,17 +2,17 @@ import { ContactInfo, Partner, StatCard, TeamMember } from '@/types';
 
 export const companyInfo = {
   name: 'Bevcon Solutions',
-  tagline: 'Industrial Access & Material Flow Solutions',
-  description: 'Integrated entrance automation, industrial doors, docking equipment, and bulk material handling solutions. Backed by the proven expertise of Bevcon Zentry (industrial doors & docking systems) and Spareng Incorporated (material handling equipment spares & services).',
-  foundedYear: 2024,
+  tagline: 'Complete Industrial Solutions - Access, Material Flow & Fume Extraction',
+  description: 'Integrated entrance automation, industrial doors, docking equipment, bulk material handling, and fume extraction solutions. Backed by the proven expertise of Bevcon Zentry (industrial doors & docking systems), Spareng Incorporated (material handling equipment spares & services), and JR Fibreglass Industries (fume extraction & FRP/GRP fabrication).',
+  foundedYear: 2025,
   location: 'Australia',
-  parentCompanies: ['Bevcon Zentry', 'Spareng Incorporated'],
+  associateCompanies: ['Bevcon Zentry', 'Spareng Incorporated', 'JR Fibreglass Industries'],
   employeeCount: 'Growing Team',
-  industries: '15+',
+  industries: '20+',
 };
 
 export const contactInfo: ContactInfo = {
-  phone: '+61-XXX-XXX-XXX',
+  phone: '+61420562184',
   email: 'info@bevconsolutions.au',
   address: 'Australia (Address TBD)',
   hours: 'Monday - Friday: 9:00 AM - 5:00 PM AEST',
@@ -20,26 +20,28 @@ export const contactInfo: ContactInfo = {
 
 export const stats: StatCard[] = [
   {
-    value: '1000',
+    value: '15000',
     label: 'Global Installations',
     icon: 'check-circle',
     suffix: '+',
-    description: 'Through our parent companies',
+    description: 'Through our three associate companies',
   },
   {
-    value: '20',
+    value: '50',
     label: 'Combined Experience',
     icon: 'calendar',
     suffix: '+',
-    description: 'Years of industry expertise',
+    description: 'Years of industry expertise (JR Fibreglass since 1975)',
   },
   {
-    value: 'Technical Support',
-    label: 'Support Available',
-    icon: 'headphones',
+    value: '3844',
+    label: 'Fume Extraction Systems',
+    icon: 'shield-check',
+    suffix: '+',
+    description: 'Scrubbing systems manufactured',
   },
   {
-    value: '15',
+    value: '20',
     label: 'Industries Served',
     icon: 'building',
     suffix: '+',
@@ -75,6 +77,20 @@ export const partners: Partner[] = [
     ],
     website: 'https://spareng-incorporated.vercel.app',
   },
+  {
+    name: 'JR Fibreglass Industries',
+    logo: '/jrf logo.jpg',
+    tagline: 'Fume Extraction & FRP/GRP Equipment Manufacturing',
+    description: 'Established in 1975, JR Fibreglass Industries is a pioneering manufacturer of fume extraction equipment and FRP/GRP fabrication with 50 years of expertise. They hold multiple world records including the largest emergency chlorine scrubber (9500 kg/hr) and biggest FRP scrubber in India (6m diameter). Only Indian company with CE certification for FRP fans.',
+    specialization: [
+      'Gas Scrubbing & Fume Extraction Systems (3844+ systems manufactured)',
+      'High Pressure & Ultra High Volume FRP Fans (CE Certified)',
+      'FRP/GRP Fabrication & Storage Tanks',
+      'Emergency Chlorine & Chemical Scrubbing Systems',
+      'World Record Products & Rare Capabilities',
+    ],
+    website: 'https://www.jrfibreglass.com',
+  },
 ];
 
 export const leadership: TeamMember[] = [
@@ -105,10 +121,12 @@ export const certifications = [
   'ISO 9001:2015 - Quality Management',
   'ISO 14001:2015 - Environmental Management',
   'ISO 45001:2018 - Occupational Health & Safety',
-  'CE Certification for European Standards',
+  'CE Certification for European Standards (JR Fibreglass - Only Indian FRP Fan Manufacturer)',
   'BIS Certifications for Indian Standards',
   'Fire Safety Compliance Certifications',
   'Energy Efficiency Ratings',
+  'IS-4894 & BS-848 Performance Testing Standards (JR Fibreglass)',
+  'ISO-1940 Dynamic Balancing Standards (JR Fibreglass)',
 ];
 
 export const valuePropositions = [
@@ -119,7 +137,7 @@ export const valuePropositions = [
   },
   {
     title: 'Engineering Excellence',
-    description: 'Backed by 20+ years of combined engineering expertise from our Indian parent companies. Custom solutions designed for your specific requirements.',
+    description: 'Backed by 20+ years of combined engineering expertise from our Indian associate companies. Custom solutions designed for your specific requirements.',
     icon: 'cog',
   },
   {
@@ -137,7 +155,7 @@ export const whyChooseUs = [
   },
   {
     title: 'Quality Certified',
-    description: 'Backed by ISO certified parent companies',
+    description: 'Backed by ISO certified associate companies',
     icon: 'award',
   },
   {
@@ -152,7 +170,7 @@ export const whyChooseUs = [
   },
   {
     title: 'Proven Technology',
-    description: '1000+ installations through our parent companies',
+    description: '1000+ installations through our associate companies',
     icon: 'trophy',
   },
 ];

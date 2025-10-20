@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
+import { useState } from 'react';
 
 interface ProductCardProps {
   title: string;
@@ -21,8 +22,15 @@ export default function ProductCard({
   brand,
   category 
 }: ProductCardProps) {
+  const [imageError, setImageError] = useState(false);
   const imageUrl = Array.isArray(image) ? image[0] : image;
   const displayCategory = Array.isArray(category) ? category[0] : category;
+  
+  // Fallback image for JR Fibreglass products or any missing images
+  const fallbackImage = '/images/placeholder-product.jpg';
+  
+  // Check if the image URL is valid
+  const isValidImageUrl = imageUrl && imageUrl !== '' && !imageError;
 
   return (
     <motion.div
@@ -34,12 +42,25 @@ export default function ProductCard({
     >
       {/* Image */}
       <div className="relative h-56 bg-gradient-to-br from-gray-50 to-white overflow-hidden">
-        <Image
-          src={imageUrl}
-          alt={title}
-          fill
-          className="object-contain p-6 group-hover:scale-105 transition-transform duration-500"
-        />
+        {isValidImageUrl ? (
+          <Image
+            src={imageUrl}
+            alt={title}
+            fill
+            className="object-contain p-6 group-hover:scale-105 transition-transform duration-500"
+            onError={() => setImageError(true)}
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center p-6">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                <div className="w-10 h-10 bg-primary-300 rounded-full"></div>
+              </div>
+              <p className="text-sm text-gray-500 font-medium">Product Image</p>
+              <p className="text-xs text-gray-400">Coming Soon</p>
+            </div>
+          </div>
+        )}
         {brand && brand !== 'Loading Systems' && (
           <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-primary-900">
             {brand}
