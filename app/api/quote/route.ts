@@ -40,7 +40,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Send email to admin
-    const adminEmail = await resend.emails.send({
+    await resend.emails.send({
       from: 'Bevcon Solutions <quotes@bevconsolutions.au>',
       to: process.env.ADMIN_EMAIL || 'admin@bevconsolutions.au',
       subject: `New Quote Request from ${companyName} - ${contactPerson}`,
@@ -194,7 +194,7 @@ export async function POST(request: NextRequest) {
     });
 
     // Send confirmation email to user
-    const userEmail = await resend.emails.send({
+    await resend.emails.send({
       from: 'Bevcon Solutions <quotes@bevconsolutions.au>',
       to: email,
       subject: `Quote Request Confirmation - ${companyName}`,

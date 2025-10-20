@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Send email to admin
-    const adminEmail = await resend.emails.send({
+    await resend.emails.send({
       from: 'Bevcon Solutions <contact@bevconsolutions.au>',
       to: process.env.ADMIN_EMAIL || 'admin@bevconsolutions.au',
       subject: `New Contact Form Submission from ${name}`,
@@ -101,7 +101,7 @@ export async function POST(request: NextRequest) {
     });
 
     // Send confirmation email to user
-    const userEmail = await resend.emails.send({
+    await resend.emails.send({
       from: 'Bevcon Solutions <contact@bevconsolutions.au>',
       to: email,
       subject: 'Thank you for contacting Bevcon Solutions',

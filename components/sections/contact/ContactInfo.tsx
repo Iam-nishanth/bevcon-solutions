@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 
 export default function ContactInfo() {
   return (

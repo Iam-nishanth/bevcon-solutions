@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download, FileText, ExternalLink } from 'lucide-react';
+import { Download, FileText } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface ResourceDownloadProps {
@@ -20,7 +20,6 @@ export default function ResourceDownload({
   description,
   fileUrl,
   fileName,
-  fileSize,
   variant = 'default',
   className
 }: ResourceDownloadProps) {

@@ -26,9 +26,6 @@ export default function ProductCard({
   const imageUrl = Array.isArray(image) ? image[0] : image;
   const displayCategory = Array.isArray(category) ? category[0] : category;
   
-  // Fallback image for JR Fibreglass products or any missing images
-  const fallbackImage = '/images/placeholder-product.jpg';
-  
   // Check if the image URL is valid
   const isValidImageUrl = imageUrl && imageUrl !== '' && !imageError;
 
