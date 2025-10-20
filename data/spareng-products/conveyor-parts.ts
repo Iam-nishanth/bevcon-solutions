@@ -138,6 +138,7 @@ export const conveyorPartsProducts: Product[] = [
     sku: 'SP-SA-001',
     category: ['Conveyor Components'],
     subcategory: 'Idlers',
+    imageFit: 'contain',
     specifications: {},
     features: [
       'Automatic belt alignment',
@@ -896,31 +897,31 @@ export const conveyorPartsProducts: Product[] = [
   },
 
   // WEIGHING SYSTEMS
-  {
-    id: 'cp-038',
-    title: 'Belt Weigh Scale',
-    model: 'BWS-001',
-    sku: 'SP-BWS-001',
-    category: ['Conveyor Components'],
-    subcategory: 'Safety & Control',
-    specifications: {},
-    features: [
-      'High accuracy weighing',
-      'Digital display and totalizer',
-      'Remote communication capability',
-      'Self-diagnostic features'
-    ],
-    applications: [
-      'Material flow measurement',
-      'Process control',
-      'Inventory management',
-      'Production monitoring'
-    ],
-    compatibleEquipment: ['Belt conveyor systems', 'Process control systems'],
-    tags: ['weigh scale', 'measurement', 'process control', 'accuracy'],
-    image: '/images/spareng-products/CONVEYOR_PARTS/BELT_WEIGH_SCALE.jpeg',
-    partNumber: 'SP-BWS-001'
-  },
+  // {
+  //   id: 'cp-038',
+  //   title: 'Belt Weigh Scale',
+  //   model: 'BWS-001',
+  //   sku: 'SP-BWS-001',
+  //   category: ['Conveyor Components'],
+  //   subcategory: 'Safety & Control',
+  //   specifications: {},
+  //   features: [
+  //     'High accuracy weighing',
+  //     'Digital display and totalizer',
+  //     'Remote communication capability',
+  //     'Self-diagnostic features'
+  //   ],
+  //   applications: [
+  //     'Material flow measurement',
+  //     'Process control',
+  //     'Inventory management',
+  //     'Production monitoring'
+  //   ],
+  //   compatibleEquipment: ['Belt conveyor systems', 'Process control systems'],
+  //   tags: ['weigh scale', 'measurement', 'process control', 'accuracy'],
+  //   image: '/images/spareng-products/CONVEYOR_PARTS/BELT_WEIGH_SCALE.jpeg',
+  //   partNumber: 'SP-BWS-001'
+  // },
 
   // VULCANIZING EQUIPMENT
   // {

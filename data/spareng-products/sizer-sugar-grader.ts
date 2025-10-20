@@ -226,7 +226,7 @@ export const sizerSugarGraderProducts: Product[] = [
   //   tags: ['wedge bolts', 'fastening', 'screen mounting', 'sizer'],
   //   image: '/images/spareng-products/SIZER_SUGAR_GRADER/WEDGE-BOLTING.jpeg',
   //   partNumber: 'SP-WB-001'
-  // },
+  // // },
   // {
   //   id: 'ssg-010',
   //   title: 'Bearings',

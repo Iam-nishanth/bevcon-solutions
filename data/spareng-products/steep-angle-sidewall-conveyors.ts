@@ -7,7 +7,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
     title: 'Side Wall Belt',
     model: 'SWB-SASC-001',
     sku: 'SP-SWB-SASC-001',
-    category: ['Conveyor Components',],
+    category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
     subcategory: 'Belts',
     specifications: {},
     features: [
@@ -27,31 +27,31 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
     image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/SIDE_WALL_BELT.jpeg',
     partNumber: 'SP-SWB-SASC-001'
   },
-  {
-    id: 'sasc-002',
-    title: 'Side Wall Bonding',
-    model: 'SWB-SASC-002',
-    sku: 'SP-SWB-SASC-002',
-    category: ['Conveyor Components',  ],
-    subcategory: 'Belt Components',
-    specifications: {},
-    features: [
-      'Strong adhesive bonding',
-      'Weather resistant',
-      'Flexible joint design',
-      'Long service life'
-    ],
-    applications: [
-      'Sidewall belt joining',
-      'Belt repair',
-      'Maintenance applications',
-      'Field installation'
-    ],
-    compatibleEquipment: ['Sidewall belts', 'Belt repair systems'],
-    tags: ['sidewall bonding', 'belt joining', 'adhesive', 'repair'],
-    image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/SIDE_WALL_BONDING.jpeg',
-    partNumber: 'SP-SWB-SASC-002'
-  },
+  // {
+  //   id: 'sasc-002',
+  //   title: 'Side Wall Bonding',
+  //   model: 'SWB-SASC-002',
+  //   sku: 'SP-SWB-SASC-002',
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
+  //   subcategory: 'Belt Components',
+  //   specifications: {},
+  //   features: [
+  //     'Strong adhesive bonding',
+  //     'Weather resistant',
+  //     'Flexible joint design',
+  //     'Long service life'
+  //   ],
+  //   applications: [
+  //     'Sidewall belt joining',
+  //     'Belt repair',
+  //     'Maintenance applications',
+  //     'Field installation'
+  //   ],
+  //   compatibleEquipment: ['Sidewall belts', 'Belt repair systems'],
+  //   tags: ['sidewall bonding', 'belt joining', 'adhesive', 'repair'],
+  //   image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/SIDE_WALL_BONDING.jpeg',
+  //   partNumber: 'SP-SWB-SASC-002'
+  // },
 
   // Pulleys
   {
@@ -59,7 +59,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
     title: 'Head Pulley',
     model: 'HP-SASC-001',
     sku: 'SP-HP-SASC-001',
-    category: ['Conveyor Components',  ],
+    category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
     subcategory: 'Pulleys',
     specifications: {},
     features: [
@@ -84,7 +84,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
     title: 'Tail Pulley',
     model: 'TP-SASC-001',
     sku: 'SP-TP-SASC-001',
-    category: ['Conveyor Components',  ],
+    category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
     subcategory: 'Pulleys',
     specifications: {},
     features: [
@@ -109,7 +109,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Deflection Pulley',
   //   model: 'DP-SASC-001',
   //   sku: 'SP-DP-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Pulleys',
   //   specifications: {},
   //   features: [
@@ -134,7 +134,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
     title: 'Single Drum Pulley',
     model: 'SDP-SASC-001',
     sku: 'SP-SDP-SASC-001',
-    category: ['Conveyor Components',  ],
+    category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
     subcategory: 'Pulleys',
     specifications: {},
     features: [
@@ -161,7 +161,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Carrying Idler',
   //   model: 'CI-SASC-001',
   //   sku: 'SP-CI-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Idlers',
   //   specifications: {},
   //   features: [
@@ -186,7 +186,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Deflector Idler',
   //   model: 'DI-SASC-001',
   //   sku: 'SP-DI-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Idlers',
   //   specifications: {},
   //   features: [
@@ -211,7 +211,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
     title: 'Stub Idler',
     model: 'SI-SASC-001',
     sku: 'SP-SI-SASC-001',
-    category: ['Conveyor Components',  ],
+    category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
     subcategory: 'Idlers',
     specifications: {},
     features: [
@@ -236,7 +236,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Impact Roller',
   //   model: 'IR-SASC-001',
   //   sku: 'SP-IR-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Idlers',
   //   specifications: {},
   //   features: [
@@ -263,7 +263,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Induction Motor',
   //   model: 'IM-SASC-001',
   //   sku: 'SP-IM-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Drive Systems',
   //   specifications: {},
   //   features: [
@@ -288,7 +288,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Gear Box',
   //   model: 'GB-SASC-001',
   //   sku: 'SP-GB-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Drive Systems',
   //   specifications: {},
   //   features: [
@@ -313,7 +313,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Couplings',
   //   model: 'COUP-SASC-001',
   //   sku: 'SP-COUP-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Drive Systems',
   //   specifications: {},
   //   features: [
@@ -341,7 +341,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Bearings',
   //   model: 'BRG-SASC-001',
   //   sku: 'SP-BRG-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Support Components',
   //   specifications: {},
   //   features: [
@@ -367,7 +367,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Plummer Block',
   //   model: 'PB-SASC-001',
   //   sku: 'SP-PB-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Support Components',
   //   specifications: {},
   //   features: [
@@ -392,7 +392,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Pillow Block',
   //   model: 'PIB-SASC-001',
   //   sku: 'SP-PIB-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Support Components',
   //   specifications: {},
   //   features: [
@@ -417,7 +417,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Locking Assembly',
   //   model: 'LA-SASC-001',
   //   sku: 'SP-LA-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Fastening Components',
   //   specifications: {},
   //   features: [
@@ -437,31 +437,31 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/LOCKING_ASSEMBLY.jpeg',
   //   partNumber: 'SP-LA-SASC-001'
   // },
-  {
-    id: 'sasc-018',
-    title: 'Buffers',
-    model: 'BUF-SASC-001',
-    sku: 'SP-BUF-SASC-001',
-    category: ['Conveyor Components',  ],
-    subcategory: 'Support Components',
-    specifications: {},
-    features: [
-      'Shock absorption capability',
-      'Rubber construction',
-      'Impact protection',
-      'Long service life'
-    ],
-    applications: [
-      'Impact protection',
-      'Shock absorption',
-      'Steep angle conveyors',
-      'Industrial applications'
-    ],
-    compatibleEquipment: ['Steep angle conveyors', 'Protection systems'],
-    tags: ['buffers', 'shock absorption', 'steep angle', 'impact protection'],
-    image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/BUFFERS.jpeg',
-    partNumber: 'SP-BUF-SASC-001'
-  },
+  // {
+  //   id: 'sasc-018',
+  //   title: 'Buffers',
+  //   model: 'BUF-SASC-001',
+  //   sku: 'SP-BUF-SASC-001',
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
+  //   subcategory: 'Support Components',
+  //   specifications: {},
+  //   features: [
+  //     'Shock absorption capability',
+  //     'Rubber construction',
+  //     'Impact protection',
+  //     'Long service life'
+  //   ],
+  //   applications: [
+  //     'Impact protection',
+  //     'Shock absorption',
+  //     'Steep angle conveyors',
+  //     'Industrial applications'
+  //   ],
+  //   compatibleEquipment: ['Steep angle conveyors', 'Protection systems'],
+  //   tags: ['buffers', 'shock absorption', 'steep angle', 'impact protection'],
+  //   image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/BUFFERS.jpeg',
+  //   partNumber: 'SP-BUF-SASC-001'
+  // },
 
   // Structural Components
   // {
@@ -469,7 +469,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Upper Cross Arms',
   //   model: 'UCA-SASC-001',
   //   sku: 'SP-UCA-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Structural Components',
   //   specifications: {},
   //   features: [
@@ -496,7 +496,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Skirt Rubber Sealing',
   //   model: 'SRS-SASC-001',
   //   sku: 'SP-SRS-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Sealing Components',
   //   specifications: {},
   //   features: [
@@ -523,7 +523,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Internal Scraper',
   //   model: 'IS-SASC-001',
   //   sku: 'SP-IS-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Maintenance & Accessories',
   //   specifications: {},
   //   features: [
@@ -548,7 +548,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   title: 'Beater Wheel',
   //   model: 'BW-SASC-001',
   //   sku: 'SP-BW-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Maintenance & Accessories',
   //   specifications: {},
   //   features: [
@@ -575,7 +575,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
     title: 'Pull Chord Switch',
     model: 'PCS-SASC-001',
     sku: 'SP-PCS-SASC-001',
-    category: ['Conveyor Components',  ],
+    category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
     subcategory: 'Safety & Control',
     specifications: {},
     features: [
@@ -600,7 +600,7 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
     title: 'Zero Speed Switch',
     model: 'ZSS-SASC-001',
     sku: 'SP-ZSS-SASC-001',
-    category: ['Conveyor Components',  ],
+    category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
     subcategory: 'Safety & Control',
     specifications: {},
     features: [
@@ -622,37 +622,37 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   },
 
   // Manufacturing Equipment
-  {
-    id: 'sasc-025',
-    title: 'Side Wall Belt Vulcanizing Machine',
-    model: 'SWBVM-SASC-001',
-    sku: 'SP-SWBVM-SASC-001',
-    category: ['Conveyor Components',  ],
-    subcategory: 'Manufacturing Equipment',
-    specifications: {},
-    features: [
-      'Belt vulcanizing capability',
-      'Temperature and pressure control',
-      'Professional grade equipment',
-      'Precise operation'
-    ],
-    applications: [
-      'Belt splicing and repair',
-      'Sidewall belt manufacturing',
-      'Field vulcanizing',
-      'Maintenance operations'
-    ],
-    compatibleEquipment: ['Belt manufacturing', 'Maintenance equipment'],
-    tags: ['vulcanizing machine', 'belt splicing', 'steep angle', 'manufacturing'],
-    image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/SIDE_WALL_BELT_VULCANIZING_MACHINE.jpeg',
-    partNumber: 'SP-SWBVM-SASC-001'
-  },
+  // {
+  //   id: 'sasc-025',
+  //   title: 'Side Wall Belt Vulcanizing Machine',
+  //   model: 'SWBVM-SASC-001',
+  //   sku: 'SP-SWBVM-SASC-001',
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
+  //   subcategory: 'Manufacturing Equipment',
+  //   specifications: {},
+  //   features: [
+  //     'Belt vulcanizing capability',
+  //     'Temperature and pressure control',
+  //     'Professional grade equipment',
+  //     'Precise operation'
+  //   ],
+  //   applications: [
+  //     'Belt splicing and repair',
+  //     'Sidewall belt manufacturing',
+  //     'Field vulcanizing',
+  //     'Maintenance operations'
+  //   ],
+  //   compatibleEquipment: ['Belt manufacturing', 'Maintenance equipment'],
+  //   tags: ['vulcanizing machine', 'belt splicing', 'steep angle', 'manufacturing'],
+  //   image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/SIDE_WALL_BELT_VULCANIZING_MACHINE.jpeg',
+  //   partNumber: 'SP-SWBVM-SASC-001'
+  // },
   // {
   //   id: 'sasc-026',
   //   title: 'Clamping Molds by Adjusting Screw',
   //   model: 'CMAS-SASC-001',
   //   sku: 'SP-CMAS-SASC-001',
-  //   category: ['Conveyor Components',  ],
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
   //   subcategory: 'Manufacturing Equipment',
   //   specifications: {},
   //   features: [
