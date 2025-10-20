@@ -6,7 +6,7 @@ import SolutionsCTA from '@/components/sections/solutions/SolutionsCTA';
 
 export const metadata: Metadata = {
   title: 'Industrial Solutions | Entrance Automation & Material Handling | Bevcon Solutions',
-  description: 'Comprehensive industrial solutions including entrance automation, high-speed doors, loading bay equipment, material handling, and smart building integration.',
+  description: 'Comprehensive industrial solutions including entrance automation, high-speed doors, docking equipment, material handling, and smart building integration.',
 };
 
 export default function SolutionsPage() {

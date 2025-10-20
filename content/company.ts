@@ -3,7 +3,7 @@ import { ContactInfo, Partner, StatCard, TeamMember } from '@/types';
 export const companyInfo = {
   name: 'Bevcon Solutions',
   tagline: 'Industrial Access & Material Flow Solutions',
-  description: 'Integrated entrance automation, industrial doors, loading bay equipment, and bulk material handling solutions. Backed by the proven expertise of Bevcon Zentry (industrial doors & loading bay systems) and Spareng Incorporated (material handling equipment spares & services).',
+  description: 'Integrated entrance automation, industrial doors, docking equipment, and bulk material handling solutions. Backed by the proven expertise of Bevcon Zentry (industrial doors & docking systems) and Spareng Incorporated (material handling equipment spares & services).',
   foundedYear: 2024,
   location: 'Australia',
   parentCompanies: ['Bevcon Zentry', 'Spareng Incorporated'],
@@ -55,7 +55,7 @@ export const partners: Partner[] = [
     specialization: [
       'High Speed Doors',
       'Dock Levelers (Hydraulic & Mechanical)',
-      'Dock Shelters & Weather Sealing',
+      'Docking Equipment & Weather Sealing',
       'Fire Rated Shutters',
       'Expert Installation & Maintenance',
     ],

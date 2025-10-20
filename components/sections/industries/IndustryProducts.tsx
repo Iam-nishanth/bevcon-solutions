@@ -18,7 +18,7 @@ const getProductUrl = (productName: string): string => {
     'High-Speed Roll Doors': '/products/high-speed-doors',
     'Hydraulic Dock Levelers': '/products/dock-levelers',
     'Automatic Sliding Doors': '/products/high-speed-doors',
-    'Roller Conveyor Systems': '/products/conveyor-components',
+    'Conveying Systems': '/products/conveyor-components',
   };
   
   return productMap[productName] || '/products';

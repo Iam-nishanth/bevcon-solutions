@@ -8,7 +8,7 @@ export const mainNavigation: NavItem[] = [
     megaMenu: [
       {
         title: 'Solutions',
-        description: 'Explore our range of industrial doors, high-speed doors, loading bay equipment and material handling solutions.',
+        description: 'Explore our range of industrial doors, high-speed doors, docking equipment and material handling solutions.',
         type: 'overview',
         href: '/solutions',
       },
@@ -19,8 +19,7 @@ export const mainNavigation: NavItem[] = [
         subItems: [
           { label: 'High-Speed Doors', href: '/products/high-speed-doors' },
           { label: 'Fire Rated Shutters', href: '/products/fire-rated-shutters' },
-          { label: 'Loading Bay Equipment', href: '/products/dock-levelers' },
-          { label: 'Dock Shelters', href: '/products/dock-shelters' },
+          { label: 'Docking Equipment / Dock Levellers', href: '/products/dock-levelers' },
           { label: 'Conveyor Components', href: '/products/conveyor-components' },
           { label: 'Crushing Equipment', href: '/products/crushing-equipment' },
         ],
@@ -43,12 +42,12 @@ export const mainNavigation: NavItem[] = [
         type: 'category',
         expandable: true,
         subItems: [
-          { label: 'Entrance Automation', href: '/solutions#entrance-automation' },
-          { label: 'Loading Bay Solutions', href: '/solutions#loading-bay' },
-          { label: 'Material Handling', href: '/solutions#material-handling' },
-          { label: 'Safety & Compliance', href: '/solutions#safety' },
-          { label: 'Energy Efficiency', href: '/solutions#energy-efficiency' },
-          { label: 'Temperature Control', href: '/solutions#temperature-control' },
+          { label: 'Entrance Automation', href: '/solutions/entrance-automation' },
+          { label: 'Loading Bay Solutions', href: '/solutions/loading-bay' },
+          { label: 'Material Handling', href: '/solutions/material-handling' },
+          { label: 'Safety & Compliance', href: '/solutions/safety-compliance' },
+          { label: 'Energy Efficiency', href: '/solutions/energy-efficiency' },
+          { label: 'Temperature Control', href: '/solutions/temperature-control' },
         ],
       },
     ],

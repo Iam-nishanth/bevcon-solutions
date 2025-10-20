@@ -28,7 +28,7 @@ export interface Solution {
 export const solutions: Solution[] = [
 	{
 		id: "industrial-doors",
-		slug: "industrial-doors",
+		slug: "entrance-automation",
 		name: "Industrial Door Systems",
 		tagline: "Robust Doors for Demanding Environments",
 		icon: "door-open",
@@ -89,7 +89,7 @@ export const solutions: Solution[] = [
 	},
 	{
 		id: "high-speed-doors",
-		slug: "high-speed-doors",
+		slug: "energy-efficiency",
 		name: "High-Speed Door Solutions",
 		tagline: "Rapid Access, Maximum Efficiency",
 		icon: "zap",
@@ -151,12 +151,12 @@ export const solutions: Solution[] = [
 	{
 		id: "loading-bay",
 		slug: "loading-bay",
-		name: "Loading Bay Equipment",
+		name: "Docking Equipment / Dock Levellers",
 		tagline: "Efficient, Safe Loading Operations",
 		icon: "package",
 		shortDescription: "Complete loading bay solutions including dock levelers, shelters, and seals for seamless material transfer",
 		fullDescription:
-			"Our comprehensive loading bay equipment ensures safe, efficient loading and unloading operations while maintaining environmental control. From hydraulic dock levelers to inflatable dock shelters, we provide integrated solutions that improve productivity and worker safety.",
+			"Our comprehensive docking equipment ensures safe, efficient loading and unloading operations while maintaining environmental control. From hydraulic dock levelers to complete docking solutions, we provide integrated systems that improve productivity and worker safety.",
 		keyBenefits: [
 			"Faster loading/unloading reducing turnaround time",
 			"Enhanced worker safety with stabilized platforms",
@@ -167,7 +167,7 @@ export const solutions: Solution[] = [
 		features: [
 			"Hydraulic and mechanical dock levelers",
 			"Adjustable lip systems (14-16 inches)",
-			"Inflatable and retractable dock shelters",
+			"Complete docking solutions and sealing systems",
 			"Foam and brush dock seals",
 			"Vehicle restraint systems",
 			"LED dock lighting",
@@ -196,7 +196,7 @@ export const solutions: Solution[] = [
 			{
 				title: "Cold Chain Logistics Expansion",
 				description:
-					"Growth in pharmaceutical and fresh food distribution is increasing demand for insulated dock shelters and climate-controlled loading bay solutions.",
+					"Growth in pharmaceutical and fresh food distribution is increasing demand for insulated docking systems and climate-controlled loading solutions.",
 			},
 		],
 		relatedProducts: ["dock-levelers", "dock-shelters"],
@@ -205,9 +205,9 @@ export const solutions: Solution[] = [
 			description: "Equipped 24-bay fulfillment center with complete loading bay solutions",
 			results: ["45% faster loading/unloading times", "Zero dock-related safety incidents", "60% reduction in heating/cooling loss"],
 		},
-		metaTitle: "Loading Bay Equipment | Dock Levelers & Shelters | Bevcon Solutions",
+		metaTitle: "Docking Equipment / Dock Levellers | Bevcon Solutions",
 		metaDescription:
-			"Complete loading bay solutions including hydraulic dock levelers, inflatable shelters, and vehicle restraints for efficient, safe material transfer operations.",
+			"Complete docking equipment including hydraulic dock levelers and sealing systems for efficient, safe material transfer operations.",
 	},
 	{
 		id: "material-handling",
@@ -217,7 +217,7 @@ export const solutions: Solution[] = [
 		icon: "repeat",
 		shortDescription: "Conveyor systems and material handling equipment for optimized workflow automation",
 		fullDescription:
-			"Our bulk material handling solutions streamline your operations with custom-designed conveyor systems, automated sorting, and integrated material flow management. From simple roller conveyors to complex automated systems, we engineer solutions that maximize efficiency and minimize manual handling.",
+			"Our bulk material handling solutions streamline your operations with custom-designed conveyor systems, automated sorting, and integrated material flow management. From simple conveying systems to complex automated systems, we engineer solutions that maximize efficiency and minimize manual handling.",
 		keyBenefits: [
 			"Increased throughput with automated material flow",
 			"Reduced labor costs and physical strain",
@@ -278,7 +278,7 @@ export const solutions: Solution[] = [
 		icon: "shield",
 		shortDescription: "Comprehensive dock levelers, shelters, and sealing solutions for efficient loading operations",
 		fullDescription:
-			"Our dock equipment solutions ensure safe, efficient loading and unloading operations while maintaining environmental control and worker safety. From hydraulic dock levelers to inflatable dock shelters, we provide complete integration for your loading bay needs.",
+			"Our dock equipment solutions ensure safe, efficient loading and unloading operations while maintaining environmental control and worker safety. From hydraulic dock levelers to complete sealing systems, we provide complete integration for your docking needs.",
 		keyBenefits: [
 			"Faster loading/unloading operations",
 			"Enhanced worker safety with stable platforms",
@@ -288,7 +288,7 @@ export const solutions: Solution[] = [
 		],
 		features: [
 			"Hydraulic and mechanical dock levelers",
-			"Inflatable and retractable dock shelters",
+			"Complete docking and sealing systems",
 			"Foam and brush dock seals",
 			"Adjustable lip systems (14-16 inches)",
 			"Capacity range: 6,000-30,000 kg",
@@ -313,7 +313,7 @@ export const solutions: Solution[] = [
 			{
 				title: "Cold Chain Requirements",
 				description:
-					"Expansion of pharmaceutical and fresh food distribution is increasing demand for insulated dock shelters and climate-controlled loading bay solutions to maintain product integrity.",
+					"Expansion of pharmaceutical and fresh food distribution is increasing demand for insulated docking systems and climate-controlled loading solutions to maintain product integrity.",
 			},
 			{
 				title: "Safety Compliance Standards",
@@ -324,7 +324,7 @@ export const solutions: Solution[] = [
 		relatedProducts: ["dock-levelers", "dock-shelters", "dock-seals"],
 		metaTitle: "Dock Equipment Solutions | Dock Levelers & Shelters | Bevcon Solutions",
 		metaDescription:
-			"Complete loading bay equipment including hydraulic dock levelers, inflatable shelters, and dock seals for safe, efficient loading operations.",
+			"Complete docking equipment including hydraulic dock levelers and sealing systems for safe, efficient loading operations.",
 	},
 	{
 		id: "mhe-spare-parts",
@@ -448,7 +448,7 @@ export const solutions: Solution[] = [
 	},
 	{
 		id: "fire-safety",
-		slug: "fire-safety",
+		slug: "safety-compliance",
 		name: "Fire Safety & Compliance",
 		tagline: "Code-Compliant Fire Protection",
 		icon: "flame",
@@ -511,7 +511,7 @@ export const solutionCategories = [
 		solutions: ["industrial-doors", "high-speed-doors", "fire-safety"],
 	},
 	{
-		name: "Loading Bay Equipment",
+		name: "Docking Equipment / Dock Levellers",
 		solutions: ["loading-bay", "dock-equipment"],
 	},
 	{

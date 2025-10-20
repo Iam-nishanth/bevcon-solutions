@@ -37,7 +37,7 @@ export default function ProductsHero({ categoryName }: ProductsHeroProps) {
           >
             {categoryName 
               ? `Explore our comprehensive range of ${categoryName.toLowerCase()} solutions from trusted brands.`
-              : 'Comprehensive range of industrial doors, high-speed solutions, loading bay equipment, and bulk material handling components from world-class brands.'
+              : 'Comprehensive range of industrial doors, high-speed solutions, docking equipment, and bulk material handling components from world-class brands.'
             }
           </motion.p>
 
@@ -50,7 +50,7 @@ export default function ProductsHero({ categoryName }: ProductsHeroProps) {
             {[
               'Industrial Doors',
               'High-Speed Doors',
-              'Loading Bay Equipment',
+              'Docking Equipment / Dock Levellers',
               'BMHE Components'
             ].map((item, idx) => (
               <div key={idx} className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">

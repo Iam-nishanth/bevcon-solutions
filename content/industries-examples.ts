@@ -123,7 +123,7 @@ export const industryExamples: IndustryContent[] = [
         keyBenefit: `Hands-free operation reduces contamination risk from door contact`
       },
       {
-        name: `Roller Conveyor Systems`,
+        name: `Conveying Systems`,
         useCase: `Automated material transfer between production zones`,
         keyBenefit: `Reduces manual handling and contamination introduction points`
       }
@@ -293,7 +293,7 @@ export const industryExamples: IndustryContent[] = [
         keyBenefit: `Cold-rated hydraulics maintaining reliable operation in freezer conditions`
       },
       {
-        name: `Roller Conveyor Systems`,
+        name: `Conveying Systems`,
         useCase: `Automated product movement in cold storage`,
         keyBenefit: `Reduces personnel exposure to extreme cold environments`
       }
@@ -378,7 +378,7 @@ export const industryExamples: IndustryContent[] = [
         keyBenefit: `Heavy-duty construction proven for extreme duty cycles`
       },
       {
-        name: `Roller Conveyor Systems`,
+        name: `Conveying Systems`,
         useCase: `Automated sortation and material flow throughout facility`,
         keyBenefit: `Modular design integrates with warehouse management systems`
       }
@@ -463,7 +463,7 @@ export const industryExamples: IndustryContent[] = [
         keyBenefit: `Heavy-duty capacity supports just-in-time manufacturing schedules`
       },
       {
-        name: `Roller Conveyor Systems`,
+        name: `Conveying Systems`,
         useCase: `Parts movement along assembly lines`,
         keyBenefit: `Reliable material flow synchronized with production sequences`
       }
@@ -548,7 +548,7 @@ export const industryExamples: IndustryContent[] = [
         keyBenefit: `Fast cycles minimize air exchange maintaining environmental control`
       },
       {
-        name: `Roller Conveyor Systems`,
+        name: `Conveying Systems`,
         useCase: `Hospital logistics and supply chain operations`,
         keyBenefit: `Automated material flow reducing staff burden and improving efficiency`
       }
@@ -624,7 +624,7 @@ export const industryExamples: IndustryContent[] = [
     products: [
       { name: `Hydraulic Dock Levelers`, useCase: `Loading dock operations with 300-500+ daily cycles`, keyBenefit: `Heavy-duty reliability maximizing throughput in high-volume operations` },
       { name: `High-Speed Roll Doors`, useCase: `High-traffic internal zones with forklift passage`, keyBenefit: `Self-repairing design ensures zero downtime after impacts` },
-      { name: `Roller Conveyor Systems`, useCase: `Automated sortation and order fulfillment`, keyBenefit: `Scalable systems supporting peak season volume surges` }
+      { name: `Conveying Systems`, useCase: `Automated sortation and order fulfillment`, keyBenefit: `Scalable systems supporting peak season volume surges` }
     ],
     success: {
       title: `Peak Season Ready, Every Season`,
@@ -697,7 +697,7 @@ export const industryExamples: IndustryContent[] = [
     products: [
       { name: `High-Speed Roll Doors`, useCase: `Internal material flow between production zones`, keyBenefit: `Fast cycle times prevent bottlenecks and maintain production efficiency` },
       { name: `Hydraulic Dock Levelers`, useCase: `Raw material receiving and finished goods shipping`, keyBenefit: `Reliable loading operations supporting production schedules` },
-      { name: `Roller Conveyor Systems`, useCase: `Assembly line material handling and work-in-progress movement`, keyBenefit: `Automated flow reducing manual handling and improving efficiency` }
+      { name: `Conveying Systems`, useCase: `Assembly line material handling and work-in-progress movement`, keyBenefit: `Automated flow reducing manual handling and improving efficiency` }
     ],
     success: {
       title: `Infrastructure That Enables Production`,
@@ -770,7 +770,7 @@ export const industryExamples: IndustryContent[] = [
     products: [
       { name: `High-Speed Roll Doors`, useCase: `Internal zone separation in dusty and high-temperature environments`, keyBenefit: `Durable construction withstands harsh industrial conditions` },
       { name: `Hydraulic Dock Levelers`, useCase: `Heavy raw material receiving and finished product shipping`, keyBenefit: `Heavy-duty capacity handles extreme loads and abuse` },
-      { name: `Roller Conveyor Systems`, useCase: `Material transport in steel mills and metal processing`, keyBenefit: `Rugged design proven in demanding industrial applications` }
+      { name: `Conveying Systems`, useCase: `Material transport in steel mills and metal processing`, keyBenefit: `Rugged design proven in demanding industrial applications` }
     ],
     success: {
       title: `Infrastructure Built to Last`,
@@ -843,7 +843,7 @@ export const industryExamples: IndustryContent[] = [
     products: [
       { name: `Hydraulic Dock Levelers`, useCase: `Freight hub loading docks with extreme duty cycles`, keyBenefit: `Ultra-reliable operation proven in 300-500 daily loading cycles` },
       { name: `High-Speed Roll Doors`, useCase: `High-traffic cross-dock and transfer operations`, keyBenefit: `Self-repairing design ensures zero downtime maintaining schedules` },
-      { name: `Roller Conveyor Systems`, useCase: `Automated freight sorting and routing`, keyBenefit: `High-capacity systems handling diverse freight types` }
+      { name: `Conveying Systems`, useCase: `Automated freight sorting and routing`, keyBenefit: `High-capacity systems handling diverse freight types` }
     ],
     success: {
       title: `Operations Without Interruption`,
@@ -1062,7 +1062,7 @@ export const industryExamples: IndustryContent[] = [
     products: [
       { name: `High-Speed Roll Doors`, useCase: `Production zone separation in textile manufacturing`, keyBenefit: `Smooth design prevents lint accumulation with easy cleaning` },
       { name: `Hydraulic Dock Levelers`, useCase: `Fabric roll receiving and finished goods shipping`, keyBenefit: `Gentle operation protects delicate textile products` },
-      { name: `Roller Conveyor Systems`, useCase: `Automated material handling in production areas`, keyBenefit: `Reduces manual handling of heavy fabric rolls` }
+      { name: `Conveying Systems`, useCase: `Automated material handling in production areas`, keyBenefit: `Reduces manual handling of heavy fabric rolls` }
     ],
     success: {
       title: `Clean, Efficient Production`,
@@ -1135,7 +1135,7 @@ export const industryExamples: IndustryContent[] = [
     products: [
       { name: `High-Speed Roll Doors`, useCase: `Processing area separation in dairy and agriculture facilities`, keyBenefit: `Fast operation with sanitary design for food safety compliance` },
       { name: `Hydraulic Dock Levelers`, useCase: `Agricultural product receiving and distribution`, keyBenefit: `Heavy-duty capacity for bulk agricultural products` },
-      { name: `Roller Conveyor Systems`, useCase: `Automated handling in food processing operations`, keyBenefit: `Hygienic design reduces contamination risk` }
+      { name: `Conveying Systems`, useCase: `Automated handling in food processing operations`, keyBenefit: `Hygienic design reduces contamination risk` }
     ],
     success: {
       title: `Food Safety Confidence`,

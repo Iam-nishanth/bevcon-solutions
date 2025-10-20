@@ -43,9 +43,7 @@ const BUDGET_RANGES = [
 const PRODUCT_CATEGORIES = [
   'High-Speed Doors',
   'Fire Rated Shutters',
-  'Loading Bay Equipment',
-  'Dock Levelers',
-  'Dock Shelters',
+  'Docking Equipment / Dock Levellers',
   'Conveyor Components',
   'Crushing Equipment',
   'Material Handling Solutions',
@@ -107,33 +105,52 @@ export default function QuoteForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      
-      // Reset form
-      setFormData({
-        companyName: '',
-        contactPerson: '',
-        email: '',
-        phone: '',
-        industry: '',
-        otherIndustry: '',
-        projectTitle: '',
-        projectLocation: '',
-        timeline: '',
-        budget: '',
-        productCategories: [],
-        specificRequirements: '',
-        hearAboutUs: '',
-        additionalNotes: '',
+    setSubmitStatus('idle');
+
+    try {
+      const response = await fetch('/api/quote', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
-      
-      // Scroll to top to show success message
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }, 1500);
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setSubmitStatus('success');
+
+        // Reset form
+        setFormData({
+          companyName: '',
+          contactPerson: '',
+          email: '',
+          phone: '',
+          industry: '',
+          otherIndustry: '',
+          projectTitle: '',
+          projectLocation: '',
+          timeline: '',
+          budget: '',
+          productCategories: [],
+          specificRequirements: '',
+          hearAboutUs: '',
+          additionalNotes: '',
+        });
+
+        // Scroll to top to show success message
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        setSubmitStatus('error');
+        console.error('Quote submission error:', result.error);
+      }
+    } catch (error) {
+      setSubmitStatus('error');
+      console.error('Network error:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -149,6 +166,18 @@ export default function QuoteForm() {
             >
               <h3 className="text-xl font-bold mb-2">✓ Quote Request Submitted Successfully!</h3>
               <p>Thank you for your interest. Our team will review your requirements and get back to you within 24 hours with a detailed quote.</p>
+            </motion.div>
+          )}
+
+          {/* Error Message */}
+          {submitStatus === 'error' && (
+            <motion.div
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="mb-8 p-6 bg-red-50 border-2 border-red-200 rounded-xl text-red-800"
+            >
+              <h3 className="text-xl font-bold mb-2">⚠️ Submission Error</h3>
+              <p>Sorry, there was an error submitting your quote request. Please try again or contact us directly.</p>
             </motion.div>
           )}
 

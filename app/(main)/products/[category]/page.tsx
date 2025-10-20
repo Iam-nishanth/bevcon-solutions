@@ -11,17 +11,27 @@ import { allProducts as sparengProducts } from '@/data/spareng-products';
 
 const allProducts = [...bevconProducts, ...sparengProducts];
 
+const emitCategories = [
+  "Dust Extraction Systems",
+  "Bogie",
+  "Steep Angle Sidewall Conveyors",
+]
+
 // Get all unique categories
 const getAllCategories = () => {
-  const cats = new Set<string>();
+  const categories = new Set<string>()
   allProducts.forEach(product => {
     if (Array.isArray(product.category)) {
-      product.category.forEach(cat => cats.add(cat));
-    } else {
-      cats.add(product.category);
+      product.category.forEach(cat => {
+        if (!emitCategories.includes(cat)) {
+          categories.add(cat)
+        }
+      })
+    } else if (!emitCategories.includes(product.category)) {
+      categories.add(product.category)
     }
-  });
-  return Array.from(cats).sort();
+  })
+  return Array.from(categories)
 };
 
 // Create URL-friendly slug

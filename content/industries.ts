@@ -82,7 +82,7 @@ export const industries: Industry[] = [
         {
           title: 'Cold Storage Doors',
           description: 'Insulated rapid doors minimizing cold air loss and ice buildup.',
-          products: ['High-Speed Doors', 'Loading Bay Equipment'],
+          products: ['High-Speed Doors', 'Docking Equipment / Dock Levellers'],
         },
       ],
     },
@@ -99,7 +99,7 @@ export const industries: Industry[] = [
         },
       ],
     },
-    keyProducts: ['High-Speed Doors', 'Loading Bay Equipment'],
+    keyProducts: ['High-Speed Doors', 'Docking Equipment / Dock Levellers'],
   },
   {
     id: '3',
@@ -130,9 +130,9 @@ export const industries: Industry[] = [
           products: ['High-Speed Doors'],
         },
         {
-          title: 'Dock Shelters & Seals',
-          description: 'Thermal loading bay equipment creating insulated truck seals.',
-          products: ['Loading Bay Equipment', 'Dock Shelters'],
+          title: 'Dock Levellers & Seals',
+          description: 'Thermal docking equipment creating insulated truck seals.',
+          products: ['Docking Equipment / Dock Levellers'],
         },
       ],
     },
@@ -149,7 +149,7 @@ export const industries: Industry[] = [
         },
       ],
     },
-    keyProducts: ['High-Speed Doors', 'Loading Bay Equipment'],
+    keyProducts: ['High-Speed Doors', 'Docking Equipment / Dock Levellers'],
   },
   {
     id: '4',
@@ -180,9 +180,9 @@ export const industries: Industry[] = [
           products: ['High-Speed Doors'],
         },
         {
-          title: 'Complete Loading Bay Systems',
-          description: 'Integrated dock levelers, shelters, seals for optimized efficiency.',
-          products: ['Loading Bay Equipment', 'Dock Levelers', 'Dock Shelters'],
+          title: 'Complete Docking Systems',
+          description: 'Integrated dock levelers and seals for optimized efficiency.',
+          products: ['Docking Equipment / Dock Levellers'],
         },
       ],
     },
@@ -199,7 +199,7 @@ export const industries: Industry[] = [
         },
       ],
     },
-    keyProducts: ['High-Speed Doors', 'Loading Bay Equipment'],
+    keyProducts: ['High-Speed Doors', 'Docking Equipment / Dock Levellers'],
   },
   {
     id: '5',

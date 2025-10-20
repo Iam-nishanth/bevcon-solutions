@@ -4,7 +4,7 @@ import ProductsGrid from '@/components/sections/products/ProductsGrid';
 
 export const metadata: Metadata = {
   title: 'Our Products | Industrial Doors & Material Handling | Bevcon Solutions',
-  description: 'Explore our comprehensive range of industrial doors, high-speed doors, loading bay equipment, and bulk material handling equipment from trusted brands.',
+  description: 'Explore our comprehensive range of industrial doors, high-speed doors, docking equipment, and bulk material handling equipment from trusted brands.',
 };
 
 export default function ProductsPage() {

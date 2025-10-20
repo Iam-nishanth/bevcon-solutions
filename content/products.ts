@@ -90,7 +90,7 @@ export const products: Product[] = [
       { url: '/images/products/dock-leveler-2.jpg', alt: 'Hydraulic Dock Leveler - In Use' },
       { url: '/images/products/dock-leveler-3.jpg', alt: 'Hydraulic Dock Leveler - Components' },
     ],
-    metaTitle: 'Hydraulic Dock Levelers | Loading Bay Equipment | Bevcon Solutions',
+    metaTitle: 'Hydraulic Dock Levelers | Docking Equipment | Bevcon Solutions',
     metaDescription: 'Heavy-duty hydraulic dock levelers with 10-ton capacity. Smooth operation, automatic lip extension, and advanced safety features for efficient loading operations.',
   },
   {
@@ -142,11 +142,11 @@ export const products: Product[] = [
   {
     id: 'rc-01',
     slug: 'roller-conveyors',
-    name: 'Roller Conveyor Systems',
+    name: 'Conveying Systems',
     category: 'material-handling',
     subcategory: 'Conveyors',
-    shortDescription: 'Heavy-duty roller conveyors for efficient material transport',
-    fullDescription: 'Robust roller conveyor systems designed for transporting various products in manufacturing, warehousing, and distribution facilities. Available in gravity and powered configurations to suit different operational needs.',
+    shortDescription: 'Heavy-duty conveying systems for efficient material transport',
+    fullDescription: 'Robust conveying systems designed for transporting various products in manufacturing, warehousing, and distribution facilities. Available in gravity and powered configurations to suit different operational needs.',
     features: [
       'Heavy-duty roller construction',
       'Modular design for easy expansion',
@@ -182,8 +182,8 @@ export const products: Product[] = [
       { url: '/images/products/roller-conveyor-2.jpg', alt: 'Roller Conveyor - Installation' },
       { url: '/images/products/roller-conveyor-3.jpg', alt: 'Roller Conveyor - Detail' },
     ],
-    metaTitle: 'Roller Conveyor Systems | Material Handling | Bevcon Solutions',
-    metaDescription: 'Heavy-duty roller conveyor systems for efficient material transport. Modular design with customizable configurations for warehousing and manufacturing.',
+    metaTitle: 'Conveying Systems | Material Handling | Bevcon Solutions',
+    metaDescription: 'Heavy-duty conveying systems for efficient material transport. Modular design with customizable configurations for warehousing and manufacturing.',
   },
 ];
 
@@ -204,7 +204,7 @@ export const productCategories = [
   },
   {
     id: 'loading-bay',
-    name: 'Loading Bay Equipment',
+    name: 'Docking Equipment / Dock Levellers',
     description: 'Complete solutions for efficient dock operations',
     icon: 'package',
     image: '/images/categories/loading-bay.jpg',
