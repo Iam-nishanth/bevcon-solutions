@@ -38,7 +38,7 @@ export default function ProductsHero({ categoryName }: ProductsHeroProps) {
           >
             {categoryName 
               ? `Explore our comprehensive range of ${categoryName.toLowerCase()} solutions from trusted brands.`
-              : 'Comprehensive range of industrial doors, high-speed solutions, docking equipment, and bulk material handling components from world-class brands.'
+              : 'Comprehensive range of Industrial doors, High-speed Door solutions, Docking Equipment / Dock Levellers, and Bulk Material Handling Equipment from world-class brands.'
             }
           </motion.p>
 

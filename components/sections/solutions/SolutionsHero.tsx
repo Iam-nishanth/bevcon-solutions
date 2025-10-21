@@ -41,7 +41,7 @@ export default function SolutionsHero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl text-gray-200 mb-10 max-w-3xl mx-auto leading-relaxed"
           >
-            From entrance automation to material handling, we provide comprehensive solutions 
+            From Entrance Automation to Bulk Material Handling, we provide comprehensive solutions 
             that optimize your operations, enhance safety, and drive efficiency. Backed by industry-leading 
             technology and decades of expertise.
           </motion.p>
