@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { notFound, useParams } from 'next/navigation';
-import { SlidersHorizontal } from 'lucide-react';
+import { SlidersHorizontal, Download } from 'lucide-react';
 import ProductSidebar from '@/components/sections/products/ProductSidebar';
 import ProductCard from '@/components/sections/products/ProductCard';
 import CategoryBottomSheet from '@/components/sections/products/CategoryBottomSheet';
@@ -19,6 +19,12 @@ const emitCategories = [
   "Steep Angle Sidewall Conveyors",
 ]
 
+// JR Fibreglass categories that should show catalog download
+const jrfCategories = [
+  "Fume Extraction & Scrubbing Systems",
+  "FRP - GRP Equipments"
+];
+
 // Get all unique categories
 const getAllCategories = () => {
   const categories = new Set<string>()
@@ -33,6 +39,8 @@ const getAllCategories = () => {
       categories.add(product.category)
     }
   })
+  // Add JR Fibreglass categories
+  jrfCategories.forEach(cat => categories.add(cat))
   return Array.from(categories)
 };
 
@@ -135,7 +143,7 @@ export default function CategoryPage() {
             />
 
             {/* Products Grid */}
-            <div className="flex-1">
+            <div className="flex-1 flex justify-center items-center">
 
               {/* Products */}
               {categoryProducts.length > 0 ? (
@@ -151,6 +159,26 @@ export default function CategoryPage() {
                       category={product.category}
                     />
                   ))}
+                </div>
+              ) : jrfCategories.includes(category) ? (
+                <div className="flex items-center justify-center min-h-[400px] py-20">
+                  <div className="max-w-md text-center">
+                    <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <Download className="w-8 h-8 text-primary-600" />
+                    </div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-4">Download Our Catalog</h3>
+                    <p className="text-gray-600 mb-8">
+                      Explore our comprehensive range of {category.toLowerCase()} from JR Fibreglass Industries.
+                    </p>
+                    <a
+                      href="/JRE FIBREGLASS Overview.pdf"
+                      download
+                      className="inline-flex items-center space-x-2 bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors font-medium"
+                    >
+                      <Download size={20} />
+                      <span>Download Catalog</span>
+                    </a>
+                  </div>
                 </div>
               ) : (
                 <div className="text-center py-20">

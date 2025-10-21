@@ -15,6 +15,12 @@ import { allProducts as sparengProducts } from '@/data/spareng-products';
 // Combine all products
 const allProducts = [...bevconProducts, ...sparengProducts];
 
+// JR Fibreglass categories
+const jrfCategories = [
+  "Fume Extraction & Scrubbing Systems",
+  "FRP - GRP Equipments"
+];
+
 export default function ProductsGrid() {
   const [selectedBrand, setSelectedBrand] = useState('all');
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -30,6 +36,8 @@ export default function ProductsGrid() {
         cats.add(product.category);
       }
     });
+    // Add JR Fibreglass categories
+    jrfCategories.forEach(cat => cats.add(cat));
     return ['all', ...Array.from(cats)].sort();
   }, []);
 

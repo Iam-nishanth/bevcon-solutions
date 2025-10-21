@@ -507,7 +507,7 @@ export const solutions: Solution[] = [
 		slug: "fume-extraction",
 		name: "Fume Extraction Systems",
 		tagline: "Advanced Gas Scrubbing & Fume Control",
-		icon: "wind",
+		icon: "fan",
 		shortDescription: "Comprehensive fume extraction and gas scrubbing systems for industrial air pollution control",
 		fullDescription:
 			"Our advanced fume extraction systems provide comprehensive solutions for industrial air pollution control through state-of-the-art gas scrubbing technology. With over 3844 scrubbing systems manufactured by JR Fibreglass Industries, we deliver world-class fume extraction solutions including venturi scrubbers, packed column systems, and emergency gas treatment systems.",
@@ -571,7 +571,7 @@ export const solutions: Solution[] = [
 		slug: "environmental-control", 
 		name: "Environmental Control Systems",
 		tagline: "Complete Pollution Control & Compliance",
-		icon: "leaf",
+		icon: "recycle",
 		shortDescription: "Integrated environmental control systems for comprehensive pollution management and regulatory compliance",
 		fullDescription:
 			"Our environmental control systems provide comprehensive pollution management through integrated fume extraction, air filtration, and emission control technologies. Backed by JR Fibreglass Industries' 50 years of expertise, we deliver complete solutions that ensure environmental compliance while protecting worker health and community safety.",
@@ -630,7 +630,7 @@ export const solutions: Solution[] = [
 		slug: "emergency-gas-treatment",
 		name: "Emergency Gas Treatment Systems", 
 		tagline: "Critical Safety & Emergency Response",
-		icon: "alert-triangle",
+		icon: "alarm",
 		shortDescription: "Specialized emergency gas treatment systems for catastrophic release scenarios and critical safety applications",
 		fullDescription:
 			"Our emergency gas treatment systems provide critical protection against catastrophic gas releases and emergency scenarios. Featuring the world's largest emergency chlorine scrubber (9500 kg/hr capacity) and proven emergency response technologies, these systems ensure rapid response and community protection during critical incidents.",

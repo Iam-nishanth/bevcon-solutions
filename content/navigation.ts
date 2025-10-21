@@ -20,9 +20,8 @@ export const mainNavigation: NavItem[] = [
           { label: 'High-Speed Doors', href: '/products/high-speed-doors' },
           { label: 'Docking Equipment / Dock Levellers', href: '/products/dock-levelers' },
           { label: 'Conveyor Components', href: '/products/conveyor-components' },
-          // TODO: Uncomment for next rollout - JR Fibreglass products need accuracy review
-          // { label: 'Gas Scrubbing Systems', href: '/products/gas-scrubbing-systems' },
-          // { label: 'FRP Centrifugal Fans & Blowers', href: '/products/frp-centrifugal-fans-blowers' },
+          { label: 'Fume Extraction & Scrubbing Systems', href: '/products/fume-extraction-scrubbing-systems' },
+          { label: 'FRP - GRP Equipments', href: '/products/frp-grp-equipments' },
         ],
       },
       {
@@ -63,6 +62,9 @@ export const mainNavigation: NavItem[] = [
           { label: 'High-Speed Doors', href: '/products/high-speed-doors' },
           { label: 'Fire Rated Shutters', href: '/products/fire-rated-shutters' },
           { label: 'Dock Levelers', href: '/products/dock-levelers' },
+          { label: 'Environmental Systems', href: '' },
+          { label: 'Fume Extraction & Scrubbing Systems', href: '/products/fume-extraction-scrubbing-systems' },
+          { label: 'FRP - GRP Equipments', href: '/products/frp-grp-equipments' },
         ],
       },
       {
@@ -77,17 +79,6 @@ export const mainNavigation: NavItem[] = [
           { label: 'Material Handling', href: '/products/material-handling' },
         ],
       },
-      // {
-      //   title: 'Fume Extraction & Environmental',
-      //   type: 'list',
-      //   items: [
-      //     { label: 'Gas Scrubbing Systems', href: '/products/gas-scrubbing-systems' },
-      //     { label: 'FRP Centrifugal Fans & Blowers', href: '/products/frp-centrifugal-fans-blowers' },
-      //     { label: 'Emergency Gas Treatment', href: '/products/emergency-gas-treatment-systems' },
-      //     { label: 'FRP/GRP Fabrication', href: '/products/frp-grp-fabrication' },
-      //     { label: 'Scrubber Components', href: '/products/scrubber-components-internals' },
-      //   ],
-      // },
       {
         title: 'Our Brands',
         type: 'overview',
@@ -97,6 +88,7 @@ export const mainNavigation: NavItem[] = [
           { label: 'Nergeco - High-Speed Doors', href: '/products/high-speed-doors' },
           { label: 'SKB - Fire Rated Shutters', href: '/products/fire-rated-shutters' },
           { label: 'Spareng - Material Handling', href: '/products/material-handling' },
+          { label: 'JR Fibreglass - Fume Extraction', href: '/products/fume-extraction-scrubbing-systems' },
         ],
       },
     ],

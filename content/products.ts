@@ -216,4 +216,18 @@ export const productCategories = [
     icon: 'repeat',
     image: '/images/categories/material-handling.jpg',
   },
+  {
+    id: 'fume-extraction',
+    name: 'Fume Extraction & Scrubbing Systems',
+    description: 'Advanced gas scrubbing and fume extraction systems for industrial air pollution control',
+    icon: 'fan',
+    image: '/images/categories/fume-extraction.jpg',
+  },
+  {
+    id: 'frp-equipment',
+    name: 'FRP - GRP Equipments',
+    description: 'Fiber Reinforced Polymer equipment for corrosion-resistant industrial applications',
+    icon: 'settings',
+    image: '/images/categories/frp-equipment.jpg',
+  },
 ];

@@ -14,7 +14,11 @@ import {
   Thermometer,
   Flame,
   TrendingUp,
-  CheckCircle
+  CheckCircle,
+  Fan,
+  Recycle,
+  AlertCircle,
+  Download
 } from 'lucide-react';
 import { solutions, solutionCategories } from '@/content/solutions';
 
@@ -27,6 +31,9 @@ const iconMap: Record<string, React.ComponentType<{ className?: string; size?: n
   'lightbulb': Lightbulb,
   'thermometer': Thermometer,
   'flame': Flame,
+  'fan': Fan,
+  'recycle': Recycle,
+  'alarm': AlertCircle,
 };
 
 export default function SolutionsGrid() {
@@ -147,14 +154,26 @@ export default function SolutionsGrid() {
                   </div>
                 )}
 
-                {/* Learn More Link */}
-                <Link
-                  href={`/solutions/${solution.slug}`}
-                  className="inline-flex items-center space-x-2 text-primary-900 hover:text-primary-600 font-semibold group/link transition-colors"
-                >
-                  <span>Learn More</span>
-                  <ArrowRight size={18} className="group-hover/link:translate-x-1 transition-transform" />
-                </Link>
+                {/* Links */}
+                <div className="flex flex-col sm:flex-row gap-4">
+                {['fume-extraction', 'environmental-control', 'emergency-gas-treatment'].includes(solution.id) && (
+                    <a
+                      href="/JRE FIBREGLASS Overview.pdf"
+                      download
+                      className="inline-flex items-center space-x-2 text-white hover:text-gray-400 bg-primary-600 px-4 py-2 rounded-lg hover:bg-primary-700 font-semibold group/link transition-colors"
+                    >
+                      <span>Download Catalog</span>
+                      <Download size={18} className="group-hover/link:translate-y-1 transition-transform" />
+                    </a>
+                  )}
+                  <Link
+                    href={`/solutions/${solution.slug}`}
+                    className="inline-flex items-center space-x-2 text-primary-900 hover:text-primary-600 font-semibold group/link transition-colors"
+                  >
+                    <span>Learn More</span>
+                    <ArrowRight size={18} className="group-hover/link:translate-x-1 transition-transform" />
+                  </Link>
+                </div>
               </motion.div>
             );
           })}

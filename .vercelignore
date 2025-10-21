@@ -1,6 +1,6 @@
 # Exclude large files that might cause deployment issues
-public/JRE FIBREGLASS Overview.pdf
-app/api/*
+-- public/JRE FIBREGLASS Overview.pdf
+-- app/api/*
 
 # Exclude development and documentation files
 scripts/

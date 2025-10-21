@@ -223,12 +223,18 @@ export default function Header() {
                                 <ul className="space-y-2">
                                   {section.items.map((menuItem, itemIdx) => (
                                     <li key={`${menuItem.href}-${itemIdx}`}>
-                                      <Link
-                                        href={menuItem.href}
-                                        className="text-gray-700 hover:text-primary-600 hover:bg-primary-50 text-sm transition-colors block py-1.5 px-2 rounded"
-                                      >
-                                        {menuItem.label}
-                                      </Link>
+                                      {menuItem.href ? (
+                                        <Link
+                                          href={menuItem.href}
+                                          className="text-gray-700 hover:text-primary-600 hover:bg-primary-50 text-sm transition-colors block py-1.5 px-2 rounded"
+                                        >
+                                          {menuItem.label}
+                                        </Link>
+                                      ) : (
+                                        <div className="text-gray-900 font-semibold text-sm py-1.5 px-2 border-t border-gray-200 mt-2 first:border-t-0 first:mt-0 first:pt-0">
+                                          {menuItem.label}
+                                        </div>
+                                      )}
                                     </li>
                                   ))}
                                 </ul>
