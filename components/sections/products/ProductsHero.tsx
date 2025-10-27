@@ -55,7 +55,7 @@ export default function ProductsHero({ categoryName }: ProductsHeroProps) {
               'BMHE Components'
             ].map((item, idx) => (
               <div key={idx} className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full">
-                <div className="w-2 h-2 rounded-full bg-gray-400" />
+                <div className="w-2 h-2 min-w-2 min-h-2 rounded-full bg-gray-400" />
                 <span>{item}</span>
               </div>
             ))}

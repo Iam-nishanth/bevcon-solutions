@@ -21,6 +21,19 @@ const jrfCategories = [
   "FRP - GRP Equipments"
 ];
 
+// Spareng (Conveyor-Components) categories
+const sparengCategories = [
+  "Conveyor Components",
+  "Crushers",
+  "Screw Conveyor",
+  "Rotary Air Lock Valve",
+  "Pneumatic Handling Systems",
+  "Drive & Base Assembly",
+  "Steep Angle Sidewall Conveyors",
+  "Spillage & Dribble Conveyors",
+  "Prism Gate & Flow Diverter"
+];
+
 export default function ProductsGrid() {
   const [selectedBrand, setSelectedBrand] = useState('all');
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -41,6 +54,12 @@ export default function ProductsGrid() {
     return ['all', ...Array.from(cats)].sort();
   }, []);
 
+  // Brand display name mapping
+  const brandDisplayNames: Record<string, string> = {
+    'Nergeco': 'Nergeco - France',
+    'SKB': 'SKB - Malaysia',
+  };
+
   // Get unique brands (excluding Loading Systems)
   const brands = useMemo(() => {
     const brandSet = new Set<string>();
@@ -49,13 +68,35 @@ export default function ProductsGrid() {
         brandSet.add(product.brand);
       }
     });
-    return ['all', ...Array.from(brandSet)].sort();
+    
+    // Custom order: Nergeco, SKB, Conveyor-components, All
+    const orderedBrands: string[] = [];
+    
+    // Add in specific order
+    if (brandSet.has('Nergeco')) orderedBrands.push('Nergeco');
+    if (brandSet.has('SKB')) orderedBrands.push('SKB');
+    orderedBrands.push('Conveyor-components');
+    orderedBrands.push('all');
+    
+    // Add any remaining brands alphabetically
+    const remainingBrands = Array.from(brandSet)
+      .filter(brand => brand !== 'Nergeco' && brand !== 'SKB')
+      .sort();
+    
+    return [...orderedBrands, ...remainingBrands];
   }, []);
 
   // Filter products
   const filteredProducts = useMemo(() => {
     // First filter by brand
     let filtered = allProducts.filter(product => {
+      // Handle Conveyor-components filter (shows products from spareng categories)
+      if (selectedBrand === 'Conveyor-components') {
+        const productCategories = Array.isArray(product.category) 
+          ? product.category 
+          : [product.category];
+        return productCategories.some(cat => sparengCategories.includes(cat));
+      }
       const brandMatch = selectedBrand === 'all' || product.brand === selectedBrand;
       return brandMatch;
     });
@@ -139,7 +180,11 @@ export default function ProductsGrid() {
                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                     }`}
                   >
-                    {brand === 'all' ? 'All' : brand}
+                    {brand === 'all' 
+                      ? 'All' 
+                      : brand === 'Conveyor-components'
+                      ? 'Conveyor-components'
+                      : brandDisplayNames[brand] || brand}
                   </button>
                 ))}
               </div>
