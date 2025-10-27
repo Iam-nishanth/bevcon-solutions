@@ -75,7 +75,7 @@ export default function ProductsGrid() {
     // Add in specific order
     if (brandSet.has('Nergeco')) orderedBrands.push('Nergeco');
     if (brandSet.has('SKB')) orderedBrands.push('SKB');
-    orderedBrands.push('Conveyor-components');
+    orderedBrands.push('Conveyor Components');
     orderedBrands.push('all');
     
     // Add any remaining brands alphabetically
@@ -90,8 +90,8 @@ export default function ProductsGrid() {
   const filteredProducts = useMemo(() => {
     // First filter by brand
     let filtered = allProducts.filter(product => {
-      // Handle Conveyor-components filter (shows products from spareng categories)
-      if (selectedBrand === 'Conveyor-components') {
+      // Handle Conveyor Components filter (shows products from spareng categories)
+      if (selectedBrand === 'Conveyor Components') {
         const productCategories = Array.isArray(product.category) 
           ? product.category 
           : [product.category];
