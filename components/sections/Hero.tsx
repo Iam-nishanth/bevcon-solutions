@@ -57,7 +57,7 @@ export default function Hero() {
               href="/products"
               className="px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-colors hover:shadow-xl flex items-center space-x-2 group shadow-md"
             >
-              <span>Explore Solutions</span>
+              <span>Explore Products</span>
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link

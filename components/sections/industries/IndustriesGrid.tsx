@@ -20,8 +20,11 @@ export default function IndustriesGrid() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.3, delay: index * 0.05 }}
               >
-                <Link
+                {/* <Link
                   href={`/industries/${industry.slug}`}
+                  className="group  bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 hover:border-primary-200 h-full flex flex-col"
+                > */}
+                <div
                   className="group  bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 hover:border-primary-200 h-full flex flex-col"
                 >
                   {/* Image */}
@@ -37,15 +40,15 @@ export default function IndustriesGrid() {
 
                   {/* Content */}
                   <div className="p-6 flex-1 flex flex-col">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3  transition-colors">
                       {industry.name}
                     </h3>
                     <p className="text-gray-600 leading-relaxed mb-4 flex-1">
-                      {industry.seoDescription.slice(0, 150)}...
+                      {industry.seoDescription}
                     </p>
 
                     {/* CTA */}
-                    <span className="inline-flex items-center text-primary-600 font-semibold group-hover:gap-2 transition-all">
+                    {/* <span className="inline-flex items-center text-primary-600 font-semibold group-hover:gap-2 transition-all">
                       Learn More
                       <svg
                         className="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform"
@@ -60,9 +63,10 @@ export default function IndustriesGrid() {
                           d="M9 5l7 7-7 7"
                         />
                       </svg>
-                    </span>
+                    </span> */}
                   </div>
-                </Link>
+                </div>
+                {/* </Link> */}
               </motion.div>
             );
           })}

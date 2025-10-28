@@ -35,7 +35,7 @@ export const INDUSTRY_IMAGES = {
   healthcare: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1920&q=80',
   ecommerce: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=1920&q=80', // Steel/metal manufacturing plant
   manufacturing: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1920&q=80', // Production assembly line
-  heavyIndustry: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1920&q=80', // Fulfillment center with packages/boxes
+  heavyIndustry: '/images/steel-industry.jpg', // Fulfillment center with packages/boxes
   cargoFreight: 'https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=1920&q=80',
   airport: 'https://images.unsplash.com/photo-1556388158-158ea5ccacbd?w=1920&q=80',
   chemical: 'https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1920&q=80', // Pharmaceutical/pill production

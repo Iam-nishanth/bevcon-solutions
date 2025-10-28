@@ -79,7 +79,7 @@ export const industryExamples: IndustryContent[] = [
         },
         {
           title: `Our Entrance Automation Solutions`,
-          content: `We provide cleanroom-rated high-speed doors with hermetic sealing that maintain pressure differentials and minimize air exchange. Our systems include interlocking controls for cascading airlocks, complete validation documentation packages (IQ/OQ protocols), and 21 CFR Part 11 compliant reporting. All equipment is designed specifically for pharmaceutical environments with smooth, cleanable surfaces and minimal particle generation.`
+          content: `We provide cleanroom-rated High-Speed Doors with hermetic sealing that maintain pressure differentials and minimize air exchange. Our systems include interlocking controls for cascading airlocks, complete validation documentation packages (IQ/OQ protocols), and 21 CFR Part 11 compliant reporting. All equipment is designed specifically for pharmaceutical environments with smooth, cleanable surfaces and minimal particle generation.`
         },
         {
           title: `Key Benefits for Pharmaceutical Facilities`,
@@ -137,7 +137,7 @@ export const industryExamples: IndustryContent[] = [
       { value: `0`, label: `Door-related FDA observations` },
       { value: `35%`, label: `Improvement in material flow efficiency` }
     ],
-    seoDescription: `Pharmaceutical entrance automation solutions for cleanrooms. Maintain sterility, ensure compliance, prevent contamination with validated high-speed door systems.`
+    seoDescription: `Pharmaceutical entrance automation solutions for cleanrooms. Maintain sterility, ensure compliance, prevent contamination with validated insulated High-Speed Door systems.`
   },
 
   // 2. Food Processing & Beverages
@@ -164,7 +164,7 @@ export const industryExamples: IndustryContent[] = [
         },
         {
           title: `Our Food-Safe Solutions`,
-          content: `We offer hygienic high-speed doors constructed from food-grade stainless steel with smooth, crevice-free designs that prevent bacterial harboring. Our freezer doors operate reliably to -30°C with heated frames preventing ice buildup. All systems are IP65-rated to withstand direct high-pressure chemical spray. Rapid closing speeds (1.5-1.8 seconds) minimize pest infiltration and cold air loss while maintaining high throughput.`
+          content: `We offer hygienic High-Speed Doors constructed from food-grade stainless steel with smooth, crevice-free designs that prevent bacterial harboring. Our freezer doors operate reliably to -30°C with heated frames preventing ice buildup. All systems are IP65-rated to withstand direct high-pressure chemical spray. Rapid closing speeds (1.5-1.8 seconds) minimize pest infiltration and cold air loss while maintaining high throughput.`
         },
         {
           title: `Value for Food Processors`,
@@ -222,13 +222,13 @@ export const industryExamples: IndustryContent[] = [
       { value: `60%`, label: `Fewer emergency repairs` },
       { value: `0`, label: `Pest-related incidents` }
     ],
-    seoDescription: `Food processing entrance automation solutions. HACCP compliant high-speed doors, cold storage systems, and hygienic design for food safety.`
+    seoDescription: `Food processing entrance automation solutions. HACCP compliant High-Speed Doors, cold storage systems, and hygienic design for food safety.`
   },
 
   // 3. Cold Storage & Warehousing
   {
     id: `3`,
-    name: `Cold Storage & Warehousing`,
+    name: `Temperature-Controlled Access Solutions for Cold Warehousing`,
     slug: `cold-storage`,
     icon: `Snowflake`,
     hero: {
@@ -249,7 +249,7 @@ export const industryExamples: IndustryContent[] = [
         },
         {
           title: `Our Thermal Protection Solutions`,
-          content: `We provide insulated high-speed doors specifically engineered for extreme cold environments, operating reliably to -30°C. Heated door frames prevent ice formation on critical components. Rapid cycling speeds (1.8 seconds) minimize cold air exchange during each opening. Thermal dock shelters create insulated envelopes between facility and trucks during loading operations. All systems feature weather-resistant construction and minimal maintenance requirements in cold conditions.`
+          content: `We provide insulated High-Speed Doors specifically engineered for extreme cold environments, operating reliably to -30°C. Heated door frames prevent ice formation on critical components. Rapid cycling speeds (1.8 seconds) minimize cold air exchange during each opening. Thermal dock shelters create insulated envelopes between facility and trucks during loading operations. All systems feature weather-resistant construction and minimal maintenance requirements in cold conditions.`
         },
         {
           title: `Economic and Operational Benefits`,
@@ -307,7 +307,8 @@ export const industryExamples: IndustryContent[] = [
       { value: `45%`, label: `Lower refrigeration cycling` },
       { value: `$75K+`, label: `Annual energy savings` }
     ],
-    seoDescription: `Cold storage high-speed doors and thermal dock equipment. Reduce energy costs, eliminate ice buildup, maintain temperature integrity in freezers and coolers.`
+    // seoDescription: `Cold storage High-Speed Doors and thermal dock equipment. Reduce energy costs, eliminate ice buildup, maintain temperature integrity in freezers and coolers.`
+    seoDescription: `We deliver high-speed insulated doors, dock levelers, and dock shelters designed to maintain temperature integrity and energy efficiency in cold storage and warehousing environments. Our solutions enable seamless movement of goods while minimizing thermal loss, condensation, and air infiltration — ensuring reliable performance, hygiene, and compliance across chilled and frozen zones.`
   },
 
   // 4. Warehouse & Logistics  
@@ -334,7 +335,7 @@ export const industryExamples: IndustryContent[] = [
         },
         {
           title: `Our High-Performance Solutions`,
-          content: `We provide self-repairing high-speed doors with breakaway technology that automatically reset after forklift impacts, eliminating downtime. Rapid dock doors cycle in 1.5 seconds maximizing truck turnaround efficiency. Complete integrated loading systems coordinate dock levelers, vehicle restraints, lights, and doors for optimized workflow. All systems feature robust construction designed for 24/7 operation with minimal maintenance. WMS integration available for automated door control based on traffic patterns and operational needs.`
+          content: `We provide self-repairing High-Speed Doors with breakaway technology that automatically reset after forklift impacts, eliminating downtime. Rapid dock doors cycle in 1.5 seconds maximizing truck turnaround efficiency. Complete integrated loading systems coordinate dock levelers, vehicle restraints, lights, and doors for optimized workflow. All systems feature robust construction designed for 24/7 operation with minimal maintenance. WMS integration available for automated door control based on traffic patterns and operational needs.`
         },
         {
           title: `Performance Improvements`,
@@ -356,7 +357,7 @@ export const industryExamples: IndustryContent[] = [
       examples: [
         {
           scenario: `Your main warehouse aisles see 500+ forklift passages per shift. Collision damage requires frequent door replacements.`,
-          howWeHelp: `Self-repairing high-speed doors with breakaway design. When impacted, curtain releases and resets in seconds without damage.`,
+          howWeHelp: `Self-repairing High-Speed Doors with breakaway design. When impacted, curtain releases and resets in seconds without damage.`,
           result: `Zero downtime from forklift collisions. Door cycles in 1.5 seconds maintaining traffic flow. Service calls drop 80%. Traffic throughput increases 25%.`
         },
         {
@@ -392,7 +393,7 @@ export const industryExamples: IndustryContent[] = [
       { value: `35%`, label: `Faster truck turnaround time` },
       { value: `0`, label: `Downtime from door collisions` }
     ],
-    seoDescription: `Warehouse high-speed doors and loading dock solutions. Self-repairing doors, rapid dock systems, and integrated loading equipment for 24/7 logistics operations.`
+    seoDescription: `Warehouse High-Speed Doors and loading dock solutions. Self-repairing doors, rapid dock systems, and integrated loading equipment for 24/7 logistics operations.`
   },
 
   // 5. Automotive & Mobility
@@ -419,7 +420,7 @@ export const industryExamples: IndustryContent[] = [
         },
         {
           title: `Our Manufacturing Solutions`,
-          content: `We provide paint booth high-speed doors with hermetic seals and clean-surface designs preventing particle contamination. Heavy-duty rapid doors are rated for 500,000+ annual cycles with predictive maintenance monitoring. Fire-rated compartment doors separate manufacturing zones while maintaining production flow. All systems feature minimal opening times (under 2 seconds) supporting takt time requirements. Integration with plant automation systems enables coordinated operation with production line timing.`
+          content: `We provide paint booth High-Speed Doors with hermetic seals and clean-surface designs preventing particle contamination. Heavy-duty rapid doors are rated for 500,000+ annual cycles with predictive maintenance monitoring. Fire-rated compartment doors separate manufacturing zones while maintaining production flow. All systems feature minimal opening times (under 2 seconds) supporting takt time requirements. Integration with plant automation systems enables coordinated operation with production line timing.`
         },
         {
           title: `Manufacturing Excellence Delivered`,
@@ -446,7 +447,7 @@ export const industryExamples: IndustryContent[] = [
         },
         {
           scenario: `Material delivery to assembly line requires 300+ door cycles per shift. Current doors cause bottlenecks and suffer frequent failures.`,
-          howWeHelp: `Heavy-duty high-speed doors rated for 500,000+ cycles annually with predictive maintenance monitoring.`,
+          howWeHelp: `Heavy-duty High-Speed Doors rated for 500,000+ cycles annually with predictive maintenance monitoring.`,
           result: `Material flow bottlenecks eliminated. Zero unplanned door failures in 6 months. Production line efficiency improves 12%.`
         }
       ]
@@ -477,7 +478,7 @@ export const industryExamples: IndustryContent[] = [
       { value: `12%`, label: `Improvement in production efficiency` },
       { value: `$240K`, label: `Annual savings from reduced rework` }
     ],
-    seoDescription: `Automotive manufacturing entrance solutions. Paint booth doors, heavy-duty high-speed doors for assembly lines, and fire-rated systems for automotive plants.`
+    seoDescription: `Automotive manufacturing entrance solutions. Paint booth doors, heavy-duty High-Speed Doors for assembly lines, and fire-rated systems for automotive plants.`
   },
 
   // 6. Healthcare Facilities
@@ -504,7 +505,7 @@ export const industryExamples: IndustryContent[] = [
   //       },
   //       {
   //         title: `Our Healthcare-Specific Solutions`,
-  //         content: `We offer hermetic doors for surgical suites with validated performance maintaining positive pressure and sterile environments. Touchless activation systems reduce contact points supporting infection control. Antimicrobial surface treatments on all patient-facing equipment. Hygienic high-speed doors for service corridors feature quiet operation, smooth easy-to-clean surfaces, and rapid cycling minimizing corridor disruption. Fire-rated healthcare doors meet life safety codes while supporting 24/7 staff and equipment flow. All systems designed for reliability supporting uninterrupted patient care.`
+  //         content: `We offer hermetic doors for surgical suites with validated performance maintaining positive pressure and sterile environments. Touchless activation systems reduce contact points supporting infection control. Antimicrobial surface treatments on all patient-facing equipment. Hygienic High-Speed Doors for service corridors feature quiet operation, smooth easy-to-clean surfaces, and rapid cycling minimizing corridor disruption. Fire-rated healthcare doors meet life safety codes while supporting 24/7 staff and equipment flow. All systems designed for reliability supporting uninterrupted patient care.`
   //       },
   //       {
   //         title: `Patient Safety and Operational Benefits`,
@@ -562,7 +563,7 @@ export const industryExamples: IndustryContent[] = [
   //     { value: `75%`, label: `Reduction in noise complaints` },
   //     { value: `65%`, label: `Fewer service calls` }
   //   ],
-  //   seoDescription: `Healthcare facility entrance automation solutions. Hermetic operating room doors, hygienic high-speed doors, infection control, and patient safety for hospitals.`
+  //   seoDescription: `Healthcare facility entrance automation solutions. Hermetic operating room doors, hygienic High-Speed Doors, infection control, and patient safety for hospitals.`
   // },
 
   // 7. E-commerce & Fulfillment
@@ -662,7 +663,7 @@ export const industryExamples: IndustryContent[] = [
           //       },
           //       {
           //         title: `Our Manufacturing Door Solutions`,
-          //         content: `We provide industrial-grade high-speed doors designed for continuous manufacturing operations, rated for 300,000-500,000+ annual cycles. Rapid opening speeds minimize wait times maintaining production flow. Self-repairing designs reduce maintenance requirements and eliminate downtime from minor impacts. Fire-rated options provide required safety zone separation. Robust construction withstands harsh manufacturing environments including dust, debris, temperature variations, and aggressive use. All systems integrate with facility automation and safety systems.`
+          //         content: `We provide industrial-grade High-Speed Doors designed for continuous manufacturing operations, rated for 300,000-500,000+ annual cycles. Rapid opening speeds minimize wait times maintaining production flow. Self-repairing designs reduce maintenance requirements and eliminate downtime from minor impacts. Fire-rated options provide required safety zone separation. Robust construction withstands harsh manufacturing environments including dust, debris, temperature variations, and aggressive use. All systems integrate with facility automation and safety systems.`
           //       },
           //       {
           //         title: `Manufacturing Performance Benefits`,
@@ -684,12 +685,12 @@ export const industryExamples: IndustryContent[] = [
           //     examples: [
           //       {
           //         scenario: `Material flow between fabrication and assembly areas: 250+ daily passages with forklifts carrying components. Previous overhead doors too slow, creating 2-3 minute delays per cycle.`,
-          //         howWeHelp: `Industrial high-speed doors with 2-second opening and 1.5-second closing times. Automatic activation prevents wait times. Robust construction handles forklift traffic without damage.`,
+          //         howWeHelp: `Industrial High-Speed Doors with 2-second opening and 1.5-second closing times. Automatic activation prevents wait times. Robust construction handles forklift traffic without damage.`,
           //         result: `Material flow time reduced 40%. Production efficiency increased 15% by eliminating bottlenecks. Zero door-related downtime in 8 months.`
           //       },
           //       {
           //         scenario: `Fire-rated separation required between manufacturing zones while maintaining continuous production flow and safety compliance.`,
-          //         howWeHelp: `Fire-rated high-speed doors providing 2-hour fire protection with rapid operation for normal traffic. Integrated with facility fire alarm system for automatic closure during emergencies.`,
+          //         howWeHelp: `Fire-rated High-Speed Doors providing 2-hour fire protection with rapid operation for normal traffic. Integrated with facility fire alarm system for automatic closure during emergencies.`,
           //         result: `Full safety compliance maintained. Production flow unaffected. Passed all regulatory inspections with zero findings.`
           //       }
           //     ]
@@ -787,7 +788,7 @@ export const industryExamples: IndustryContent[] = [
   // 10. Cargo & Freight Hubs
   {
     id: `10`,
-    name: `Cargo & Freight Hubs`,
+    name: `Loading Bay & Access Solutions for Cargo & Freight Hubs`,
     slug: `cargo-freight`,
     icon: `Package`,
     hero: {
@@ -854,7 +855,8 @@ export const industryExamples: IndustryContent[] = [
       { value: `$185k`, label: `Annual savings in detention fees` },
       { value: `98.7%`, label: `On-time carrier departures` }
     ],
-    seoDescription: `Cargo and freight hub entrance automation. Ultra-reliable dock doors for cross-dock operations, LTL freight handling, and multi-carrier coordination. Zero-downtime solutions for freight terminals.`
+    // seoDescription: `Cargo and freight hub entrance automation. Ultra-reliable dock doors for cross-dock operations, LTL freight handling, and multi-carrier coordination. Zero-downtime solutions for freight terminals.`
+    seoDescription: `We supply high-speed doors, dock levelers, and dock shelters engineered for high-throughput cargo and freight hubs. Our systems ensure rapid, efficient loading operations, weather-tight sealing, and safe material flow — helping logistics centres reduce downtime, improve productivity, and maintain workplace safety in high-volume environments.`
   },
 
   // 11. Airport & Transportation
@@ -976,7 +978,7 @@ export const industryExamples: IndustryContent[] = [
       examples: [
         {
           scenario: `Solvent storage and transfer area: Class I Div 2 hazardous location, aggressive solvent vapor exposure, requirement for containment during normal operation and emergencies.`,
-          howWeHelp: `Explosion-proof high-speed door with Class I Div 2 certification, 316 stainless steel construction, PTFE seals resistant to solvent exposure, fail-safe closure on power loss, integrated with facility gas detection.`,
+          howWeHelp: `Explosion-proof High-Speed Door with Class I Div 2 certification, 316 stainless steel construction, PTFE seals resistant to solvent exposure, fail-safe closure on power loss, integrated with facility gas detection.`,
           result: `Zero seal failures in 3+ years of continuous operation. All safety audits passed. Equipment maintains like-new condition despite aggressive environment.`
         },
         {
@@ -1000,7 +1002,8 @@ export const industryExamples: IndustryContent[] = [
       { value: `5-10x`, label: `Service life vs standard equipment` },
       { value: `100%`, label: `Hazardous location compliance` }
     ],
-    seoDescription: `Chemical and process industry entrance automation. Explosion-proof doors for hazardous locations, corrosion-resistant systems, hermetic sealing, and safety-certified solutions for chemical plants.`
+    // seoDescription: `Chemical and process industry entrance automation. Explosion-proof doors for hazardous locations, corrosion-resistant systems, hermetic sealing, and safety-certified solutions for chemical plants.`
+    seoDescription: `We provide high-speed doors and fire-rated shutters designed for chemical and process industries. Engineered for safety, containment, and durability, our systems ensure controlled access, minimize contamination, and protect critical zones in hazardous environments.`
   },
 
   // 13. Textile & Garment Manufacturing
@@ -1049,7 +1052,7 @@ export const industryExamples: IndustryContent[] = [
   //     examples: [
   //       {
   //         scenario: `Cutting room to sewing floor transition: 150+ daily material movements, heavy lint generation, contamination concerns between product runs, previous doors accumulated fibers causing quality issues.`,
-  //         howWeHelp: `Smooth-surface high-speed door with sealed mechanisms, minimal crevices, easy-wipe construction. Rapid 2-second cycle supports material flow. Protected components resist lint infiltration.`,
+  //         howWeHelp: `Smooth-surface High-Speed Door with sealed mechanisms, minimal crevices, easy-wipe construction. Rapid 2-second cycle supports material flow. Protected components resist lint infiltration.`,
   //         result: `Contamination incidents eliminated. Cleaning time reduced 60%. Material flow improved 25%. Door maintenance requirements decreased 75%.`
   //       },
   //       {
@@ -1200,7 +1203,7 @@ export const industryExamples: IndustryContent[] = [
   //       },
   //       {
   //         scenario: `Department store service corridor: Frequent merchandise movement, customer-facing location visible from parking, climate control important, noise concerns from adjacent retail spaces.`,
-  //         howWeHelp: `Attractive high-speed door with quiet operation, insulated construction, rapid cycling for climate retention, and clean appearance suitable for semi-visible location.`,
+  //         howWeHelp: `Attractive High-Speed Door with quiet operation, insulated construction, rapid cycling for climate retention, and clean appearance suitable for semi-visible location.`,
   //         result: `Climate maintained despite frequent use. Noise complaints eliminated. Merchandise flow improved. Professional appearance maintained.`
   //       }
   //     ]
@@ -1227,24 +1230,24 @@ export const industryExamples: IndustryContent[] = [
     slug: `mining`,
     icon: `Pickaxe`,
     hero: {
-      title: `Mining, Minerals & Bulk Handling Solutions`,
-      openingStory: `Your plant environmental report shows respirable dust exceeding limits at the primary crusher and two transfer towers. A buildup has fouled limit switches on a critical door; maintenance locks out the line. Production stalls while supervisors juggle safety, compliance, and output. The next MSHA/Inspector visit is in two weeks—this can't happen again.`
+      title: `Mining Industry`,
+      openingStory: `We deliver robust material handling and dust control systems engineered for the demanding conditions of the mining industry. From Crushers, Conveyors and Feeders parts, to dust extraction  systems our solutions ensure safe, reliable, and efficient material flow.`
     },
     overview: {
       title: `Harsh, High-Duty Operations with Strict Dust Control`,
-      introduction: `Mining and mineral processing facilities move high volumes of abrasive material through crushers, screens, and conveyor networks. Transfer points generate fugitive dust; equipment endures impact, vibration, and corrosion. Operations must meet dust exposure limits while maintaining throughput and uptime in remote conditions.`,
+      introduction: `Mining and Mineral Processing Facilities move high volumes of abrasive material through Crushers, Screens, and Conveyor Networks. Transfer points generate fugitive dust; equipment endures impact, vibration, and corrosion. Operations must meet dust exposure limits while maintaining throughput and uptime in remote conditions.`,
       sections: [
         {
           title: `Where and How Work Gets Done`,
-          content: `Primary and secondary crushing, screening houses, surge bins, conveyor galleries, and load-out stations operate continuously. Transfer towers, tripper points, and reclaim tunnels see frequent door cycles for inspection and access. MCC rooms and control spaces require compartmentalization from dusty areas.`
+          content: `Primary and secondary Crushing, Screening Houses, Surge Bins, Conveyor Galleries, and Load-out Stations operate continuously. Transfer Towers, Tripper Points, and Reclaim Tunnels see frequent door cycles for inspection and access. MCC Rooms and Control Spaces require compartmentalization from dusty areas.`
         },
         {
           title: `Core Challenges`,
-          content: `Fugitive dust and fumes impact worker health and visibility, contaminate bearings and sensors, and trigger nuisance trips. Wind-driven ingress at openings undermines capture efficiency. Abrasive fines degrade seals and hardware. Combustible dust risks require proper capture, isolation, and rated barriers. Unplanned stoppages carry major cost per hour.`
+          content: `Fugitive dust and fume impact worker health and visibility, contaminate bearings and sensors, and trigger nuisance trips. Wind-driven ingress at openings undermines capture efficiency. Abrasive fines degrade seals and hardware. Combustible dust risks require proper capture, isolation, and rated barriers. Unplanned stoppages carry major cost per hour.`
         },
         {
           title: `Our Integrated Approach`,
-          content: `We combine heavy-duty entrance automation with engineered dust and fume extraction. Dust-tight high-speed doors reduce air ingress, stabilize capture airflow, and protect sensitive areas. Source-capture hoods at crushers and transfer points feed baghouses or wet scrubbers sized for real loading. Controls interlock doors, fans, and conveyors for safe, efficient operation.`
+          content: `We combine heavy-duty entrance automation with engineered dust and fume extraction. Dust-tight High-Speed Doors reduce air ingress, stabilize capture airflow, and protect sensitive areas. Source-capture hoods at Crushers and Transfer Points feed baghouses or wet scrubbers sized for real loading. Controls interlock doors, fans, and conveyors for safe, efficient operation.`
         },
         {
           title: `Operational Value`,
@@ -1307,6 +1310,7 @@ export const industryExamples: IndustryContent[] = [
       { value: `30%`, label: `Fewer dust-related maintenance calls` },
       { value: `0`, label: `Compliance citations from dust events` }
     ],
-    seoDescription: `Mining industry entrance automation and fume/dust extraction. Dust-tight high-speed doors, engineered source capture, and conveying systems for crushers, screens, and transfer towers.`
+    seoDescription: `We deliver robust material handling and dust control systems engineered for the demanding conditions of the mining industry. From crushers parts, conveyors parts and feeders parts, to dust extraction  systems our solutions ensure safe, reliable, and efficient material flow.`
+    // seoDescription: `Robust and efficient material handling equipments designed to meet the demanding requirements of the mining industry. Our solutions ensure safe, reliable, and continuous movement of bulk materials — from extraction to processing and storage.`
   }
 ];
