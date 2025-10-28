@@ -43,7 +43,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl mb-8 text-gray-600 max-w-3xl mx-auto"
           >
-            Comprehensive Entrance Automation, Industrial Doors, Docking Equipment, and Bulk Material Handling Solutions. Backed by 20+ years of proven expertise.
+            Comprehensive Entrance Automation, Industrial Doors, Docking Equipments, and Bulk Material Handling Solutions. Backed by 20+ years of proven expertise.
           </motion.p>
 
           {/* CTA Buttons */}

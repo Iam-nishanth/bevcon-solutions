@@ -1,56 +1,56 @@
 import { NavItem } from '@/types';
 
 export const mainNavigation: NavItem[] = [
-  {
-    label: 'Solutions',
-    href: '/solutions',
-    twoLevelMenu: true,
-    megaMenu: [
-      {
-        title: 'Solutions',
-        description: 'Explore our range of industrial doors, high-speed doors, docking equipment, material handling, and fume extraction solutions.',
-        type: 'overview',
-        href: '/solutions',
-      },
-      {
-        title: 'Products',
-        type: 'category',
-        expandable: true,
-        subItems: [
-          { label: 'High-Speed Doors', href: '/products/high-speed-doors' },
-          { label: 'Docking Equipment / Dock Levellers', href: '/products/dock-levelers' },
-          { label: 'Conveyor Components', href: '/products/conveyor-components' },
-          { label: 'Fume Extraction & Scrubbing Systems', href: '/products/fume-extraction-scrubbing-systems' },
-          { label: 'FRP - GRP Equipments', href: '/products/frp-grp-equipments' },
-        ],
-      },
-      {
-        title: 'Solutions for every industry',
-        type: 'category',
-        expandable: true,
-        subItems: [
-          { label: 'Pharmaceutical & Life Sciences', href: '/industries/pharmaceutical' },
-          { label: 'Food Processing & Beverages', href: '/industries/food-beverage' },
-          { label: 'Warehouse & Logistics', href: '/industries/warehouse-logistics' },
-          { label: 'Manufacturing Plants', href: '/industries/manufacturing' },
-          { label: 'Cold Storage', href: '/industries/cold-storage' },
-          { label: 'Automotive Industry', href: '/industries/automotive' },
-        ],
-      },
-      {
-        title: 'Solutions by topic',
-        type: 'category',
-        expandable: true,
-        subItems: [
-          { label: 'Entrance Automation', href: '/solutions/entrance-automation' },
-          { label: 'Loading Bay Solutions', href: '/solutions/loading-bay' },
-          { label: 'Material Handling', href: '/solutions/material-handling' },
-          { label: 'Fume Extraction Systems', href: '/solutions/fume-extraction' },
-          { label: 'Environmental Control', href: '/solutions/environmental-control' },
-        ],
-      },
-    ],
-  },
+  // {
+  //   label: 'Solutions',
+  //   href: '/solutions',
+  //   twoLevelMenu: true,
+  //   megaMenu: [
+  //     {
+  //       title: 'Solutions',
+  //       description: 'Explore our range of industrial doors, high-speed doors, docking equipment, material handling, and fume extraction solutions.',
+  //       type: 'overview',
+  //       href: '/solutions',
+  //     },
+  //     {
+  //       title: 'Products',
+  //       type: 'category',
+  //       expandable: true,
+  //       subItems: [
+  //         { label: 'High-Speed Doors', href: '/products/high-speed-doors' },
+  //         { label: 'Docking Equipment / Dock Levellers', href: '/products/dock-levelers' },
+  //         { label: 'Conveyor Components', href: '/products/conveyor-components' },
+  //         { label: 'Fume Extraction & Scrubbing Systems', href: '/products/fume-extraction-scrubbing-systems' },
+  //         { label: 'FRP - GRP Equipments', href: '/products/frp-grp-equipments' },
+  //       ],
+  //     },
+  //     {
+  //       title: 'Solutions for every industry',
+  //       type: 'category',
+  //       expandable: true,
+  //       subItems: [
+  //         { label: 'Pharmaceutical & Life Sciences', href: '/industries/pharmaceutical' },
+  //         { label: 'Food Processing & Beverages', href: '/industries/food-beverage' },
+  //         { label: 'Warehouse & Logistics', href: '/industries/warehouse-logistics' },
+  //         { label: 'Manufacturing Plants', href: '/industries/manufacturing' },
+  //         { label: 'Cold Storage', href: '/industries/cold-storage' },
+  //         { label: 'Automotive Industry', href: '/industries/automotive' },
+  //       ],
+  //     },
+  //     {
+  //       title: 'Solutions by topic',
+  //       type: 'category',
+  //       expandable: true,
+  //       subItems: [
+  //         { label: 'Entrance Automation', href: '/solutions/entrance-automation' },
+  //         { label: 'Docking Solutions', href: '/solutions/docking-solutions' },
+  //         { label: 'Material Handling', href: '/solutions/material-handling' },
+  //         { label: 'Fume Extraction Systems', href: '/solutions/fume-extraction' },
+  //         { label: 'Environmental Control', href: '/solutions/environmental-control' },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     label: 'Products',
     href: '/products',
@@ -106,6 +106,7 @@ export const mainNavigation: NavItem[] = [
           { label: 'Automotive & Mobility', href: '/industries/automotive', icon: 'car' },
           { label: 'Heavy Industry (Steel & Metal)', href: '/industries/heavy-industry', icon: 'factory' },
           { label: 'Manufacturing Plants', href: '/industries/manufacturing', icon: 'cog' },
+          { label: 'Chemical & Process Industries', href: '/industries/chemical', icon: 'flask' },
         ],
       },
       {
@@ -114,20 +115,14 @@ export const mainNavigation: NavItem[] = [
         items: [
           { label: 'Cold Storage & Warehousing', href: '/industries/cold-storage', icon: 'snowflake' },
           { label: 'Warehouse & Logistics', href: '/industries/warehouse-logistics', icon: 'warehouse' },
-          { label: 'E-commerce & Fulfillment', href: '/industries/ecommerce', icon: 'shopping-cart' },
           { label: 'Cargo & Freight Hubs', href: '/industries/cargo-freight', icon: 'plane' },
-          { label: 'Airport & Transportation', href: '/industries/airport', icon: 'plane-landing' },
         ],
       },
       {
         title: 'Specialized Sectors',
         type: 'list',
         items: [
-          { label: 'Chemical & Process Industries', href: '/industries/chemical', icon: 'flask' },
-          { label: 'Textile & Garment Manufacturing', href: '/industries/textile', icon: 'shirt' },
-          { label: 'Agriculture & Dairy', href: '/industries/agriculture', icon: 'wheat' },
-          { label: 'Retail & Shopping Centers', href: '/industries/retail', icon: 'store' },
-          { label: 'Healthcare Facilities', href: '/industries/healthcare', icon: 'hospital' },
+          { label: 'Mining Industry', href: '/industries/mining', icon: 'pickaxe' },
         ],
       },
     ],

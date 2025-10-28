@@ -35,7 +35,7 @@ export const conveyorPartsProducts: Product[] = [
     title: 'Impact Idlers',
     model: 'II-001',
     sku: 'SP-II-001',
-    category: ['Conveyor Components'],
+    category: ['Idlers'],
     subcategory: 'Idlers',
     specifications: {},
     features: [
@@ -86,7 +86,7 @@ export const conveyorPartsProducts: Product[] = [
     title: 'Return Idlers',
     model: 'RI-001',
     sku: 'SP-RI-001',
-    category: ['Conveyor Components'],
+    category: ['Idlers'],
     subcategory: 'Idlers',
     specifications: {},
     features: [
@@ -136,7 +136,7 @@ export const conveyorPartsProducts: Product[] = [
     title: 'Self Alignment Idlers',
     model: 'SA-001',
     sku: 'SP-SA-001',
-    category: ['Conveyor Components'],
+    category: ['Idlers'],
     subcategory: 'Idlers',
     imageFit: 'contain',
     specifications: {},
@@ -189,7 +189,7 @@ export const conveyorPartsProducts: Product[] = [
     title: 'Head Pulley',
     model: 'HP-001',
     sku: 'SP-HP-001',
-    category: ['Conveyor Components'],
+    category: ['Pulleys'],
     subcategory: 'Pulleys',
     specifications: {},
     features: [
@@ -213,7 +213,7 @@ export const conveyorPartsProducts: Product[] = [
     title: 'Head Pulley',
     model: 'HP-002',
     sku: 'SP-HP-002',
-    category: ['Conveyor Components'],
+    category: ['Pulleys'],
     subcategory: 'Pulleys',
     specifications: {},
     features: [
@@ -239,7 +239,7 @@ export const conveyorPartsProducts: Product[] = [
     title: 'Tail Pulley',
     model: 'TP-001',
     sku: 'SP-TP-001',
-    category: ['Conveyor Components'],
+    category: ['Pulleys'],
     subcategory: 'Pulleys',
     specifications: {},
     features: [
@@ -291,7 +291,7 @@ export const conveyorPartsProducts: Product[] = [
     title: 'Magnetic Pulley',
     model: 'MP-001',
     sku: 'SP-MP-001',
-    category: ['Conveyor Components'],
+    category: ['Pulleys'],
     subcategory: 'Pulleys',
     specifications: {},
     features: [
@@ -616,54 +616,54 @@ export const conveyorPartsProducts: Product[] = [
   //   image: '/images/spareng-products/CONVEYOR_PARTS/FLUID_COUPLING.jpeg',
   //   partNumber: 'SP-FC-001'
   // },
-  {
-    id: 'cp-027',
-    title: 'Pin-Bush Coupling',
-    model: 'PBC-001',
-    sku: 'SP-PBC-001',
-    category: ['Conveyor Components'],
-    subcategory: 'Drive Systems',
-    specifications: {},
-    features: [
-      'Flexible rubber bushes',
-      'Handles misalignment',
-      'Easy maintenance',
-      'Vibration absorption'
-    ],
-    applications: [
-      'General purpose drives',
-      'Motor couplings',
-      'Pump drives'
-    ],
-    compatibleEquipment: ['Standard drive systems'],
-    tags: ['couplings', 'pin bush', 'flexible', 'misalignment'],
-    image: '/images/spareng-products/CONVEYOR_PARTS/PIN-BUSH_COUPLING.jpeg',
-    partNumber: 'SP-PBC-001'
-  },
-  {
-    id: 'cp-028',
-    title: 'Tyre Coupling',
-    model: 'TC-001',
-    sku: 'SP-TC-001',
-    category: ['Conveyor Components'],
-    subcategory: 'Drive Systems',
-    specifications: {},
-    features: [
-      'Flexible rubber tyre element',
-      'High misalignment tolerance',
-      'Shock absorption',
-      'Easy tyre replacement'
-    ],
-    applications: [
-      'Mining equipment drives',
-      'Heavy duty applications',
-      'Shock absorbing requirements'
-    ],
-    compatibleEquipment: ['Heavy duty drive systems'],
-    tags: ['couplings', 'tyre', 'shock absorption', 'heavy duty'],
-    image: '/images/spareng-products/CONVEYOR_PARTS/TYRE_COUPLING.jpeg',
-    partNumber: 'SP-TC-001'
-  },
+  // {
+  //   id: 'cp-027',
+  //   title: 'Pin-Bush Coupling',
+  //   model: 'PBC-001',
+  //   sku: 'SP-PBC-001',
+  //   category: ['Conveyor Components'],
+  //   subcategory: 'Drive Systems',
+  //   specifications: {},
+  //   features: [
+  //     'Flexible rubber bushes',
+  //     'Handles misalignment',
+  //     'Easy maintenance',
+  //     'Vibration absorption'
+  //   ],
+  //   applications: [
+  //     'General purpose drives',
+  //     'Motor couplings',
+  //     'Pump drives'
+  //   ],
+  //   compatibleEquipment: ['Standard drive systems'],
+  //   tags: ['couplings', 'pin bush', 'flexible', 'misalignment'],
+  //   image: '/images/spareng-products/CONVEYOR_PARTS/PIN-BUSH_COUPLING.jpeg',
+  //   partNumber: 'SP-PBC-001'
+  // },
+  // {
+  //   id: 'cp-028',
+  //   title: 'Tyre Coupling',
+  //   model: 'TC-001',
+  //   sku: 'SP-TC-001',
+  //   category: ['Conveyor Components'],
+  //   subcategory: 'Drive Systems',
+  //   specifications: {},
+  //   features: [
+  //     'Flexible rubber tyre element',
+  //     'High misalignment tolerance',
+  //     'Shock absorption',
+  //     'Easy tyre replacement'
+  //   ],
+  //   applications: [
+  //     'Mining equipment drives',
+  //     'Heavy duty applications',
+  //     'Shock absorbing requirements'
+  //   ],
+  //   compatibleEquipment: ['Heavy duty drive systems'],
+  //   tags: ['couplings', 'tyre', 'shock absorption', 'heavy duty'],
+  //   image: '/images/spareng-products/CONVEYOR_PARTS/TYRE_COUPLING.jpeg',
+  //   partNumber: 'SP-TC-001'
+  // },
 
   // LAGGING & PROTECTION
   {

@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
               transition={{ delay: 0.1 }}
               className="text-lg text-gray-600 mb-8"
             >
-              Bringing world-class industrial solutions to Australia with proven technology and comprehensive support.
+              Bringing world-class Industrial Solutions to Australia with proven Engineering expertise, Technology and Comprehensive Support.
             </motion.p>
 
             <div className="space-y-4">

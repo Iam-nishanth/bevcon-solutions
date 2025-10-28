@@ -2,7 +2,8 @@ import { ContactInfo, Partner, StatCard, TeamMember } from '@/types';
 
 export const companyInfo = {
   name: 'Bevcon Solutions',
-  tagline: 'Complete Industrial Solutions - Access, Material Flow & Fume Extraction',
+  tagline: 'Integrated Industrial Solutions - Access Systems, Bulk Material Handling & Fume Extraction Systems',
+  taglineHtml: 'Integrated Industrial Solutions - Access Systems, Bulk Material Handling & <br /> Fume Extraction Systems',
   description: 'Integrated entrance automation, industrial doors, docking equipment, bulk material handling, and fume extraction solutions. Backed by the proven expertise of Bevcon Zentry (industrial doors & docking systems), Spareng Incorporated (material handling equipment spares & services), and JR Fibreglass Industries (fume extraction & FRP/GRP fabrication).',
   foundedYear: 2025,
   location: 'Australia',
@@ -52,8 +53,8 @@ export const partners: Partner[] = [
   {
     name: 'Bevcon Zentry',
     logo: '/images/partners/bevcon-zentry-logo.svg',
-    tagline: 'Industrial Doors & Loading Bay Solutions',
-    description: 'Leading manufacturer and supplier of high speed doors, dock levellers, and industrial loading bay solutions for warehouses and manufacturing facilities. Bevcon Zentry specializes in engineered door systems with advanced safety features, energy efficiency, and reliable performance for demanding industrial environments.',
+    tagline: 'Industrial Doors & Docking Equipment',
+    description: 'Leading manufacturer and supplier of high speed doors, dock levellers, and industrial docking equipment for warehouses and manufacturing facilities. Bevcon Zentry specializes in engineered door systems with advanced safety features, energy efficiency, and reliable performance for demanding industrial environments.',
     specialization: [
       'High Speed Doors',
       'Dock Levelers (Hydraulic & Mechanical)',

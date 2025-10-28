@@ -136,9 +136,9 @@ export const solutionTopics: SolutionTopic[] = [
   {
     id: "loading-bay",
     slug: "loading-bay",
-    name: "Loading Bay Solutions",
-    description: "Complete loading bay systems for efficient, safe material transfer operations",
-    overview: "Our comprehensive loading bay solutions integrate dock levelers, shelters, seals, and automation systems to create efficient, weather-tight loading operations that maximize productivity and ensure worker safety.",
+    name: "Docking Solutions",
+    description: "Complete docking equipment for efficient, safe material transfer operations",
+    overview: "Our comprehensive docking equipment solutions integrate dock levelers, shelters, seals, and automation systems to create efficient, weather-tight loading operations that maximize productivity and ensure worker safety.",
     keyBenefits: [
       "Faster loading/unloading cycles",
       "Weather protection and energy efficiency",
@@ -227,8 +227,8 @@ export const solutionTopics: SolutionTopic[] = [
       }
     ],
     relatedSolutions: ["loading-bay", "dock-equipment"],
-    metaTitle: "Loading Bay Solutions | Dock Levelers & Automation | Bevcon Solutions",
-    metaDescription: "Complete loading bay systems with dock levelers, shelters, seals, and automation for efficient, safe material transfer operations."
+    metaTitle: "Docking Solutions | Dock Levelers & Automation | Bevcon Solutions",
+    metaDescription: "Complete docking equipment with dock levelers, shelters, seals, and automation for efficient, safe material transfer operations."
   },
   {
     id: "material-handling",

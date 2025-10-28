@@ -27,9 +27,9 @@ export default function IndustrySolutions() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4"
           >
-            Solutions for Every Industry
+            Tailored Solutions for Every Industry
           </motion.h2>
-          <motion.p
+          {/* <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -37,7 +37,7 @@ export default function IndustrySolutions() {
             className="text-xl text-gray-600 max-w-3xl mx-auto"
           >
             Tailored entrance and bulk material handling solutions designed for your sector&apos;s unique challenges
-          </motion.p>
+          </motion.p> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

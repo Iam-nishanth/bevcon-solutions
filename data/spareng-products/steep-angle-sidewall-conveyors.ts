@@ -53,57 +53,57 @@ export const steepAngleSidewallConveyorsProducts: Product[] = [
   //   partNumber: 'SP-SWB-SASC-002'
   // },
 
-  // Pulleys
-  {
-    id: 'sasc-003',
-    title: 'Head Pulley',
-    model: 'HP-SASC-001',
-    sku: 'SP-HP-SASC-001',
-    category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
-    subcategory: 'Pulleys',
-    specifications: {},
-    features: [
-      'Heavy duty cast steel construction',
-      'Rubber lagging for grip',
-      'Precision machined surface',
-      'Balanced for smooth operation'
-    ],
-    applications: [
-      'Steep angle conveyor drive',
-      'Power transmission',
-      'Material handling',
-      'Industrial conveyors'
-    ],
-    compatibleEquipment: ['Steep angle conveyors', 'Drive systems'],
-    tags: ['head pulley', 'drive pulley', 'steep angle', 'power transmission'],
-    image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/HEAD_PULLEY.jpeg',
-    partNumber: 'SP-HP-SASC-001'
-  },
-  {
-    id: 'sasc-004',
-    title: 'Tail Pulley',
-    model: 'TP-SASC-001',
-    sku: 'SP-TP-SASC-001',
-    category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
-    subcategory: 'Pulleys',
-    specifications: {},
-    features: [
-      'Smooth machined surface',
-      'Self-cleaning design',
-      'Heavy duty construction',
-      'Corrosion resistant coating'
-    ],
-    applications: [
-      'Belt return and tensioning',
-      'Steep angle conveyor systems',
-      'Material handling',
-      'Industrial conveyors'
-    ],
-    compatibleEquipment: ['Steep angle conveyors', 'Tensioning systems'],
-    tags: ['tail pulley', 'belt return', 'steep angle', 'tensioning'],
-    image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/TAIL-PULLEY.jpeg',
-    partNumber: 'SP-TP-SASC-001'
-  },
+  // // Pulleys
+  // {
+  //   id: 'sasc-003',
+  //   title: 'Head Pulley',
+  //   model: 'HP-SASC-001',
+  //   sku: 'SP-HP-SASC-001',
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
+  //   subcategory: 'Pulleys',
+  //   specifications: {},
+  //   features: [
+  //     'Heavy duty cast steel construction',
+  //     'Rubber lagging for grip',
+  //     'Precision machined surface',
+  //     'Balanced for smooth operation'
+  //   ],
+  //   applications: [
+  //     'Steep angle conveyor drive',
+  //     'Power transmission',
+  //     'Material handling',
+  //     'Industrial conveyors'
+  //   ],
+  //   compatibleEquipment: ['Steep angle conveyors', 'Drive systems'],
+  //   tags: ['head pulley', 'drive pulley', 'steep angle', 'power transmission'],
+  //   image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/HEAD_PULLEY.jpeg',
+  //   partNumber: 'SP-HP-SASC-001'
+  // },
+  // {
+  //   id: 'sasc-004',
+  //   title: 'Tail Pulley',
+  //   model: 'TP-SASC-001',
+  //   sku: 'SP-TP-SASC-001',
+  //   category: ['Conveyor Components', 'Steep Angle Sidewall Conveyors'],
+  //   subcategory: 'Pulleys',
+  //   specifications: {},
+  //   features: [
+  //     'Smooth machined surface',
+  //     'Self-cleaning design',
+  //     'Heavy duty construction',
+  //     'Corrosion resistant coating'
+  //   ],
+  //   applications: [
+  //     'Belt return and tensioning',
+  //     'Steep angle conveyor systems',
+  //     'Material handling',
+  //     'Industrial conveyors'
+  //   ],
+  //   compatibleEquipment: ['Steep angle conveyors', 'Tensioning systems'],
+  //   tags: ['tail pulley', 'belt return', 'steep angle', 'tensioning'],
+  //   image: '/images/spareng-products/STEEP_ANGLE_SIDE_WALL_CONVEYORS-SPARE_PARTS/TAIL-PULLEY.jpeg',
+  //   partNumber: 'SP-TP-SASC-001'
+  // },
   // {
   //   id: 'sasc-005',
   //   title: 'Deflection Pulley',

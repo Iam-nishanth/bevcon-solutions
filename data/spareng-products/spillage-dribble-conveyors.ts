@@ -52,31 +52,31 @@ export const spillageDribbleConveyorsProducts: Product[] = [
   //   image: '/images/spareng-products/SPILLAGE_DRIBBLE_CONVEYORS-SPARE_PARTS/HEAD_PULLEY.jpeg',
   //   partNumber: 'SP-HP-SDC-001'
   // },
-  {
-    id: 'sdc-003',
-    title: 'Tail Pulley',
-    model: 'TP-SDC-001',
-    sku: 'SP-TP-SDC-001',
-    category: ['Conveyor Components'],
-    subcategory: 'Pulleys',
-    specifications: {},
-    features: [
-      'Smooth machined surface',
-      'Self-cleaning design',
-      'Heavy duty construction',
-      'Corrosion resistant coating'
-    ],
-    applications: [
-      'Belt return and tensioning',
-      'Spillage conveyor systems',
-      'Material handling',
-      'Industrial conveyors'
-    ],
-    compatibleEquipment: ['Spillage conveyors', 'Tensioning systems'],
-    tags: ['tail pulley', 'belt return', 'spillage conveyor', 'tensioning'],
-    image: '/images/spareng-products/SPILLAGE_DRIBBLE_CONVEYORS-SPARE_PARTS/TAIL_PULLEY.jpeg',
-    partNumber: 'SP-TP-SDC-001'
-  },
+  // {
+  //   id: 'sdc-003',
+  //   title: 'Tail Pulley',
+  //   model: 'TP-SDC-001',
+  //   sku: 'SP-TP-SDC-001',
+  //   category: ['Conveyor Components'],
+  //   subcategory: 'Pulleys',
+  //   specifications: {},
+  //   features: [
+  //     'Smooth machined surface',
+  //     'Self-cleaning design',
+  //     'Heavy duty construction',
+  //     'Corrosion resistant coating'
+  //   ],
+  //   applications: [
+  //     'Belt return and tensioning',
+  //     'Spillage conveyor systems',
+  //     'Material handling',
+  //     'Industrial conveyors'
+  //   ],
+  //   compatibleEquipment: ['Spillage conveyors', 'Tensioning systems'],
+  //   tags: ['tail pulley', 'belt return', 'spillage conveyor', 'tensioning'],
+  //   image: '/images/spareng-products/SPILLAGE_DRIBBLE_CONVEYORS-SPARE_PARTS/TAIL_PULLEY.jpeg',
+  //   partNumber: 'SP-TP-SDC-001'
+  // },
   // {
   //   id: 'sdc-004',
   //   title: 'Impact Idler Roller',

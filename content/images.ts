@@ -42,6 +42,7 @@ export const INDUSTRY_IMAGES = {
   textile: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=1920&q=80',
   agriculture: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&q=80', // Dairy/agricultural processing
   retail: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1920&q=80',
+  mining: '/images/mining-systems.webp'
 };
 
 // Mapping from industry slugs to image URLs
@@ -61,6 +62,7 @@ export const INDUSTRY_IMAGE_MAP: Record<string, string> = {
   'textile': INDUSTRY_IMAGES.textile,
   'agriculture': INDUSTRY_IMAGES.agriculture,
   'retail': INDUSTRY_IMAGES.retail,
+  'mining': INDUSTRY_IMAGES.mining,
 };
 
 // ============================================================================

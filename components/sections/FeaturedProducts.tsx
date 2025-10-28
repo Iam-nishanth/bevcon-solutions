@@ -45,7 +45,7 @@ export default function FeaturedProducts() {
             transition={{ delay: 0.1 }}
             className="text-xl text-gray-600 max-w-3xl mx-auto"
           >
-            Industry-leading entrance automation, doors, docking equipment, and material handling systems
+            Industry-leading Entrance Automation Doors, Docking Equipments, and Bulk Material Handling Systems
           </motion.p>
         </div>
 

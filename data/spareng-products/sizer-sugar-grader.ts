@@ -6,7 +6,7 @@ export const sizerSugarGraderProducts: Product[] = [
     title: 'Sizer Mesh - SS304',
     model: 'SM-SS304-001',
     sku: 'SP-SM-SS304-001',
-    category: ['Screening Equipment', 'Sizer Sugar Grader'],
+    category: ['Screening Parts', 'Sizer Sugar Grader'],
     subcategory: 'Screen Media',
     specifications: {},
     features: [
@@ -31,7 +31,7 @@ export const sizerSugarGraderProducts: Product[] = [
   //   title: 'Unbalanced Exciter',
   //   model: 'UE-001',
   //   sku: 'SP-UE-001',
-  //   category: ['Screening Equipment', 'Sizer Sugar Grader'],
+  //   category: ['Screening Parts', 'Sizer Sugar Grader'],
   //   subcategory: 'Drive Components',
   //   specifications: {},
   //   features: [
@@ -56,7 +56,7 @@ export const sizerSugarGraderProducts: Product[] = [
   //   title: 'Unbalanced Motor',
   //   model: 'UM-SSG-001',
   //   sku: 'SP-UM-SSG-001',
-  //   category: ['Screening Equipment', 'Sizer Sugar Grader'],
+  //   category: ['Screening Parts', 'Sizer Sugar Grader'],
   //   subcategory: 'Drive Components',
   //   specifications: {},
   //   features: [
@@ -82,7 +82,7 @@ export const sizerSugarGraderProducts: Product[] = [
   //   title: 'Geared Motor',
   //   model: 'GM-SSG-001',
   //   sku: 'SP-GM-SSG-001',
-  //   category: ['Screening Equipment', 'Sizer Sugar Grader'],
+  //   category: ['Screening Parts', 'Sizer Sugar Grader'],
   //   subcategory: 'Drive Components',
   //   specifications: {},
   //   features: [
@@ -107,7 +107,7 @@ export const sizerSugarGraderProducts: Product[] = [
     title: 'Cardan Propeller Shaft',
     model: 'CPS-SSG-001',
     sku: 'SP-CPS-SSG-001',
-    category: ['Screening Equipment', 'Sizer Sugar Grader'],
+    category: ['Screening Parts', 'Sizer Sugar Grader'],
     subcategory: 'Drive Components',
     specifications: {},
     features: [
@@ -132,7 +132,7 @@ export const sizerSugarGraderProducts: Product[] = [
     title: 'Compression Springs',
     model: 'CS-SSG-001',
     sku: 'SP-CS-SSG-001',
-    category: ['Screening Equipment', 'Sizer Sugar Grader'],
+    category: ['Screening Parts', 'Sizer Sugar Grader'],
     subcategory: 'Support Components',
     specifications: {},
     features: [
@@ -147,7 +147,7 @@ export const sizerSugarGraderProducts: Product[] = [
       'Shock absorption',
       'Support systems'
     ],
-    compatibleEquipment: ['Sizer equipment', 'Screening equipment'],
+    compatibleEquipment: ['Sizer equipment', 'Screening Parts'],
     tags: ['compression springs', 'suspension', 'vibration isolation', 'sizer'],
     image: '/images/spareng-products/SIZER_SUGAR_GRADER/COMPRESSION_SPRINGS.jpeg',
     partNumber: 'SP-CS-SSG-001'
@@ -157,7 +157,7 @@ export const sizerSugarGraderProducts: Product[] = [
     title: 'U-Profile Rubber',
     model: 'UPR-001',
     sku: 'SP-UPR-001',
-    category: ['Screening Equipment', 'Sizer Sugar Grader'],
+    category: ['Screening Parts', 'Sizer Sugar Grader'],
     subcategory: 'Sealing Components',
     specifications: {},
     features: [
@@ -172,7 +172,7 @@ export const sizerSugarGraderProducts: Product[] = [
       'Material containment',
       'Equipment protection'
     ],
-    compatibleEquipment: ['Sizer equipment', 'Screening equipment'],
+    compatibleEquipment: ['Sizer equipment', 'Screening Parts'],
     tags: ['u-profile rubber', 'sealing', 'dust containment', 'sizer'],
     image: '/images/spareng-products/SIZER_SUGAR_GRADER/U-PROFILE_RUBBER.jpeg',
     partNumber: 'SP-UPR-001'
@@ -182,7 +182,7 @@ export const sizerSugarGraderProducts: Product[] = [
     title: 'Z-Profile Rubber',
     model: 'ZPR-001',
     sku: 'SP-ZPR-001',
-    category: ['Screening Equipment', 'Sizer Sugar Grader'],
+    category: ['Screening Parts', 'Sizer Sugar Grader'],
     subcategory: 'Sealing Components',
     specifications: {},
     features: [
@@ -197,7 +197,7 @@ export const sizerSugarGraderProducts: Product[] = [
       'Material containment',
       'Equipment protection'
     ],
-    compatibleEquipment: ['Sizer equipment', 'Screening equipment'],
+    compatibleEquipment: ['Sizer equipment', 'Screening Parts'],
     tags: ['z-profile rubber', 'sealing', 'dust containment', 'sizer'],
     image: '/images/spareng-products/SIZER_SUGAR_GRADER/Z-PROFILE_RUBBER.jpeg',
     partNumber: 'SP-ZPR-001'
@@ -207,7 +207,7 @@ export const sizerSugarGraderProducts: Product[] = [
   //   title: 'Wedge Bolts',
   //   model: 'WB-001',
   //   sku: 'SP-WB-001',
-  //   category: ['Screening Equipment', 'Sizer Sugar Grader'],
+  //   category: ['Screening Parts', 'Sizer Sugar Grader'],
   //   subcategory: 'Fastening Components',
   //   specifications: {},
   //   features: [
@@ -222,7 +222,7 @@ export const sizerSugarGraderProducts: Product[] = [
   //     'Structural connections',
   //     'Equipment assembly'
   //   ],
-  //   compatibleEquipment: ['Sizer equipment', 'Screening equipment'],
+  //   compatibleEquipment: ['Sizer equipment', 'Screening Parts'],
   //   tags: ['wedge bolts', 'fastening', 'screen mounting', 'sizer'],
   //   image: '/images/spareng-products/SIZER_SUGAR_GRADER/WEDGE-BOLTING.jpeg',
   //   partNumber: 'SP-WB-001'
@@ -232,7 +232,7 @@ export const sizerSugarGraderProducts: Product[] = [
   //   title: 'Bearings',
   //   model: 'BRG-SSG-001',
   //   sku: 'SP-BRG-SSG-001',
-  //   category: ['Screening Equipment', 'Sizer Sugar Grader'],
+  //   category: ['Screening Parts', 'Sizer Sugar Grader'],
   //   subcategory: 'Support Components',
   //   specifications: {},
   //   features: [
@@ -257,7 +257,7 @@ export const sizerSugarGraderProducts: Product[] = [
   //   title: 'Plummer Block',
   //   model: 'PB-SSG-001',
   //   sku: 'SP-PB-SSG-001',
-  //   category: ['Screening Equipment', 'Sizer Sugar Grader'],
+  //   category: ['Screening Parts', 'Sizer Sugar Grader'],
   //   subcategory: 'Support Components',
   //   specifications: {},
   //   features: [
@@ -277,62 +277,62 @@ export const sizerSugarGraderProducts: Product[] = [
   //   image: '/images/spareng-products/SIZER_SUGAR_GRADER/PLUMMER_BLOCK.jpeg',
   //   partNumber: 'SP-PB-SSG-001'
   // },
-  {
-    id: 'ssg-012',
-    title: 'Pin-Bush Coupling',
-    model: 'PBC-SSG-001',
-    sku: 'SP-PBC-SSG-001',
-    category: ['Screening Equipment', 'Sizer Sugar Grader'],
-    subcategory: 'Drive Components',
-    specifications: {},
-    features: [
-      'Flexible rubber bushes',
-      'Handles misalignment',
-      'Easy maintenance',
-      'Vibration absorption'
-    ],
-    applications: [
-      'Drive system coupling',
-      'Motor connections',
-      'Power transmission',
-      'Machinery drives'
-    ],
-    compatibleEquipment: ['Sizer equipment', 'Drive systems'],
-    tags: ['pin-bush coupling', 'flexible', 'misalignment', 'drive coupling'],
-    image: '/images/spareng-products/SIZER_SUGAR_GRADER/PIN-BUSH_COUPLING.jpeg',
-    partNumber: 'SP-PBC-SSG-001'
-  },
-  {
-    id: 'ssg-013',
-    title: 'Tyre Coupling',
-    model: 'TC-SSG-001',
-    sku: 'SP-TC-SSG-001',
-    category: ['Screening Equipment', 'Sizer Sugar Grader'],
-    subcategory: 'Drive Components',
-    specifications: {},
-    features: [
-      'Flexible rubber tyre element',
-      'High misalignment tolerance',
-      'Shock absorption',
-      'Easy tyre replacement'
-    ],
-    applications: [
-      'Heavy duty drive coupling',
-      'Shock absorbing applications',
-      'Industrial machinery',
-      'Sizer equipment drives'
-    ],
-    compatibleEquipment: ['Sizer equipment', 'Heavy duty drives'],
-    tags: ['tyre coupling', 'shock absorption', 'heavy duty', 'flexible'],
-    image: '/images/spareng-products/SIZER_SUGAR_GRADER/TYRE_COUPLING.jpeg',
-    partNumber: 'SP-TC-SSG-001'
-  },
+  // {
+  //   id: 'ssg-012',
+  //   title: 'Pin-Bush Coupling',
+  //   model: 'PBC-SSG-001',
+  //   sku: 'SP-PBC-SSG-001',
+  //   category: ['Screening Parts', 'Sizer Sugar Grader'],
+  //   subcategory: 'Drive Components',
+  //   specifications: {},
+  //   features: [
+  //     'Flexible rubber bushes',
+  //     'Handles misalignment',
+  //     'Easy maintenance',
+  //     'Vibration absorption'
+  //   ],
+  //   applications: [
+  //     'Drive system coupling',
+  //     'Motor connections',
+  //     'Power transmission',
+  //     'Machinery drives'
+  //   ],
+  //   compatibleEquipment: ['Sizer equipment', 'Drive systems'],
+  //   tags: ['pin-bush coupling', 'flexible', 'misalignment', 'drive coupling'],
+  //   image: '/images/spareng-products/SIZER_SUGAR_GRADER/PIN-BUSH_COUPLING.jpeg',
+  //   partNumber: 'SP-PBC-SSG-001'
+  // },
+  // {
+  //   id: 'ssg-013',
+  //   title: 'Tyre Coupling',
+  //   model: 'TC-SSG-001',
+  //   sku: 'SP-TC-SSG-001',
+  //   category: ['Screening Parts', 'Sizer Sugar Grader'],
+  //   subcategory: 'Drive Components',
+  //   specifications: {},
+  //   features: [
+  //     'Flexible rubber tyre element',
+  //     'High misalignment tolerance',
+  //     'Shock absorption',
+  //     'Easy tyre replacement'
+  //   ],
+  //   applications: [
+  //     'Heavy duty drive coupling',
+  //     'Shock absorbing applications',
+  //     'Industrial machinery',
+  //     'Sizer equipment drives'
+  //   ],
+  //   compatibleEquipment: ['Sizer equipment', 'Heavy duty drives'],
+  //   tags: ['tyre coupling', 'shock absorption', 'heavy duty', 'flexible'],
+  //   image: '/images/spareng-products/SIZER_SUGAR_GRADER/TYRE_COUPLING.jpeg',
+  //   partNumber: 'SP-TC-SSG-001'
+  // },
   {
     id: 'ssg-014',
     title: 'Zero Speed Switch',
     model: 'ZSS-SSG-001',
     sku: 'SP-ZSS-SSG-001',
-    category: ['Screening Equipment', 'Sizer Sugar Grader'],
+    category: ['Screening Parts', 'Sizer Sugar Grader'],
     subcategory: 'Safety & Control',
     specifications: {},
     features: [

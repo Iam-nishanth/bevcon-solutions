@@ -481,235 +481,235 @@ export const industryExamples: IndustryContent[] = [
   },
 
   // 6. Healthcare Facilities
-  {
-    id: `6`,
-    name: `Healthcare Facilities`,
-    slug: `healthcare`,
-    icon: `Hospital`,
-    hero: {
-      title: `Healthcare Facility Solutions`,
-      openingStory: `Your hospital's infection control team traces a cluster of surgical site infections to OR Suite 4. Investigation reveals the hermetic door to the sterile corridor has been malfunctioning—not fully sealing after each entry. Positive pressure was compromised. Unfiltered air entered the surgical environment. Now you face patient notifications, potential litigation, regulatory reporting, and urgent remediation while maintaining surgical capacity.`
-    },
-    overview: {
-      title: `Healthcare Facility Infrastructure`,
-      introduction: `Healthcare facilities including hospitals, surgical centers, and medical campuses require specialized infrastructure supporting patient care, infection control, and operational efficiency. These environments must balance sterile barrier maintenance in critical areas with high-traffic flow of patients, staff, equipment, and supplies. Regulatory compliance, patient safety, and infection prevention drive all design and operational decisions.`,
-      sections: [
-        {
-          title: `Healthcare Zones and Requirements`,
-          content: `Healthcare facilities encompass operating room suites requiring hermetic isolation and positive pressure, sterile processing departments with contaminated and sterile sides, emergency departments needing rapid access while maintaining security, patient care units with frequent bed and equipment traffic, service corridors for supplies and logistics separate from patient areas, loading docks for medical supplies and waste removal, and imaging and diagnostic areas with equipment protection requirements.`
-        },
-        {
-          title: `Unique Healthcare Challenges`,
-          content: `Infection control is paramount with HAIs (Healthcare-Associated Infections) threatening patient safety and regulatory compliance. Operating rooms require maintained positive pressure and sterile barriers during personnel and equipment entry. Service operations must be efficient yet invisible to patients maintaining healing environments. Equipment must withstand frequent cleaning and disinfection protocols. Noise from doors and operations disrupts patient rest and recovery. Touchless operation is preferred to reduce pathogen transmission points. Any equipment failure in critical areas affects surgical schedules and patient care delivery.`
-        },
-        {
-          title: `Our Healthcare-Specific Solutions`,
-          content: `We offer hermetic doors for surgical suites with validated performance maintaining positive pressure and sterile environments. Touchless activation systems reduce contact points supporting infection control. Antimicrobial surface treatments on all patient-facing equipment. Hygienic high-speed doors for service corridors feature quiet operation, smooth easy-to-clean surfaces, and rapid cycling minimizing corridor disruption. Fire-rated healthcare doors meet life safety codes while supporting 24/7 staff and equipment flow. All systems designed for reliability supporting uninterrupted patient care.`
-        },
-        {
-          title: `Patient Safety and Operational Benefits`,
-          content: `Zero environmental control failures in surgical suites protecting patient safety. HAI rate reduction through proper isolation and touchless operation eliminating transmission points. Noise complaint reduction of 70-80% creating better healing environments and patient satisfaction. Service efficiency improvements with faster, quieter corridor operations supporting timely care delivery. Regulatory compliance support for Joint Commission, CMS, and state health department requirements. Reduced facility downtime with reliable equipment and lower maintenance requirements. Enhanced reputation through demonstrated commitment to patient safety infrastructure.`
-        }
-      ]
-    },
-    challenge: {
-      title: `When Patient Safety Depends on Every Entry Point`,
-      narrative: [
-        `Healthcare facilities face unique entrance challenges. Operating rooms require sterile environments where any contamination risks patient safety. Emergency departments need rapid access while maintaining security. Service corridors must manage high-traffic flow of supplies, equipment, linens, and waste—all without disrupting patient care or introducing infection risks.`,
-        `Standard commercial doors weren't designed for healthcare's demands. They can't maintain the environmental controls ORs require. They don't support the touchless operation infection control needs. They fail to withstand the constant traffic of beds, carts, and equipment. Each failure doesn't just disrupt operations—it threatens patient safety.`,
-        `You need entrance solutions designed for healthcare's critical balance: maintaining sterile barriers when required, enabling efficient workflow always, supporting infection control protocols, and operating reliably when patient safety depends on it.`
-      ]
-    },
-    solution: {
-      title: `Healthcare Infrastructure That Protects`,
-      intro: `Our healthcare entrance solutions address the unique intersection of patient safety, infection control, and operational efficiency.`,
-      examples: [
-        {
-          scenario: `Operating room suite requires hermetically sealed access maintaining positive pressure and sterile environment.`,
-          howWeHelp: `Automated doors with hermetic sealing, touchless activation, and antimicrobial surfaces, validated for surgical suite applications.`,
-          result: `Surgical suite environmental monitoring consistently meets specifications. Touchless operation eliminates contact points reducing HAI risk. Door-related environmental failures drop to zero.`
-        },
-        {
-          scenario: `Service corridor sees constant traffic of supply carts, meal service, linen delivery, and waste removal—disrupting patient care with noise and creating infection control concerns.`,
-          howWeHelp: `High-speed doors with quiet operation and smooth surfaces, cycling rapidly to minimize corridor impact.`,
-          result: `Service operations become nearly invisible to patients. Noise complaints drop 75%. Easy-clean surfaces support infection control protocols. Staff efficiency improves with faster corridor transit.`
-        }
-      ]
-    },
-    products: [
-      {
-        name: `Automatic Sliding Doors`,
-        useCase: `Patient care areas and high-traffic hospital corridors`,
-        keyBenefit: `Touchless operation reduces infection transmission and improves accessibility`
-      },
-      {
-        name: `High-Speed Roll Doors`,
-        useCase: `Sterile processing and operating room support areas`,
-        keyBenefit: `Fast cycles minimize air exchange maintaining environmental control`
-      },
-      {
-        name: `Conveying Systems`,
-        useCase: `Hospital logistics and supply chain operations`,
-        keyBenefit: `Automated material flow reducing staff burden and improving efficiency`
-      }
-    ],
-    success: {
-      title: `Infrastructure That Heals`,
-      vision: `Eighteen months post-installation: Your infection control data shows the impact—surgical site infections in OR Suite 4 returned to baseline, environmental monitoring consistently meets specifications, and your hospital's overall HAI rates have improved. Patient experience surveys note quieter, more peaceful environments. Your facilities team reports 65% reduction in entrance-related service calls. During Joint Commission survey, the inspectors specifically commend your "proactive approach to environmental control and infection prevention." Your COO presents the results to the board: this investment contributed to better patient outcomes, operational efficiency, and helped the hospital achieve top-quartile quality metrics. These doors aren't just infrastructure—they're part of your patient safety program.`
-    },
-    metrics: [
-      { value: `0`, label: `Environmental failures in surgical suites` },
-      { value: `75%`, label: `Reduction in noise complaints` },
-      { value: `65%`, label: `Fewer service calls` }
-    ],
-    seoDescription: `Healthcare facility entrance automation solutions. Hermetic operating room doors, hygienic high-speed doors, infection control, and patient safety for hospitals.`
-  },
+  // {
+  //   id: `6`,
+  //   name: `Healthcare Facilities`,
+  //   slug: `healthcare`,
+  //   icon: `Hospital`,
+  //   hero: {
+  //     title: `Healthcare Facility Solutions`,
+  //     openingStory: `Your hospital's infection control team traces a cluster of surgical site infections to OR Suite 4. Investigation reveals the hermetic door to the sterile corridor has been malfunctioning—not fully sealing after each entry. Positive pressure was compromised. Unfiltered air entered the surgical environment. Now you face patient notifications, potential litigation, regulatory reporting, and urgent remediation while maintaining surgical capacity.`
+  //   },
+  //   overview: {
+  //     title: `Healthcare Facility Infrastructure`,
+  //     introduction: `Healthcare facilities including hospitals, surgical centers, and medical campuses require specialized infrastructure supporting patient care, infection control, and operational efficiency. These environments must balance sterile barrier maintenance in critical areas with high-traffic flow of patients, staff, equipment, and supplies. Regulatory compliance, patient safety, and infection prevention drive all design and operational decisions.`,
+  //     sections: [
+  //       {
+  //         title: `Healthcare Zones and Requirements`,
+  //         content: `Healthcare facilities encompass operating room suites requiring hermetic isolation and positive pressure, sterile processing departments with contaminated and sterile sides, emergency departments needing rapid access while maintaining security, patient care units with frequent bed and equipment traffic, service corridors for supplies and logistics separate from patient areas, loading docks for medical supplies and waste removal, and imaging and diagnostic areas with equipment protection requirements.`
+  //       },
+  //       {
+  //         title: `Unique Healthcare Challenges`,
+  //         content: `Infection control is paramount with HAIs (Healthcare-Associated Infections) threatening patient safety and regulatory compliance. Operating rooms require maintained positive pressure and sterile barriers during personnel and equipment entry. Service operations must be efficient yet invisible to patients maintaining healing environments. Equipment must withstand frequent cleaning and disinfection protocols. Noise from doors and operations disrupts patient rest and recovery. Touchless operation is preferred to reduce pathogen transmission points. Any equipment failure in critical areas affects surgical schedules and patient care delivery.`
+  //       },
+  //       {
+  //         title: `Our Healthcare-Specific Solutions`,
+  //         content: `We offer hermetic doors for surgical suites with validated performance maintaining positive pressure and sterile environments. Touchless activation systems reduce contact points supporting infection control. Antimicrobial surface treatments on all patient-facing equipment. Hygienic high-speed doors for service corridors feature quiet operation, smooth easy-to-clean surfaces, and rapid cycling minimizing corridor disruption. Fire-rated healthcare doors meet life safety codes while supporting 24/7 staff and equipment flow. All systems designed for reliability supporting uninterrupted patient care.`
+  //       },
+  //       {
+  //         title: `Patient Safety and Operational Benefits`,
+  //         content: `Zero environmental control failures in surgical suites protecting patient safety. HAI rate reduction through proper isolation and touchless operation eliminating transmission points. Noise complaint reduction of 70-80% creating better healing environments and patient satisfaction. Service efficiency improvements with faster, quieter corridor operations supporting timely care delivery. Regulatory compliance support for Joint Commission, CMS, and state health department requirements. Reduced facility downtime with reliable equipment and lower maintenance requirements. Enhanced reputation through demonstrated commitment to patient safety infrastructure.`
+  //       }
+  //     ]
+  //   },
+  //   challenge: {
+  //     title: `When Patient Safety Depends on Every Entry Point`,
+  //     narrative: [
+  //       `Healthcare facilities face unique entrance challenges. Operating rooms require sterile environments where any contamination risks patient safety. Emergency departments need rapid access while maintaining security. Service corridors must manage high-traffic flow of supplies, equipment, linens, and waste—all without disrupting patient care or introducing infection risks.`,
+  //       `Standard commercial doors weren't designed for healthcare's demands. They can't maintain the environmental controls ORs require. They don't support the touchless operation infection control needs. They fail to withstand the constant traffic of beds, carts, and equipment. Each failure doesn't just disrupt operations—it threatens patient safety.`,
+  //       `You need entrance solutions designed for healthcare's critical balance: maintaining sterile barriers when required, enabling efficient workflow always, supporting infection control protocols, and operating reliably when patient safety depends on it.`
+  //     ]
+  //   },
+  //   solution: {
+  //     title: `Healthcare Infrastructure That Protects`,
+  //     intro: `Our healthcare entrance solutions address the unique intersection of patient safety, infection control, and operational efficiency.`,
+  //     examples: [
+  //       {
+  //         scenario: `Operating room suite requires hermetically sealed access maintaining positive pressure and sterile environment.`,
+  //         howWeHelp: `Automated doors with hermetic sealing, touchless activation, and antimicrobial surfaces, validated for surgical suite applications.`,
+  //         result: `Surgical suite environmental monitoring consistently meets specifications. Touchless operation eliminates contact points reducing HAI risk. Door-related environmental failures drop to zero.`
+  //       },
+  //       {
+  //         scenario: `Service corridor sees constant traffic of supply carts, meal service, linen delivery, and waste removal—disrupting patient care with noise and creating infection control concerns.`,
+  //         howWeHelp: `High-speed doors with quiet operation and smooth surfaces, cycling rapidly to minimize corridor impact.`,
+  //         result: `Service operations become nearly invisible to patients. Noise complaints drop 75%. Easy-clean surfaces support infection control protocols. Staff efficiency improves with faster corridor transit.`
+  //       }
+  //     ]
+  //   },
+  //   products: [
+  //     {
+  //       name: `Automatic Sliding Doors`,
+  //       useCase: `Patient care areas and high-traffic hospital corridors`,
+  //       keyBenefit: `Touchless operation reduces infection transmission and improves accessibility`
+  //     },
+  //     {
+  //       name: `High-Speed Roll Doors`,
+  //       useCase: `Sterile processing and operating room support areas`,
+  //       keyBenefit: `Fast cycles minimize air exchange maintaining environmental control`
+  //     },
+  //     {
+  //       name: `Conveying Systems`,
+  //       useCase: `Hospital logistics and supply chain operations`,
+  //       keyBenefit: `Automated material flow reducing staff burden and improving efficiency`
+  //     }
+  //   ],
+  //   success: {
+  //     title: `Infrastructure That Heals`,
+  //     vision: `Eighteen months post-installation: Your infection control data shows the impact—surgical site infections in OR Suite 4 returned to baseline, environmental monitoring consistently meets specifications, and your hospital's overall HAI rates have improved. Patient experience surveys note quieter, more peaceful environments. Your facilities team reports 65% reduction in entrance-related service calls. During Joint Commission survey, the inspectors specifically commend your "proactive approach to environmental control and infection prevention." Your COO presents the results to the board: this investment contributed to better patient outcomes, operational efficiency, and helped the hospital achieve top-quartile quality metrics. These doors aren't just infrastructure—they're part of your patient safety program.`
+  //   },
+  //   metrics: [
+  //     { value: `0`, label: `Environmental failures in surgical suites` },
+  //     { value: `75%`, label: `Reduction in noise complaints` },
+  //     { value: `65%`, label: `Fewer service calls` }
+  //   ],
+  //   seoDescription: `Healthcare facility entrance automation solutions. Hermetic operating room doors, hygienic high-speed doors, infection control, and patient safety for hospitals.`
+  // },
 
   // 7. E-commerce & Fulfillment
-  {
-    id: `7`,
-    name: `E-commerce & Fulfillment`,
-    slug: `ecommerce`,
-    icon: `Package`,
-    hero: {
-      title: `E-commerce & Fulfillment Center Solutions`,
-      openingStory: `Black Friday. Your fulfillment center is processing 15,000 orders per hour. A dock door failure at 2 PM creates a cascading bottleneck. Trucks queue. Carriers threaten service surcharges. Your team scrambles to reroute traffic through adjacent doors. By 6 PM, you're three hours behind schedule. Tomorrow's delivery promises are now at risk, and your marketplace ratings hang in the balance.`
-    },
-    overview: {
-      title: `E-commerce Fulfillment Operations`,
-      introduction: `E-commerce fulfillment centers are hyper-efficient distribution hubs designed to process online orders at unprecedented speed and volume. These facilities operate 24/7 with aggressive service level agreements, same-day shipping commitments, and real-time inventory management. Peak seasons can see order volumes increase 300-500%, requiring infrastructure that scales without failure.`,
-      sections: [
-        {
-          title: `Operational Requirements`,
-          content: `Fulfillment operations include high-velocity order picking, multi-channel order processing, rapid packaging and labeling, sortation systems feeding multiple carriers, continuous dock operations with truck rotations every 15-30 minutes, and returns processing. Automated conveyor systems move goods between zones. Warehouse management systems orchestrate all activities with minute-by-minute precision.`
-        },
-        {
-          title: `Performance Challenges`,
-          content: `Peak season volume surges strain all infrastructure with 3-5x normal traffic. Dock door failures create immediate bottlenecks affecting entire operations. Carrier delivery windows are strict with financial penalties for delays. Equipment downtime directly impacts order fulfillment rates and customer satisfaction metrics. Every minute of delay multiplies across thousands of orders. Marketplace ratings depend on consistent on-time performance.`
-        },
-        {
-          title: `Our Fulfillment-Grade Solutions`,
-          content: `We provide ultra-high-speed dock doors cycling in under 1.5 seconds supporting rapid truck turnaround. Self-repairing breakaway technology ensures zero downtime from forklift impacts. Heavy-duty construction rated for 1 million+ annual cycles handles peak season intensity. Integrated dock equipment coordinates levelers, lights, restraints, and doors. Predictive maintenance monitoring prevents failures before they impact operations.`
-        },
-        {
-          title: `Fulfillment Performance Gains`,
-          content: `Zero unplanned downtime maintaining fulfillment commitments during peak seasons. Dock turnaround time reduced by 35-40% increasing daily truck capacity. Order processing throughput increased by 25-30% through eliminated bottlenecks. Carrier satisfaction improved with consistent on-time departures. Marketplace ratings protected through reliable infrastructure. Scalable performance supporting seasonal volume surges without adding dock doors.`
-        }
-      ]
-    },
-    challenge: {
-      title: `When Every Second Counts`,
-      narrative: [
-        `E-commerce fulfillment operates at relentless pace. Orders stream in 24/7. Customers expect same-day or next-day delivery. Your facility processes thousands of orders hourly, moving goods from receipt to shipment in hours, not days. Dock doors cycle hundreds of times per shift as trucks arrive, load, and depart on tight schedules.`,
-        `Standard dock doors can't sustain this intensity. They're too slow, creating traffic bottlenecks. They fail under constant use, stopping operations when you can least afford downtime. Peak seasons amplify every weakness—Black Friday, Cyber Monday, holiday rush—when failure means missed deliveries, upset customers, and damaged marketplace ratings.`,
-        `You need entrance infrastructure engineered for e-commerce velocity. Doors that cycle faster than forklift operators can move. Equipment that self-repairs after impacts. Systems that handle peak season surge without failure. Infrastructure that supports your fulfillment promises, not threatens them.`
-      ]
-    },
-    solution: {
-      title: `Built for Fulfillment Speed`,
-      intro: `Our high-performance dock systems are engineered for the relentless demands of e-commerce fulfillment.`,
-      examples: [
-        {
-          scenario: `Peak season: 500+ dock door cycles per day across 30 loading positions. Any door failure creates immediate bottleneck affecting thousands of orders.`,
-          howWeHelp: `Ultra-rapid doors with 1.4-second cycles and self-repairing breakaway technology. Doors automatically reset after forklift impacts in seconds—no technician required, no downtime.`,
-          result: `Zero downtime during entire peak season. Dock throughput increased 38%. All carrier delivery windows met consistently.`
-        },
-        {
-          scenario: `Continuous operations with mixed carrier schedules. Trucks arrive every 15-20 minutes requiring rapid loading and immediate departure.`,
-          howWeHelp: `Integrated dock systems coordinate all equipment—vehicle restraints engage, dock levelers deploy, doors open—in single automated sequence activated by truck arrival.`,
-          result: `Truck dwell time reduced from 45 to 28 minutes. 40% more trucks processed daily through existing dock positions.`
-        }
-      ]
-    },
-    products: [
-      { name: `Hydraulic Dock Levelers`, useCase: `Loading dock operations with 300-500+ daily cycles`, keyBenefit: `Heavy-duty reliability maximizing throughput in high-volume operations` },
-      { name: `High-Speed Roll Doors`, useCase: `High-traffic internal zones with forklift passage`, keyBenefit: `Self-repairing design ensures zero downtime after impacts` },
-      { name: `Conveying Systems`, useCase: `Automated sortation and order fulfillment`, keyBenefit: `Scalable systems supporting peak season volume surges` }
-    ],
-    success: {
-      title: `Peak Season Ready, Every Season`,
-      vision: `Your fulfillment center operates at consistent high velocity regardless of season. Dock doors cycle seamlessly hundreds of times per shift. Forklifts move goods without hesitation. Trucks load and depart on schedule. Your infrastructure keeps pace with your promise: orders received today, shipped today, delivered tomorrow. Peak season surges are managed, not survived. Your marketplace ratings reflect your reliability. Your fulfillment operation runs exactly as designed—fast, efficient, uninterrupted.`
-    },
-    metrics: [
-      { value: `0`, label: `Downtime incidents during peak season` },
-      { value: `38%`, label: `Increase in dock throughput` },
-      { value: `99.7%`, label: `On-time carrier departures` }
-    ],
-    seoDescription: `E-commerce fulfillment center entrance automation. Ultra-fast dock doors, self-repairing systems, peak season performance, and zero-downtime solutions for high-volume order fulfillment.`
-  },
+  // {
+  //   id: `7`,
+  //   name: `E-commerce & Fulfillment`,
+  //   slug: `ecommerce`,
+  //   icon: `Package`,
+  //   hero: {
+  //     title: `E-commerce & Fulfillment Center Solutions`,
+  //     openingStory: `Black Friday. Your fulfillment center is processing 15,000 orders per hour. A dock door failure at 2 PM creates a cascading bottleneck. Trucks queue. Carriers threaten service surcharges. Your team scrambles to reroute traffic through adjacent doors. By 6 PM, you're three hours behind schedule. Tomorrow's delivery promises are now at risk, and your marketplace ratings hang in the balance.`
+  //   },
+  //   overview: {
+  //     title: `E-commerce Fulfillment Operations`,
+  //     introduction: `E-commerce fulfillment centers are hyper-efficient distribution hubs designed to process online orders at unprecedented speed and volume. These facilities operate 24/7 with aggressive service level agreements, same-day shipping commitments, and real-time inventory management. Peak seasons can see order volumes increase 300-500%, requiring infrastructure that scales without failure.`,
+  //     sections: [
+  //       {
+  //         title: `Operational Requirements`,
+  //         content: `Fulfillment operations include high-velocity order picking, multi-channel order processing, rapid packaging and labeling, sortation systems feeding multiple carriers, continuous dock operations with truck rotations every 15-30 minutes, and returns processing. Automated conveyor systems move goods between zones. Warehouse management systems orchestrate all activities with minute-by-minute precision.`
+  //       },
+  //       {
+  //         title: `Performance Challenges`,
+  //         content: `Peak season volume surges strain all infrastructure with 3-5x normal traffic. Dock door failures create immediate bottlenecks affecting entire operations. Carrier delivery windows are strict with financial penalties for delays. Equipment downtime directly impacts order fulfillment rates and customer satisfaction metrics. Every minute of delay multiplies across thousands of orders. Marketplace ratings depend on consistent on-time performance.`
+  //       },
+  //       {
+  //         title: `Our Fulfillment-Grade Solutions`,
+  //         content: `We provide ultra-high-speed dock doors cycling in under 1.5 seconds supporting rapid truck turnaround. Self-repairing breakaway technology ensures zero downtime from forklift impacts. Heavy-duty construction rated for 1 million+ annual cycles handles peak season intensity. Integrated dock equipment coordinates levelers, lights, restraints, and doors. Predictive maintenance monitoring prevents failures before they impact operations.`
+  //       },
+  //       {
+  //         title: `Fulfillment Performance Gains`,
+  //         content: `Zero unplanned downtime maintaining fulfillment commitments during peak seasons. Dock turnaround time reduced by 35-40% increasing daily truck capacity. Order processing throughput increased by 25-30% through eliminated bottlenecks. Carrier satisfaction improved with consistent on-time departures. Marketplace ratings protected through reliable infrastructure. Scalable performance supporting seasonal volume surges without adding dock doors.`
+  //       }
+  //     ]
+  //   },
+  //   challenge: {
+  //     title: `When Every Second Counts`,
+  //     narrative: [
+  //       `E-commerce fulfillment operates at relentless pace. Orders stream in 24/7. Customers expect same-day or next-day delivery. Your facility processes thousands of orders hourly, moving goods from receipt to shipment in hours, not days. Dock doors cycle hundreds of times per shift as trucks arrive, load, and depart on tight schedules.`,
+  //       `Standard dock doors can't sustain this intensity. They're too slow, creating traffic bottlenecks. They fail under constant use, stopping operations when you can least afford downtime. Peak seasons amplify every weakness—Black Friday, Cyber Monday, holiday rush—when failure means missed deliveries, upset customers, and damaged marketplace ratings.`,
+  //       `You need entrance infrastructure engineered for e-commerce velocity. Doors that cycle faster than forklift operators can move. Equipment that self-repairs after impacts. Systems that handle peak season surge without failure. Infrastructure that supports your fulfillment promises, not threatens them.`
+  //     ]
+  //   },
+  //   solution: {
+  //     title: `Built for Fulfillment Speed`,
+  //     intro: `Our high-performance dock systems are engineered for the relentless demands of e-commerce fulfillment.`,
+  //     examples: [
+  //       {
+  //         scenario: `Peak season: 500+ dock door cycles per day across 30 loading positions. Any door failure creates immediate bottleneck affecting thousands of orders.`,
+  //         howWeHelp: `Ultra-rapid doors with 1.4-second cycles and self-repairing breakaway technology. Doors automatically reset after forklift impacts in seconds—no technician required, no downtime.`,
+  //         result: `Zero downtime during entire peak season. Dock throughput increased 38%. All carrier delivery windows met consistently.`
+  //       },
+  //       {
+  //         scenario: `Continuous operations with mixed carrier schedules. Trucks arrive every 15-20 minutes requiring rapid loading and immediate departure.`,
+  //         howWeHelp: `Integrated dock systems coordinate all equipment—vehicle restraints engage, dock levelers deploy, doors open—in single automated sequence activated by truck arrival.`,
+  //         result: `Truck dwell time reduced from 45 to 28 minutes. 40% more trucks processed daily through existing dock positions.`
+  //       }
+  //     ]
+  //   },
+  //   products: [
+  //     { name: `Hydraulic Dock Levelers`, useCase: `Loading dock operations with 300-500+ daily cycles`, keyBenefit: `Heavy-duty reliability maximizing throughput in high-volume operations` },
+  //     { name: `High-Speed Roll Doors`, useCase: `High-traffic internal zones with forklift passage`, keyBenefit: `Self-repairing design ensures zero downtime after impacts` },
+  //     { name: `Conveying Systems`, useCase: `Automated sortation and order fulfillment`, keyBenefit: `Scalable systems supporting peak season volume surges` }
+  //   ],
+  //   success: {
+  //     title: `Peak Season Ready, Every Season`,
+  //     vision: `Your fulfillment center operates at consistent high velocity regardless of season. Dock doors cycle seamlessly hundreds of times per shift. Forklifts move goods without hesitation. Trucks load and depart on schedule. Your infrastructure keeps pace with your promise: orders received today, shipped today, delivered tomorrow. Peak season surges are managed, not survived. Your marketplace ratings reflect your reliability. Your fulfillment operation runs exactly as designed—fast, efficient, uninterrupted.`
+  //   },
+  //   metrics: [
+  //     { value: `0`, label: `Downtime incidents during peak season` },
+  //     { value: `38%`, label: `Increase in dock throughput` },
+  //     { value: `99.7%`, label: `On-time carrier departures` }
+  //   ],
+  //   seoDescription: `E-commerce fulfillment center entrance automation. Ultra-fast dock doors, self-repairing systems, peak season performance, and zero-downtime solutions for high-volume order fulfillment.`
+  // },
 
   // 8. Manufacturing Plants (General)
-  {
-    id: `8`,
-    name: `Manufacturing Plants`,
-    slug: `manufacturing`,
-    icon: `Factory`,
-    hero: {
-      title: `General Manufacturing Solutions`,
-      openingStory: `Your production manager reports the east wing door is jammed—again. The maintenance team is already dealing with two other equipment issues. Material flow backs up. Assembly stations wait for components. Your just-in-time delivery system starts missing windows. By shift end, you're running 20% behind production targets. The quarterly efficiency report will show this downtime, and senior management will ask why your facility infrastructure can't keep pace with your production schedule.`
-    },
-    overview: {
-      title: `Modern Manufacturing Operations`,
-      introduction: `Modern manufacturing plants produce diverse products through complex processes requiring seamless material flow, environmental control, worker safety, and operational efficiency. These facilities range from discrete manufacturing (assembling components) to process manufacturing (continuous production). All share common needs: reliable infrastructure supporting production schedules, zone separation for safety and quality, and equipment that withstands industrial environments.`,
-      sections: [
-        {
-          title: `Manufacturing Infrastructure Needs`,
-          content: `Manufacturing facilities include receiving and raw material storage, work-in-process material flow between production zones, assembly or processing areas with specific environmental requirements, quality control and testing zones, finished goods storage and shipping operations, and maintenance workshops. Material handling equipment moves goods continuously. Production flows must not be disrupted by infrastructure failures. Different zones require separation for safety, quality, or environmental control.`
-        },
-        {
-          title: `Common Manufacturing Challenges`,
-          content: `Material flow bottlenecks reduce production efficiency and threaten delivery schedules. Equipment failures cause costly downtime affecting multiple downstream operations. Environmental control between zones is critical for quality but complicated by high traffic. Safety regulations require proper zone separation and equipment protection. Dust, debris, and harsh conditions accelerate equipment wear. High door cycle volumes from continuous material movement demand exceptional reliability. Any infrastructure failure cascades through interconnected production processes.`
-        },
-        {
-          title: `Our Manufacturing Door Solutions`,
-          content: `We provide industrial-grade high-speed doors designed for continuous manufacturing operations, rated for 300,000-500,000+ annual cycles. Rapid opening speeds minimize wait times maintaining production flow. Self-repairing designs reduce maintenance requirements and eliminate downtime from minor impacts. Fire-rated options provide required safety zone separation. Robust construction withstands harsh manufacturing environments including dust, debris, temperature variations, and aggressive use. All systems integrate with facility automation and safety systems.`
-        },
-        {
-          title: `Manufacturing Performance Benefits`,
-          content: `Production efficiency gains of 12-18% through eliminated bottlenecks and faster material flow. Reduced downtime with reliable equipment and self-repairing capabilities. Enhanced safety through proper zone separation and integrated safety features. Lower maintenance costs with durable construction requiring minimal service. Improved environmental control between manufacturing zones. Better regulatory compliance with documented safety features. Scalable solutions supporting facility expansion and production increases.`
-        }
-      ]
-    },
-    challenge: {
-      title: `When Infrastructure Can't Keep Up`,
-      narrative: [
-        `Manufacturing runs on tight schedules. Materials must flow seamlessly between operations. Any bottleneck ripples through your entire production process, affecting output, efficiency metrics, and delivery commitments. Your facility infrastructure should enable production, not hinder it.`,
-        `Standard industrial doors weren't designed for the intensity of modern manufacturing. They're slow, creating wait times at critical transitions. They fail frequently under heavy use, causing unplanned downtime. They require constant maintenance, pulling your technicians from more important work. Each failure affects not just one operation, but cascades through dependent processes.`,
-        `You need entrance solutions built for manufacturing reality. Doors that cycle fast enough to keep pace with production. Equipment durable enough to withstand continuous use. Systems that self-repair minor issues, eliminating downtime. Infrastructure that supports your manufacturing efficiency, not undermines it.`
-      ]
-    },
-    solution: {
-      title: `Engineered for Manufacturing Intensity`,
-      intro: `Our manufacturing door systems are built to support continuous production operations without becoming a bottleneck or maintenance burden.`,
-      examples: [
-        {
-          scenario: `Material flow between fabrication and assembly areas: 250+ daily passages with forklifts carrying components. Previous overhead doors too slow, creating 2-3 minute delays per cycle.`,
-          howWeHelp: `Industrial high-speed doors with 2-second opening and 1.5-second closing times. Automatic activation prevents wait times. Robust construction handles forklift traffic without damage.`,
-          result: `Material flow time reduced 40%. Production efficiency increased 15% by eliminating bottlenecks. Zero door-related downtime in 8 months.`
-        },
-        {
-          scenario: `Fire-rated separation required between manufacturing zones while maintaining continuous production flow and safety compliance.`,
-          howWeHelp: `Fire-rated high-speed doors providing 2-hour fire protection with rapid operation for normal traffic. Integrated with facility fire alarm system for automatic closure during emergencies.`,
-          result: `Full safety compliance maintained. Production flow unaffected. Passed all regulatory inspections with zero findings.`
-        }
-      ]
-    },
-    products: [
-      { name: `High-Speed Roll Doors`, useCase: `Internal material flow between production zones`, keyBenefit: `Fast cycle times prevent bottlenecks and maintain production efficiency` },
-      { name: `Hydraulic Dock Levelers`, useCase: `Raw material receiving and finished goods shipping`, keyBenefit: `Reliable loading operations supporting production schedules` },
-      { name: `Conveying Systems`, useCase: `Assembly line material handling and work-in-progress movement`, keyBenefit: `Automated flow reducing manual handling and improving efficiency` }
-    ],
-    success: {
-      title: `Infrastructure That Enables Production`,
-      vision: `Your manufacturing facility operates at designed capacity. Materials flow smoothly between operations without delay. Forklifts move freely through doorways that open before they arrive and close immediately after passage. Production zones maintain proper separation for safety and quality without impeding efficiency. Your maintenance team focuses on production equipment, not door repairs. Your facility infrastructure has become invisible—exactly as it should be—simply enabling your production operations to run efficiently, safely, and reliably shift after shift.`
-    },
-    metrics: [
-      { value: `15%`, label: `Production efficiency increase` },
-      { value: `40%`, label: `Material flow time reduction` },
-      { value: `80%`, label: `Decrease in maintenance calls` }
-    ],
-    seoDescription: `Manufacturing plant entrance automation and industrial doors. High-speed doors, fire-rated options, self-repairing systems, and zone separation solutions for production facilities.`
-  },
+          // {
+          //   id: `8`,
+          //   name: `Manufacturing Plants`,
+          //   slug: `manufacturing`,
+          //   icon: `Factory`,
+          //   hero: {
+          //     title: `General Manufacturing Solutions`,
+          //     openingStory: `Your production manager reports the east wing door is jammed—again. The maintenance team is already dealing with two other equipment issues. Material flow backs up. Assembly stations wait for components. Your just-in-time delivery system starts missing windows. By shift end, you're running 20% behind production targets. The quarterly efficiency report will show this downtime, and senior management will ask why your facility infrastructure can't keep pace with your production schedule.`
+          //   },
+          //   overview: {
+          //     title: `Modern Manufacturing Operations`,
+          //     introduction: `Modern manufacturing plants produce diverse products through complex processes requiring seamless material flow, environmental control, worker safety, and operational efficiency. These facilities range from discrete manufacturing (assembling components) to process manufacturing (continuous production). All share common needs: reliable infrastructure supporting production schedules, zone separation for safety and quality, and equipment that withstands industrial environments.`,
+          //     sections: [
+          //       {
+          //         title: `Manufacturing Infrastructure Needs`,
+          //         content: `Manufacturing facilities include receiving and raw material storage, work-in-process material flow between production zones, assembly or processing areas with specific environmental requirements, quality control and testing zones, finished goods storage and shipping operations, and maintenance workshops. Material handling equipment moves goods continuously. Production flows must not be disrupted by infrastructure failures. Different zones require separation for safety, quality, or environmental control.`
+          //       },
+          //       {
+          //         title: `Common Manufacturing Challenges`,
+          //         content: `Material flow bottlenecks reduce production efficiency and threaten delivery schedules. Equipment failures cause costly downtime affecting multiple downstream operations. Environmental control between zones is critical for quality but complicated by high traffic. Safety regulations require proper zone separation and equipment protection. Dust, debris, and harsh conditions accelerate equipment wear. High door cycle volumes from continuous material movement demand exceptional reliability. Any infrastructure failure cascades through interconnected production processes.`
+          //       },
+          //       {
+          //         title: `Our Manufacturing Door Solutions`,
+          //         content: `We provide industrial-grade high-speed doors designed for continuous manufacturing operations, rated for 300,000-500,000+ annual cycles. Rapid opening speeds minimize wait times maintaining production flow. Self-repairing designs reduce maintenance requirements and eliminate downtime from minor impacts. Fire-rated options provide required safety zone separation. Robust construction withstands harsh manufacturing environments including dust, debris, temperature variations, and aggressive use. All systems integrate with facility automation and safety systems.`
+          //       },
+          //       {
+          //         title: `Manufacturing Performance Benefits`,
+          //         content: `Production efficiency gains of 12-18% through eliminated bottlenecks and faster material flow. Reduced downtime with reliable equipment and self-repairing capabilities. Enhanced safety through proper zone separation and integrated safety features. Lower maintenance costs with durable construction requiring minimal service. Improved environmental control between manufacturing zones. Better regulatory compliance with documented safety features. Scalable solutions supporting facility expansion and production increases.`
+          //       }
+          //     ]
+          //   },
+          //   challenge: {
+          //     title: `When Infrastructure Can't Keep Up`,
+          //     narrative: [
+          //       `Manufacturing runs on tight schedules. Materials must flow seamlessly between operations. Any bottleneck ripples through your entire production process, affecting output, efficiency metrics, and delivery commitments. Your facility infrastructure should enable production, not hinder it.`,
+          //       `Standard industrial doors weren't designed for the intensity of modern manufacturing. They're slow, creating wait times at critical transitions. They fail frequently under heavy use, causing unplanned downtime. They require constant maintenance, pulling your technicians from more important work. Each failure affects not just one operation, but cascades through dependent processes.`,
+          //       `You need entrance solutions built for manufacturing reality. Doors that cycle fast enough to keep pace with production. Equipment durable enough to withstand continuous use. Systems that self-repair minor issues, eliminating downtime. Infrastructure that supports your manufacturing efficiency, not undermines it.`
+          //     ]
+          //   },
+          //   solution: {
+          //     title: `Engineered for Manufacturing Intensity`,
+          //     intro: `Our manufacturing door systems are built to support continuous production operations without becoming a bottleneck or maintenance burden.`,
+          //     examples: [
+          //       {
+          //         scenario: `Material flow between fabrication and assembly areas: 250+ daily passages with forklifts carrying components. Previous overhead doors too slow, creating 2-3 minute delays per cycle.`,
+          //         howWeHelp: `Industrial high-speed doors with 2-second opening and 1.5-second closing times. Automatic activation prevents wait times. Robust construction handles forklift traffic without damage.`,
+          //         result: `Material flow time reduced 40%. Production efficiency increased 15% by eliminating bottlenecks. Zero door-related downtime in 8 months.`
+          //       },
+          //       {
+          //         scenario: `Fire-rated separation required between manufacturing zones while maintaining continuous production flow and safety compliance.`,
+          //         howWeHelp: `Fire-rated high-speed doors providing 2-hour fire protection with rapid operation for normal traffic. Integrated with facility fire alarm system for automatic closure during emergencies.`,
+          //         result: `Full safety compliance maintained. Production flow unaffected. Passed all regulatory inspections with zero findings.`
+          //       }
+          //     ]
+          //   },
+          //   products: [
+          //     { name: `High-Speed Roll Doors`, useCase: `Internal material flow between production zones`, keyBenefit: `Fast cycle times prevent bottlenecks and maintain production efficiency` },
+          //     { name: `Hydraulic Dock Levelers`, useCase: `Raw material receiving and finished goods shipping`, keyBenefit: `Reliable loading operations supporting production schedules` },
+          //     { name: `Conveying Systems`, useCase: `Assembly line material handling and work-in-progress movement`, keyBenefit: `Automated flow reducing manual handling and improving efficiency` }
+          //   ],
+          //   success: {
+          //     title: `Infrastructure That Enables Production`,
+          //     vision: `Your manufacturing facility operates at designed capacity. Materials flow smoothly between operations without delay. Forklifts move freely through doorways that open before they arrive and close immediately after passage. Production zones maintain proper separation for safety and quality without impeding efficiency. Your maintenance team focuses on production equipment, not door repairs. Your facility infrastructure has become invisible—exactly as it should be—simply enabling your production operations to run efficiently, safely, and reliably shift after shift.`
+          //   },
+          //   metrics: [
+          //     { value: `15%`, label: `Production efficiency increase` },
+          //     { value: `40%`, label: `Material flow time reduction` },
+          //     { value: `80%`, label: `Decrease in maintenance calls` }
+          //   ],
+          //   seoDescription: `Manufacturing plant entrance automation and industrial doors. High-speed doors, fire-rated options, self-repairing systems, and zone separation solutions for production facilities.`
+          // },
 
   // 9. Heavy Industry (Steel & Metal)
   {
@@ -858,77 +858,77 @@ export const industryExamples: IndustryContent[] = [
   },
 
   // 11. Airport & Transportation
-  {
-    id: `11`,
-    name: `Airport & Transportation`,
-    slug: `airport`,
-    icon: `Package`,
-    hero: {
-      title: `Airport & Transportation Facility Solutions`,
-      openingStory: `Your cargo terminal at the international airport processes air freight on tight schedules. A shipment of time-critical pharmaceuticals arrives on Flight 238 at 6:15 AM—must connect to Flight 412 departing at 9:45 AM for final cold chain transport. Your team has exactly 3 hours for customs clearance, inspection, and transfer. At 7:30 AM, the cargo handling area door jams. Precious minutes are lost routing equipment through an alternate entrance. The pharmaceutical shipment makes its connection with 12 minutes to spare. Your operations supervisor knows you were lucky this time. Next time, a door failure could mean missed connections, spoiled product, and angry customers.`
-    },
-    overview: {
-      title: `Airport Cargo and Transportation Operations`,
-      introduction: `Airport cargo facilities, ground service equipment (GSE) areas, baggage handling operations, and transportation terminals require specialized entrance solutions balancing security, rapid access, weather protection, noise control, and continuous operations. These facilities serve critical infrastructure with zero tolerance for delays affecting flight schedules, passenger operations, or cargo transfers.`,
-      sections: [
-        {
-          title: `Airport Facility Requirements`,
-          content: `Airport operations include cargo terminals handling air freight with tight customs and transfer windows, baggage handling systems processing thousands of bags hourly, ground service equipment (GSE) maintenance and storage facilities, aircraft hangers requiring large openings with weather protection, de-icing and service areas operating in extreme weather, and secure perimeter facilities with controlled access. All operations integrate with flight schedules. Security requirements are stringent. Weather conditions from extreme cold to high winds must not disrupt operations.`
-        },
-        {
-          title: `Operational Challenges`,
-          content: `Flight schedules drive operations with no flexibility for infrastructure delays. Security protocols require controlled access with proper documentation and monitoring. Weather extremes from -30°C to 40°C with high winds must not prevent door operation. Noise control protects surrounding communities from 24/7 airport operations. Large equipment including aircraft tugs, loaders, and cargo containers require substantial door openings. Environmental control maintains temperature-sensitive cargo and comfortable working conditions. Any operational disruption has cascade effects across interconnected flight and cargo networks.`
-        },
-        {
-          title: `Our Airport-Grade Solutions`,
-          content: `We provide high-performance doors engineered for airport environments. High-speed operation supports rapid equipment and cargo movement. Weather-resistant construction ensures reliable operation in extreme conditions including wind, rain, snow, and temperature extremes. Security integration with access control, surveillance, and perimeter systems. Noise-insulated designs reduce sound transmission protecting surrounding areas. Large opening capabilities for aircraft and oversized equipment. Fire-rated options for safety compliance. All systems designed for 24/7 reliability supporting uninterrupted airport operations.`
-        },
-        {
-          title: `Airport Operational Benefits`,
-          content: `Zero weather-related operational delays maintaining flight schedules. Enhanced security through integrated access control and monitoring. Noise reduction of 25-35 dB protecting surrounding communities and meeting regulations. Energy efficiency despite continuous operations and large openings. Improved working conditions with climate control and weather protection. Compliance with all aviation, security, and safety regulations. Reduced maintenance through robust construction designed for extreme environments. Support for future expansion and operational changes.`
-        }
-      ]
-    },
-    challenge: {
-      title: `Where Failure Affects Flight Schedules`,
-      narrative: [
-        `Airport operations tolerate no infrastructure delays. Flight schedules are measured in minutes. Cargo transfers have narrow windows between connecting flights. Baggage must move from check-in to aircraft holds within strict timeframes. Your facility infrastructure must support these precise operations without introducing delays or failures.`,
-        `Standard industrial doors struggle in airport environments. Weather extremes prevent operation when you need them most. Security integration is an afterthought, complicating access control. Noise from door operation creates community complaints. Large equipment requires special consideration. Any door failure affects flight operations, cargo transfers, or passenger service—all unacceptable outcomes.`,
-        `You need entrance solutions engineered specifically for aviation environments. Equipment that operates reliably in extreme weather. Systems integrating seamlessly with airport security. Designs that control noise without sacrificing performance. Large openings that still provide weather protection and access control. Infrastructure that supports flight operations, never delays them.`
-      ]
-    },
-    solution: {
-      title: `Aviation-Grade Infrastructure`,
-      intro: `Our airport door systems are specifically engineered to support the unique demands of aviation operations, security, and environmental challenges.`,
-      examples: [
-        {
-          scenario: `International cargo terminal: 24/7 operations, -25°C winter temperatures with 80km/h winds, strict security requirements, noise restrictions affecting surrounding area.`,
-          howWeHelp: `High-speed insulated doors with extreme weather operation guarantee, integrated security access control, noise-dampening construction achieving 30dB reduction, wind-resistant design for reliable operation in storms.`,
-          result: `Zero weather-related delays in 18 months. Security compliance verified through TSA audit. Noise complaints eliminated. Operational costs reduced 35%.`
-        },
-        {
-          scenario: `Aircraft maintenance hangar requiring 12m x 12m opening, rapid access for aircraft, protection from weather, energy efficiency despite size.`,
-          howWeHelp: `High-speed hangar doors with large opening capability, insulated construction, weather sealing, rapid 90-second full opening, and wind-load design for external installation.`,
-          result: `Aircraft turnaround time reduced 20%. Hangar climate maintained despite frequent openings. Energy costs 45% lower than previous doors.`
-        }
-      ]
-    },
-    products: [
-      { name: `High-Speed Roll Doors`, useCase: `Airport cargo terminals and hangar access`, keyBenefit: `Rapid operation with weather sealing for 24/7 airport operations` },
-      { name: `Hydraulic Dock Levelers`, useCase: `Cargo handling and freight operations`, keyBenefit: `Reliable performance for diverse aircraft cargo configurations` },
-      { name: `Automatic Sliding Doors`, useCase: `Terminal entrances and passenger access points`, keyBenefit: `Energy-efficient operation with high traffic capacity` }
-    ],
-    success: {
-      title: `Infrastructure Supporting Flight Operations`,
-      vision: `Your airport facility operates seamlessly 24/7 through all weather conditions. Cargo moves between terminals and aircraft without delay. Equipment enters and exits maintenance hangars efficiently. Security protocols function without impeding operations. Winter storms, summer heat, high winds—your infrastructure adapts without operational interruption. Flight schedules are maintained. Cargo connections are made. Passengers reach destinations on time. Your facility infrastructure does exactly what aviation demands: support operations reliably, maintain security constantly, perform flawlessly under pressure.`
-    },
-    metrics: [
-      { value: `0`, label: `Weather-related delays in 18 months` },
-      { value: `30dB`, label: `Noise reduction for community protection` },
-      { value: `100%`, label: `Security compliance verified` }
-    ],
-    seoDescription: `Airport cargo terminal and aviation facility entrance automation. High-speed hangar doors, weather-resistant cargo doors, noise-insulated systems, and security-integrated solutions for airports.`
-  },
+  // {
+  //   id: `11`,
+  //   name: `Airport & Transportation`,
+  //   slug: `airport`,
+  //   icon: `Package`,
+  //   hero: {
+  //     title: `Airport & Transportation Facility Solutions`,
+  //     openingStory: `Your cargo terminal at the international airport processes air freight on tight schedules. A shipment of time-critical pharmaceuticals arrives on Flight 238 at 6:15 AM—must connect to Flight 412 departing at 9:45 AM for final cold chain transport. Your team has exactly 3 hours for customs clearance, inspection, and transfer. At 7:30 AM, the cargo handling area door jams. Precious minutes are lost routing equipment through an alternate entrance. The pharmaceutical shipment makes its connection with 12 minutes to spare. Your operations supervisor knows you were lucky this time. Next time, a door failure could mean missed connections, spoiled product, and angry customers.`
+  //   },
+  //   overview: {
+  //     title: `Airport Cargo and Transportation Operations`,
+  //     introduction: `Airport cargo facilities, ground service equipment (GSE) areas, baggage handling operations, and transportation terminals require specialized entrance solutions balancing security, rapid access, weather protection, noise control, and continuous operations. These facilities serve critical infrastructure with zero tolerance for delays affecting flight schedules, passenger operations, or cargo transfers.`,
+  //     sections: [
+  //       {
+  //         title: `Airport Facility Requirements`,
+  //         content: `Airport operations include cargo terminals handling air freight with tight customs and transfer windows, baggage handling systems processing thousands of bags hourly, ground service equipment (GSE) maintenance and storage facilities, aircraft hangers requiring large openings with weather protection, de-icing and service areas operating in extreme weather, and secure perimeter facilities with controlled access. All operations integrate with flight schedules. Security requirements are stringent. Weather conditions from extreme cold to high winds must not disrupt operations.`
+  //       },
+  //       {
+  //         title: `Operational Challenges`,
+  //         content: `Flight schedules drive operations with no flexibility for infrastructure delays. Security protocols require controlled access with proper documentation and monitoring. Weather extremes from -30°C to 40°C with high winds must not prevent door operation. Noise control protects surrounding communities from 24/7 airport operations. Large equipment including aircraft tugs, loaders, and cargo containers require substantial door openings. Environmental control maintains temperature-sensitive cargo and comfortable working conditions. Any operational disruption has cascade effects across interconnected flight and cargo networks.`
+  //       },
+  //       {
+  //         title: `Our Airport-Grade Solutions`,
+  //         content: `We provide high-performance doors engineered for airport environments. High-speed operation supports rapid equipment and cargo movement. Weather-resistant construction ensures reliable operation in extreme conditions including wind, rain, snow, and temperature extremes. Security integration with access control, surveillance, and perimeter systems. Noise-insulated designs reduce sound transmission protecting surrounding areas. Large opening capabilities for aircraft and oversized equipment. Fire-rated options for safety compliance. All systems designed for 24/7 reliability supporting uninterrupted airport operations.`
+  //       },
+  //       {
+  //         title: `Airport Operational Benefits`,
+  //         content: `Zero weather-related operational delays maintaining flight schedules. Enhanced security through integrated access control and monitoring. Noise reduction of 25-35 dB protecting surrounding communities and meeting regulations. Energy efficiency despite continuous operations and large openings. Improved working conditions with climate control and weather protection. Compliance with all aviation, security, and safety regulations. Reduced maintenance through robust construction designed for extreme environments. Support for future expansion and operational changes.`
+  //       }
+  //     ]
+  //   },
+  //   challenge: {
+  //     title: `Where Failure Affects Flight Schedules`,
+  //     narrative: [
+  //       `Airport operations tolerate no infrastructure delays. Flight schedules are measured in minutes. Cargo transfers have narrow windows between connecting flights. Baggage must move from check-in to aircraft holds within strict timeframes. Your facility infrastructure must support these precise operations without introducing delays or failures.`,
+  //       `Standard industrial doors struggle in airport environments. Weather extremes prevent operation when you need them most. Security integration is an afterthought, complicating access control. Noise from door operation creates community complaints. Large equipment requires special consideration. Any door failure affects flight operations, cargo transfers, or passenger service—all unacceptable outcomes.`,
+  //       `You need entrance solutions engineered specifically for aviation environments. Equipment that operates reliably in extreme weather. Systems integrating seamlessly with airport security. Designs that control noise without sacrificing performance. Large openings that still provide weather protection and access control. Infrastructure that supports flight operations, never delays them.`
+  //     ]
+  //   },
+  //   solution: {
+  //     title: `Aviation-Grade Infrastructure`,
+  //     intro: `Our airport door systems are specifically engineered to support the unique demands of aviation operations, security, and environmental challenges.`,
+  //     examples: [
+  //       {
+  //         scenario: `International cargo terminal: 24/7 operations, -25°C winter temperatures with 80km/h winds, strict security requirements, noise restrictions affecting surrounding area.`,
+  //         howWeHelp: `High-speed insulated doors with extreme weather operation guarantee, integrated security access control, noise-dampening construction achieving 30dB reduction, wind-resistant design for reliable operation in storms.`,
+  //         result: `Zero weather-related delays in 18 months. Security compliance verified through TSA audit. Noise complaints eliminated. Operational costs reduced 35%.`
+  //       },
+  //       {
+  //         scenario: `Aircraft maintenance hangar requiring 12m x 12m opening, rapid access for aircraft, protection from weather, energy efficiency despite size.`,
+  //         howWeHelp: `High-speed hangar doors with large opening capability, insulated construction, weather sealing, rapid 90-second full opening, and wind-load design for external installation.`,
+  //         result: `Aircraft turnaround time reduced 20%. Hangar climate maintained despite frequent openings. Energy costs 45% lower than previous doors.`
+  //       }
+  //     ]
+  //   },
+  //   products: [
+  //     { name: `High-Speed Roll Doors`, useCase: `Airport cargo terminals and hangar access`, keyBenefit: `Rapid operation with weather sealing for 24/7 airport operations` },
+  //     { name: `Hydraulic Dock Levelers`, useCase: `Cargo handling and freight operations`, keyBenefit: `Reliable performance for diverse aircraft cargo configurations` },
+  //     { name: `Automatic Sliding Doors`, useCase: `Terminal entrances and passenger access points`, keyBenefit: `Energy-efficient operation with high traffic capacity` }
+  //   ],
+  //   success: {
+  //     title: `Infrastructure Supporting Flight Operations`,
+  //     vision: `Your airport facility operates seamlessly 24/7 through all weather conditions. Cargo moves between terminals and aircraft without delay. Equipment enters and exits maintenance hangars efficiently. Security protocols function without impeding operations. Winter storms, summer heat, high winds—your infrastructure adapts without operational interruption. Flight schedules are maintained. Cargo connections are made. Passengers reach destinations on time. Your facility infrastructure does exactly what aviation demands: support operations reliably, maintain security constantly, perform flawlessly under pressure.`
+  //   },
+  //   metrics: [
+  //     { value: `0`, label: `Weather-related delays in 18 months` },
+  //     { value: `30dB`, label: `Noise reduction for community protection` },
+  //     { value: `100%`, label: `Security compliance verified` }
+  //   ],
+  //   seoDescription: `Airport cargo terminal and aviation facility entrance automation. High-speed hangar doors, weather-resistant cargo doors, noise-insulated systems, and security-integrated solutions for airports.`
+  // },
 
   // 12. Chemical & Process Industries
   {
@@ -1004,221 +1004,309 @@ export const industryExamples: IndustryContent[] = [
   },
 
   // 13. Textile & Garment Manufacturing
-  {
-    id: `13`,
-    name: `Textile & Garment Manufacturing`,
-    slug: `textile`,
-    icon: `Factory`,
-    hero: {
-      title: `Textile & Garment Manufacturing Solutions`,
-      openingStory: `Your textile facility runs three shifts producing premium fabrics. Quality control reports fiber contamination in yesterday's production run—traced to lint accumulation around door mechanisms in the cutting room. The standard industrial door's exposed tracks and mechanisms collect airborne fibers, which then shed back into the production environment. Two thousand meters of fabric must be inspected and potentially scrapped. Your production manager knows this problem will recur unless you address the root cause: doors designed for general industry, not textile manufacturing reality.`
-    },
-    overview: {
-      title: `Textile and Garment Manufacturing`,
-      introduction: `Textile and garment manufacturing transforms fibers into fabrics and finished clothing through spinning, weaving, knitting, dyeing, cutting, and sewing operations. These facilities generate significant airborne fiber and lint, operate high-speed production lines with tight quality standards, manage diverse materials from natural to synthetic fibers, and require frequent zone transitions for materials and products between processing stages.`,
-      sections: [
-        {
-          title: `Textile Production Operations`,
-          content: `Textile facilities include fiber preparation and spinning areas, weaving and knitting operations, dyeing and finishing processes with chemical treatments, cutting rooms with automated cutters, sewing and assembly floors, quality inspection zones, and finished goods packaging. Operations generate substantial lint and airborne fiber. Chemical processing areas require ventilation control. Material flow between zones is continuous. Temperature and humidity control affects product quality and worker comfort.`
-        },
-        {
-          title: `Industry-Specific Challenges`,
-          content: `Lint and fiber accumulation on equipment causes contamination and fire hazards. Standard door mechanisms trap fibers creating maintenance problems and contamination sources. Chemical processing areas require corrosion-resistant equipment and proper ventilation. High-speed cutting and sewing operations need rapid material movement without production delays. Quality standards demand clean environments preventing fiber contamination between product runs. Fire safety is critical due to combustible lint accumulation. Energy costs are significant with climate control requirements across large production floors.`
-        },
-        {
-          title: `Our Textile Industry Solutions`,
-          content: `We provide smooth-surface doors with minimal crevices preventing fiber accumulation and facilitating cleaning. High-speed operation supports rapid material flow between production zones without bottlenecks. Sealed mechanisms protect against lint infiltration extending service life and reducing maintenance. Corrosion-resistant construction for chemical processing areas. Easy-clean designs support frequent cleaning protocols. Fire-rated options for safety compliance in lint-generating environments. All systems designed for reliable operation in fiber-laden atmospheres.`
-        },
-        {
-          title: `Production and Quality Benefits`,
-          content: `Reduced contamination incidents through clean-design doors preventing fiber accumulation. Lower maintenance requirements with protected mechanisms resisting lint infiltration. Enhanced fire safety through proper compartmentalization and easy-clean designs. Improved production flow with rapid door operation supporting material movement. Energy efficiency through proper zone separation and climate control. Easier facility cleaning with smooth surfaces and minimal fiber traps. Extended equipment life in challenging textile environments.`
-        }
-      ]
-    },
-    challenge: {
-      title: `When Lint Becomes a Liability`,
-      narrative: [
-        `Textile manufacturing creates unique challenges. Every operation—spinning, weaving, cutting, sewing—generates airborne fibers. This lint settles on everything, accumulating in crevices and mechanisms. Standard industrial doors become lint traps, collecting fibers that then contaminate production, create fire hazards, and require constant cleaning.`,
-        `Your facility infrastructure must coexist with this fiber-laden environment. Doors with exposed tracks fill with lint. Mechanisms jam from fiber accumulation. Contamination migrates between zones affecting quality. Fire inspectors note accumulation concerns. Your maintenance team spends excessive time cleaning equipment that wasn't designed for textile environments.`,
-        `You need entrance solutions specifically designed for textile manufacturing. Smooth surfaces that don't trap fibers. Sealed mechanisms that exclude lint. Easy-clean designs supporting your housekeeping requirements. Equipment that operates reliably despite the airborne fiber environment your facility generates.`
-      ]
-    },
-    solution: {
-      title: `Designed for Textile Environments`,
-      intro: `Our textile industry doors feature clean designs that resist lint accumulation while supporting production flow and quality requirements.`,
-      examples: [
-        {
-          scenario: `Cutting room to sewing floor transition: 150+ daily material movements, heavy lint generation, contamination concerns between product runs, previous doors accumulated fibers causing quality issues.`,
-          howWeHelp: `Smooth-surface high-speed door with sealed mechanisms, minimal crevices, easy-wipe construction. Rapid 2-second cycle supports material flow. Protected components resist lint infiltration.`,
-          result: `Contamination incidents eliminated. Cleaning time reduced 60%. Material flow improved 25%. Door maintenance requirements decreased 75%.`
-        },
-        {
-          scenario: `Dyeing area separation requiring chemical resistance, humidity control, and frequent access for material transfer between processing stages.`,
-          howWeHelp: `Corrosion-resistant rapid door with stainless steel construction, sealed design, and rapid operation. Maintains zone separation while supporting continuous production flow.`,
-          result: `Zero corrosion issues. Temperature and humidity control maintained. Production flow unimpeded. Chemical exposure has no effect on door performance.`
-        }
-      ]
-    },
-    products: [
-      { name: `High-Speed Roll Doors`, useCase: `Production zone separation in textile manufacturing`, keyBenefit: `Smooth design prevents lint accumulation with easy cleaning` },
-      { name: `Hydraulic Dock Levelers`, useCase: `Fabric roll receiving and finished goods shipping`, keyBenefit: `Gentle operation protects delicate textile products` },
-      { name: `Conveying Systems`, useCase: `Automated material handling in production areas`, keyBenefit: `Reduces manual handling of heavy fabric rolls` }
-    ],
-    success: {
-      title: `Clean, Efficient Production`,
-      vision: `Your textile facility operates with confidence in product quality. Materials move smoothly between processing stages without contamination concerns. Doors remain clean and functional despite constant fiber generation. Fire safety inspections find well-maintained, accessible equipment. Your maintenance team performs quick wipe-downs, not extensive cleaning of fiber-clogged mechanisms. Production quality is consistent. Contamination incidents are history. Your infrastructure supports both production efficiency and quality requirements—exactly as textile manufacturing demands.`
-    },
-    metrics: [
-      { value: `0`, label: `Fiber contamination incidents` },
-      { value: `75%`, label: `Reduction in door maintenance` },
-      { value: `60%`, label: `Decrease in cleaning time` }
-    ],
-    seoDescription: `Textile and garment manufacturing entrance automation. Clean-design doors, lint-resistant systems, chemical-resistant construction for dyeing areas, and easy-clean solutions for fabric production.`
-  },
+  // {
+  //   id: `13`,
+  //   name: `Textile & Garment Manufacturing`,
+  //   slug: `textile`,
+  //   icon: `Factory`,
+  //   hero: {
+  //     title: `Textile & Garment Manufacturing Solutions`,
+  //     openingStory: `Your textile facility runs three shifts producing premium fabrics. Quality control reports fiber contamination in yesterday's production run—traced to lint accumulation around door mechanisms in the cutting room. The standard industrial door's exposed tracks and mechanisms collect airborne fibers, which then shed back into the production environment. Two thousand meters of fabric must be inspected and potentially scrapped. Your production manager knows this problem will recur unless you address the root cause: doors designed for general industry, not textile manufacturing reality.`
+  //   },
+  //   overview: {
+  //     title: `Textile and Garment Manufacturing`,
+  //     introduction: `Textile and garment manufacturing transforms fibers into fabrics and finished clothing through spinning, weaving, knitting, dyeing, cutting, and sewing operations. These facilities generate significant airborne fiber and lint, operate high-speed production lines with tight quality standards, manage diverse materials from natural to synthetic fibers, and require frequent zone transitions for materials and products between processing stages.`,
+  //     sections: [
+  //       {
+  //         title: `Textile Production Operations`,
+  //         content: `Textile facilities include fiber preparation and spinning areas, weaving and knitting operations, dyeing and finishing processes with chemical treatments, cutting rooms with automated cutters, sewing and assembly floors, quality inspection zones, and finished goods packaging. Operations generate substantial lint and airborne fiber. Chemical processing areas require ventilation control. Material flow between zones is continuous. Temperature and humidity control affects product quality and worker comfort.`
+  //       },
+  //       {
+  //         title: `Industry-Specific Challenges`,
+  //         content: `Lint and fiber accumulation on equipment causes contamination and fire hazards. Standard door mechanisms trap fibers creating maintenance problems and contamination sources. Chemical processing areas require corrosion-resistant equipment and proper ventilation. High-speed cutting and sewing operations need rapid material movement without production delays. Quality standards demand clean environments preventing fiber contamination between product runs. Fire safety is critical due to combustible lint accumulation. Energy costs are significant with climate control requirements across large production floors.`
+  //       },
+  //       {
+  //         title: `Our Textile Industry Solutions`,
+  //         content: `We provide smooth-surface doors with minimal crevices preventing fiber accumulation and facilitating cleaning. High-speed operation supports rapid material flow between production zones without bottlenecks. Sealed mechanisms protect against lint infiltration extending service life and reducing maintenance. Corrosion-resistant construction for chemical processing areas. Easy-clean designs support frequent cleaning protocols. Fire-rated options for safety compliance in lint-generating environments. All systems designed for reliable operation in fiber-laden atmospheres.`
+  //       },
+  //       {
+  //         title: `Production and Quality Benefits`,
+  //         content: `Reduced contamination incidents through clean-design doors preventing fiber accumulation. Lower maintenance requirements with protected mechanisms resisting lint infiltration. Enhanced fire safety through proper compartmentalization and easy-clean designs. Improved production flow with rapid door operation supporting material movement. Energy efficiency through proper zone separation and climate control. Easier facility cleaning with smooth surfaces and minimal fiber traps. Extended equipment life in challenging textile environments.`
+  //       }
+  //     ]
+  //   },
+  //   challenge: {
+  //     title: `When Lint Becomes a Liability`,
+  //     narrative: [
+  //       `Textile manufacturing creates unique challenges. Every operation—spinning, weaving, cutting, sewing—generates airborne fibers. This lint settles on everything, accumulating in crevices and mechanisms. Standard industrial doors become lint traps, collecting fibers that then contaminate production, create fire hazards, and require constant cleaning.`,
+  //       `Your facility infrastructure must coexist with this fiber-laden environment. Doors with exposed tracks fill with lint. Mechanisms jam from fiber accumulation. Contamination migrates between zones affecting quality. Fire inspectors note accumulation concerns. Your maintenance team spends excessive time cleaning equipment that wasn't designed for textile environments.`,
+  //       `You need entrance solutions specifically designed for textile manufacturing. Smooth surfaces that don't trap fibers. Sealed mechanisms that exclude lint. Easy-clean designs supporting your housekeeping requirements. Equipment that operates reliably despite the airborne fiber environment your facility generates.`
+  //     ]
+  //   },
+  //   solution: {
+  //     title: `Designed for Textile Environments`,
+  //     intro: `Our textile industry doors feature clean designs that resist lint accumulation while supporting production flow and quality requirements.`,
+  //     examples: [
+  //       {
+  //         scenario: `Cutting room to sewing floor transition: 150+ daily material movements, heavy lint generation, contamination concerns between product runs, previous doors accumulated fibers causing quality issues.`,
+  //         howWeHelp: `Smooth-surface high-speed door with sealed mechanisms, minimal crevices, easy-wipe construction. Rapid 2-second cycle supports material flow. Protected components resist lint infiltration.`,
+  //         result: `Contamination incidents eliminated. Cleaning time reduced 60%. Material flow improved 25%. Door maintenance requirements decreased 75%.`
+  //       },
+  //       {
+  //         scenario: `Dyeing area separation requiring chemical resistance, humidity control, and frequent access for material transfer between processing stages.`,
+  //         howWeHelp: `Corrosion-resistant rapid door with stainless steel construction, sealed design, and rapid operation. Maintains zone separation while supporting continuous production flow.`,
+  //         result: `Zero corrosion issues. Temperature and humidity control maintained. Production flow unimpeded. Chemical exposure has no effect on door performance.`
+  //       }
+  //     ]
+  //   },
+  //   products: [
+  //     { name: `High-Speed Roll Doors`, useCase: `Production zone separation in textile manufacturing`, keyBenefit: `Smooth design prevents lint accumulation with easy cleaning` },
+  //     { name: `Hydraulic Dock Levelers`, useCase: `Fabric roll receiving and finished goods shipping`, keyBenefit: `Gentle operation protects delicate textile products` },
+  //     { name: `Conveying Systems`, useCase: `Automated material handling in production areas`, keyBenefit: `Reduces manual handling of heavy fabric rolls` }
+  //   ],
+  //   success: {
+  //     title: `Clean, Efficient Production`,
+  //     vision: `Your textile facility operates with confidence in product quality. Materials move smoothly between processing stages without contamination concerns. Doors remain clean and functional despite constant fiber generation. Fire safety inspections find well-maintained, accessible equipment. Your maintenance team performs quick wipe-downs, not extensive cleaning of fiber-clogged mechanisms. Production quality is consistent. Contamination incidents are history. Your infrastructure supports both production efficiency and quality requirements—exactly as textile manufacturing demands.`
+  //   },
+  //   metrics: [
+  //     { value: `0`, label: `Fiber contamination incidents` },
+  //     { value: `75%`, label: `Reduction in door maintenance` },
+  //     { value: `60%`, label: `Decrease in cleaning time` }
+  //   ],
+  //   seoDescription: `Textile and garment manufacturing entrance automation. Clean-design doors, lint-resistant systems, chemical-resistant construction for dyeing areas, and easy-clean solutions for fabric production.`
+  // },
 
   // 14. Agriculture & Dairy
-  {
-    id: `14`,
-    name: `Agriculture & Dairy`,
-    slug: `agriculture`,
-    icon: `Factory`,
-    hero: {
-      title: `Agriculture & Dairy Processing Solutions`,
-      openingStory: `Your dairy processing facility maintains strict USDA compliance. During a surprise inspection, auditors note corrosion on a processing room door—a door specified as "food-grade" eighteen months ago. The inspection report cites potential contamination concerns. You have 30 days to remediate and document corrective action. Your facility manager investigates: daily caustic washdowns and dairy residue have corroded standard stainless steel faster than predicted. You need doors actually engineered for dairy processing reality, not general food industry applications.`
-    },
-    overview: {
-      title: `Agricultural and Dairy Processing`,
-      introduction: `Agricultural and dairy processing facilities transform raw agricultural products into consumer goods through cleaning, processing, packaging, and cold storage operations. These facilities operate under strict food safety regulations including USDA inspection, FDA compliance, and FSMA requirements. Operations combine harsh cleaning protocols, temperature extremes, organic residue exposure, and continuous production in challenging conditions.`,
-      sections: [
-        {
-          title: `Processing Operations`,
-          content: `Dairy and agricultural facilities include raw product receiving areas, cleaning and sanitizing zones, processing equipment for pasteurization or transformation, packaging lines, cold storage and blast chilling, shipping docks, and waste handling areas. Operations require daily high-pressure washdowns with caustic chemicals and sanitizers. Equipment moves between ambient and refrigerated zones. Organic residues from products can harbor bacteria if not properly removed. All food contact areas must meet sanitary design standards.`
-        },
-        {
-          title: `Food Safety and Operational Challenges`,
-          content: `Daily chemical washdowns attack standard materials causing premature failure. Organic residue accumulation creates bacterial harborage points if equipment has crevices or hard-to-clean surfaces. Temperature cycling between processing and cold storage stresses equipment. USDA and FDA inspectors scrutinize all equipment for sanitary design and cleanliness. Equipment downtime affects perishable product processing windows. Corrosion from chemicals and organic acids degrades non-food-grade materials. Any contamination risk threatens facility approval and product safety.`
-        },
-        {
-          title: `Our Food-Safe Agricultural Solutions`,
-          content: `We provide USDA-accepted sanitary design doors constructed from food-grade 304/316 stainless steel with smooth, crevice-free surfaces. Sealed construction prevents organic material accumulation. All components rated for daily caustic chemical exposure. Corrosion-resistant fasteners and hardware. NSF-certified materials for food contact areas. Easy-clean design supporting rapid sanitation. Temperature-rated for freezer to ambient transitions. Complete documentation for USDA/FDA compliance verification.`
-        },
-        {
-          title: `Food Safety and Operational Benefits`,
-          content: `USDA/FDA compliance maintained through proper sanitary design and documentation. Zero corrosion issues extending equipment life 5-8x beyond standard food doors. Simplified sanitation with smooth surfaces reducing cleaning time 40-50%. Bacterial harborage eliminated through proper design. Temperature cycling handled without equipment stress. Reduced maintenance costs through corrosion-resistant construction. Audit-ready documentation simplifying compliance verification. Peace of mind that infrastructure meets food safety requirements.`
-        }
-      ]
-    },
-    challenge: {
-      title: `Where Food Safety Meets Reality`,
-      narrative: [
-        `Dairy and agricultural processing combines the worst challenges: harsh chemicals, organic residues, temperature extremes, and absolute requirements for food safety compliance. Equipment must withstand daily caustic washdowns while maintaining sanitary design standards. Any crevice becomes a bacterial harborage point. Any corrosion becomes a contamination risk. Regulatory scrutiny is constant.`,
-        `Standard "food-grade" equipment often disappoints. Corrosion appears within months. Hard-to-clean areas accumulate residue. Components fail from chemical exposure. Inspectors question sanitary design. You're replacing equipment that should last a decade within two years. The problem: equipment designed for general food service, not dairy processing intensity.`,
-        `You need entrance solutions specifically engineered for agricultural processing. True sanitary design by engineers who understand USDA standards. Materials proven in dairy environments. Construction that survives your chemical exposure. Equipment you can trust for food safety and inspector approval.`
-      ]
-    },
-    solution: {
-      title: `USDA-Accepted Sanitary Design`,
-      intro: `Our agricultural processing doors are engineered to USDA sanitary design standards with materials proven in dairy and food processing environments.`,
-      examples: [
-        {
-          scenario: `Dairy processing room: Daily high-pressure washdown with 180°F caustic solution, temperature transitions from 2°C cold storage to 20°C processing, USDA inspection requirements, previous doors corroded within 18 months.`,
-          howWeHelp: `316 stainless steel door with fully-welded construction, NSF-certified components, smooth surfaces with <32 Ra finish, sealed design preventing moisture intrusion, proven resistant to dairy caustic washdown chemistry.`,
-          result: `36+ months of operation with zero corrosion. USDA inspector approval. Sanitation time reduced 45%. Equipment maintains like-new condition.`
-        },
-        {
-          scenario: `Agricultural product processing: Organic residue exposure, daily cleaning protocols, inspector scrutiny of equipment cleanliness, concerns about bacterial harborage in previous door mechanisms.`,
-          howWeHelp: `Sanitary design door with crevice-free construction, fully sealed mechanisms, easy-access cleaning points, complete drainage preventing moisture accumulation, documented compliance with food safety standards.`,
-          result: `Zero bacterial findings in swab testing. Cleaning procedure simplified. Inspector approval maintained through multiple audits.`
-        }
-      ]
-    },
-    products: [
-      { name: `High-Speed Roll Doors`, useCase: `Processing area separation in dairy and agriculture facilities`, keyBenefit: `Fast operation with sanitary design for food safety compliance` },
-      { name: `Hydraulic Dock Levelers`, useCase: `Agricultural product receiving and distribution`, keyBenefit: `Heavy-duty capacity for bulk agricultural products` },
-      { name: `Conveying Systems`, useCase: `Automated handling in food processing operations`, keyBenefit: `Hygienic design reduces contamination risk` }
-    ],
-    success: {
-      title: `Food Safety Confidence`,
-      vision: `Your facility operates with absolute confidence in food safety compliance. USDA inspectors examine your equipment and find nothing to cite. Doors maintain pristine condition despite daily chemical assault. Sanitation crews complete cleaning quickly without wrestling hard-to-reach areas. Bacterial testing shows zero harborage concerns. Your equipment investment protects itself through long-term durability in harsh conditions. Compliance isn't a worry—it's simply part of how your infrastructure performs. Food safety and operational efficiency work together, as they should.`
-    },
-    metrics: [
-      { value: `0`, label: `USDA compliance findings` },
-      { value: `5-8x`, label: `Service life vs standard food doors` },
-      { value: `45%`, label: `Reduction in sanitation time` }
-    ],
-    seoDescription: `Agricultural and dairy processing entrance automation. USDA sanitary design doors, corrosion-resistant stainless steel systems, hygienic construction, and food-safe solutions for processing facilities.`
-  },
+  // {
+  //   id: `14`,
+  //   name: `Agriculture & Dairy`,
+  //   slug: `agriculture`,
+  //   icon: `Factory`,
+  //   hero: {
+  //     title: `Agriculture & Dairy Processing Solutions`,
+  //     openingStory: `Your dairy processing facility maintains strict USDA compliance. During a surprise inspection, auditors note corrosion on a processing room door—a door specified as "food-grade" eighteen months ago. The inspection report cites potential contamination concerns. You have 30 days to remediate and document corrective action. Your facility manager investigates: daily caustic washdowns and dairy residue have corroded standard stainless steel faster than predicted. You need doors actually engineered for dairy processing reality, not general food industry applications.`
+  //   },
+  //   overview: {
+  //     title: `Agricultural and Dairy Processing`,
+  //     introduction: `Agricultural and dairy processing facilities transform raw agricultural products into consumer goods through cleaning, processing, packaging, and cold storage operations. These facilities operate under strict food safety regulations including USDA inspection, FDA compliance, and FSMA requirements. Operations combine harsh cleaning protocols, temperature extremes, organic residue exposure, and continuous production in challenging conditions.`,
+  //     sections: [
+  //       {
+  //         title: `Processing Operations`,
+  //         content: `Dairy and agricultural facilities include raw product receiving areas, cleaning and sanitizing zones, processing equipment for pasteurization or transformation, packaging lines, cold storage and blast chilling, shipping docks, and waste handling areas. Operations require daily high-pressure washdowns with caustic chemicals and sanitizers. Equipment moves between ambient and refrigerated zones. Organic residues from products can harbor bacteria if not properly removed. All food contact areas must meet sanitary design standards.`
+  //       },
+  //       {
+  //         title: `Food Safety and Operational Challenges`,
+  //         content: `Daily chemical washdowns attack standard materials causing premature failure. Organic residue accumulation creates bacterial harborage points if equipment has crevices or hard-to-clean surfaces. Temperature cycling between processing and cold storage stresses equipment. USDA and FDA inspectors scrutinize all equipment for sanitary design and cleanliness. Equipment downtime affects perishable product processing windows. Corrosion from chemicals and organic acids degrades non-food-grade materials. Any contamination risk threatens facility approval and product safety.`
+  //       },
+  //       {
+  //         title: `Our Food-Safe Agricultural Solutions`,
+  //         content: `We provide USDA-accepted sanitary design doors constructed from food-grade 304/316 stainless steel with smooth, crevice-free surfaces. Sealed construction prevents organic material accumulation. All components rated for daily caustic chemical exposure. Corrosion-resistant fasteners and hardware. NSF-certified materials for food contact areas. Easy-clean design supporting rapid sanitation. Temperature-rated for freezer to ambient transitions. Complete documentation for USDA/FDA compliance verification.`
+  //       },
+  //       {
+  //         title: `Food Safety and Operational Benefits`,
+  //         content: `USDA/FDA compliance maintained through proper sanitary design and documentation. Zero corrosion issues extending equipment life 5-8x beyond standard food doors. Simplified sanitation with smooth surfaces reducing cleaning time 40-50%. Bacterial harborage eliminated through proper design. Temperature cycling handled without equipment stress. Reduced maintenance costs through corrosion-resistant construction. Audit-ready documentation simplifying compliance verification. Peace of mind that infrastructure meets food safety requirements.`
+  //       }
+  //     ]
+  //   },
+  //   challenge: {
+  //     title: `Where Food Safety Meets Reality`,
+  //     narrative: [
+  //       `Dairy and agricultural processing combines the worst challenges: harsh chemicals, organic residues, temperature extremes, and absolute requirements for food safety compliance. Equipment must withstand daily caustic washdowns while maintaining sanitary design standards. Any crevice becomes a bacterial harborage point. Any corrosion becomes a contamination risk. Regulatory scrutiny is constant.`,
+  //       `Standard "food-grade" equipment often disappoints. Corrosion appears within months. Hard-to-clean areas accumulate residue. Components fail from chemical exposure. Inspectors question sanitary design. You're replacing equipment that should last a decade within two years. The problem: equipment designed for general food service, not dairy processing intensity.`,
+  //       `You need entrance solutions specifically engineered for agricultural processing. True sanitary design by engineers who understand USDA standards. Materials proven in dairy environments. Construction that survives your chemical exposure. Equipment you can trust for food safety and inspector approval.`
+  //     ]
+  //   },
+  //   solution: {
+  //     title: `USDA-Accepted Sanitary Design`,
+  //     intro: `Our agricultural processing doors are engineered to USDA sanitary design standards with materials proven in dairy and food processing environments.`,
+  //     examples: [
+  //       {
+  //         scenario: `Dairy processing room: Daily high-pressure washdown with 180°F caustic solution, temperature transitions from 2°C cold storage to 20°C processing, USDA inspection requirements, previous doors corroded within 18 months.`,
+  //         howWeHelp: `316 stainless steel door with fully-welded construction, NSF-certified components, smooth surfaces with <32 Ra finish, sealed design preventing moisture intrusion, proven resistant to dairy caustic washdown chemistry.`,
+  //         result: `36+ months of operation with zero corrosion. USDA inspector approval. Sanitation time reduced 45%. Equipment maintains like-new condition.`
+  //       },
+  //       {
+  //         scenario: `Agricultural product processing: Organic residue exposure, daily cleaning protocols, inspector scrutiny of equipment cleanliness, concerns about bacterial harborage in previous door mechanisms.`,
+  //         howWeHelp: `Sanitary design door with crevice-free construction, fully sealed mechanisms, easy-access cleaning points, complete drainage preventing moisture accumulation, documented compliance with food safety standards.`,
+  //         result: `Zero bacterial findings in swab testing. Cleaning procedure simplified. Inspector approval maintained through multiple audits.`
+  //       }
+  //     ]
+  //   },
+  //   products: [
+  //     { name: `High-Speed Roll Doors`, useCase: `Processing area separation in dairy and agriculture facilities`, keyBenefit: `Fast operation with sanitary design for food safety compliance` },
+  //     { name: `Hydraulic Dock Levelers`, useCase: `Agricultural product receiving and distribution`, keyBenefit: `Heavy-duty capacity for bulk agricultural products` },
+  //     { name: `Conveying Systems`, useCase: `Automated handling in food processing operations`, keyBenefit: `Hygienic design reduces contamination risk` }
+  //   ],
+  //   success: {
+  //     title: `Food Safety Confidence`,
+  //     vision: `Your facility operates with absolute confidence in food safety compliance. USDA inspectors examine your equipment and find nothing to cite. Doors maintain pristine condition despite daily chemical assault. Sanitation crews complete cleaning quickly without wrestling hard-to-reach areas. Bacterial testing shows zero harborage concerns. Your equipment investment protects itself through long-term durability in harsh conditions. Compliance isn't a worry—it's simply part of how your infrastructure performs. Food safety and operational efficiency work together, as they should.`
+  //   },
+  //   metrics: [
+  //     { value: `0`, label: `USDA compliance findings` },
+  //     { value: `5-8x`, label: `Service life vs standard food doors` },
+  //     { value: `45%`, label: `Reduction in sanitation time` }
+  //   ],
+  //   seoDescription: `Agricultural and dairy processing entrance automation. USDA sanitary design doors, corrosion-resistant stainless steel systems, hygienic construction, and food-safe solutions for processing facilities.`
+  // },
 
   // 15. Retail & Shopping Centers
+  // {
+  //   id: `15`,
+  //   name: `Retail & Shopping Centers`,
+  //   slug: `retail`,
+  //   icon: `Factory`,
+  //   hero: {
+  //     title: `Retail & Shopping Center Solutions`,
+  //     openingStory: `Your shopping center's receiving dock serves fifteen retail tenants. At 10 AM on Friday—peak delivery day—the main dock door fails in the open position during a December cold snap. Delivery trucks queue in the parking lot. Retailers call frantically about delayed shipments. Customers complain about cold air blasting through the service corridor into the mall. Your maintenance team can't source replacement parts until Monday. Three days of operational disruption, tenant complaints, and customer dissatisfaction—all from one door failure.`
+  //   },
+  //   overview: {
+  //     title: `Retail and Shopping Center Operations`,
+  //     introduction: `Retail facilities and shopping centers require reliable back-of-house infrastructure supporting tenant operations while maintaining customer-facing environment quality. Loading docks serve multiple tenants with varying schedules, merchandise flows continuously between storage and sales floors, and facility operations must be invisible to shoppers while ensuring tenant success and operational efficiency.`,
+  //     sections: [
+  //       {
+  //         title: `Retail Facility Operations`,
+  //         content: `Shopping centers and retail facilities include shared loading docks serving multiple tenants, storage and receiving areas, service corridors connecting back-of-house to retail spaces, waste and recycling management, and mechanical/utility areas. Operations occur during limited windows to avoid customer disruption. Merchandise delivery schedules are tight with holiday peak seasons. Tenant satisfaction depends on smooth logistics. Customer experience requires operational issues remain invisible. Climate control must be maintained despite frequent dock door operation.`
+  //       },
+  //       {
+  //         title: `Retail Operational Challenges`,
+  //         content: `Shared dock infrastructure serves multiple tenants with conflicting schedules and varying requirements. Peak season delivery volumes strain limited dock capacity requiring maximum efficiency. Door failures disrupt multiple tenant operations simultaneously creating widespread complaints. Customer-facing areas suffer when dock doors allow temperature loss or noise transmission. Energy costs increase when slow or poorly-sealed doors allow climate escape. Limited maintenance windows require reliable equipment preventing emergency calls during business hours. Any operational disruption reflects poorly on facility management and tenant relationships.`
+  //       },
+  //       {
+  //         title: `Our Retail Infrastructure Solutions`,
+  //         content: `We provide reliable high-speed dock doors maximizing throughput from limited dock positions. Energy-efficient insulated construction reduces climate control costs despite frequent operation. Quiet operation prevents noise transmission to customer areas. Self-repairing technology eliminates emergency maintenance calls during business hours. Weather-resistant construction maintains operation through all seasons. Attractive appearance suitable for visible locations. Integration with tenant scheduling systems for coordinated operations. Low-maintenance design reducing service requirements and lifecycle costs.`
+  //       },
+  //       {
+  //         title: `Operational and Economic Benefits`,
+  //         content: `Enhanced tenant satisfaction through reliable merchandise receipt and minimal operational disruptions. Increased dock efficiency handling 30-40% more deliveries with same infrastructure. Energy cost reduction of 35-50% through insulated construction and rapid cycling. Eliminated after-hours emergency maintenance calls. Improved customer experience with quiet operation and maintained climate control. Reduced operational complaints and improved facility management reputation. Lower total cost of ownership through reliable, low-maintenance equipment. Support for peak season operations without infrastructure failures.`
+  //       }
+  //     ]
+  //   },
+  //   challenge: {
+  //     title: `When Tenants and Customers Both Depend on You`,
+  //     narrative: [
+  //       `Retail facility management walks a tightrope. Tenants need reliable merchandise flow—their sales depend on it. Customers expect a pleasant shopping environment—your reputation depends on it. Your loading dock infrastructure must serve both imperatives: operational efficiency for tenants, operational invisibility for customers.`,
+  //       `Standard dock doors compromise both requirements. They're slow, creating delivery bottlenecks affecting multiple tenants. They fail during peak seasons, creating crisis situations with retailers counting on you. They leak climate control, affecting customer comfort and energy costs. They're noisy, creating complaints from adjacent retail spaces. Each problem affects tenant relationships, customer satisfaction, and your operational reputation.`,
+  //       `You need entrance infrastructure specifically designed for retail facility operations. Equipment reliable enough to avoid tenant-disrupting failures. Efficiency supporting tight delivery schedules. Quiet operation maintaining customer environment quality. Energy performance controlling operational costs. Infrastructure that serves your tenants' operational needs while remaining invisible to their customers.`
+  //     ]
+  //   },
+  //   solution: {
+  //     title: `Supporting Retail Operations Seamlessly`,
+  //     intro: `Our retail facility doors balance operational efficiency with the unique requirements of shopping center environments.`,
+  //     examples: [
+  //       {
+  //         scenario: `Shopping center shared dock: 15 retail tenants, 80-120 daily deliveries, holiday peak season surges, customer areas adjacent to dock, energy cost concerns, need for 24/7 reliability.`,
+  //         howWeHelp: `High-speed insulated dock doors with rapid 1.8-second cycles, quiet operation, self-repairing technology, energy-efficient construction, and reliable performance through peak seasons.`,
+  //         result: `Dock capacity increased 35% handling peak season without expansion. Energy costs reduced $18,000 annually. Zero emergency calls in 18 months. Tenant satisfaction scores improved.`
+  //       },
+  //       {
+  //         scenario: `Department store service corridor: Frequent merchandise movement, customer-facing location visible from parking, climate control important, noise concerns from adjacent retail spaces.`,
+  //         howWeHelp: `Attractive high-speed door with quiet operation, insulated construction, rapid cycling for climate retention, and clean appearance suitable for semi-visible location.`,
+  //         result: `Climate maintained despite frequent use. Noise complaints eliminated. Merchandise flow improved. Professional appearance maintained.`
+  //       }
+  //     ]
+  //   },
+  //   products: [
+  //     { name: `Hydraulic Dock Levelers`, useCase: `Retail receiving docks serving multiple tenants`, keyBenefit: `Reliable operation supporting tight delivery schedules` },
+  //     { name: `High-Speed Roll Doors`, useCase: `Stockroom and service area access`, keyBenefit: `Fast operation maintains climate control and reduces noise` },
+  //     { name: `Automatic Sliding Doors`, useCase: `Customer entrances and main access points`, keyBenefit: `Energy-efficient with modern aesthetics enhancing customer experience` }
+  //   ],
+  //   success: {
+  //     title: `Operations That Serve Everyone`,
+  //     vision: `Your retail facility operates smoothly behind the scenes. Tenants receive merchandise reliably without delays or complications. Customers shop in comfortable environments unaware of the logistics supporting their experience. Peak holiday seasons are managed efficiently without infrastructure crisis. Your facility management reputation strengthens through consistent operational excellence. Maintenance budgets focus on improvements, not emergency repairs. Both tenants and customers benefit from infrastructure that simply works—efficiently for operations, invisibly for experience.`
+  //   },
+  //   metrics: [
+  //     { value: `35%`, label: `Increase in dock capacity` },
+  //     { value: `$18k`, label: `Annual energy cost savings` },
+  //     { value: `0`, label: `Emergency maintenance calls` }
+  //   ],
+  //   seoDescription: `Retail and shopping center entrance automation. Reliable dock doors for multi-tenant facilities, energy-efficient systems, quiet operation, and infrastructure solutions supporting retail operations.`
+  // },
   {
-    id: `15`,
-    name: `Retail & Shopping Centers`,
-    slug: `retail`,
-    icon: `Factory`,
+    id: `16`,
+    name: `Mining Industry`,
+    slug: `mining`,
+    icon: `Pickaxe`,
     hero: {
-      title: `Retail & Shopping Center Solutions`,
-      openingStory: `Your shopping center's receiving dock serves fifteen retail tenants. At 10 AM on Friday—peak delivery day—the main dock door fails in the open position during a December cold snap. Delivery trucks queue in the parking lot. Retailers call frantically about delayed shipments. Customers complain about cold air blasting through the service corridor into the mall. Your maintenance team can't source replacement parts until Monday. Three days of operational disruption, tenant complaints, and customer dissatisfaction—all from one door failure.`
+      title: `Mining, Minerals & Bulk Handling Solutions`,
+      openingStory: `Your plant environmental report shows respirable dust exceeding limits at the primary crusher and two transfer towers. A buildup has fouled limit switches on a critical door; maintenance locks out the line. Production stalls while supervisors juggle safety, compliance, and output. The next MSHA/Inspector visit is in two weeks—this can't happen again.`
     },
     overview: {
-      title: `Retail and Shopping Center Operations`,
-      introduction: `Retail facilities and shopping centers require reliable back-of-house infrastructure supporting tenant operations while maintaining customer-facing environment quality. Loading docks serve multiple tenants with varying schedules, merchandise flows continuously between storage and sales floors, and facility operations must be invisible to shoppers while ensuring tenant success and operational efficiency.`,
+      title: `Harsh, High-Duty Operations with Strict Dust Control`,
+      introduction: `Mining and mineral processing facilities move high volumes of abrasive material through crushers, screens, and conveyor networks. Transfer points generate fugitive dust; equipment endures impact, vibration, and corrosion. Operations must meet dust exposure limits while maintaining throughput and uptime in remote conditions.`,
       sections: [
         {
-          title: `Retail Facility Operations`,
-          content: `Shopping centers and retail facilities include shared loading docks serving multiple tenants, storage and receiving areas, service corridors connecting back-of-house to retail spaces, waste and recycling management, and mechanical/utility areas. Operations occur during limited windows to avoid customer disruption. Merchandise delivery schedules are tight with holiday peak seasons. Tenant satisfaction depends on smooth logistics. Customer experience requires operational issues remain invisible. Climate control must be maintained despite frequent dock door operation.`
+          title: `Where and How Work Gets Done`,
+          content: `Primary and secondary crushing, screening houses, surge bins, conveyor galleries, and load-out stations operate continuously. Transfer towers, tripper points, and reclaim tunnels see frequent door cycles for inspection and access. MCC rooms and control spaces require compartmentalization from dusty areas.`
         },
         {
-          title: `Retail Operational Challenges`,
-          content: `Shared dock infrastructure serves multiple tenants with conflicting schedules and varying requirements. Peak season delivery volumes strain limited dock capacity requiring maximum efficiency. Door failures disrupt multiple tenant operations simultaneously creating widespread complaints. Customer-facing areas suffer when dock doors allow temperature loss or noise transmission. Energy costs increase when slow or poorly-sealed doors allow climate escape. Limited maintenance windows require reliable equipment preventing emergency calls during business hours. Any operational disruption reflects poorly on facility management and tenant relationships.`
+          title: `Core Challenges`,
+          content: `Fugitive dust and fumes impact worker health and visibility, contaminate bearings and sensors, and trigger nuisance trips. Wind-driven ingress at openings undermines capture efficiency. Abrasive fines degrade seals and hardware. Combustible dust risks require proper capture, isolation, and rated barriers. Unplanned stoppages carry major cost per hour.`
         },
         {
-          title: `Our Retail Infrastructure Solutions`,
-          content: `We provide reliable high-speed dock doors maximizing throughput from limited dock positions. Energy-efficient insulated construction reduces climate control costs despite frequent operation. Quiet operation prevents noise transmission to customer areas. Self-repairing technology eliminates emergency maintenance calls during business hours. Weather-resistant construction maintains operation through all seasons. Attractive appearance suitable for visible locations. Integration with tenant scheduling systems for coordinated operations. Low-maintenance design reducing service requirements and lifecycle costs.`
+          title: `Our Integrated Approach`,
+          content: `We combine heavy-duty entrance automation with engineered dust and fume extraction. Dust-tight high-speed doors reduce air ingress, stabilize capture airflow, and protect sensitive areas. Source-capture hoods at crushers and transfer points feed baghouses or wet scrubbers sized for real loading. Controls interlock doors, fans, and conveyors for safe, efficient operation.`
         },
         {
-          title: `Operational and Economic Benefits`,
-          content: `Enhanced tenant satisfaction through reliable merchandise receipt and minimal operational disruptions. Increased dock efficiency handling 30-40% more deliveries with same infrastructure. Energy cost reduction of 35-50% through insulated construction and rapid cycling. Eliminated after-hours emergency maintenance calls. Improved customer experience with quiet operation and maintained climate control. Reduced operational complaints and improved facility management reputation. Lower total cost of ownership through reliable, low-maintenance equipment. Support for peak season operations without infrastructure failures.`
+          title: `Operational Value`,
+          content: `Improved air quality and visibility, reduced cleanup, and fewer dust-related trips. Higher baghouse efficiency with stabilized make-up air. Better reliability for sensors and drives. Compliance confidence with documented performance and monitoring.`
         }
       ]
     },
     challenge: {
-      title: `When Tenants and Customers Both Depend on You`,
+      title: `Dust, Downtime, and Compliance Pressure`,
       narrative: [
-        `Retail facility management walks a tightrope. Tenants need reliable merchandise flow—their sales depend on it. Customers expect a pleasant shopping environment—your reputation depends on it. Your loading dock infrastructure must serve both imperatives: operational efficiency for tenants, operational invisibility for customers.`,
-        `Standard dock doors compromise both requirements. They're slow, creating delivery bottlenecks affecting multiple tenants. They fail during peak seasons, creating crisis situations with retailers counting on you. They leak climate control, affecting customer comfort and energy costs. They're noisy, creating complaints from adjacent retail spaces. Each problem affects tenant relationships, customer satisfaction, and your operational reputation.`,
-        `You need entrance infrastructure specifically designed for retail facility operations. Equipment reliable enough to avoid tenant-disrupting failures. Efficiency supporting tight delivery schedules. Quiet operation maintaining customer environment quality. Energy performance controlling operational costs. Infrastructure that serves your tenants' operational needs while remaining invisible to their customers.`
+        `Every unsealed opening at a crusher house or transfer tower is a path for dust to escape—and for wind to disrupt capture airflow. Standard doors warp, seals abrade, and operators prop them open during inspections, defeating your environmental controls.`,
+        `Meanwhile, abrasive fines infiltrate bearings, photo-eyes, and limit switches, causing false trips and emergency stops. Cleanup hours and lost production stack up. When inspectors arrive, they want data, not excuses.`,
+        `You need equipment that stands up to the environment and supports your dust control plan—from doors that actually seal to extraction that captures at the source and proves its performance.`
       ]
     },
     solution: {
-      title: `Supporting Retail Operations Seamlessly`,
-      intro: `Our retail facility doors balance operational efficiency with the unique requirements of shopping center environments.`,
+      title: `Engineered Entrances + Source Capture That Works`,
+      intro: `We integrate heavy-duty doors with properly designed dust and fume extraction so access, safety, and compliance work together.`,
       examples: [
         {
-          scenario: `Shopping center shared dock: 15 retail tenants, 80-120 daily deliveries, holiday peak season surges, customer areas adjacent to dock, energy cost concerns, need for 24/7 reliability.`,
-          howWeHelp: `High-speed insulated dock doors with rapid 1.8-second cycles, quiet operation, self-repairing technology, energy-efficient construction, and reliable performance through peak seasons.`,
-          result: `Dock capacity increased 35% handling peak season without expansion. Energy costs reduced $18,000 annually. Zero emergency calls in 18 months. Tenant satisfaction scores improved.`
+          scenario: `Primary crusher and screen house create heavy dust plumes; access doors are often left open during inspection.`,
+          howWeHelp: `Install dust-tight high-speed roll doors with abrasion-resistant seals and interlocks to close automatically before start-up. Fit hooded capture points at the crusher, screens, and chutework ducted to a baghouse with variable flow control.`,
+          result: `Measured fugitive dust reduced by 80–90% at openings. Operators maintain access without defeating controls. Nuisance trips from dust ingress drop significantly.`
         },
         {
-          scenario: `Department store service corridor: Frequent merchandise movement, customer-facing location visible from parking, climate control important, noise concerns from adjacent retail spaces.`,
-          howWeHelp: `Attractive high-speed door with quiet operation, insulated construction, rapid cycling for climate retention, and clean appearance suitable for semi-visible location.`,
-          result: `Climate maintained despite frequent use. Noise complaints eliminated. Merchandise flow improved. Professional appearance maintained.`
+          scenario: `Multiple conveyor transfer towers with variable loading and wind effects reduce capture effectiveness.`,
+          howWeHelp: `Engineer enclosure skirts and over-the-belt hoods, balance extraction per drop point, and use smart interlocks between doors, fans, and conveyor starts for stable airflow.`,
+          result: `Consistent capture at transfer points, cleaner galleries, and 25–35% reduction in housekeeping time. Documented compliance during audits.`
         }
       ]
     },
     products: [
-      { name: `Hydraulic Dock Levelers`, useCase: `Retail receiving docks serving multiple tenants`, keyBenefit: `Reliable operation supporting tight delivery schedules` },
-      { name: `High-Speed Roll Doors`, useCase: `Stockroom and service area access`, keyBenefit: `Fast operation maintains climate control and reduces noise` },
-      { name: `Automatic Sliding Doors`, useCase: `Customer entrances and main access points`, keyBenefit: `Energy-efficient with modern aesthetics enhancing customer experience` }
+      // {
+      //   name: `High-Speed Roll Doors`,
+      //   useCase: `Crusher houses, screen buildings, transfer towers, conveyor galleries`,
+      //   keyBenefit: `Dust-tight, fast cycling doors stabilize capture airflow and limit fugitive emissions`
+      // },
+      {
+        name: `Fume & Dust Extraction Systems`,
+        useCase: `Source capture at crushers, screens, and conveyor transfer points`,
+        keyBenefit: `Engineered hoods + baghouse/scrubber systems reduce respirable dust and meet limits`
+      },
+      // {
+      //   name: `Fire-Rated Shutters`,
+      //   useCase: `MCC rooms, control rooms, and compartmentalization near dusty process areas`,
+      //   keyBenefit: `Rated barriers that protect critical spaces without impeding operations`
+      // },
+      {
+        name: `Conveying Systems`,
+        useCase: `Bulk material movement from mine to processing and load-out`,
+        keyBenefit: `Reliable, maintainable material flow with integrated dust control interfaces`
+      }
     ],
     success: {
-      title: `Operations That Serve Everyone`,
-      vision: `Your retail facility operates smoothly behind the scenes. Tenants receive merchandise reliably without delays or complications. Customers shop in comfortable environments unaware of the logistics supporting their experience. Peak holiday seasons are managed efficiently without infrastructure crisis. Your facility management reputation strengthens through consistent operational excellence. Maintenance budgets focus on improvements, not emergency repairs. Both tenants and customers benefit from infrastructure that simply works—efficiently for operations, invisibly for experience.`
+      title: `Cleaner Air, Higher Uptime`,
+      vision: `Six months later: Transfer towers are visibly cleaner, photo-eye false trips have disappeared, and respirable dust readings are consistently below site limits. Operators use doors as intended because they open fast and seal tight. Maintenance reports 30% fewer dust-related interventions. Your audit files include capture airflow data and inspection logs—no citations, no surprises.`
     },
     metrics: [
-      { value: `35%`, label: `Increase in dock capacity` },
-      { value: `$18k`, label: `Annual energy cost savings` },
-      { value: `0`, label: `Emergency maintenance calls` }
+      { value: `80–90%`, label: `Reduction in fugitive dust at openings` },
+      { value: `30%`, label: `Fewer dust-related maintenance calls` },
+      { value: `0`, label: `Compliance citations from dust events` }
     ],
-    seoDescription: `Retail and shopping center entrance automation. Reliable dock doors for multi-tenant facilities, energy-efficient systems, quiet operation, and infrastructure solutions supporting retail operations.`
-  },
+    seoDescription: `Mining industry entrance automation and fume/dust extraction. Dust-tight high-speed doors, engineered source capture, and conveying systems for crushers, screens, and transfer towers.`
+  }
 ];

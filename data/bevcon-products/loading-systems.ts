@@ -2,7 +2,7 @@ import { BrandData } from './nergeco'
 
 export const loadingSystemsData: BrandData = {
   brand: "Loading Systems",
-  description: "Loading Systems is a leading manufacturer of dock levellers and loading bay solutions, providing durable and safe equipment for efficient material handling operations.",
+  description: "Loading Systems is a leading manufacturer of dock levellers and docking solutions, providing durable and safe equipment for efficient material handling operations.",
   website: "https://www.loading-systems.com",
   products: [
     {

@@ -119,7 +119,7 @@ export default function RootLayout({
           "itemOffered": {
             "@type": "Service",
             "name": "Docking Equipment",
-            "description": "Dock levelers and loading bay solutions for efficient material transfer"
+            "description": "Dock levelers for efficient material transfer"
           }
         },
         {

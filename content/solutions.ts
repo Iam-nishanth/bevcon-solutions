@@ -154,7 +154,7 @@ export const solutions: Solution[] = [
 		name: "Docking Equipment / Dock Levellers",
 		tagline: "Efficient, Safe Loading Operations",
 		icon: "package",
-		shortDescription: "Complete loading bay solutions including dock levelers, shelters, and seals for seamless material transfer",
+		shortDescription: "Complete docking equipment including dock levelers, shelters, and seals for seamless material transfer",
 		fullDescription:
 			"Our comprehensive docking equipment ensures safe, efficient loading and unloading operations while maintaining environmental control. From hydraulic dock levelers to complete docking solutions, we provide integrated systems that improve productivity and worker safety.",
 		keyBenefits: [
@@ -202,7 +202,7 @@ export const solutions: Solution[] = [
 		relatedProducts: ["dock-levelers", "dock-shelters"],
 		caseStudyHighlight: {
 			title: "E-commerce Fulfillment Center",
-			description: "Equipped 24-bay fulfillment center with complete loading bay solutions",
+			description: "Equipped 24-bay fulfillment center with complete docking equipment solutions",
 			results: ["45% faster loading/unloading times", "Zero dock-related safety incidents", "60% reduction in heating/cooling loss"],
 		},
 		metaTitle: "Docking Equipment / Dock Levellers | Bevcon Solutions",
@@ -318,7 +318,7 @@ export const solutions: Solution[] = [
 			{
 				title: "Safety Compliance Standards",
 				description:
-					"New workplace safety regulations require proper dock equipment and vehicle restraint systems, making professional loading bay solutions essential for compliance.",
+					"New workplace safety regulations require proper dock equipment and vehicle restraint systems, making professional docking equipment solutions essential for compliance.",
 			},
 		],
 		relatedProducts: ["dock-levelers", "dock-shelters", "dock-seals"],

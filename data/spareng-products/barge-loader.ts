@@ -185,56 +185,56 @@ export const bargeLoaderProducts: Product[] = [
   //   image: '/images/spareng-products/BARGE_LOADER/CARRYING_IDLERS.jpeg',
   //   partNumber: 'SP-CI-BL-001'
   // },
-  {
-    id: 'bl-008',
-    title: 'Impact Idlers',
-    model: 'II-BL-001',
-    sku: 'SP-II-BL-001',
-    category: ['Material Handling', 'Barge Loader'],
-    subcategory: 'Idlers',
-    specifications: {},
-    features: [
-      'Impact absorbing design',
-      'Heavy duty construction',
-      'Shock resistance',
-      'Extended bearing life'
-    ],
-    applications: [
-      'Loading points in barge loaders',
-      'Impact zones',
-      'Material transfer points',
-      'Heavy duty applications'
-    ],
-    compatibleEquipment: ['Barge loaders', 'Loading systems'],
-    tags: ['impact idlers', 'shock absorption', 'barge loader', 'loading points'],
-    image: '/images/spareng-products/BARGE_LOADER/IMPACT_IDLERS.jpeg',
-    partNumber: 'SP-II-BL-001'
-  },
-  {
-    id: 'bl-009',
-    title: 'Return Idlers',
-    model: 'RI-BL-001',
-    sku: 'SP-RI-BL-001',
-    category: ['Material Handling', 'Barge Loader'],
-    subcategory: 'Idlers',
-    specifications: {},
-    features: [
-      'Return belt support design',
-      'Self-cleaning properties',
-      'Low friction bearings',
-      'Corrosion resistant finish'
-    ],
-    applications: [
-      'Return belt support',
-      'Barge loader conveyor systems',
-      'Material handling',
-      'Industrial conveyors'
-    ],
-    compatibleEquipment: ['Barge loaders', 'Return belt systems'],
-    tags: ['return idlers', 'belt support', 'barge loader', 'return system'],
-    image: '/images/spareng-products/BARGE_LOADER/RETURN_IDLERS.jpeg',
-    partNumber: 'SP-RI-BL-001'
-  },
+  // {
+  //   id: 'bl-008',
+  //   title: 'Impact Idlers',
+  //   model: 'II-BL-001',
+  //   sku: 'SP-II-BL-001',
+  //   category: ["Idlers"],
+  //   subcategory: 'Idlers',
+  //   specifications: {},
+  //   features: [
+  //     'Impact absorbing design',
+  //     'Heavy duty construction',
+  //     'Shock resistance',
+  //     'Extended bearing life'
+  //   ],
+  //   applications: [
+  //     'Loading points in barge loaders',
+  //     'Impact zones',
+  //     'Material transfer points',
+  //     'Heavy duty applications'
+  //   ],
+  //   compatibleEquipment: ['Barge loaders', 'Loading systems'],
+  //   tags: ['impact idlers', 'shock absorption', 'barge loader', 'loading points'],
+  //   image: '/images/spareng-products/BARGE_LOADER/IMPACT_IDLERS.jpeg',
+  //   partNumber: 'SP-II-BL-001'
+  // },
+  // {
+  //   id: 'bl-009',
+  //   title: 'Return Idlers',
+  //   model: 'RI-BL-001',
+  //   sku: 'SP-RI-BL-001',
+  //   category: ['Idlers'],
+  //   subcategory: 'Idlers',
+  //   specifications: {},
+  //   features: [
+  //     'Return belt support design',
+  //     'Self-cleaning properties',
+  //     'Low friction bearings',
+  //     'Corrosion resistant finish'
+  //   ],
+  //   applications: [
+  //     'Return belt support',
+  //     'Barge loader conveyor systems',
+  //     'Material handling',
+  //     'Industrial conveyors'
+  //   ],
+  //   compatibleEquipment: ['Barge loaders', 'Return belt systems'],
+  //   tags: ['return idlers', 'belt support', 'barge loader', 'return system'],
+  //   image: '/images/spareng-products/BARGE_LOADER/RETURN_IDLERS.jpeg',
+  //   partNumber: 'SP-RI-BL-001'
+  // },
   // {
   //   id: 'bl-010',
   //   title: 'Self Alignment Carrying',

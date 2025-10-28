@@ -26,56 +26,56 @@ export const pipeConveyorProducts: Product[] = [
   //   image: '/images/spareng-products/PIPE_CONVEYOR/NORMAL_IDLERS.jpeg',
   //   partNumber: 'SP-NI-PC-001'
   // },
-  {
-    id: 'pc-002',
-    title: 'Impact Idlers',
-    model: 'II-PC-001',
-    sku: 'SP-II-PC-001',
-    category: ['Conveyor Components', 'Pipe Conveyor'],
-    subcategory: 'Idlers',
-    specifications: {},
-    features: [
-      'Impact absorbing design',
-      'Heavy duty construction',
-      'Shock resistance',
-      'Extended bearing life'
-    ],
-    applications: [
-      'Pipe conveyor loading points',
-      'Impact zones',
-      'Material transfer points',
-      'Heavy duty applications'
-    ],
-    compatibleEquipment: ['Pipe conveyors', 'Loading systems'],
-    tags: ['impact idlers', 'shock absorption', 'pipe conveyor', 'loading points'],
-    image: '/images/spareng-products/PIPE_CONVEYOR/IMPACT_IDLERS.jpeg',
-    partNumber: 'SP-II-PC-001'
-  },
-  {
-    id: 'pc-003',
-    title: 'Return Idlers',
-    model: 'RI-PC-001',
-    sku: 'SP-RI-PC-001',
-    category: ['Conveyor Components', 'Pipe Conveyor'],
-    subcategory: 'Idlers',
-    specifications: {},
-    features: [
-      'Return belt support design',
-      'Self-cleaning properties',
-      'Low friction bearings',
-      'Corrosion resistant finish'
-    ],
-    applications: [
-      'Return belt support',
-      'Pipe conveyor systems',
-      'Material handling',
-      'Industrial conveyors'
-    ],
-    compatibleEquipment: ['Pipe conveyors', 'Return belt systems'],
-    tags: ['return idlers', 'belt support', 'pipe conveyor', 'return system'],
-    image: '/images/spareng-products/PIPE_CONVEYOR/RETURN_IDLERS.jpeg',
-    partNumber: 'SP-RI-PC-001'
-  },
+  // {
+  //   id: 'pc-002',
+  //   title: 'Impact Idlers',
+  //   model: 'II-PC-001',
+  //   sku: 'SP-II-PC-001',
+  //   category: ['Conveyor Components', 'Pipe Conveyor'],
+  //   subcategory: 'Idlers',
+  //   specifications: {},
+  //   features: [
+  //     'Impact absorbing design',
+  //     'Heavy duty construction',
+  //     'Shock resistance',
+  //     'Extended bearing life'
+  //   ],
+  //   applications: [
+  //     'Pipe conveyor loading points',
+  //     'Impact zones',
+  //     'Material transfer points',
+  //     'Heavy duty applications'
+  //   ],
+  //   compatibleEquipment: ['Pipe conveyors', 'Loading systems'],
+  //   tags: ['impact idlers', 'shock absorption', 'pipe conveyor', 'loading points'],
+  //   image: '/images/spareng-products/PIPE_CONVEYOR/IMPACT_IDLERS.jpeg',
+  //   partNumber: 'SP-II-PC-001'
+  // },
+  // {
+  //   id: 'pc-003',
+  //   title: 'Return Idlers',
+  //   model: 'RI-PC-001',
+  //   sku: 'SP-RI-PC-001',
+  //   category: ['Conveyor Components', 'Pipe Conveyor'],
+  //   subcategory: 'Idlers',
+  //   specifications: {},
+  //   features: [
+  //     'Return belt support design',
+  //     'Self-cleaning properties',
+  //     'Low friction bearings',
+  //     'Corrosion resistant finish'
+  //   ],
+  //   applications: [
+  //     'Return belt support',
+  //     'Pipe conveyor systems',
+  //     'Material handling',
+  //     'Industrial conveyors'
+  //   ],
+  //   compatibleEquipment: ['Pipe conveyors', 'Return belt systems'],
+  //   tags: ['return idlers', 'belt support', 'pipe conveyor', 'return system'],
+  //   image: '/images/spareng-products/PIPE_CONVEYOR/RETURN_IDLERS.jpeg',
+  //   partNumber: 'SP-RI-PC-001'
+  // },
   // {
   //   id: 'pc-004',
   //   title: 'PSK Idlers',

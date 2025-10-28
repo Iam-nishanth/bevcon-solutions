@@ -19,6 +19,7 @@ const getProductUrl = (productName: string): string => {
     'Hydraulic Dock Levelers': '/products/dock-levelers',
     'Automatic Sliding Doors': '/products/high-speed-doors',
     'Conveying Systems': '/products/conveyor-components',
+    'Fume & Dust Extraction Systems': '/products/fume-extraction-scrubbing-systems',
   };
   
   return productMap[productName] || '/products';

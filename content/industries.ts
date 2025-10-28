@@ -108,7 +108,7 @@ export const industries: Industry[] = [
     icon: 'Snowflake',
     shortDescription: 'Insulated solutions maintaining cold chain integrity',
     heroTitle: 'Cold Storage & Warehousing Solutions',
-    heroDescription: 'Insulated high-speed doors and loading bay solutions minimizing temperature loss, reducing energy costs, and maintaining product quality in freezer, cooler, and ambient environments.',
+    heroDescription: 'Insulated high-speed doors and docking equipment minimizing temperature loss, reducing energy costs, and maintaining product quality in freezer, cooler, and ambient environments.',
     image: '/images/industries/cold-storage.jpg',
     challenges: {
       title: 'Industry Challenges',
@@ -158,7 +158,7 @@ export const industries: Industry[] = [
     icon: 'Warehouse',
     shortDescription: 'High-performance solutions for distribution center efficiency',
     heroTitle: 'Warehouse & Logistics Solutions',
-    heroDescription: 'Comprehensive entrance automation and loading bay solutions optimizing throughput, enhancing safety, and supporting the demanding pace of modern logistics.',
+    heroDescription: 'Entrance automation and docking equipment optimizing throughput, enhancing safety, and supporting the demanding pace of modern logistics.',
     image: '/images/industries/warehouse.jpg',
     challenges: {
       title: 'Industry Challenges',
@@ -208,7 +208,7 @@ export const industries: Industry[] = [
     icon: 'Factory',
     shortDescription: 'Industrial-grade solutions for manufacturing excellence',
     heroTitle: 'Manufacturing Plants Solutions',
-    heroDescription: 'Factory doors and material handling equipment built to withstand rigorous manufacturing operations, supporting lean processes and worker safety.',
+    heroDescription: 'Factory doors and bulk material handling equipment built to withstand rigorous manufacturing operations, supporting lean processes and worker safety.',
     image: '/images/industries/manufacturing.jpg',
     challenges: {
       title: 'Industry Challenges',
@@ -263,7 +263,7 @@ export const industries: Industry[] = [
     icon: 'Car',
     shortDescription: 'Robust solutions for automotive manufacturing operations',
     heroTitle: 'Automotive & Mobility Solutions',
-    heroDescription: 'Industrial doors and material handling supporting lean manufacturing, just-in-time delivery, and rigorous automotive production demands.',
+    heroDescription: 'Industrial doors and bulk material handling supporting lean manufacturing, just-in-time delivery, and rigorous automotive production demands.',
     image: '/images/industries/automotive.jpg',
     challenges: {
       title: 'Industry Challenges',
@@ -306,106 +306,106 @@ export const industries: Industry[] = [
     },
     keyProducts: ['High-Speed Doors', 'Fire Rated Shutters'],
   },
-  {
-    id: '7',
-    name: 'E-commerce & Fulfillment',
-    slug: 'ecommerce-fulfillment',
-    icon: 'Package',
-    shortDescription: 'High-speed solutions for rapid order fulfillment',
-    heroTitle: 'E-commerce & Fulfillment Solutions',
-    heroDescription: 'Rapid access solutions and material handling supporting fast-paced e-commerce demands, enabling same-day delivery and peak season scalability.',
-    image: '/images/industries/ecommerce.jpg',
-    challenges: {
-      title: 'Industry Challenges',
-      items: [
-        'Managing peak season volume surges',
-        'Optimizing order picking speed',
-        'Supporting same-day delivery',
-        'Maximizing automation integration',
-        'Ensuring 24/7 reliability',
-      ],
-    },
-    solutions: {
-      title: 'Our Solutions',
-      description: 'High-performance solutions for e-commerce velocity.',
-      items: [
-        {
-          title: 'Ultra-Fast Roll Doors',
-          description: 'Doors operating up to 2.5 m/s for high-frequency traffic.',
-          products: ['High-Speed Doors'],
-        },
-        {
-          title: 'Sortation Conveyors',
-          description: 'High-speed conveyor systems integrated with WMS.',
-          products: ['Conveyor Components', 'Material Handling Solutions'],
-        },
-      ],
-    },
-    benefits: {
-      title: 'Benefits',
-      items: [
-        {
-          title: 'Order Velocity',
-          description: 'Maximize picks per hour and support tight delivery windows.',
-        },
-        {
-          title: 'Automation Integration',
-          description: 'Seamless integration with WMS, WCS, and robotics.',
-        },
-      ],
-    },
-    keyProducts: ['High-Speed Doors', 'Conveyor Components'],
-  },
-  {
-    id: '8',
-    name: 'Healthcare Facilities',
-    slug: 'healthcare-facilities',
-    icon: 'Hospital',
-    shortDescription: 'Hygienic, accessible solutions for medical environments',
-    heroTitle: 'Healthcare Facilities Solutions',
-    heroDescription: 'Entrance solutions prioritizing infection control, accessibility, and emergency egress while maintaining welcoming environments for patients and staff.',
-    image: '/images/industries/healthcare.jpg',
-    challenges: {
-      title: 'Industry Challenges',
-      items: [
-        'Maintaining sterile environments and infection control',
-        'Ensuring ADA accessibility',
-        'Managing emergency egress and fire safety',
-        'Controlling noise in patient care areas',
-        'Meeting healthcare facility codes',
-      ],
-    },
-    solutions: {
-      title: 'Our Solutions',
-      description: 'Healthcare-specific entrance solutions balancing hygiene and accessibility.',
-      items: [
-        {
-          title: 'Hygienic Entrance Systems',
-          description: 'Touchless, automated doors with antimicrobial coatings.',
-          products: ['High-Speed Doors'],
-        },
-        {
-          title: 'Operating Room Doors',
-          description: 'Hermetically sealed doors maintaining sterile conditions.',
-          products: ['High-Speed Doors', 'Fire Rated Shutters'],
-        },
-      ],
-    },
-    benefits: {
-      title: 'Benefits',
-      items: [
-        {
-          title: 'Infection Prevention',
-          description: 'Touchless operation and antimicrobial materials reduce pathogen transmission.',
-        },
-        {
-          title: 'Code Compliance',
-          description: 'Meet healthcare requirements for fire safety and accessibility.',
-        },
-      ],
-    },
-    keyProducts: ['High-Speed Doors', 'Fire Rated Shutters'],
-  },
+  // {
+  //   id: '7',
+  //   name: 'E-commerce & Fulfillment',
+  //   slug: 'ecommerce-fulfillment',
+  //   icon: 'Package',
+  //   shortDescription: 'High-speed solutions for rapid order fulfillment',
+  //   heroTitle: 'E-commerce & Fulfillment Solutions',
+  //   heroDescription: 'Rapid access solutions and material handling supporting fast-paced e-commerce demands, enabling same-day delivery and peak season scalability.',
+  //   image: '/images/industries/ecommerce.jpg',
+  //   challenges: {
+  //     title: 'Industry Challenges',
+  //     items: [
+  //       'Managing peak season volume surges',
+  //       'Optimizing order picking speed',
+  //       'Supporting same-day delivery',
+  //       'Maximizing automation integration',
+  //       'Ensuring 24/7 reliability',
+  //     ],
+  //   },
+  //   solutions: {
+  //     title: 'Our Solutions',
+  //     description: 'High-performance solutions for e-commerce velocity.',
+  //     items: [
+  //       {
+  //         title: 'Ultra-Fast Roll Doors',
+  //         description: 'Doors operating up to 2.5 m/s for high-frequency traffic.',
+  //         products: ['High-Speed Doors'],
+  //       },
+  //       {
+  //         title: 'Sortation Conveyors',
+  //         description: 'High-speed conveyor systems integrated with WMS.',
+  //         products: ['Conveyor Components', 'Material Handling Solutions'],
+  //       },
+  //     ],
+  //   },
+  //   benefits: {
+  //     title: 'Benefits',
+  //     items: [
+  //       {
+  //         title: 'Order Velocity',
+  //         description: 'Maximize picks per hour and support tight delivery windows.',
+  //       },
+  //       {
+  //         title: 'Automation Integration',
+  //         description: 'Seamless integration with WMS, WCS, and robotics.',
+  //       },
+  //     ],
+  //   },
+  //   keyProducts: ['High-Speed Doors', 'Conveyor Components'],
+  // },
+  // {
+  //   id: '8',
+  //   name: 'Healthcare Facilities',
+  //   slug: 'healthcare-facilities',
+  //   icon: 'Hospital',
+  //   shortDescription: 'Hygienic, accessible solutions for medical environments',
+  //   heroTitle: 'Healthcare Facilities Solutions',
+  //   heroDescription: 'Entrance solutions prioritizing infection control, accessibility, and emergency egress while maintaining welcoming environments for patients and staff.',
+  //   image: '/images/industries/healthcare.jpg',
+  //   challenges: {
+  //     title: 'Industry Challenges',
+  //     items: [
+  //       'Maintaining sterile environments and infection control',
+  //       'Ensuring ADA accessibility',
+  //       'Managing emergency egress and fire safety',
+  //       'Controlling noise in patient care areas',
+  //       'Meeting healthcare facility codes',
+  //     ],
+  //   },
+  //   solutions: {
+  //     title: 'Our Solutions',
+  //     description: 'Healthcare-specific entrance solutions balancing hygiene and accessibility.',
+  //     items: [
+  //       {
+  //         title: 'Hygienic Entrance Systems',
+  //         description: 'Touchless, automated doors with antimicrobial coatings.',
+  //         products: ['High-Speed Doors'],
+  //       },
+  //       {
+  //         title: 'Operating Room Doors',
+  //         description: 'Hermetically sealed doors maintaining sterile conditions.',
+  //         products: ['High-Speed Doors', 'Fire Rated Shutters'],
+  //       },
+  //     ],
+  //   },
+  //   benefits: {
+  //     title: 'Benefits',
+  //     items: [
+  //       {
+  //         title: 'Infection Prevention',
+  //         description: 'Touchless operation and antimicrobial materials reduce pathogen transmission.',
+  //       },
+  //       {
+  //         title: 'Code Compliance',
+  //         description: 'Meet healthcare requirements for fire safety and accessibility.',
+  //       },
+  //     ],
+  //   },
+  //   keyProducts: ['High-Speed Doors', 'Fire Rated Shutters'],
+  // },
   {
     id: '9',
     name: 'Chemical & Petrochemical',
