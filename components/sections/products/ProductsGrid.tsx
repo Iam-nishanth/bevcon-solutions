@@ -21,17 +21,18 @@ const jrfCategories = [
   "FRP - GRP Equipments"
 ];
 
-// Spareng (Conveyor-Components) categories
+// Spareng (Bulk Material Handling) categories - active products only
 const sparengCategories = [
   "Conveyor Components",
-  "Crushers",
-  "Screw Conveyor",
-  "Rotary Air Lock Valve",
-  "Pneumatic Handling Systems",
-  "Drive & Base Assembly",
-  "Steep Angle Sidewall Conveyors",
-  "Spillage & Dribble Conveyors",
-  "Prism Gate & Flow Diverter"
+  "Liners",
+  "Crusher Spares",
+  "Screening Parts",
+  "Sizer Sugar Grader",
+  "Grizzly Screen",
+  "Environmental Systems",
+  "Dust Extraction Systems",
+  "Drive Base Assembly",
+  "Spillage Dribble Conveyors"
 ];
 
 export default function ProductsGrid() {

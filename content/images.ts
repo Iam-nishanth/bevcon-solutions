@@ -28,7 +28,7 @@ export const HERO_IMAGES = {
 
 export const INDUSTRY_IMAGES = {
   pharmaceutical: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=80',
-  foodBeverage: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1920&q=80',
+  foodBeverage: '/images/food-and-beverage.avif',
   coldStorage: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=1920&q=80',
   warehouseLogistics: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&q=80',
   automotive: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1920&q=80',
@@ -38,7 +38,7 @@ export const INDUSTRY_IMAGES = {
   heavyIndustry: '/images/steel-industry.jpg', // Fulfillment center with packages/boxes
   cargoFreight: 'https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=1920&q=80',
   airport: 'https://images.unsplash.com/photo-1556388158-158ea5ccacbd?w=1920&q=80',
-  chemical: 'https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1920&q=80', // Pharmaceutical/pill production
+  chemical: '/images/chemical-industry-plant.jpeg', // Pharmaceutical/pill production
   textile: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=1920&q=80',
   agriculture: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&q=80', // Dairy/agricultural processing
   retail: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1920&q=80',

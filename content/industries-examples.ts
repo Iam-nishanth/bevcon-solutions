@@ -137,7 +137,8 @@ export const industryExamples: IndustryContent[] = [
       { value: `0`, label: `Door-related FDA observations` },
       { value: `35%`, label: `Improvement in material flow efficiency` }
     ],
-    seoDescription: `Pharmaceutical entrance automation solutions for cleanrooms. Maintain sterility, ensure compliance, prevent contamination with validated insulated High-Speed Door systems.`
+    // seoDescription: `Pharmaceutical entrance automation solutions for cleanrooms. Maintain sterility, ensure compliance, prevent contamination with validated insulated High-Speed Door systems.`
+    seoDescription: `Food processing environments require strict hygiene, temperature control, and efficient workflow management. Our specially designed High-Speed Doors, Dock Levelers, and Dock Shelters designed to support safe and seamless operations from production to dispatch. Our solutions help maintain controlled environments, prevent cross-contamination, and ensure compliance with food safety and standards — delivering durability, energy efficiency, and reliability essential for continuous processing and cold storage applications.`
   },
 
   // 2. Food Processing & Beverages
@@ -222,13 +223,14 @@ export const industryExamples: IndustryContent[] = [
       { value: `60%`, label: `Fewer emergency repairs` },
       { value: `0`, label: `Pest-related incidents` }
     ],
-    seoDescription: `Food processing entrance automation solutions. HACCP compliant High-Speed Doors, cold storage systems, and hygienic design for food safety.`
+    seoDescription: `Food processing environments require strict hygiene, temperature control, and efficient workflow management. Our specially designed High-Speed Doors, Dock Levelers, and Dock Shelters designed to support safe and seamless operations from production to dispatch. Our solutions help maintain controlled environments, prevent cross-contamination, and ensure compliance with food safety and standards — delivering durability, energy efficiency, and reliability essential for continuous processing and cold storage applications.`
+    // seoDescription: `Food processing entrance automation solutions. HACCP compliant High-Speed Doors, cold storage systems, and hygienic design for food safety.`
   },
 
   // 3. Cold Storage & Warehousing
   {
     id: `3`,
-    name: `Temperature-Controlled Access Solutions for Cold Warehousing`,
+    name: `Cold Storage & Warehousing`,
     slug: `cold-storage`,
     icon: `Snowflake`,
     hero: {
@@ -393,13 +395,14 @@ export const industryExamples: IndustryContent[] = [
       { value: `35%`, label: `Faster truck turnaround time` },
       { value: `0`, label: `Downtime from door collisions` }
     ],
-    seoDescription: `Warehouse High-Speed Doors and loading dock solutions. Self-repairing doors, rapid dock systems, and integrated loading equipment for 24/7 logistics operations.`
+    // seoDescription: `Warehouse High-Speed Doors and loading dock solutions. Self-repairing doors, rapid dock systems, and integrated loading equipment for 24/7 logistics operations.`
+    seoDescription: `Warehousing and logistics operations demand speed, reliability, and precision in every movement. We provide high-speed doors, dock levelers, and conveying systems designed to optimize material flow, eliminate bottlenecks, and enhance overall efficiency. Our integrated solutions enable fast and secure transitions between zones, streamline loading and transfer operations, and support high-throughput performance with reduced energy use and downtime.`
   },
 
   // 5. Automotive & Mobility
   {
     id: `5`,
-    name: `Automotive & Mobility`,
+    name: `Automotive Industry`,
     slug: `automotive`,
     icon: `Car`,
     hero: {
@@ -478,7 +481,8 @@ export const industryExamples: IndustryContent[] = [
       { value: `12%`, label: `Improvement in production efficiency` },
       { value: `$240K`, label: `Annual savings from reduced rework` }
     ],
-    seoDescription: `Automotive manufacturing entrance solutions. Paint booth doors, heavy-duty High-Speed Doors for assembly lines, and fire-rated systems for automotive plants.`
+    seoDescription: `Automotive manufacturing and assembly plants rely on precision, speed, and safety at every stage of production. We offer High-Speed Doors, Rolling Shutters, and Dock Levelers built to support demanding workflows and heavy-duty operations. Our systems enable smooth vehicle and component movement between production zones, ensure secure loading and unloading, and maintain clean, controlled environments helping automotive facilities operate efficiently without interruptions.`
+    // seoDescription: `Automotive manufacturing entrance solutions. Paint booth doors, heavy-duty High-Speed Doors for assembly lines, and fire-rated systems for automotive plants.`
   },
 
   // 6. Healthcare Facilities
@@ -782,13 +786,14 @@ export const industryExamples: IndustryContent[] = [
       { value: `70%`, label: `Reduction in total cost of ownership` },
       { value: `36+`, label: `Months of zero-failure operation` }
     ],
-    seoDescription: `Heavy industry and steel mill entrance automation. Extreme-duty doors for foundries, metal processing, and high-temperature environments. Heat-resistant, dust-proof heavy-duty door solutions.`
+    // seoDescription: `Heavy industry and steel mill entrance automation. Extreme-duty doors for foundries, metal processing, and high-temperature environments. Heat-resistant, dust-proof heavy-duty door solutions.`
+    seoDescription: `Our Bulk Material Handling Components and Industrial Dust Extraction solutions  are engineered for the demanding conditions of steel and metal production. From conveying raw materials to capturing fumes and fine particulates during melting, cutting, or finishing, our systems ensure smooth material flow, cleaner air, and safer work environments.`
   },
 
   // 10. Cargo & Freight Hubs
   {
     id: `10`,
-    name: `Loading Bay & Access Solutions for Cargo & Freight Hubs`,
+    name: `Cargo & Freight Hubs`,
     slug: `cargo-freight`,
     icon: `Package`,
     hero: {

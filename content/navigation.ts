@@ -56,15 +56,12 @@ export const mainNavigation: NavItem[] = [
     href: '/products',
     megaMenu: [
       {
-        title: 'Door Systems',
+        title: 'Doors and Docking Solutions',
         type: 'list',
         items: [
           { label: 'High-Speed Doors', href: '/products/high-speed-doors' },
           { label: 'Fire Rated Shutters', href: '/products/fire-rated-shutters' },
           { label: 'Dock Levelers', href: '/products/dock-levelers' },
-          { label: 'Environmental Systems', href: '' },
-          { label: 'Fume Extraction & Scrubbing Systems', href: '/products/fume-extraction-scrubbing-systems' },
-          { label: 'FRP - GRP Equipments', href: '/products/frp-grp-equipments' },
         ],
       },
       {
@@ -72,11 +69,17 @@ export const mainNavigation: NavItem[] = [
         type: 'list',
         items: [
           { label: 'Conveyor Components', href: '/products/conveyor-components' },
-          { label: 'Crushing Equipment', href: '/products/crushing-equipment' },
-          { label: 'Crusher Spares', href: '/products/crusher-spares' },
-          { label: 'Vibrating Screens', href: '/products/vibrating-screens' },
-          { label: 'Mechanical Vibro Feeder', href: '/products/mechanical-vibro-feeder' },
-          { label: 'Material Handling', href: '/products/material-handling' },
+          { label: 'Crusher Spares & Liners', href: '/products/crusher-spares' },
+          { label: 'Screening Parts', href: '/products/screening-parts' },
+        ],
+      },
+      {
+        title: 'Environmental Systems',
+        type: 'list',
+        items: [
+          { label: 'Fume Extraction & Scrubbing Systems', href: '/products/fume-extraction-scrubbing-systems' },
+          { label: 'Dust Extraction Systems', href: '/products/fume-extraction-scrubbing-systems' },
+          { label: 'FRP - GRP Equipment', href: '/products/frp-grp-equipments' },
         ],
       },
       {
@@ -87,7 +90,7 @@ export const mainNavigation: NavItem[] = [
           { label: 'View All Products', href: '/products' },
           { label: 'Nergeco - High-Speed Doors', href: '/products/high-speed-doors' },
           { label: 'SKB - Fire Rated Shutters', href: '/products/fire-rated-shutters' },
-          { label: 'Spareng - Material Handling', href: '/products/material-handling' },
+          { label: 'Spareng - Material Handling', href: '/products/conveyor-components' },
           { label: 'JR Fibreglass - Fume Extraction', href: '/products/fume-extraction-scrubbing-systems' },
         ],
       },
@@ -96,36 +99,35 @@ export const mainNavigation: NavItem[] = [
   {
     label: 'Industries',
     href: '/industries',
-    megaMenu: [
-      {
-        title: 'Manufacturing & Production',
-        type: 'list',
-        items: [
-          { label: 'Pharmaceutical & Life Sciences', href: '/industries/pharmaceutical', icon: 'pill' },
-          { label: 'Food Processing & Beverages', href: '/industries/food-beverage', icon: 'utensils' },
-          { label: 'Automotive & Mobility', href: '/industries/automotive', icon: 'car' },
-          { label: 'Heavy Industry (Steel & Metal)', href: '/industries/heavy-industry', icon: 'factory' },
-          { label: 'Manufacturing Plants', href: '/industries/manufacturing', icon: 'cog' },
-          { label: 'Chemical & Process Industries', href: '/industries/chemical', icon: 'flask' },
-        ],
-      },
-      {
-        title: 'Logistics & Storage',
-        type: 'list',
-        items: [
-          { label: 'Cold Storage & Warehousing', href: '/industries/cold-storage', icon: 'snowflake' },
-          { label: 'Warehouse & Logistics', href: '/industries/warehouse-logistics', icon: 'warehouse' },
-          { label: 'Cargo & Freight Hubs', href: '/industries/cargo-freight', icon: 'plane' },
-        ],
-      },
-      {
-        title: 'Specialized Sectors',
-        type: 'list',
-        items: [
-          { label: 'Mining Industry', href: '/industries/mining', icon: 'pickaxe' },
-        ],
-      },
-    ],
+    // megaMenu: [
+    //   {
+    //     title: 'Manufacturing & Production',
+    //     type: 'list',
+    //     items: [
+    //       { label: 'Pharmaceutical & Life Sciences', href: '/industries/pharmaceutical', icon: 'pill' },
+    //       { label: 'Food Processing & Beverages', href: '/industries/food-beverage', icon: 'utensils' },
+    //       { label: 'Automotive & Mobility', href: '/industries/automotive', icon: 'car' },
+    //       { label: 'Heavy Industry (Steel & Metal)', href: '/industries/heavy-industry', icon: 'factory' },
+    //       { label: 'Chemical & Process Industries', href: '/industries/chemical', icon: 'flask' },
+    //     ],
+    //   },
+    //   {
+    //     title: 'Logistics & Storage',
+    //     type: 'list',
+    //     items: [
+    //       { label: 'Cold Storage & Warehousing', href: '/industries/cold-storage', icon: 'snowflake' },
+    //       { label: 'Warehouse & Logistics', href: '/industries/warehouse-logistics', icon: 'warehouse' },
+    //       { label: 'Cargo & Freight Hubs', href: '/industries/cargo-freight', icon: 'plane' },
+    //     ],
+    //   },
+    //   {
+    //     title: 'Specialized Sectors',
+    //     type: 'list',
+    //     items: [
+    //       { label: 'Mining Industry', href: '/industries/mining', icon: 'pickaxe' },
+    //     ],
+    //   },
+    // ],
   },
   // {
   //   label: 'Services',

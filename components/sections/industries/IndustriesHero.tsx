@@ -22,7 +22,7 @@ export default function IndustriesHero() {
             className="mb-6"
           >
             <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-semibold mb-6">
-              Industries We Serve
+              Powering Industrial Performance
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               The Right Solutions for Your Industry
@@ -35,7 +35,7 @@ export default function IndustriesHero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-lg md:text-xl text-white/90 leading-relaxed"
           >
-            We know how to make an entrance. With expertise across diverse industrial sectors, we customize our entrance automation and material handling solutions to your specific requirements—from pharmaceutical cleanrooms to high-volume logistics centers.
+            By combining global engineering and manufacturing expertise, Bevcon Solutions delivers integrated systems that enhance productivity, keeping industries running efficiently and production-ready every day.
           </motion.p>
         </div>
       </div>

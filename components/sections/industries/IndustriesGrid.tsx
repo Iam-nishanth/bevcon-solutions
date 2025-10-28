@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { industryExamples } from '@/content/industries-examples';
 import { getIndustryImage } from '@/content/images';
+import { cn } from '@/lib/utils';
 
 export default function IndustriesGrid() {
   return (
@@ -28,12 +29,17 @@ export default function IndustriesGrid() {
                   className="group  bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 hover:border-primary-200 h-full flex flex-col"
                 >
                   {/* Image */}
-                  <div className="relative h-48 w-full overflow-hidden bg-gray-100">
+                  <div className="relative h-52 w-full overflow-hidden bg-gray-100">
                     <Image
                       src={getIndustryImage(industry.slug)}
                       alt={industry.name}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      className={
+                        cn(
+                          "object-cover group-hover:scale-105 transition-transform duration-500",
+                          industry.name === "Heavy Industry (Steel & Metal)" ? "object-center" : ""
+                        )
+                      }
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                   </div>
