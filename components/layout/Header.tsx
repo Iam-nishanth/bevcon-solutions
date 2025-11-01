@@ -76,12 +76,12 @@ export default function Header() {
                     setActiveCategory(null);
                   }}
                 >
-                  <Link
-                    href={item.href}
-                    className="text-gray-800 hover:text-primary-600 font-medium transition-colors py-2 flex items-center space-x-1"
-                  >
-                    <span>{item.label}</span>
-                    {item.megaMenu && (
+                  {item.megaMenu ? (
+                    <button
+                      type="button"
+                      className="text-gray-800 hover:text-primary-600 font-medium transition-colors py-2 flex items-center space-x-1"
+                    >
+                      <span>{item.label}</span>
                       <svg
                         className={`w-4 h-4 transition-transform ${
                           activeMenu === item.label ? 'rotate-180' : ''
@@ -97,8 +97,15 @@ export default function Header() {
                           d="M19 9l-7 7-7-7"
                         />
                       </svg>
-                    )}
-                  </Link>
+                    </button>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      className="text-gray-800 hover:text-primary-600 font-medium transition-colors py-2 flex items-center space-x-1"
+                    >
+                      <span>{item.label}</span>
+                    </Link>
+                  )}
 
                   {/* Two-Level Mega Menu Dropdown */}
                   {item.megaMenu && activeMenu === item.label && (
@@ -283,14 +290,38 @@ export default function Header() {
             <div className="container mx-auto px-4 py-4">
               <nav className="space-y-4">
                 {mainNavigation.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="block text-gray-800 hover:text-primary-600 hover:bg-primary-50 font-medium py-3 px-4 rounded-lg transition-colors"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    {item.label}
-                  </Link>
+                  item.megaMenu ? (
+                    <div key={item.href} className="space-y-2">
+                      <div className="text-gray-800 font-semibold py-3 px-4">
+                        {item.label}
+                      </div>
+                      {item.megaMenu.map((section, idx) => (
+                        <div key={idx} className="pl-4">
+                          {section.items && section.items.map((menuItem, itemIdx) => (
+                            menuItem.href ? (
+                              <Link
+                                key={`${menuItem.href}-${itemIdx}`}
+                                href={menuItem.href}
+                                className="block text-gray-700 hover:text-primary-600 hover:bg-primary-50 text-sm py-2 px-4 rounded-lg transition-colors"
+                                onClick={() => setIsMobileMenuOpen(false)}
+                              >
+                                {menuItem.label}
+                              </Link>
+                            ) : null
+                          ))}
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block text-gray-800 hover:text-primary-600 hover:bg-primary-50 font-medium py-3 px-4 rounded-lg transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                  )
                 ))}
               </nav>
             </div>

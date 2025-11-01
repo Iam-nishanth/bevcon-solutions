@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Phone, Mail } from 'lucide-react';
+import { Phone, Mail, Briefcase } from 'lucide-react';
 
 export default function ContactInfo() {
   return (
@@ -56,12 +56,21 @@ export default function ContactInfo() {
               </a>
             </div>
           </div>
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0 w-12 h-12 bg-primary-50 rounded-lg flex items-center justify-center">
+              <Briefcase className="w-6 h-6 text-primary-600" />
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-1">ABN Number</h3>
+                35 691 530 533
+            </div>
+          </div>
 
         </div>
       </div>
 
       {/* Quick Response Card */}
-      <div className="bg-gradient-to-br from-primary-900 to-primary-800 rounded-xl shadow-lg p-8 text-white">
+      {/* <div className="bg-gradient-to-br from-primary-900 to-primary-800 rounded-xl shadow-lg p-8 text-white">
         <h3 className="text-xl font-bold mb-4">Quick Response Guarantee</h3>
         <ul className="space-y-3">
           <li className="flex items-center space-x-3">
@@ -81,7 +90,7 @@ export default function ContactInfo() {
             <span>Australia-wide service</span>
           </li>
         </ul>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

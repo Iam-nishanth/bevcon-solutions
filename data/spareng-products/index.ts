@@ -25,6 +25,7 @@ import { steepAngleSidewallConveyorsData } from './steep-angle-sidewall-conveyor
 import { spillageDribbleConveyorsData } from './spillage-dribble-conveyors'
 // import { stackerScraperReclaimerData } from './stacker-scraper-reclaimer'
 import { prismGateFlowDiverterData } from './prism-gate-flow-diverter'
+import { beltConveyorData } from './belt-conveyors'
 
 // Export product types
 export * from './product-types'
@@ -52,6 +53,7 @@ export * from './steep-angle-sidewall-conveyors'
 export * from './spillage-dribble-conveyors'
 // export * from './stacker-scraper-reclaimer'
 export * from './prism-gate-flow-diverter'
+export * from './belt-conveyors'
 
 // Combined product data from all categories - now includes 24 comprehensive product lines
 export const allBrands: BrandData[] = [
@@ -79,6 +81,7 @@ export const allBrands: BrandData[] = [
   spillageDribbleConveyorsData,
   // stackerScraperReclaimerData,
   prismGateFlowDiverterData,
+  beltConveyorData,
 ]
 
 // All products combined - comprehensive collection from all 24 categories
@@ -107,6 +110,7 @@ export const allProducts: Product[] = [
   ...spillageDribbleConveyorsData.products,
   // ...stackerScraperReclaimerData.products,
   // ...prismGateFlowDiverterData.products,
+  ...beltConveyorData.products,
 ]
 
 // Get products by category - handles both string and string[] categories

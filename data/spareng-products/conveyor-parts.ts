@@ -186,7 +186,7 @@ export const conveyorPartsProducts: Product[] = [
   // PULLEYS - Head Pulleys
   {
     id: 'cp-010',
-    title: 'Head Pulley',
+    title: 'Head Pulley - Rubber Lagging',
     model: 'HP-001',
     sku: 'SP-HP-001',
     category: ['Pulleys'],
@@ -210,7 +210,7 @@ export const conveyorPartsProducts: Product[] = [
   },
   {
     id: 'cp-011',
-    title: 'Head Pulley',
+    title: 'Head Pulley - Ceramic Lagging',
     model: 'HP-002',
     sku: 'SP-HP-002',
     category: ['Pulleys'],

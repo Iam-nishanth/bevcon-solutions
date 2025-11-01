@@ -34,6 +34,7 @@ export interface Product {
   title: string
   model: string
   sku: string
+  slug?: string
   category: string
   subcategory?: string
   specifications: ProductSpecifications
@@ -44,6 +45,7 @@ export interface Product {
   brand?: string
   heading?: string
   description?: any;
+  showDetails?: boolean
 }
 
 export interface BrandData {

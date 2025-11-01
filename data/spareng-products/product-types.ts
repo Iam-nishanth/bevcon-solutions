@@ -229,6 +229,7 @@ export interface Product {
   title: string
   model: string
   sku: string
+  slug?: string
   category: string | string[] // Can be single category or array for multiple categories
   subcategory?: string
   specifications?: ProductSpecifications
@@ -244,6 +245,7 @@ export interface Product {
   technicalDrawing?: string
   dataSheet?: string
   partNumber?: string
+  showDetails?: boolean // Flag to show View Details button
 }
 
 // Brand data structure

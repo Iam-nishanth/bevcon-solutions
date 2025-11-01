@@ -124,7 +124,9 @@ export default function Footer() {
 					<div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
 						<div>
 							<div>
-								© {currentYear} {companyInfo.name}. All rights reserved.
+								© {currentYear} {companyInfo.name}. All rights reserved. 
+								<span className="mx-2 text-gray-300">|</span> 
+								<span className="text-gray-500">ABN: 35 691 530 533</span>
 							</div>
 							<div className="mt-1">
 								Made by{" "}

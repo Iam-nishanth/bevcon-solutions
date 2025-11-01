@@ -2,8 +2,10 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { CheckCircle2 } from 'lucide-react';
+import Link from 'next/link';
+import { CheckCircle2, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
+import { Product } from '@/data/spareng-products/product-types';
 
 interface ProductCardProps {
   title: string;
@@ -12,6 +14,8 @@ interface ProductCardProps {
   applications: string[];
   brand?: string;
   category?: string | string[];
+  slug?: string;
+  product?: Product;
 }
 
 export default function ProductCard({ 
@@ -20,11 +24,25 @@ export default function ProductCard({
   features, 
   applications,
   brand,
-  category 
+  category,
+  slug,
+  product
 }: ProductCardProps) {
   const [imageError, setImageError] = useState(false);
   const imageUrl = Array.isArray(image) ? image[0] : image;
   const displayCategory = Array.isArray(category) ? category[0] : category;
+  const hasDetails = product?.showDetails === true;
+  
+  // Generate detail page URL for belt conveyors
+  const getDetailUrl = () => {
+    if (!product?.slug) return null;
+    if (displayCategory?.toLowerCase().includes('belt conveyor')) {
+      return `/products/belt-conveyors/${product.slug}`;
+    }
+    return null;
+  };
+  
+  const detailUrl = getDetailUrl();
   
   // Check if the image URL is valid
   const isValidImageUrl = imageUrl && imageUrl !== '' && !imageError;
@@ -93,7 +111,7 @@ export default function ProductCard({
 
         {/* Applications */}
         {applications.length > 0 && (
-          <div className="mt-auto">
+          <div className={hasDetails ? "" : "mt-auto"}>
             <p className="text-sm font-semibold text-gray-700 mb-2">Applications</p>
             <div className="flex flex-wrap gap-2">
               {applications.slice(0, 3).map((app, idx) => (
@@ -110,6 +128,19 @@ export default function ProductCard({
                 </span>
               )}
             </div>
+          </div>
+        )}
+
+        {/* View Details Button */}
+        {hasDetails && product && detailUrl && (
+          <div className="mt-4">
+            <Link
+              href={detailUrl}
+              className="flex items-center justify-center w-full px-4 py-2.5 bg-primary-900 text-white rounded-lg hover:bg-primary-800 transition-colors group/btn"
+            >
+              <span className="text-sm font-medium">View Details</span>
+              <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
+            </Link>
           </div>
         )}
       </div>

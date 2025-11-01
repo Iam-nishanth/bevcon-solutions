@@ -68,9 +68,9 @@ export const mainNavigation: NavItem[] = [
         title: 'Bulk Material Handling',
         type: 'list',
         items: [
-          { label: 'Conveyor Components', href: '/products/conveyor-components' },
-          { label: 'Crusher Spares & Liners', href: '/products/crusher-spares' },
-          { label: 'Screening Parts', href: '/products/screening-parts' },
+          { label: 'Idlers', href: '/products/idlers' },
+          { label: 'Pulleys', href: '/products/pulleys' },
+          { label: 'Belt Conveyors', href: '/products/belt-conveyors/standard-belt-conveyor' },
         ],
       },
       {
@@ -87,10 +87,10 @@ export const mainNavigation: NavItem[] = [
         type: 'overview',
         description: 'Premium quality products from world-class manufacturers',
         items: [
-          { label: 'View All Products', href: '/products' },
+          // { label: 'View All Products', href: '/products' },
           { label: 'Nergeco - High-Speed Doors', href: '/products/high-speed-doors' },
           { label: 'SKB - Fire Rated Shutters', href: '/products/fire-rated-shutters' },
-          { label: 'Spareng - Material Handling', href: '/products/conveyor-components' },
+          { label: 'Spareng - Material Handling', href: '#' },
           { label: 'JR Fibreglass - Fume Extraction', href: '/products/fume-extraction-scrubbing-systems' },
         ],
       },
