@@ -14,6 +14,14 @@ const productImageMap: Record<string, string> = {
   'Conveying Systems': "/images/spareng-products/Conveyor-belt.jpg",
 };
 
+// Map product names to navigation links
+const productLinkMap: Record<string, string> = {
+  'High-Speed Roll Doors': '/products/high-speed-doors',
+  'Hydraulic Dock Levelers': '/products/dock-levelers',
+  'Automatic Sliding Doors': '/products/fire-rated-shutters',
+  'Conveying Systems': '/products/belt-conveyors/standard-belt-conveyor',
+};
+
 export default function FeaturedProducts() {
   const featuredProducts = products.slice(0, 4);
 
@@ -80,7 +88,7 @@ export default function FeaturedProducts() {
                   {product.shortDescription}
                 </p>
                 <Link
-                  href={`/products/${product.slug}`}
+                  href={productLinkMap[product.name] || `/products/${product.slug}`}
                   className="text-primary-900 hover:text-primary-600 font-medium text-sm flex items-center space-x-2 group/link"
                 >
                   <span>View Details</span>
@@ -91,7 +99,7 @@ export default function FeaturedProducts() {
           ))}
         </div>
 
-        {/* CTA */}
+        {/* CTA - Commented out until /products page is created
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -106,6 +114,7 @@ export default function FeaturedProducts() {
             <ArrowRight size={20} />
           </Link>
         </motion.div>
+        */}
       </div>
     </section>
   );

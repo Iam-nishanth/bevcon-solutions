@@ -259,10 +259,10 @@ export default function Header() {
             {/* Right Section */}
             <div className="flex items-center space-x-4">
               <Link
-                href="/quote"
+                href="/contact"
                 className="hidden md:inline-flex px-6 py-2.5 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-colors shadow-sm"
               >
-                Request Quote
+                Contact Us
               </Link>
 
               {/* Mobile Menu Button */}

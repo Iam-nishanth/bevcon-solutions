@@ -81,8 +81,7 @@ export const mainNavigation: NavItem[] = [
         type: 'list',
         items: [
           { label: 'Fume Extraction & Scrubbing Systems', href: '/products/fume-extraction-scrubbing-systems' },
-          // { label: 'Dust Extraction Systems', href: '/products/dust-extraction-systems' },
-          { label: 'Dust Extraction Systems', href: '/products/dust-extraction-equipment' },
+          { label: 'Dust Extraction Systems', href: '/products/dust-extraction-systems' },
           { label: 'FRP - GRP Equipment', href: '/products/frp-grp-equipments' },
         ],
       },

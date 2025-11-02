@@ -15,7 +15,7 @@ export default function Home() {
       <FeaturedProducts />
       <IndustrySolutions />
       <Stats />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
       <Partners />
       <CTASection />
     </>

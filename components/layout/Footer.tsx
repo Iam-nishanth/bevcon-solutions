@@ -39,11 +39,11 @@ export default function Footer() {
 									Solutions
 								</Link>
 							</li> */}
-							<li>
+							{/* <li>
 								<Link href="/products" className="hover:text-black transition-colors">
 									Products
 								</Link>
-							</li>
+							</li> */}
 							<li>
 								<Link href="/industries" className="hover:text-black transition-colors">
 									Industries
@@ -76,14 +76,15 @@ export default function Footer() {
 									Dock Levelers
 								</Link>
 							</li>
-							<li>
+							{/* <li>
 								<Link href="/products/material-handling" className="hover:text-black transition-colors">
 									Material Handling
 								</Link>
-							</li>
+							</li> */}
+
 							<li>
-								<Link href="/products" className="hover:text-black transition-colors">
-									View All
+								<Link href="/products/belt-conveyors/standard-belt-conveyor" className="hover:text-black transition-colors">
+									Belt Conveyors
 								</Link>
 							</li>
 						</ul>
@@ -104,8 +105,8 @@ export default function Footer() {
 								</Link>
 							</li>
 							<li>
-								<Link href="/products" className="hover:text-black transition-colors">
-									Products
+								<Link href="/quote" className="hover:text-black transition-colors">
+									Request Quote
 								</Link>
 							</li>
 							<li>
@@ -139,9 +140,9 @@ export default function Footer() {
 							<Link href="/contact" className="hover:text-black transition-colors">
 								Contact Us
 							</Link>
-							<Link href="/products" className="hover:text-black transition-colors">
+							{/* <Link href="/products" className="hover:text-black transition-colors">
 								View Products
-							</Link>
+							</Link> */}
 						</div>
 					</div>
 				</div>

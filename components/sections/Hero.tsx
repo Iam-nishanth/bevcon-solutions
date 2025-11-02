@@ -21,7 +21,7 @@ export default function Hero() {
             className="inline-block"
           >
             <span className="inline-block px-4 py-2 bg-primary-50 text-primary-900 rounded-full text-sm font-semibold tracking-wide mb-8 border border-primary-100">
-              Integrated Industrial Solutions
+              Industrial Access | Entrance Automation | Material Handling | Fume Extraction
             </span>
           </motion.div>
 
@@ -30,10 +30,9 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl md:text-6xl font-heading font-bold mb-8 leading-tight text-primary-900"
+            className="text-4xl md:text-6xl font-heading font-bold mb-6 leading-tight text-primary-900"
           >
-            Industrial Access & Material Handling{' '}
-            Solutions
+            Smarter Access.<br /> Stronger Performance.<br /> Seamless Flow.
           </motion.h1>
 
           {/* Subheadline */}
@@ -41,9 +40,19 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg md:text-xl mb-8 text-gray-600 max-w-3xl mx-auto"
+            className="text-lg md:text-xl mb-6 text-gray-600 max-w-3xl mx-auto leading-relaxed"
           >
-            Comprehensive Entrance Automation, Industrial Doors, Docking Equipments, and Bulk Material Handling Solutions. Backed by 20+ years of proven expertise.
+            For over 30 years, we&apos;ve been helping industries move smarter. From automated doors and docking systems to bulk material handling and fume extraction, our end-to-end solutions keep your operations efficient, safe, and built for the future.
+          </motion.p>
+
+          {/* Tagline */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.25 }}
+            className="text-base md:text-lg mb-8 text-primary-700 font-semibold italic"
+          >
+            Empowering industries through innovation, reliability, and performance
           </motion.p>
 
           {/* CTA Buttons */}
@@ -54,22 +63,22 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
           >
             <Link
-              href="/products"
+              href="/industries"
               className="px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-colors hover:shadow-xl flex items-center space-x-2 group shadow-md"
             >
-              <span>Explore Products</span>
+              <span>View Industries</span>
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
-              href="/quote"
+              href="/contact"
               className="px-8 py-4 bg-white border-2 border-gray-300 hover:border-primary-900 hover:bg-primary-50 text-primary-900 font-semibold rounded-lg transition-all"
             >
-              Request Quote
+              Contact Us
             </Link>
           </motion.div>
 
           {/* Trust badges */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
@@ -81,13 +90,13 @@ export default function Hero() {
             </div>
             <div className="flex items-center space-x-2 bg-primary-50 px-4 py-2 rounded-full border border-primary-100">
               <div className="w-2 h-2 rounded-full bg-gray-400" />
-              <span>20+ Years Experience</span>
+              <span>30+ Years Experience</span>
             </div>
             <div className="flex items-center space-x-2 bg-primary-50 px-4 py-2 rounded-full border border-primary-100">
               <div className="w-2 h-2 rounded-full bg-gray-400" />
               <span>Technical Support</span>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 

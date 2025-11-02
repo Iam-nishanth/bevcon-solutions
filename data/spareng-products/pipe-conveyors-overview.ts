@@ -21,7 +21,9 @@ export const pipeConveyorOverview: PipeConveyorOverview = {
   slug: 'pipe-conveyors',
   title: 'Pipe Conveyors',
   heading: 'Enclosed Belt Conveying Technology',
-  description: `Our pipe conveyor systems utilize advanced enclosed belt technology where the conveyor belt forms a complete pipe or tube shape, fully containing the material being transported. This innovative design provides superior environmental protection, prevents material spillage, and enables complex routing with horizontal curves and steep inclines. Ideal for environmentally sensitive applications, pipe conveyors eliminate dust emissions, protect materials from weather exposure, and allow conveyors to navigate through urban areas, over roads, and around obstacles while maintaining complete material containment throughout the conveying path.`,
+  description: `Our pipe conveyor systems utilize advanced enclosed belt technology where the conveyor belt forms a complete pipe or tube shape, fully containing the material being transported. This innovative design provides superior environmental protection, prevents material spillage, and enables complex routing with horizontal curves and steep inclines. Ideal for environmentally sensitive applications, pipe conveyors eliminate dust emissions, protect materials from weather exposure, and allow conveyors to navigate through urban areas, over roads, and around obstacles while maintaining complete material containment throughout the conveying path.
+
+These systems are increasingly important in Australia where strict environmental regulations govern dust control and material spillage, particularly near populated areas and environmentally sensitive zones. Our pipe conveyors help Australian operations achieve compliance while maintaining high throughput efficiency across complex site layouts.`,
   images: [
     '/images/pipe-conveyor/pipe-conveyor-1.jpg',
     '/images/pipe-conveyor/pipe-conveyor-2.jpg',
@@ -33,10 +35,10 @@ export const pipeConveyorOverview: PipeConveyorOverview = {
     'Complete material enclosure - zero spillage',
     'Tight horizontal curves (radius down to 400m)',
     'Steep incline capability up to 30+ degrees',
-    'Dust-free operation with no emissions',
-    'Weather-proof material protection',
+    'Dust free operation with no emissions',
+    'Weather proof material protection',
     'Reduced environmental footprint',
-    'Space-efficient routing flexibility',
+    'Space efficient routing flexibility',
     'Low maintenance sealed design',
   ],
   applications: [
@@ -46,7 +48,7 @@ export const pipeConveyorOverview: PipeConveyorOverview = {
     },
     {
       title: 'Port Terminals',
-      description: 'Dust-free handling of coal, grain, and bulk materials in port facilities near populated areas'
+      description: 'Dust free handling of coal, grain, and bulk materials in port facilities near populated areas'
     },
     {
       title: 'Power Generation',

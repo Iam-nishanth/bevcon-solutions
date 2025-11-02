@@ -46,10 +46,10 @@ export default function CTASection() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <Link
-              href="/quote"
+              href="/contact"
               className="px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-colors shadow-xl flex items-center space-x-2 group"
             >
-              <span>Request a Quote</span>
+              <span>Contact us</span>
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             

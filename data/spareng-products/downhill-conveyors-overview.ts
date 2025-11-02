@@ -21,7 +21,9 @@ export const downhillConveyorOverview: DownhillConveyorOverview = {
   slug: 'downhill-conveyors',
   title: 'Downhill Conveyors',
   heading: 'Specialized Decline Conveying Systems',
-  description: `Our downhill conveyor systems are specifically engineered to transport materials safely and efficiently on declining gradients. Featuring advanced braking systems, controlled descent mechanisms, and specialized belt configurations, these conveyors manage gravitational forces while maintaining material stability and operational safety. With regenerative braking capabilities and energy recovery systems, downhill conveyors can convert potential energy into usable power, significantly reducing overall energy consumption and operational costs in applications involving elevation drops.`,
+  description: `Our downhill conveyor systems are specifically engineered to transport materials safely and efficiently on declining gradients. Featuring advanced braking systems, controlled descent mechanisms, and specialized belt configurations, these conveyors manage gravitational forces while maintaining material stability and operational safety. With regenerative braking capabilities and energy recovery systems, downhill conveyors can convert potential energy into usable power, significantly reducing overall energy consumption and operational costs in applications involving elevation drops.
+
+In Australia's mountainous mining regions and elevated quarry operations, these systems provide safe and energy efficient material transport while meeting stringent workplace safety standards. The regenerative braking technology is particularly valuable in reducing operational costs across Australia's extensive resource sector.`,
   images: [
     '/images/placeholders/downhill-conveyor-1.jpg',
     '/images/placeholders/downhill-conveyor-2.jpg',
@@ -30,9 +32,9 @@ export const downhillConveyorOverview: DownhillConveyorOverview = {
     'Advanced braking and control systems',
     'Regenerative energy recovery capability',
     'Controlled descent mechanism',
-    'High-angle conveying up to 30+ degrees',
+    'High angle conveying up to 30+ degrees',
     'Specialized belt retention systems',
-    'Anti-runback devices for safety',
+    'Anti runback devices for safety',
     'Variable speed control for gradient management',
     'Low spillage design for steep angles',
   ],
@@ -47,7 +49,7 @@ export const downhillConveyorOverview: DownhillConveyorOverview = {
     },
     {
       title: 'Port Unloading Systems',
-      description: 'Transferring materials from elevated ship unloaders to ground-level storage or processing areas'
+      description: 'Transferring materials from elevated ship unloaders to ground level storage or processing areas'
     },
     {
       title: 'Ash Handling Systems',
@@ -59,7 +61,7 @@ export const downhillConveyorOverview: DownhillConveyorOverview = {
     },
     {
       title: 'Waste Management',
-      description: 'Safe transport of waste materials from elevated sorting facilities to ground-level collection points'
+      description: 'Safe transport of waste materials from elevated sorting facilities to ground level collection points'
     }
   ],
   safetyFeatures: [
@@ -69,7 +71,7 @@ export const downhillConveyorOverview: DownhillConveyorOverview = {
     },
     {
       title: 'Emergency Stop Systems',
-      description: 'Immediate stopping capability with fail-safe mechanisms to prevent runaway conditions'
+      description: 'Immediate stopping capability with fail safe mechanisms to prevent runaway conditions'
     },
     {
       title: 'Belt Retention Design',
