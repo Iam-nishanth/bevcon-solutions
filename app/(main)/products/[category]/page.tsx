@@ -29,6 +29,7 @@ const jrfCategories = [
 ];
 
 // Map categories to their overview data
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const jrfCategoryMap: Record<string, any> = {
   "Fume Extraction & Scrubbing Systems": fumeExtractionOverview,
   "Dust Extraction Systems": dustExtractionOverview,
@@ -234,6 +235,7 @@ export default function CategoryPage() {
                   >
                     <h2 className="text-2xl sm:text-3xl font-bold text-primary-900 mb-8">Application Areas</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                       {jrfOverview.productTypes.map((type: any, idx: number) => (
                         <div
                           key={idx}
@@ -266,6 +268,7 @@ export default function CategoryPage() {
                   >
                     <h2 className="text-2xl sm:text-3xl font-bold text-primary-900 mb-8">{jrfOverview.scrubberTypes ? 'Scrubber Configurations' : jrfOverview.extractionTypes ? 'Extraction System Types' : 'Equipment Types'}</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                       {(jrfOverview.scrubberTypes || jrfOverview.extractionTypes || jrfOverview.equipmentTypes || []).map((item: any, idx: number) => (
                         <div
                           key={idx}

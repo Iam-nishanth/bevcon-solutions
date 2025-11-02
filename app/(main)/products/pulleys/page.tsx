@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { CheckCircle2, Cog, Settings, Package, Award, Factory } from 'lucide-react';
+import { CheckCircle2, Cog, Package, Factory } from 'lucide-react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import CenterFocusCarousel from '@/components/sections/products/CenterFocusCarousel';

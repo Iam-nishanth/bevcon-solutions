@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import Image from 'next/image';
 import { industryExamples } from '@/content/industries-examples';
 import { getIndustryImage } from '@/content/images';

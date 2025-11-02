@@ -25,7 +25,7 @@ export default function ProductCard({
   applications,
   brand,
   category,
-  slug,
+  slug: _slug,
   product
 }: ProductCardProps) {
   const [imageError, setImageError] = useState(false);
