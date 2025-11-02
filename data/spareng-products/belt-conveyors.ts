@@ -49,15 +49,7 @@ export const beltConveyorProducts: Product[] = [
       'Seeds handling',
       'Tea processing',
     ],
-    description: `Belt Conveyors are the most commonly used conveyors as they are the most versatile conveying equipments. Belt conveyors can be used to transport product in a straight line, horizontal or inclined paths from one spot of operation to another. Bevcon Wayors is specialized in design, manufacturing, erection and commissioning of wide range of conveyors having experience of installing thousands of belt conveyors for various applications.
-
-Belt conveyors are commonly used for conveying items with irregular surfaces and for small items that would fall in between rollers or bags of product that would sag between rollers. Material is conveyed directly on the belt so both regular and irregular shaped objects, large or small, light and heavy, can be transported successfully. Belt conveyors are made of a metal frame consists of two pulleys at either end with an endless loop of conveyor belt with carrying / support idlers below makes belt rotates and moves forward.
-
-One of the pulley is powered by electric motor and moving the belt and the material on the belt forward. The powered pulley is called the drive pulley while the unpowered pulley is called the driven pulley. Conveyors Belt are made of high quality premium belting products which reduces belt wear & tear, resulting in less maintenance.
-
-There are two main industrial classes of belt conveyors; One material handling such as those moving boxes along inside a factory and other bulk material handling such as those used to transport large volumes of resources and other materials such as coal, ore, sand, grain, salt etc.
-
-Today there are different types of conveyor belts that have been created for conveying different kinds of material.`,
+    description: `Belt conveyors are the most versatile and commonly used material handling equipment, designed to transport products horizontally or at inclined angles across various operational settings. Featuring a continuous belt loop driven by motorized pulleys and supported by precision idlers, these conveyors efficiently handle both regular and irregular shaped items of any size or weight. Our belt conveyor systems are engineered for reliability and longevity, utilizing premium belting materials that minimize wear and reduce maintenance requirements. From lightweight package handling in manufacturing facilities to heavy-duty bulk material transport in mining and agricultural operations, belt conveyors provide a cost-effective, high-capacity solution for diverse industrial applications.`,
     compatibleEquipment: [
       'Idlers (Carrying, Return, Impact)',
       'Drive and Tail Pulleys',
@@ -78,8 +70,8 @@ Today there are different types of conveyor belts that have been created for con
 ]
 
 export const beltConveyorData: BrandData = {
-  brand: 'Bevcon Wayors',
-  description: 'Specialized in design, manufacturing, erection and commissioning of wide range of belt conveyors with experience of installing thousands of conveyors for various applications across industries.',
+  brand: 'Bevcon Solutions',
+  description: 'Specialized in design, manufacturing, erection and commissioning of wide range of belt conveyors with proven experience across diverse industrial applications.',
   website: 'https://bevconwayors.in',
   products: beltConveyorProducts
 }

@@ -5,6 +5,11 @@
 // import { scrubberComponentsData } from './scrubber-components'
 import { JRFBrandData, JRFCategory, POLLUTANTS_HANDLED, JRF_INDUSTRIES } from './product-types'
 
+// Category overview pages
+export * from './fume-extraction-overview'
+export * from './dust-extraction-overview'
+export * from './frp-grp-overview'
+
 // TODO: Uncomment for next rollout - products need accuracy review
 // export * from './frp-fans-blowers'
 // export * from './gas-scrubbers'

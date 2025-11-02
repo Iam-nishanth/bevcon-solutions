@@ -186,51 +186,30 @@ export const conveyorPartsProducts: Product[] = [
   // PULLEYS - Head Pulleys
   {
     id: 'cp-010',
-    title: 'Head Pulley - Rubber Lagging',
+    title: 'Head Pulley',
     model: 'HP-001',
     sku: 'SP-HP-001',
     category: ['Pulleys'],
     subcategory: 'Pulleys',
     specifications: {},
     features: [
-      'Diamond pattern rubber lagging',
+      'Available with rubber or ceramic lagging',
       'Heavy duty cast steel construction',
       'Precision machined surface',
-      'Balanced for smooth operation'
+      'Balanced for smooth operation',
+      'Ceramic option for extreme wear resistance',
+      'Superior grip in various conditions'
     ],
     applications: [
       'Drive pulleys for belt conveyors',
-      'Mining applications',
-      'Heavy duty material handling'
+      'Mining and heavy-duty applications',
+      'Extreme wear conditions',
+      'Wet and abrasive material handling'
     ],
-    compatibleEquipment: ['Belt conveyors', 'Mining systems'],
-    tags: ['pulleys', 'head', 'drive', 'rubber lagging'],
+    compatibleEquipment: ['Belt conveyors', 'Mining systems', 'Heavy duty conveyors'],
+    tags: ['pulleys', 'head', 'drive', 'rubber lagging', 'ceramic lagging'],
     image: '/images/spareng-products/CONVEYOR_PARTS/HEAD_PULLEY.jpeg',
     partNumber: 'SP-HP-001'
-  },
-  {
-    id: 'cp-011',
-    title: 'Head Pulley - Ceramic Lagging',
-    model: 'HP-002',
-    sku: 'SP-HP-002',
-    category: ['Pulleys'],
-    subcategory: 'Pulleys',
-    specifications: {},
-    features: [
-      'Ceramic lagging for extreme wear resistance',
-      'High alumina ceramic tiles',
-      'Extended service life',
-      'Superior grip in wet conditions'
-    ],
-    applications: [
-      'Extreme wear conditions',
-      'Wet material handling',
-      'Abrasive material transport'
-    ],
-    compatibleEquipment: ['Heavy duty mining conveyors'],
-    tags: ['pulleys', 'head', 'ceramic lagging', 'wear resistant'],
-    image: '/images/spareng-products/CONVEYOR_PARTS/HEAD_PULLEY_1.jpeg',
-    partNumber: 'SP-HP-002'
   },
 
   // PULLEYS - Tail Pulleys

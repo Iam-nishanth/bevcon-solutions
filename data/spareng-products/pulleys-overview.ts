@@ -7,84 +7,63 @@ export interface PulleyOverview {
   description: string
   images: string[]
   keyFeatures: string[]
-  designSpecifications: {
+  applications: {
     title: string
     description: string
-    points: string[]
   }[]
   laggingTypes: {
     title: string
     description: string
   }[]
-  qualityAssurance: string[]
 }
 
 export const pulleyOverview: PulleyOverview = {
   slug: 'pulleys',
   title: 'Conveyor Pulleys',
   heading: 'Engineered Pulleys for Superior Performance and Longevity',
-  description: `Spareng's conveyor pulleys are precision-engineered to meet the demanding requirements of modern material handling systems. Our pulleys are designed considering all critical factors including belt tension, drive torque, and deflection to ensure optimal performance and extended service life.
+  description: `Our conveyor pulleys are precision-engineered to meet the demanding requirements of modern material handling systems. Each pulley is designed considering all critical factors including belt tension, drive torque, and deflection to ensure optimal performance and extended service life.
 
-We manufacture both Turbine and T-Bottom pulley configurations, each optimized for specific applications and duty requirements. Our pulleys feature removable shafts for easy maintenance, and can be supplied with various lagging options to suit your operational needs.
+We manufacture both Turbine and T-Bottom pulley configurations, each optimized for specific applications and duty requirements. Shaft design considers bending stress from belt tensions, torsional stress from drive units, and deflection control. Pulley diameter is determined by belt class, shaft diameter requirements, and operational speed, maintaining a minimum 3:1 ratio (pulley to shaft diameter) for optimal performance.
 
-Using advanced 3D design software, integrated FEA analysis, and decades of design experience, we deliver pulleys that meet international standards while exceeding customer expectations. Every pulley undergoes comprehensive quality checks including weld verification and material certification.`,
+Our pulleys feature removable shafts for easy maintenance and can be supplied with various lagging options to suit your operational needs. With decades of design experience and rigorous testing, we deliver pulleys that meet international standards while exceeding customer expectations.`,
   images: [
     '/images/pulleys/Pulley-1.jpg',
     '/images/pulleys/Pulley-2.jpg',
   ],
   keyFeatures: [
     'Removable shaft design for easy maintenance',
-    'Advanced 3D CAD design with FEA analysis',
-    'Precision-welded construction using robotic systems',
+    'Precision-engineered construction',
     'Available in Turbine and T-Bottom configurations',
     'Various lagging options available',
     'Fully certified materials and components',
-    'Comprehensive quality documentation',
+    'Complete quality documentation',
     'International standard compliance',
+    'Long service life with minimal maintenance',
   ],
-  designSpecifications: [
+  applications: [
     {
-      title: 'Shaft Design',
-      description: 'Our shaft design considers three main factors for optimal performance',
-      points: [
-        'Bending stress from belt tensions',
-        'Torsional stress from drive unit',
-        'Deflection analysis and control',
-        'Material stress limits and safety factors',
-        'Shaft diameter optimization for application'
-      ]
+      title: 'Mining & Quarrying',
+      description: 'Heavy-duty pulleys for continuous operation in demanding mining environments'
     },
     {
-      title: 'Pulley Diameter Selection',
-      description: 'Pulley diameter is determined by multiple factors to ensure proper operation',
-      points: [
-        'Belt class and rating requirements',
-        'Required shaft diameter',
-        'Minimum 3:1 ratio (pulley to shaft diameter)',
-        'Operational speed requirements',
-        'Drive configuration compatibility'
-      ]
+      title: 'Bulk Material Handling',
+      description: 'Reliable pulley systems for handling coal, aggregates, and industrial materials'
     },
     {
-      title: 'Pulley Types',
-      description: 'We offer two main pulley configurations for different duty requirements',
-      points: [
-        'Turbine Pulley: Ideal for low to medium duty with flex hub design',
-        'T-Bottom Pulley: Heavy-duty applications (200mm+ shaft diameter)',
-        'Face-welded construction for high-stress areas',
-        'Removable shaft on both designs',
-        'Custom configurations available'
-      ]
+      title: 'Port & Terminal Operations',
+      description: 'Corrosion-resistant pulleys designed for marine and coastal environments'
     },
     {
-      title: 'Crowning Options',
-      description: 'Pulley crowning for improved belt tracking',
-      points: [
-        'Full Crown: 1:100 ratio from centerline',
-        'Strip Crown: Crown on first and last third (1:100 ratio)',
-        'Custom crowning on request',
-        'Computer-verified crown profiles'
-      ]
+      title: 'Power Generation',
+      description: 'High-performance pulleys for thermal power plants and coal handling systems'
+    },
+    {
+      title: 'Cement & Steel Industries',
+      description: 'Robust pulleys engineered for extreme temperatures and abrasive materials'
+    },
+    {
+      title: 'Manufacturing & Processing',
+      description: 'Precision pulleys for automotive, food processing, and general manufacturing'
     }
   ],
   laggingTypes: [
@@ -104,16 +83,6 @@ Using advanced 3D design software, integrated FEA analysis, and decades of desig
       title: 'Flame-Proof Lagging',
       description: 'Neoprene-based lagging for mining and hazardous environments requiring fire-resistant materials'
     }
-  ],
-  qualityAssurance: [
-    'Fully integrated ISO Quality Management System',
-    'All materials fully certified and traceable',
-    'Weld verification using UT, MPI, or X-ray',
-    'Comprehensive data book for each pulley',
-    'Advanced SolidWorks 3D design software',
-    'Integrated FEA (Finite Element Analysis)',
-    'Decades of proven design experience',
-    'Full dimensional inspection before dispatch'
   ]
 }
 

@@ -68,9 +68,12 @@ export const mainNavigation: NavItem[] = [
         title: 'Bulk Material Handling',
         type: 'list',
         items: [
+          { label: 'Belt Conveyors', href: '/products/belt-conveyors/standard-belt-conveyor' },
+          { label: 'Pipe Conveyors', href: '/products/pipe-conveyors' },
+          { label: 'Long Distance Conveyors', href: '/products/long-distance-conveyors' },
           { label: 'Idlers', href: '/products/idlers' },
           { label: 'Pulleys', href: '/products/pulleys' },
-          { label: 'Belt Conveyors', href: '/products/belt-conveyors/standard-belt-conveyor' },
+          // { label: 'Downhill Conveyors', href: '/products/downhill-conveyors' },
         ],
       },
       {
@@ -78,7 +81,8 @@ export const mainNavigation: NavItem[] = [
         type: 'list',
         items: [
           { label: 'Fume Extraction & Scrubbing Systems', href: '/products/fume-extraction-scrubbing-systems' },
-          { label: 'Dust Extraction Systems', href: '/products/fume-extraction-scrubbing-systems' },
+          // { label: 'Dust Extraction Systems', href: '/products/dust-extraction-systems' },
+          { label: 'Dust Extraction Systems', href: '/products/dust-extraction-equipment' },
           { label: 'FRP - GRP Equipment', href: '/products/frp-grp-equipments' },
         ],
       },

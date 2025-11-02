@@ -54,6 +54,12 @@ export * from './spillage-dribble-conveyors'
 // export * from './stacker-scraper-reclaimer'
 export * from './prism-gate-flow-diverter'
 export * from './belt-conveyors'
+export * from './idlers-overview'
+export * from './pulleys-overview'
+export * from './long-distance-conveyors-overview'
+export * from './downhill-conveyors-overview'
+export * from './pipe-conveyors-overview'
+export * from './dust-extraction-equipment-overview'
 
 // Combined product data from all categories - now includes 24 comprehensive product lines
 export const allBrands: BrandData[] = [

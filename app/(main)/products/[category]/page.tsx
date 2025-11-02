@@ -9,13 +9,14 @@ import CenterFocusCarousel from '@/components/sections/products/CenterFocusCarou
 import { allProducts as bevconProducts } from '@/data/bevcon-products';
 import { allProducts as sparengProducts } from '@/data/spareng-products';
 import { fumeExtractionOverview } from '@/data/jr-fibreglass/fume-extraction-overview';
+import { dustExtractionOverview } from '@/data/jr-fibreglass/dust-extraction-overview';
+import { frpGrpOverview } from '@/data/jr-fibreglass/frp-grp-overview';
 // TODO: Uncomment for next rollout - JR Fibreglass products need accuracy review
 // import { allJRFProducts } from '@/data/jr-fibreglass';
 
 const allProducts = [...bevconProducts, ...sparengProducts];
 
 const emitCategories = [
-  "Dust Extraction Systems",
   "Bogie",
   "Steep Angle Sidewall Conveyors",
 ]
@@ -23,8 +24,16 @@ const emitCategories = [
 // JR Fibreglass categories that should show catalog download
 const jrfCategories = [
   "Fume Extraction & Scrubbing Systems",
+  "Dust Extraction Systems",
   "FRP - GRP Equipments"
 ];
+
+// Map categories to their overview data
+const jrfCategoryMap: Record<string, any> = {
+  "Fume Extraction & Scrubbing Systems": fumeExtractionOverview,
+  "Dust Extraction Systems": dustExtractionOverview,
+  "FRP - GRP Equipments": frpGrpOverview
+};
 
 // Get all unique categories
 const getAllCategories = () => {
@@ -77,6 +86,9 @@ export default function CategoryPage() {
     notFound();
   }
 
+  // Get JRF overview data for this category if applicable
+  const jrfOverview = jrfCategoryMap[category];
+
   // Filter products by category
   const filteredByCategory = allProducts.filter(product => {
     if (Array.isArray(product.category)) {
@@ -121,24 +133,8 @@ export default function CategoryPage() {
             {/* Products Grid */}
             <div className="flex justify-center items-center">
 
-              {/* Products */}
-              {categoryProducts.length > 0 ? (
-                <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {categoryProducts.map((product) => (
-                    <ProductCard
-                      key={product.id}
-                      title={product.title}
-                      image={product.image}
-                      features={product.features}
-                      applications={product.applications}
-                      brand={product.brand}
-                      category={product.category}
-                      slug={product.slug}
-                      product={product}
-                    />
-                  ))}
-                </div>
-              ) : jrfCategories.includes(category) ? (
+              {/* Check JRF categories first, then show products */}
+              {jrfCategories.includes(category) ? (
                 <div className="w-full space-y-12">
                   {/* Image Carousel */}
                   <motion.div
@@ -147,8 +143,8 @@ export default function CategoryPage() {
                     transition={{ delay: 0.2 }}
                   >
                     <CenterFocusCarousel 
-                      images={fumeExtractionOverview.images}
-                      alt={fumeExtractionOverview.title}
+                      images={jrfOverview.images}
+                      alt={jrfOverview.title}
                     />
                   </motion.div>
 
@@ -164,23 +160,23 @@ export default function CategoryPage() {
                       <h2 className="text-2xl sm:text-3xl font-bold text-primary-900">About JR Fibreglass Industries</h2>
                     </div>
                     <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
-                      {fumeExtractionOverview.description.split('\n\n').map((paragraph, idx) => (
+                      {jrfOverview.description.split('\n\n').map((paragraph: string, idx: number) => (
                         <p key={idx} className="text-base sm:text-lg">{paragraph}</p>
                       ))}
                     </div>
                     <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <div className="bg-gray-50 rounded-lg p-4">
+                      {/* <div className="bg-gray-50 rounded-lg p-4">
                         <div className="text-sm font-semibold text-gray-600 mb-1">Company</div>
                         <div className="text-lg font-bold text-primary-900">{fumeExtractionOverview.companyInfo.name}</div>
                       </div>
                       <div className="bg-gray-50 rounded-lg p-4">
                         <div className="text-sm font-semibold text-gray-600 mb-1">Experience</div>
                         <div className="text-lg font-bold text-primary-900">{fumeExtractionOverview.companyInfo.established}</div>
-                      </div>
-                      <div className="bg-gray-50 rounded-lg p-4">
+                      </div> */}
+                      {/* <div className="bg-gray-50 rounded-lg p-4">
                         <div className="text-sm font-semibold text-gray-600 mb-1">Location</div>
                         <div className="text-lg font-bold text-primary-900">{fumeExtractionOverview.companyInfo.location}</div>
-                      </div>
+                      </div> */}
                     </div>
                   </motion.div>
 
@@ -198,7 +194,7 @@ export default function CategoryPage() {
                         Key Features
                       </h2>
                       <ul className="space-y-3">
-                        {fumeExtractionOverview.keyFeatures.map((feature, idx) => (
+                        {jrfOverview.keyFeatures.map((feature: string, idx: number) => (
                           <li key={idx} className="flex items-start text-base">
                             <CheckCircle2 className="w-5 h-5 text-primary-600 mr-3 mt-0.5 flex-shrink-0" />
                             <span className="text-gray-700">{feature}</span>
@@ -219,7 +215,7 @@ export default function CategoryPage() {
                         Company Highlights
                       </h2>
                       <ul className="space-y-3">
-                        {fumeExtractionOverview.companyInfo.highlights.map((highlight, idx) => (
+                        {jrfOverview.companyInfo.highlights.map((highlight: string, idx: number) => (
                           <li key={idx} className="flex items-start text-base">
                             <CheckCircle2 className="w-5 h-5 text-primary-600 mr-3 mt-0.5 flex-shrink-0" />
                             <span className="text-gray-700">{highlight}</span>
@@ -238,7 +234,7 @@ export default function CategoryPage() {
                   >
                     <h2 className="text-2xl sm:text-3xl font-bold text-primary-900 mb-8">Application Areas</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      {fumeExtractionOverview.productTypes.map((type, idx) => (
+                      {jrfOverview.productTypes.map((type: any, idx: number) => (
                         <div
                           key={idx}
                           className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all"
@@ -248,7 +244,7 @@ export default function CategoryPage() {
                           <div className="space-y-2">
                             <p className="text-xs font-semibold text-gray-600 uppercase tracking-wide">Typical Applications:</p>
                             <div className="grid grid-cols-2 gap-2">
-                              {type.applications.map((app, appIdx) => (
+                              {type.applications.map((app: string, appIdx: number) => (
                                 <div key={appIdx} className="text-xs text-gray-600 flex items-center">
                                   <span className="mr-1 text-primary-600">•</span>
                                   <span>{app}</span>
@@ -268,21 +264,22 @@ export default function CategoryPage() {
                     transition={{ delay: 0.6 }}
                     className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 sm:p-8 lg:p-10"
                   >
-                    <h2 className="text-2xl sm:text-3xl font-bold text-primary-900 mb-8">Scrubber Configurations</h2>
+                    <h2 className="text-2xl sm:text-3xl font-bold text-primary-900 mb-8">{jrfOverview.scrubberTypes ? 'Scrubber Configurations' : jrfOverview.extractionTypes ? 'Extraction System Types' : 'Equipment Types'}</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                      {fumeExtractionOverview.scrubberTypes.map((scrubber, idx) => (
+                      {(jrfOverview.scrubberTypes || jrfOverview.extractionTypes || jrfOverview.equipmentTypes || []).map((item: any, idx: number) => (
                         <div
                           key={idx}
                           className="bg-gradient-to-br from-gray-50 to-white rounded-lg p-5 border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all"
                         >
-                          <h3 className="text-base font-bold text-primary-900 mb-2">{scrubber.name}</h3>
-                          <p className="text-sm text-gray-600 leading-relaxed">{scrubber.description}</p>
+                          <h3 className="text-base font-bold text-primary-900 mb-2">{item.name}</h3>
+                          <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
                         </div>
                       ))}
                     </div>
                   </motion.div>
 
                   {/* Materials of Construction */}
+                  {jrfOverview.materialsOfConstruction && (
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -291,7 +288,7 @@ export default function CategoryPage() {
                   >
                     <h2 className="text-xl sm:text-2xl font-bold text-primary-900 mb-6">Materials of Construction</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      {fumeExtractionOverview.materialsOfConstruction.map((material, idx) => (
+                      {jrfOverview.materialsOfConstruction.map((material: string, idx: number) => (
                         <div key={idx} className="flex items-center bg-gray-50 px-4 py-3 rounded-lg border border-gray-200">
                           <CheckCircle2 className="w-4 h-4 text-primary-600 mr-3 flex-shrink-0" />
                           <span className="text-gray-700 text-sm">{material}</span>
@@ -299,6 +296,7 @@ export default function CategoryPage() {
                       ))}
                     </div>
                   </motion.div>
+                  )}
 
                   {/* Industries Served */}
                   <motion.div
@@ -312,7 +310,7 @@ export default function CategoryPage() {
                       Industries Served
                     </h2>
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                      {fumeExtractionOverview.industries.map((industry, idx) => (
+                      {jrfOverview.industries.map((industry: string, idx: number) => (
                         <div
                           key={idx}
                           className="bg-gray-50 px-4 py-3 rounded-lg text-sm text-gray-700 font-medium border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-colors text-center"
@@ -348,6 +346,22 @@ export default function CategoryPage() {
                       <span>Download Catalog</span>
                     </a>
                   </motion.div>
+                </div>
+              ) : categoryProducts.length > 0 ? (
+                <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {categoryProducts.map((product) => (
+                    <ProductCard
+                      key={product.id}
+                      title={product.title}
+                      image={product.image}
+                      features={product.features}
+                      applications={product.applications}
+                      brand={product.brand}
+                      category={product.category}
+                      slug={product.slug}
+                      product={product}
+                    />
+                  ))}
                 </div>
               ) : (
                 <div className="text-center py-20">

@@ -7,10 +7,10 @@ export interface IdlerOverview {
   description: string
   images: string[]
   keyFeatures: string[]
-  technicalAdvantages: {
+  applications: {
     title: string
-    items: string[]
-  }
+    description: string
+  }[]
   types: {
     title: string
     description: string
@@ -22,11 +22,11 @@ export const idlerOverview: IdlerOverview = {
   slug: 'idlers',
   title: 'Conveyor Idlers',
   heading: 'Precision-Engineered Idlers for Maximum Conveyor Efficiency',
-  description: `Spareng's conveyor idlers are manufactured with precision engineering and stringent quality control from raw material selection through to final production. Our idlers are grease-packed for life, ensuring trouble-free operation with minimal maintenance requirements.
+  description: `Our conveyor idlers are manufactured with precision engineering and stringent quality control from raw material selection through to final production. Each idler is grease-packed for life, ensuring trouble-free operation with minimal maintenance requirements.
 
 With excellent sealing arrangements, our idlers are water and dust-proof, delivering extended service life even in the most severe field conditions. The low friction factor ensures substantial power consumption savings and smooth, efficient operation.
 
-All idlers undergo pre-running in our factory to ensure even grease distribution and minimal starting resistance. Our supporting structural members are manufactured using advanced machinery and robotic welding to guarantee the highest quality standards.`,
+All idlers undergo pre-running in our factory to ensure even grease distribution and minimal starting resistance. Our supporting structural members are precision-manufactured to guarantee the highest quality standards.`,
   images: [
     '/images/idlers/Idler-1.jpg',
     '/images/idlers/Idler-2.jpg',
@@ -40,26 +40,39 @@ All idlers undergo pre-running in our factory to ensure even grease distribution
   keyFeatures: [
     'Grease-packed for life - minimal maintenance required',
     'Water and dust-proof sealing for extended life',
-    'Low friction factor (<0.008 - 0.015) for power savings',
+    'Low friction design for power savings',
     'Pre-run in factory for even grease distribution',
-    'Premium quality bearings (SKF, FAG & NTN)',
-    'Advanced robotic welding for structural integrity',
-    'Precision manufactured with tight tolerances',
+    'Premium quality bearings for reliability',
+    'Precision-welded construction for structural integrity',
+    'Manufactured with tight tolerances',
     'Corrosion-resistant finish for harsh environments',
   ],
-  technicalAdvantages: {
-    title: 'Technical Specifications',
-    items: [
-      'Low friction factor: <0.008 - 0.015',
-      'Diametrical run-out: <0.8mm',
-      'Break-away mass: <250g',
-      'Low axial play for smooth operation',
-      'Effective sealing - water & dust proof',
-      'Quality bearings: SKF, FAG & NTN',
-      'Documented Quality Management System',
-      'High precision engineering standards',
-    ]
-  },
+  applications: [
+    {
+      title: 'Mining & Quarrying',
+      description: 'Heavy-duty idlers for continuous operation in harsh mining environments with high load capacity'
+    },
+    {
+      title: 'Bulk Material Handling',
+      description: 'Efficient handling of aggregates, coal, grain, and other bulk materials in industrial facilities'
+    },
+    {
+      title: 'Manufacturing & Production',
+      description: 'Reliable operation in automotive, cement, steel, and general manufacturing plants'
+    },
+    {
+      title: 'Ports & Shipping',
+      description: 'Durable idlers for material handling at ports, terminals, and shipping facilities'
+    },
+    {
+      title: 'Power Generation',
+      description: 'Designed for thermal power plants, handling coal and ash with minimal downtime'
+    },
+    {
+      title: 'Agriculture & Food Processing',
+      description: 'Food-grade options available for grain handling and food processing applications'
+    }
+  ],
   types: [
     {
       title: 'Carrying Idlers',

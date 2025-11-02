@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { notFound, useParams } from 'next/navigation';
-import { CheckCircle2, Factory } from 'lucide-react';
+import { CheckCircle2, Factory, Cog } from 'lucide-react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import CenterFocusCarousel from '@/components/sections/products/CenterFocusCarousel';
@@ -111,7 +111,7 @@ export default function BeltConveyorDetailPage() {
                 className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 sm:p-8"
               >
                 <h2 className="text-xl sm:text-2xl font-bold text-primary-900 mb-6 flex items-center">
-                  <CheckCircle2 className="w-6 h-6 mr-3 text-primary-600" />
+                  <Cog className="w-6 h-6 mr-3 text-primary-600" />
                   Key Features
                 </h2>
                 <ul className="space-y-3">
