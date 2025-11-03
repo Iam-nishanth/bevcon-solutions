@@ -93,7 +93,7 @@ export const mainNavigation: NavItem[] = [
           // { label: 'View All Products', href: '/products' },
           { label: 'Nergeco - High-Speed Doors', href: '/products/high-speed-doors' },
           { label: 'SKB - Fire Rated Shutters', href: '/products/fire-rated-shutters' },
-          { label: 'Spareng - Material Handling', href: '#' },
+          { label: 'Spareng - Conveyor Components', href: '#' },
           { label: 'JR Fibreglass - Fume Extraction', href: '/products/fume-extraction-scrubbing-systems' },
         ],
       },

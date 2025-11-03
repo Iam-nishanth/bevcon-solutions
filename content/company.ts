@@ -69,7 +69,7 @@ export const partners: Partner[] = [
     name: 'Spareng Incorporated',
     logo: '/images/partners/Spareng-incorporated-logo.svg',
     tagline: 'Bulk Material Handling Equipment Spares & Components',
-    description: 'Leading supplier of Bulk Material Handling Equipment (BMHE) spare parts including conveyor components, crusher spares, and screening equipment for industrial applications. Spareng provides precision-engineered spare parts, repairs & refurbishment, technical consultancy, and after-sales services for mining, processing, and bulk material handling industries.',
+    description: 'Spareng delivers Precision Engineered Components, Equipment Refurbishment, and Expert Technical Support tailored to the Bulk Material Handling Industry, ensuring superior quality, performance, and reliability across all operations.',
     specialization: [
       'Conveyor Components',
       'Crusher Equipment',

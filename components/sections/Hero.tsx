@@ -1,84 +1,88 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { ArrowRight, ChevronDown } from 'lucide-react';
+import React from "react";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { ArrowRight, ChevronDown } from "lucide-react";
 
 export default function Hero() {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center bg-white pt-32 pb-20">
-      {/* Background image overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white" />
-      
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          {/* Eyebrow text */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-block"
-          >
-            <span className="inline-block px-4 py-2 bg-primary-50 text-primary-900 rounded-full text-sm font-semibold tracking-wide mb-8 border border-primary-100">
+	return (
+		<section className="relative min-h-screen flex items-center justify-center bg-white pt-32 pb-20">
+			{/* Background image overlay */}
+			<div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white" />
+
+			<div className="container mx-auto px-4 relative z-10">
+				<div className="max-w-4xl mx-auto text-center">
+					{/* Eyebrow text */}
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6 }}
+						className="inline-block"
+					>
+						<span className="inline-block px-4 py-2 bg-primary-50 text-primary-900 rounded-full text-sm font-semibold tracking-wide mb-8 border border-primary-100">
+							Smarter Access | Stronger Performance | Seamless Flow.
+						</span>
+						{/* <span className="inline-block px-4 py-2 bg-primary-50 text-primary-900 rounded-full text-sm font-semibold tracking-wide mb-8 border border-primary-100">
               Industrial Access | Entrance Automation | Material Handling | Fume Extraction
-            </span>
-          </motion.div>
+            </span> */}
+					</motion.div>
 
-          {/* Main headline */}
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl md:text-6xl font-heading font-bold mb-6 leading-tight text-primary-900"
-          >
-            Smarter Access.<br /> Stronger Performance.<br /> Seamless Flow.
-          </motion.h1>
+					{/* Main headline */}
+					<motion.h1
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, delay: 0.1 }}
+						className="text-4xl md:text-[52px] font-heading font-bold mb-6 leading-tight text-primary-900"
+					>
+						Industrial Access. <br /> Entrance Automation. <br /> Material Handling. <br /> Fume Extraction.
+					</motion.h1>
 
-          {/* Subheadline */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg md:text-xl mb-6 text-gray-600 max-w-3xl mx-auto leading-relaxed"
-          >
-            For over 30 years, we&apos;ve been helping industries move smarter. From automated doors and docking systems to bulk material handling and fume extraction, our end-to-end solutions keep your operations efficient, safe, and built for the future.
-          </motion.p>
+					{/* Subheadline */}
+					<motion.p
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, delay: 0.2 }}
+						className="text-lg md:text-xl mb-6 text-gray-600 max-w-3xl mx-auto leading-relaxed"
+					>
+						For over 30 years, we&apos;ve been helping Industries move smarter. From Automated Doors and Docking Systems to Bulk Material
+						Handling and Fume Extraction, our end-to-end solutions keep your operations efficient, safe, and built for the future.
+					</motion.p>
 
-          {/* Tagline */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.25 }}
-            className="text-base md:text-lg mb-8 text-primary-700 font-semibold italic"
-          >
-            Empowering industries through innovation, reliability, and performance
-          </motion.p>
+					{/* Tagline */}
+					<motion.p
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, delay: 0.25 }}
+						className="text-base md:text-lg mb-8 text-primary-700 font-semibold italic"
+					>
+						Empowering industries through innovation, reliability, and performance
+					</motion.p>
 
-          {/* CTA Buttons */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
-          >
-            <Link
-              href="/industries"
-              className="px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-colors hover:shadow-xl flex items-center space-x-2 group shadow-md"
-            >
-              <span>View Industries</span>
-              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-            </Link>
-            <Link
-              href="/contact"
-              className="px-8 py-4 bg-white border-2 border-gray-300 hover:border-primary-900 hover:bg-primary-50 text-primary-900 font-semibold rounded-lg transition-all"
-            >
-              Contact Us
-            </Link>
-          </motion.div>
+					{/* CTA Buttons */}
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, delay: 0.3 }}
+						className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
+					>
+						<Link
+							href="/industries"
+							className="px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-semibold rounded-lg transition-colors hover:shadow-xl flex items-center space-x-2 group shadow-md"
+						>
+							<span>View Industries</span>
+							<ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+						</Link>
+						<Link
+							href="/contact"
+							className="px-8 py-4 bg-white border-2 border-gray-300 hover:border-primary-900 hover:bg-primary-50 text-primary-900 font-semibold rounded-lg transition-all"
+						>
+							Contact Us
+						</Link>
+					</motion.div>
 
-          {/* Trust badges */}
-          {/* <motion.div
+					{/* Trust badges */}
+					{/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
@@ -97,26 +101,26 @@ export default function Hero() {
               <span>Technical Support</span>
             </div>
           </motion.div> */}
-        </div>
-      </div>
+				</div>
+			</div>
 
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 0.8 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 md:block hidden"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity }}
-          className="flex flex-col items-center space-y-2 cursor-pointer"
-          onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-        >
-          <span className="text-sm opacity-70">Scroll to explore</span>
-          <ChevronDown size={24} className="opacity-70" />
-        </motion.div>
-      </motion.div>
-    </section>
-  );
+			{/* Scroll indicator */}
+			<motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				transition={{ duration: 1, delay: 0.8 }}
+				className="absolute bottom-8 left-1/2 -translate-x-1/2 md:block hidden"
+			>
+				<motion.div
+					animate={{ y: [0, 10, 0] }}
+					transition={{ duration: 1.5, repeat: Infinity }}
+					className="flex flex-col items-center space-y-2 cursor-pointer"
+					onClick={() => window.scrollTo({ top: window.innerHeight, behavior: "smooth" })}
+				>
+					<span className="text-sm opacity-70">Scroll to explore</span>
+					<ChevronDown size={24} className="opacity-70" />
+				</motion.div>
+			</motion.div>
+		</section>
+	);
 }

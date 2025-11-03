@@ -26,9 +26,9 @@ export const pipeConveyorOverview: PipeConveyorOverview = {
 These systems are increasingly important in Australia where strict environmental regulations govern dust control and material spillage, particularly near populated areas and environmentally sensitive zones. Our pipe conveyors help Australian operations achieve compliance while maintaining high throughput efficiency across complex site layouts.`,
   images: [
     '/images/pipe-conveyor/pipe-conveyor-1.jpg',
-    '/images/pipe-conveyor/pipe-conveyor-2.jpg',
-    '/images/pipe-conveyor/pipe-conveyor-3.jpg',
-    '/images/pipe-conveyor/pipe-conveyor-4.jpg',
+    // '/images/pipe-conveyor/pipe-conveyor-2.jpg',
+    // '/images/pipe-conveyor/pipe-conveyor-3.jpg',
+    // '/images/pipe-conveyor/pipe-conveyor-4.jpg',
     '/images/pipe-conveyor/pipe-conveyor-5.jpg',
   ],
   keyFeatures: [
