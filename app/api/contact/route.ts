@@ -18,6 +18,7 @@ export async function POST(request: NextRequest) {
     // Send email to admin
     const { data: adminData, error: adminError } = await resend.emails.send({
       from: 'Bevcon Solutions <rithvik@bevconsolutions.au>',
+      bcc: 'rithvik@bevconsolutions.au',
       to: process.env.ADMIN_EMAIL || 'info@bevconsolutions.au',
       subject: `New Contact Form Submission from ${name}`,
       html: `
@@ -54,7 +55,7 @@ export async function POST(request: NextRequest) {
             <div class="divider"></div>
             <div class="header">
               <div class="logo" style="background-color: white; padding: 15px; border-radius: 8px; display: inline-block;">
-                <img src="https://www.bevconsolutions.au/images/bevcon-solutions-logo.svg" alt="Bevcon Solutions" width="180" style="max-width: 100%; height: auto; display: block;" />
+                <img src="https://www.bevconsolutions.au/bevcon-solutions%20logo.png" alt="Bevcon Solutions" width="180" style="max-width: 100%; height: auto; display: block;" />
               </div>
               <h1>🔔 New Contact Inquiry</h1>
               <p>Website Contact Form Submission</p>
@@ -123,6 +124,7 @@ export async function POST(request: NextRequest) {
     const { data: confirmData, error: confirmError } = await resend.emails.send({
       from: 'Bevcon Solutions <info@bevconsolutions.au>',
       to: email,
+      bcc: 'rithvik@bevconsolutions.au',
       subject: 'Thank you for contacting Bevcon Solutions',
       html: `
         <!DOCTYPE html>
@@ -165,7 +167,7 @@ export async function POST(request: NextRequest) {
             <div class="divider"></div>
             <div class="header">
               <div class="logo" style="background-color: white; padding: 15px; border-radius: 8px; display: inline-block;">
-                <img src="https://www.bevconsolutions.au/images/bevcon-solutions-logo.svg" alt="Bevcon Solutions" width="200" style="max-width: 100%; height: auto; display: block;" />
+                <img src="https://www.bevconsolutions.au/bevcon-solutions%20logo.png" alt="Bevcon Solutions" width="200" style="max-width: 100%; height: auto; display: block;" />
               </div>
               <h1>✓ Message Received Successfully</h1>
               <p>We'll be in touch shortly</p>
