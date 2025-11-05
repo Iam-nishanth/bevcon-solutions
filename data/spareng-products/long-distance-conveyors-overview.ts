@@ -23,7 +23,7 @@ export const longDistanceConveyorOverview: LongDistanceConveyorOverview = {
   heading: 'Extended Range Material Transport Solutions',
   description: `Our Long Distance Conveyor Systems are engineered to transport bulk materials over extended distances ranging from several hundred meters to multiple kilometers. Utilizing advanced drive configurations, intermediate drives, and optimized belt tension management, these systems ensure efficient, continuous material flow across challenging terrains and elevations. With capabilities to handle thousands of tons per hour over distances exceeding 15 km, our long distance conveyors minimize transfer points, reduce material degradation, and lower overall operational costs compared to traditional multi-stage conveying systems.
 
-Particularly suited for Australia's vast mining and resource sectors, these systems efficiently connect remote extraction sites with processing facilities or port terminals across challenging landscapes. Our designs account for Australia's extreme weather conditions, from intense heat to dust storms, ensuring reliable operation in the harshest environments while meeting all relevant Australian Standards.`,
+Particularly suited for Australia's vast mining and resource sectors, these systems efficiently connect remote extraction sites with processing facilities or port terminals across challenging landscapes. Our designs account for Australia's extreme weather conditions, from intense heat to dust storms, ensuring reliable operation in the harshest environments while meeting all relevant International Standards.`,
   images: [
     '/images/long-distance-conveyor/long-distance-conveyor-1.jpg',
     '/images/long-distance-conveyor/long-distance-conveyor-2.jpg',

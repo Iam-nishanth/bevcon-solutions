@@ -12,7 +12,7 @@ export default function Hero() {
 			<div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white" />
 
 			<div className="container mx-auto px-4 relative z-10">
-				<div className="max-w-4xl mx-auto text-center">
+				<div className="max-w-5xl mx-auto text-center">
 					{/* Eyebrow text */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -33,9 +33,9 @@ export default function Hero() {
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.6, delay: 0.1 }}
-						className="text-4xl md:text-[52px] font-heading font-bold mb-6 leading-tight text-primary-900"
+						className="text-3xl md:text-[48px] font-heading font-bold mb-6 leading-tight text-primary-900 text-center"
 					>
-						Industrial Access. <br /> Entrance Automation. <br /> Material Handling. <br /> Fume Extraction.
+						Entrance Automation. Industrial Access.<br/> Material Handling. Fume Extraction.
 					</motion.h1>
 
 					{/* Subheadline */}
@@ -43,7 +43,7 @@ export default function Hero() {
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.6, delay: 0.2 }}
-						className="text-lg md:text-xl mb-6 text-gray-600 max-w-3xl mx-auto leading-relaxed"
+						className="text-lg md:text-xl mb-6 text-gray-600 max-w-5xl mx-auto leading-relaxed"
 					>
 						For over 30 years, we&apos;ve been helping Industries move smarter. From Automated Doors and Docking Systems to Bulk Material
 						Handling and Fume Extraction, our end-to-end solutions keep your operations efficient, safe, and built for the future.

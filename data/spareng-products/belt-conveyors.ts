@@ -51,11 +51,11 @@ export const beltConveyorProducts: Product[] = [
     ],
     description: `Belt conveyors are among the most widely used material handling systems across Australia due to their versatility, reliability, and cost effectiveness. They provide efficient transport of materials in straight, horizontal, or inclined paths, connecting different stages of production or processing seamlessly.
 
-At Bevcon Solutions, we specialise in the design, manufacture, installation, and commissioning of a wide range of conveyor systems. With decades of experience and thousands of successful installations worldwide, our engineering expertise extends to Australia's demanding industrial sectors — from mining and quarrying to food processing, logistics, and manufacturing.
+At Bevcon Solutions, we specialise in the design, manufacture, installation, and commissioning of a wide range of conveyor systems. With decades of experience and thousands of successful installations worldwide, our engineering expertise extends to Australia's demanding industrial sectors from mining and quarrying to food processing, logistics, and manufacturing.
 
-Each system consists of a robust metal frame with pulleys at either end and an endless loop of high quality belting supported by carrying idlers. One pulley, known as the drive pulley, is powered by an electric motor, which moves the belt and its load forward, while the driven pulley maintains tension and alignment. Using premium belting materials ensures minimal wear, reduced maintenance, and extended belt life — crucial for Australia's harsh operating conditions and remote project sites.
+Each system consists of a robust metal frame with pulleys at either end and an endless loop of high quality belting supported by carrying idlers. One pulley, known as the drive pulley, is powered by an electric motor, which moves the belt and its load forward, while the driven pulley maintains tension and alignment. Using premium belting materials ensures minimal wear, reduced maintenance, and extended belt life crucial for Australia's harsh operating conditions and remote project sites.
 
-Across Australia, industries operate under challenging environmental and regulatory conditions. Bevcon Solutions' conveyor systems are designed to meet Australian Standards (AS 1755, AS 4024) for safety, performance, and durability, ensuring dependable operation in even the toughest terrains and climates.
+Across Australia, industries operate under challenging environmental and regulatory conditions. Bevcon Solutions' conveyor systems are designed to meet International Standards for safety, performance, and durability, ensuring dependable operation in even the toughest terrains and climates.
 
 Whatever your conveying needs, Bevcon Solutions delivers reliable, efficient, and customised conveyor solutions for Australian industry.`,
     compatibleEquipment: [
