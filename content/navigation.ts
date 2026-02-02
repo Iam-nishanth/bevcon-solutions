@@ -70,9 +70,9 @@ export const mainNavigation: NavItem[] = [
         items: [
           { label: 'Belt Conveyors', href: '/products/belt-conveyors/standard-belt-conveyor' },
           { label: 'Pipe Conveyors', href: '/products/pipe-conveyors' },
-          { label: 'Long Distance Conveyors', href: '/products/long-distance-conveyors' },
-          { label: 'Idlers', href: '/products/idlers' },
-          { label: 'Pulleys', href: '/products/pulleys' },
+          // { label: 'Long Distance Conveyors', href: '/products/long-distance-conveyors' },
+          // { label: 'Idlers', href: '/products/idlers' },
+          // { label: 'Pulleys', href: '/products/pulleys' },
           // { label: 'Downhill Conveyors', href: '/products/downhill-conveyors' },
         ],
       },
