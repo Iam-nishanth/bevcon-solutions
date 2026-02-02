@@ -85,18 +85,18 @@ export const mainNavigation: NavItem[] = [
           { label: 'FRP - GRP Equipment', href: '/products/frp-grp-equipments' },
         ],
       },
-      {
-        title: 'Our Brands',
-        type: 'overview',
-        description: 'Premium quality products from world-class manufacturers',
-        items: [
-          // { label: 'View All Products', href: '/products' },
-          { label: 'Nergeco - High-Speed Doors', href: '/products/high-speed-doors' },
-          { label: 'SKB - Fire Rated Shutters', href: '/products/fire-rated-shutters' },
-          { label: 'Spareng - Conveyor Components', href: '#' },
-          { label: 'JR Fibreglass - Fume Extraction', href: '/products/fume-extraction-scrubbing-systems' },
-        ],
-      },
+      // {
+      //   title: 'Our Brands',
+      //   type: 'overview',
+      //   description: 'Premium quality products from world-class manufacturers',
+      //   items: [
+      //     // { label: 'View All Products', href: '/products' },
+      //     { label: 'Nergeco - High-Speed Doors', href: '/products/high-speed-doors' },
+      //     { label: 'SKB - Fire Rated Shutters', href: '/products/fire-rated-shutters' },
+      //     { label: 'Spareng - Conveyor Components', href: '#' },
+      //     { label: 'JR Fibreglass - Fume Extraction', href: '/products/fume-extraction-scrubbing-systems' },
+      //   ],
+      // },
     ],
   },
   {

@@ -20,8 +20,9 @@ export default function Footer() {
 						</div>
 						<p className="text-sm mb-4" dangerouslySetInnerHTML={{ __html: companyInfo.taglineHtml }}></p>
 						<p className="text-base text-gray-400 mb-6">
-							Backed by the proven expertise of Bevcon Zentry (Supplier of Industrial Doors & Docking Systems), Spareng Incorporated
-							(Supplier of Bulk Material Handling Equipment Spares & Services), and JR Fibreglass Industries (Supplier of Fume Extraction & FRP/GRP Equipment).
+							{/* Backed by the proven expertise of Bevcon Zentry (Supplier of Industrial Doors & Docking Systems), Spareng Incorporated
+							(Supplier of Bulk Material Handling Equipment Spares & Services), and JR Fibreglass Industries (Supplier of Fume Extraction & FRP/GRP Equipment). */}
+						Empowering industries through innovation, reliability, and performance
 						</p>
 					</div>
 

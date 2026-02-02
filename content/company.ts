@@ -51,34 +51,34 @@ export const stats: StatCard[] = [
 ];
 
 export const partners: Partner[] = [
-  {
-    name: 'Bevcon Zentry',
-    logo: '/images/partners/bevcon-zentry-logo.svg',
-    tagline: 'Industrial Doors & Docking Equipment',
-    description: 'Leading manufacturer and supplier of high speed doors, dock levellers, and industrial docking equipment for warehouses and manufacturing facilities. Bevcon Zentry specializes in engineered door systems with advanced safety features, energy efficiency, and reliable performance for demanding industrial environments.',
-    specialization: [
-      'High Speed Doors',
-      'Dock Levelers (Hydraulic & Mechanical)',
-      'Docking Equipment & Weather Sealing',
-      'Fire Rated Shutters',
-      'Expert Installation & Maintenance',
-    ],
-    website: 'https://www.bevconzentry.in',
-  },
-  {
-    name: 'Spareng Incorporated',
-    logo: '/images/partners/Spareng-incorporated-logo.svg',
-    tagline: 'Bulk Material Handling Equipment Spares & Components',
-    description: 'Spareng delivers Precision Engineered Components, Equipment Refurbishment, and Expert Technical Support tailored to the Bulk Material Handling Industry, ensuring superior quality, performance, and reliability across all operations.',
-    specialization: [
-      'Conveyor Components',
-      'Crusher Equipment',
-      'Screening Equipment',
-      'Feeding Equipment',
-      'Refurbishment & Technical Consultancy',
-    ],
-    website: 'https://spareng-incorporated.vercel.app',
-  },
+  // {
+  //   name: 'Bevcon Zentry',
+  //   logo: '/images/partners/bevcon-zentry-logo.svg',
+  //   tagline: 'Industrial Doors & Docking Equipment',
+  //   description: 'Leading manufacturer and supplier of high speed doors, dock levellers, and industrial docking equipment for warehouses and manufacturing facilities. Bevcon Zentry specializes in engineered door systems with advanced safety features, energy efficiency, and reliable performance for demanding industrial environments.',
+  //   specialization: [
+  //     'High Speed Doors',
+  //     'Dock Levelers (Hydraulic & Mechanical)',
+  //     'Docking Equipment & Weather Sealing',
+  //     'Fire Rated Shutters',
+  //     'Expert Installation & Maintenance',
+  //   ],
+  //   website: 'https://www.bevconzentry.in',
+  // },
+  // {
+  //   name: 'Spareng Incorporated',
+  //   logo: '/images/partners/Spareng-incorporated-logo.svg',
+  //   tagline: 'Bulk Material Handling Equipment Spares & Components',
+  //   description: 'Spareng delivers Precision Engineered Components, Equipment Refurbishment, and Expert Technical Support tailored to the Bulk Material Handling Industry, ensuring superior quality, performance, and reliability across all operations.',
+  //   specialization: [
+  //     'Conveyor Components',
+  //     'Crusher Equipment',
+  //     'Screening Equipment',
+  //     'Feeding Equipment',
+  //     'Refurbishment & Technical Consultancy',
+  //   ],
+  //   website: 'https://spareng-incorporated.vercel.app',
+  // },
   {
     name: 'JR Fibreglass Industries',
     logo: '/jrf logo.jpg',

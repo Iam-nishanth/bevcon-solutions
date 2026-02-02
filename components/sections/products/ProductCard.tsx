@@ -78,7 +78,7 @@ export default function ProductCard({
         )}
         {brand && brand !== 'Loading Systems' && (
           <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-primary-900">
-            {brand}
+            {/* {brand} */}
           </div>
         )}
         {displayCategory && (

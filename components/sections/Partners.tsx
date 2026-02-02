@@ -32,7 +32,7 @@ export default function Partners() {
 					</motion.p>
 				</div>
 
-				<div className="grid grid-cols-1 gap-4 xl:grid-cols-2">
+				<div className="flex justify-center items-center gap-6">
 					{partners.map((partner, index) => (
 						<motion.div
 							key={index}
@@ -40,7 +40,7 @@ export default function Partners() {
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							transition={{ delay: index * 0.2 }}
-							className={cn("bg-white text-gray-900 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all border border-gray-100")}
+							className={cn("bg-white w-full md:w-[60%] text-gray-900 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all border border-gray-100")}
 						>
 							<div className="h-20 mb-6 flex items-center">
 								<Image

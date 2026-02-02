@@ -13,13 +13,7 @@ export default function IndustriesGrid() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {industryExamples.map((industry, index) => {
             return (
-              <motion.div
-                key={industry.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.3, delay: index * 0.05 }}
-              >
+              <div key={industry.id}>
                 {/* <Link
                   href={`/industries/${industry.slug}`}
                   className="group  bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 hover:border-primary-200 h-full flex flex-col"
@@ -72,7 +66,7 @@ export default function IndustriesGrid() {
                   </div>
                 </div>
                 {/* </Link> */}
-              </motion.div>
+              </div>
             );
           })}
         </div>
